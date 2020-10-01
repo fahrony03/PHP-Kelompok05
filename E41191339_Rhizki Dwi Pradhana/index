@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h4>Belajar Test Cheatset</h4>
+    </div>
+    <div class="isian">
+        <ul>
+            <li>Testing 1</li>
+            <li>Testing 2</li>
+        </ul>
+        <input type="number" name="" id="" value="NIM">
+        <input type="text" name="" id="" value=" Nama Mahasiswa">
+        <input type="submit" value="Kirim">
+        <input type="button" value="Batal">
+</body>
+</html>
