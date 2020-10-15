@@ -7,13 +7,17 @@ fieldset {
     display: inline-block;
     font-size: 14px;
     font-family: Arial, Helvetica;
-    padding: 1em 2em;
     align-content: center;
+
 }
 
 .header {
     text-align: center;
     color: rgb(47, 47, 124);
+}
+
+table{
+    align-items: center;
 }
 
 
