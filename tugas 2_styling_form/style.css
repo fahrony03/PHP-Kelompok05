@@ -3,7 +3,7 @@ body {
 }
 
 .box {
-    border: 1px solid #131212;
+    border: 2px solid #4d1c1c;
     display: inline-block;
     font-size: 14px;
     font-family: Arial, Helvetica;
@@ -13,6 +13,7 @@ body {
     padding-left: 20px;
     padding-right:20px ;
     padding-bottom: 30px;
+    background-color: beige;
 }
 
 .header {
