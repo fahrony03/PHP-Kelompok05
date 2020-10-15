@@ -2,13 +2,17 @@ body {
     background-color: aliceblue;
 }
 
-fieldset {
-    border: 1px solid #DDDDDD;
+.box {
+    border: 1px solid #131212;
     display: inline-block;
     font-size: 14px;
     font-family: Arial, Helvetica;
-    align-content: center;
-
+    position: absolute;
+    left: 40%;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right:20px ;
+    padding-bottom: 30px;
 }
 
 .header {
