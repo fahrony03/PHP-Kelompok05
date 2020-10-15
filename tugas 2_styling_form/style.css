@@ -21,11 +21,6 @@ body {
     color: rgb(47, 47, 124);
 }
 
-table{
-    align-items: center;
-}
-
-
 button {
     background-color: rgb(43, 144, 226);
     border-radius: 4px;
