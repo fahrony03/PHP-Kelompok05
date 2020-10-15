@@ -1,0 +1,22 @@
+body {
+    background-color: #CC99CC;
+}
+
+.tulisan {
+    font-family: calibri;
+    color: rgb(99, 31, 31);
+    font-style: italic
+}
+
+.header{
+    text-align: center;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    background: #FFEBCD;
+    border: #ccc 2px solid darkgray;
+    border-radius: 3px;
+
+}
