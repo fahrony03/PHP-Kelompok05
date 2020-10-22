@@ -256,40 +256,41 @@
                     <input type="password" name="password" id="name" class="form-control form-control-user" placeholder="Password Anda" required>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Laki - Laki" checked>
+                    <input class="form-check-input" type="radio" name="jeniskelamin" id="exampleRadios1" value="Laki - Laki" checked>
                     <label class="form-check-label" for="exampleRadios1">
                         Laki - Laki
                     </label><br>
                     </div>
                     <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="Perempuan">
+                    <input class="form-check-input" type="radio" name="jeniskelamin" id="exampleRadios2" value="Perempuan">
                     <label class="form-check-label" for="exampleRadios2">
                         Perempuan
                     </label>
                     </div><br>
                     <div class="form-group">
-                        <select class="form-control" name="exampleFormControlSelect1 id="exampleFormControlSelect1" ">
-                        <option>Islam</option>
-                        <option>Kristen</option>
-                        <option>Hindu</option>
-                        <option>Buddha</option>
-                        <option>Konghucu</option>
+                        <select class="form-control" name="pilihagama">
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Konghucu">Konghucu</option>
                         </select>
                     </div>
-                        <div class="form-group">
-                        <textarea class="form-control" name="exampleFormControlTextarea1 id="exampleFormControlTextarea1" "
-                        rows="3"></textarea>
-                        </div>
+                    <div class="form-group">
+                        <textarea name="biografi" class="form-control"
+                           id="exampleFormControlTextarea1" rows="3" name="biografi"></textarea>
+                    </div>
+
 
                   <button type="submit" class="btn btn-success" name="submit">Tambah</button>
                   <?php
-                  $name = $_GET['name'];
-                  $username = $_GET['username'];
-                  $email = $_GET['email'];
-                  $password = $_GET['password'];
-                  $exampleRadios = $_GET['exampleRadios'];
-                  $exampleFormControlSelect1 = $_GET['exampleFormControlSelect1'];
-                  $exampleFormControlTextarea1 = $_GET['exampleFormControlTextarea1'];
+                  $name = @$_GET['name'];
+                  $username = @$_GET['username'];
+                  $email = @$_GET['email'];
+                  $password = @$_GET['password'];
+                  $jeniskelamin = @$_GET['jeniskelamin'];
+                  $agama = @$_GET['pilihagama'];
+                  $biografi = @$_GET['biografi'];
 
                   if($name){
                     echo "<br><br><strong>Nama: </strong> {$name} <br>";
@@ -307,16 +308,15 @@
                     echo "<strong>Password: </strong> {$password} <br>";
                   }
 
-                  if($exampleRadios){
-                    echo "<strong>Jenis Kelamin: </strong> {$exampleRadios} <br>";
+                  if($jeniskelamin){
+                    echo "<strong>Jenis Kelamin: </strong> {$jeniskelamin} <br>";
                   }
                   
-                  if($exampleFormControlSelect1){
-                    echo "<strong>Agama: </strong> {$exampleFormControlSelect1} <br>";
+                  if($agama){
+                    echo "<strong>Agama: </strong> {$agama} <br>";
                   }
-
-                  if($exampleFormControlTextarea1){
-                    echo "<strong>Pesan: </strong> {$exampleFormControlTextarea1} <br>";
+                  if($biografi){
+                    echo "<strong>Biografi: </strong> {$biografi} <br>";
                   }
                   ?>
                 </form>

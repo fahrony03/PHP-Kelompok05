@@ -254,9 +254,9 @@
                   </div>
                   <button type="submit" class="btn btn-success" name="submit">Tambah</button>
                   <?php
-                  $name = $_GET['name'];
-                  $subject = $_GET['subject'];
-                  $email = $_GET['email'];
+                  $name = @$_GET['name'];
+                  $subject = @$_GET['subject'];
+                  $email = @$_GET['email'];
                   if($name){
                     echo "<br><br><strong>Nama: </strong> {$name} <br>";
                   }
