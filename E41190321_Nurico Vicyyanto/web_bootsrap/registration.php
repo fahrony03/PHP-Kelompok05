@@ -314,42 +314,42 @@
                                         </div>
 
                                         <button type="submit" class="btn btn-success" name="submit">Tambah</button>
-                                        <?php
-                  $name = @$_GET['name'];
-                  $username = @$_GET['username'];
-                  $email = @$_GET['email'];
-                  $password = @$_GET['password'];
-                  $exampleRadios = @$_GET['exampleRadios'];
-                  $agama = @$_GET['pilihagama'];
-                  $biografi = @$_GET['biografi'];
+            <?php
+                $name = @$_GET['name'];
+                $username = @$_GET['username'];
+                $email = @$_GET['email'];
+                $password = @$_GET['password'];
+                $exampleRadios = @$_GET['exampleRadios'];
+                $agama = @$_GET['pilihagama'];
+                $biografi = @$_GET['biografi'];
 
-                  if($name){
+                if($name){
                     echo "<br><br><strong>Nama: </strong> {$name} <br>";
-                  }
+                }
 
-                  if($username){
+                if($username){
                     echo "<strong>Username: </strong> {$username} <br>";
-                  }
+                }
 
-                  if($email){
+                if($email){
                     echo "<strong>Email: </strong> {$email} <br>";
-                  }
+                }
 
-                  if($password){
+                if($password){
                     echo "<strong>Password: </strong> {$password} <br>";
-                  }
+                }
 
-                  if($exampleRadios){
+                if($exampleRadios){
                     echo "<strong>Jenis Kelamin: </strong> {$exampleRadios} <br>";
-                  }
+                }
 
-                  if($agama){
+                if($agama){
                     echo "<strong>Agama: </strong> {$agama} <br>";
-                  }
-                  if($biografi){
+                }
+                if($biografi){
                     echo "<strong>Biografi: </strong> {$biografi} <br>";
-                  }
-                  ?>
+                }
+                ?>
                                     </form>
                                 </div>
                             </div>
