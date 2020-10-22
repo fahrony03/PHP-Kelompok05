@@ -310,7 +310,7 @@
                                         </div>
                                         <div class="form-group">
                                             <textarea name="alamat" class="form-control"
-                                                id="exampleFormControlTextarea1" rows="3" name="alamat"></textarea>
+                                                id="exampleFormControlTextarea1" rows="3" name="biografi"></textarea>
                                         </div>
 
                                         <button type="submit" class="btn btn-success" name="submit">Tambah</button>
@@ -321,7 +321,7 @@
                   $password = @$_GET['password'];
                   $exampleRadios = @$_GET['exampleRadios'];
                   $agama = @$_GET['pilihagama'];
-                  $alamat = @$_GET['alamat'];
+                  $biografi = @$_GET['biografi'];
 
                   if($name){
                     echo "<br><br><strong>Nama: </strong> {$name} <br>";
@@ -346,8 +346,8 @@
                   if($agama){
                     echo "<strong>Agama: </strong> {$agama} <br>";
                   }
-                  if($alamat){
-                    echo "<strong>Alamat: </strong> {$alamat} <br>";
+                  if($biografi){
+                    echo "<strong>Biografi: </strong> {$biografi} <br>";
                   }
                   ?>
                                     </form>
