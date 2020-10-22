@@ -309,7 +309,7 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <textarea name="alamat" class="form-control"
+                                            <textarea name="biografi" class="form-control"
                                                 id="exampleFormControlTextarea1" rows="3" name="biografi"></textarea>
                                         </div>
 
