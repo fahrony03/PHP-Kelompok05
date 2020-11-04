@@ -48,39 +48,39 @@
                   </div>
                     
                   <?php
-session_start();
-$username = 'nurico';
-$password = 'nurico';
-if (isset($_POST['submit'])) {
-    if ($_POST['username'] == $username && $_POST['password'] == $password){
-        //Membuat Session
-        $_SESSION["username"] = $username; 
-        header("Location: berhasil\berhasil.php");
-        /*Jika Ingin Pindah Ke Halaman Lain*/
-        // header("Location: admin.php"); //Pindahkan Kehalaman Admin
-    } else {
-        // Tampilkan Pesan Error
-        display_login_form();
-        echo '<p>Username Atau Password Salah</p>';
-    }
-}    
-else { 
-    display_login_form();
-}
-function display_login_form(){ ?>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
-    <label for="username">username</label>
-    <br>
-    <input type="text" class="form-control" id="username" name="username">
-    <br>
-    <label for="password">password</label>
-    <br>
-    <input type="password" class="form-control" id="password" name="password">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
-    <br><br>
-    <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-    </form>    
-<?php } ?>
+                session_start();
+                $username = 'nurico';
+                $password = 'nurico';
+                if (isset($_POST['submit'])) {
+                    if ($_POST['username'] == $username && $_POST['password'] == $password){
+                        //Membuat Session
+                        $_SESSION["username"] = $username; 
+                        header("Location: berhasil\berhasil.php");
+                        /*Jika Ingin Pindah Ke Halaman Lain*/
+                        // header("Location: admin.php"); //Pindahkan Kehalaman Admin
+                    } else {
+                        // Tampilkan Pesan Error
+                        display_login_form();
+                        echo '<p>Username Atau Password Salah</p>';
+                    }
+                }    
+                else { 
+                    display_login_form();
+                }
+                function display_login_form(){ ?>
+                    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
+                    <label for="username">username</label>
+                    <br>
+                    <input type="text" class="form-control" id="username" name="username">
+                    <br>
+                    <label for="password">password</label>
+                    <br>
+                    <input type="password" class="form-control" id="password" name="password">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
+                    <br><br>
+                    <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                    </form>    
+                <?php } ?>
 
                     <hr>
                     <a href="index.html" class="btn btn-google btn-user btn-block">
