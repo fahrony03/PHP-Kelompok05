@@ -84,7 +84,13 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <br><br><br><br><br><br><br>
+  <br><br><br><br>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Anda Telah Berhasil Login!</strong> Selamat Menghitung.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
   <div class="section-title">
     <div id="main-wrapper">
       <div id="main">
@@ -115,7 +121,7 @@
                       <input type="reset" name="reset" value="Batal" id="prn">
                     </label>
                     <label>
-                      <a href="./">Hitung Ulang</a>
+                      <a href="berhasil.php">Hitung Ulang</a>
                     </label>
                   </td>
                   <td></td>
