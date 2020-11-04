@@ -21,8 +21,7 @@
   </head>
   
 
-<body class="bg-gradient-primary"><center>
-
+<body class="bg-gradient-primary">
   <div class="container">
 
     <!-- Outer Row -->
@@ -36,14 +35,14 @@
             <div class="row">
               <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
               <div class="col-lg-6">
-                <div class="p-5">
+                <div class="p-5"  style="" >
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                   </div>
                     <?php
                   session_start();
-                  $username = 'admin';
-                  $password = 'admin';
+                  $username = 'fahrony';
+                  $password = 'bondowoso03';
                   if (isset($_POST['submit'])) {
                       if ($_POST['username'] == $username && $_POST['password'] == $password){
                           //Membuat Session
@@ -68,9 +67,10 @@
                           <div class="form-group">
                             <input type="password" class="form-control form-control-user" name="password" id="exampleInputPassword" placeholder="Password">
                           </div>
-                          <a>
-                      <input type="submit" name="submit" value="submit">
-                  </a>
+                          <div class="btn btn-google btn-user btn-block">
+                      <button style = " background-hover:#f8f9fa; background-color : #888888; color : white; border: 0px solid; font-size: 16px" type="submit" name="submit">Log In</button>
+                      
+                      </div>
                       </form>    
                   <?php } ?>
                     <a href="#" class="btn btn-google btn-user btn-block">
@@ -109,7 +109,6 @@
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
 
-  </center>
 </body>
 
 </html>
