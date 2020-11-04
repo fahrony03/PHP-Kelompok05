@@ -61,7 +61,7 @@
                     } else {
                         // Tampilkan Pesan Error
                         display_login_form();
-                        echo '<p>Username Atau Password Salah</p>';
+                        echo "<script>alert('Username Atau Password Anda Salah');history.go(-1);</script>";
                     }
                 }    
                 else { 
@@ -78,17 +78,11 @@
                     <input type="password" class="form-control" id="password" name="password">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
                     <br><br>
-                    <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" name="submit">Submit</button>
                     </form>    
                 <?php } ?>
 
                     <hr>
-                    <a href="index.html" class="btn btn-google btn-user btn-block">
-                      <i class="fab fa-google fa-fw"></i> Login with Google
-                    </a>
-                    <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                      <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-                    </a>
                   </form>
                   <hr>
                   <div class="text-center">

@@ -170,7 +170,7 @@
                   <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a></li>
                   <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a></li>
                   <li class="dropdown-divider"></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a></li>
+                  <li class="nav-link"><a href="index.php" class="nav-item dropdown-item">Log out</a></li>
                 </ul>
               </li>
               <li class="separator d-lg-none"></li>
@@ -268,7 +268,7 @@
               <body>
                 <div id="main-wrapper">
                   <div id="main">
-                    <h1>Hitung Diskon dengan PHP</h1>
+                  <h1 style="color : gray;">HITUNG DISKON</h1>
                     <br />
                     <form method="POST" action="">
                       <table>
