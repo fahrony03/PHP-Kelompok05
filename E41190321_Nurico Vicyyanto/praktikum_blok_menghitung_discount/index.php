@@ -88,18 +88,18 @@
   <div class="section-title">
     <div id="main-wrapper">
       <div id="main">
-        <h1>Hitung Diskon dengan PHP</h1>
+        <h1>Menghitung Diskon Barang</h1>
         <br />
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
             <form method="POST" action="">
               <table>
                 <tr>
-                  <td>Masukan Harga</td>
+                  <td>Masukan Harga Barang :</td>
                   <td><input type="text" name="bil1" required /></td>
                 </tr>
                 <tr>
-                  <td>Masukan Diskon (Tanpa Tanda %)</td>
+                  <td>Jumlah Diskon(Tanpa%) :</td>
                   <td><input type="text" name="bil2" required /></td>
                 </tr>
                 <tr>
