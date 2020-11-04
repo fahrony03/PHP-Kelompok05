@@ -14,8 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS Files -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="../assets/demo/demo.css" rel="stylesheet" />
   </head>
@@ -36,7 +36,7 @@
               <div class="col-lg-6">
                 <div class="p-5"  style="" >
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang!</h1>
                   </div>
                     <?php
                   session_start();
@@ -61,10 +61,10 @@
                   function display_login_form(){ ?>
                       <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
                       <div class="form-group">
-                      <input type="nama" class="form-control form-control-user" name ="username" id="username" placeholder="Enter Email Address...">
+                      <input type="nama" class="form-control form-control-user" name ="username" id="username" placeholder="Masukkan Username">
                    </div>
                           <div class="form-group">
-                            <input type="password" class="form-control form-control-user" name="password" id="exampleInputPassword" placeholder="Password">
+                            <input type="password" class="form-control form-control-user" name="password" id="exampleInputPassword" placeholder="Masukkan Password">
                           </div>
                           <div class="btn btn-google btn-user btn-block">
                       <button style = " background-hover:#f8f9fa; background-color : #888888; color : white; border: 0px solid; font-size: 16px" type="submit" name="submit">Log In</button>

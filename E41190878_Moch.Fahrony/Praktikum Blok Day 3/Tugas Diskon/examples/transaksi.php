@@ -156,10 +156,10 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pablo">
-                  <i class="now-ui-icons users_single-02"></i>
+                <a class="nav-link" href="index.php">
+                  <i class="now-ui-icons users_single-02"> </i>
                   <p>
-                    <span class="d-lg-none d-md-block">Account</span>
+                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">Log Out</span>
                   </p>
                 </a>
               </li>
@@ -217,12 +217,13 @@
                   $harga =$_GET['harga'];
                   $diskon =$_GET['diskon'];
                   $nilai = ($diskon/100) * $harga;
+                  echo 'Produk ';
                   echo ($barang);
                   echo ' Dengan Harga diskon ';
                   echo $diskon;
                   echo '% dari '; 
                   echo number_format($harga,2,",","."); 
-                  echo ' adalah sebesar <u>';
+                  echo ' menjadi sebesar <u>';
                   echo number_format($nilai,2,",",".");
                   echo '</u>';
                 ?>
