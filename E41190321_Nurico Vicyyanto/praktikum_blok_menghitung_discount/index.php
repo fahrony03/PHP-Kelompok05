@@ -30,124 +30,92 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: OnePage - v2.1.0
-  * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
-<body>
+<body class="bg-gradient-primary">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
+  <div class="container">
 
-      <h1 class="logo mr-auto"><a href="index.html">Hitung Discount</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    <!-- Outer Row -->
+    <div class="row justify-content-center">
 
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+        <div class="card o-hidden border-0 shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+                <div class="p-5">
+                  <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Login</h1>
+                  </div>
+                    
+                  <?php
+                session_start();
+                $username = 'nurico';
+                $password = 'nurico';
+                if (isset($_POST['submit'])) {
+                    if ($_POST['username'] == $username && $_POST['password'] == $password){
+                        //Membuat Session
+                        $_SESSION["username"] = $username; 
+                        header("Location: berhasil.php");
+                        /*Jika Ingin Pindah Ke Halaman Lain*/
+                        // header("Location: admin.php"); //Pindahkan Kehalaman Admin
+                    } else {
+                        // Tampilkan Pesan Error
+                        display_login_form();
+                        echo '<p>Username Atau Password Salah</p>';
+                    }
+                }    
+                else { 
+                    display_login_form();
+                }
+                function display_login_form(){ ?>
+                    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
+                    <label for="username">username</label>
+                    <br>
+                    <input type="text" class="form-control" id="username" name="username">
+                    <br>
+                    <label for="password">password</label>
+                    <br>
+                    <input type="password" class="form-control" id="password" name="password">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
+                    <br><br>
+                    <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                    </form>    
+                <?php } ?>
 
-        </ul>
-      </nav><!-- .nav-menu -->
-
-      <a href="login.php" class="get-started-btn scrollto">Login</a>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <br><br><br><br><br><br><br>
-  <div class="section-title">
-    <div id="main-wrapper">
-      <div id="main">
-        <h1>Menghitung Diskon Barang</h1>
-        <br />
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <form method="POST" action="">
-              <table>
-              <tr>
-                  <td>Masukan Nama Barang :</td>
-                  <td><input type="text" name="nama" required /></td>
-                </tr>
-                <tr>
-                  <td>Masukan Harga Barang :</td>
-                  <td><input type="text" name="bil1" required /></td>
-                </tr>
-                <tr>
-                  <td>Jumlah Diskon(Tanpa%) :</td>
-                  <td><input type="text" name="bil2" required /></td>
-                </tr>
-                <tr>
-                  <td>
-                    <label><br><br>
-                      <input type="submit" name="Submit" value="Hitung" id="prn">
-                    </label>
-                    <label>
-                      <input type="reset" name="reset" value="Batal" id="prn">
-                    </label>
-                    <label>
-                      <a href="./">Hitung Ulang</a>
-                    </label>
-                  </td>
-                  <td></td>
-                </tr>
-              </table>
-            </form>
-            <div id="hasil">
-              <?php error_reporting (E_ALL ^ E_NOTICE);
-                    $nama = $_POST['nama'];
-                    $harga    =$_POST['bil1'];
-                    $diskon    =$_POST['bil2'];
-                    $nilai=($diskon/100)*$harga;
-                    echo 'Nama Barang ';
-                    echo $nama;
-                    echo '<br>';
-                    echo 'Nominal diskon ';
-                    echo $diskon;echo'% dari ';
-                    echo '<br>';
-                    echo number_format($harga,2,",",".");
-                    echo '<br>';
-                    echo' adalah sebesar <u>';
-                    echo number_format($nilai,2,",",".");
-                    echo'</u>';
-                ?>
+                    <hr>
+                    <a href="index.html" class="btn btn-google btn-user btn-block">
+                      <i class="fab fa-google fa-fw"></i> Login with Google
+                    </a>
+                    <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                      <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
+                    </a>
+                  </form>
+                  <hr>
+                  <div class="text-center">
+                    <a class="small" href="forgot-password.html">Forgot Password?</a>
+                  </div>
+                  <div class="text-center">
+                    <a class="small" href="register.html">Create an Account!</a>
+                </div>
+              </div>
             </div>
-          </div>
         </div>
+
       </div>
 
-
     </div>
+
   </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
 
 </body>
 
