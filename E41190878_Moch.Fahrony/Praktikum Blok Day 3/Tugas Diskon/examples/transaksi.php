@@ -217,12 +217,13 @@
                   $harga =$_GET['harga'];
                   $diskon =$_GET['diskon'];
                   $nilai = ($diskon/100) * $harga;
+                  echo 'Produk ';
                   echo ($barang);
                   echo ' Dengan Harga diskon ';
                   echo $diskon;
                   echo '% dari '; 
                   echo number_format($harga,2,",","."); 
-                  echo ' adalah sebesar <u>';
+                  echo ' menjadi sebesar <u>';
                   echo number_format($nilai,2,",",".");
                   echo '</u>';
                 ?>
