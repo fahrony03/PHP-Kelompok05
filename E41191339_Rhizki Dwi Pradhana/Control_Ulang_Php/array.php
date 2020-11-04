@@ -1,0 +1,22 @@
+<?php
+$punakawan = array("Semar","Gareng","Petruk","Bagong");
+echo $punakawan [0];
+echo "<br>";
+echo $punakawan[3];
+echo "<br>";
+
+$punakawan[1]="Semar";
+$punakawan[2]="Gareng";
+$punakawan[3]="Petruk";
+$punakawan[4]="Bagong";
+echo $punakawan[3];
+
+echo "<br>";
+$n=0;
+while ($n < 5)
+{
+  echo $punakawan[$n];
+  echo "<br/>";
+  $n++;
+}
+?>
