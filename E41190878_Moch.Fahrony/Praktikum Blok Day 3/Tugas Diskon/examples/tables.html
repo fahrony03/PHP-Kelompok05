@@ -156,10 +156,10 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pablo">
-                  <i class="now-ui-icons users_single-02"></i>
+                <a class="nav-link" href="index.php">
+                  <i class="now-ui-icons users_single-02"> </i>
                   <p>
-                    <span class="d-lg-none d-md-block">Account</span>
+                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">Log Out</span>
                   </p>
                 </a>
               </li>
