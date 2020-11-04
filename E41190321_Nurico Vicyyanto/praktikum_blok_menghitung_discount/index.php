@@ -61,7 +61,7 @@
                     } else {
                         // Tampilkan Pesan Error
                         display_login_form();
-                        echo '<p>Username Atau Password Salah</p>';
+                        echo "<script>alert('Username Atau Passwor Anda Salah');history.go(-1);</script>";
                     }
                 }    
                 else { 
