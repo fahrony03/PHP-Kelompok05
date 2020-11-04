@@ -27,13 +27,12 @@
     <!-- Outer Row -->
     <div class="row justify-content-center">
 
-      <div class="col-xl-10 col-lg-12 col-md-9">
+      <!-- <div class="col-xl-10 col-lg-12 col-md-9"> -->
 
-        <div class="card o-hidden border-0 shadow-lg my-5">
-          <div class="card-body p-0">
-            <!-- Nested Row within Card Body -->
-            <div class="row">
-              <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+  
+     
+              <!-- <div class="col-lg-6 d-none d-lg-block bg-login-image"></div> -->
+              <!-- <div class="card o-hidden border-0 shadow-lg my-5"> -->
               <div class="col-lg-6">
                 <div class="p-5"  style="" >
                   <div class="text-center">
@@ -49,7 +48,7 @@
                           $_SESSION["username"] = $username; 
                           echo "Anda Berhasil Login $username";
                           // Jika Ingin Pindah Ke Halaman Lain
-                          header("Location: dasboard.php");  //Pindahkan Kehalaman Admin
+                          header("Location: dashboard.php");  //Pindahkan Kehalaman Admin
                       } else {
                           // Tampilkan Pesan Error
                           display_login_form();

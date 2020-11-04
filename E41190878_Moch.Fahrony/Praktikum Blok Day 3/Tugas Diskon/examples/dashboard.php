@@ -53,7 +53,7 @@
       <div class="sidebar-wrapper" id="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <a href="./dashboard.php">
               <i class="now-ui-icons design_app"></i>
               <p>Dashboard</p>
             </a>
@@ -65,7 +65,7 @@
             </a>
           </li>
           <li>
-            <a href="./map.php">
+            <a href="./transaksi.php">
               <i class="now-ui-icons location_map-big"></i>
               <p>Transaksi</p>
             </a>
