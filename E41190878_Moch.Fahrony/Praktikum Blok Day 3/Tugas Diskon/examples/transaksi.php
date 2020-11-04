@@ -203,7 +203,7 @@
                             <input type="reset" name="reset" value="Batal" id="prn">
                         </label>
                         <label>
-                             <a href="./map.php">Hitung Ulang</a>
+                             <a href="./transaksi.php">Hitung Ulang</a>
                         </label>
                         </td>
                         <td></td>
