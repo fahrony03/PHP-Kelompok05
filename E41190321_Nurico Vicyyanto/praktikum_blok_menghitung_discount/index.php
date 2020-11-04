@@ -94,6 +94,10 @@
           <div class="container">
             <form method="POST" action="">
               <table>
+              <tr>
+                  <td>Masukan Nama Barang :</td>
+                  <td><input type="text" name="nama" required /></td>
+                </tr>
                 <tr>
                   <td>Masukan Harga Barang :</td>
                   <td><input type="text" name="bil1" required /></td>
@@ -120,10 +124,21 @@
             </form>
             <div id="hasil">
               <?php error_reporting (E_ALL ^ E_NOTICE);
+                    $nama = $_POST['nama'];
                     $harga    =$_POST['bil1'];
                     $diskon    =$_POST['bil2'];
                     $nilai=($diskon/100)*$harga;
-                    echo 'Nominal diskon ';echo $diskon;echo'% dari '; echo number_format($harga,2,",","."); echo' adalah sebesar <u>';echo number_format($nilai,2,",",".");echo'</u>';
+                    echo 'Nama Barang ';
+                    echo $nama;
+                    echo '<br>';
+                    echo 'Nominal diskon ';
+                    echo $diskon;echo'% dari ';
+                    echo '<br>';
+                    echo number_format($harga,2,",",".");
+                    echo '<br>';
+                    echo' adalah sebesar <u>';
+                    echo number_format($nilai,2,",",".");
+                    echo'</u>';
                 ?>
             </div>
           </div>
