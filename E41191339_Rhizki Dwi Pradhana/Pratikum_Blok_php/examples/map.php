@@ -268,7 +268,7 @@
               <body>
                 <div id="main-wrapper">
                   <div id="main">
-                    <h1>Hitung Diskon dengan PHP</h1>
+                  <h1 style="color : gray;">HITUNG DISKON</h1>
                     <br />
                     <form method="POST" action="">
                       <table>

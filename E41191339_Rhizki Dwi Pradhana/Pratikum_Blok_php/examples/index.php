@@ -21,6 +21,7 @@
 </head>
 
 <body class="bg-gradient-secondary">
+<marquee bgcolor="blue" style="font-family:timesnewroman; font-size:20px; color:#ffffff;">SELAMAT DATANG</marquee>
 
   <div class="container">
 
@@ -29,12 +30,12 @@
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-pink-700 mb-4">Welcome Back!</h1>
+                    <h1 style="color : white;">LOG IN</h1>
                   </div>
                   <?php
                   session_start();
-                  $username = 'admin';
-                  $password = 'admin';
+                  $username = 'rhizki';
+                  $password = 'rhizkipradhana';
                   if (isset($_POST['submit'])) {
                       if ($_POST['username'] == $username && $_POST['password'] == $password){
                           //Membuat Session
@@ -45,7 +46,7 @@
                       } else {
                           // Tampilkan Pesan Error
                           display_login_form();
-                          echo '<p>Username Atau Password Tidak Benar</p>';
+                          echo '<p>Username Atau Password Salah</p>';
                       }
                   }    
                   else { 
