@@ -202,7 +202,7 @@
               <html>
 
               <head>
-                <title>Tutorial Cara Membuat Script PHP Hitung Diskon</title>
+                <title>DISKON</title>
                 <style type="text/css">
                   #hasil {
                     width: 500px;
@@ -245,7 +245,7 @@
                   }
 
                   h1 {
-                    font-size: 18px;
+                    font-size: 20px;
                     font-weight: bold;
                     padding: 10px 0;
                     text-align: center;

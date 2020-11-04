@@ -20,23 +20,16 @@
   <link href="../assets/demo/demo.css" rel="stylesheet" />
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-secondary">
 
   <div class="container">
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
-
-      <div class="col-xl-10 col-lg-12 col-md-9">
-
-        <div class="card o-hidden border-0 shadow-lg my-5">
-          <div class="card-body p-0">
-            <!-- Nested Row within Card Body -->
-            <div class="row">
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                    <h1 class="h4 text-pink-700 mb-4">Welcome Back!</h1>
                   </div>
                   <?php
                   session_start();
