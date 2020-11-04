@@ -204,6 +204,9 @@ h1, h2, h3, h4, h5, h6 {
   top: 100%;
   visibility: visible;
 }
+.card{
+
+}
 
 .nav-menu .drop-down li {
   min-width: 180px;
