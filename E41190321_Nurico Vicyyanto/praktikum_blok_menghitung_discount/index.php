@@ -55,7 +55,7 @@
                     if ($_POST['username'] == $username && $_POST['password'] == $password){
                         //Membuat Session
                         $_SESSION["username"] = $username; 
-                        header("Location: berhasil\berhasil.php");
+                        header("Location: berhasil.php");
                         /*Jika Ingin Pindah Ke Halaman Lain*/
                         // header("Location: admin.php"); //Pindahkan Kehalaman Admin
                     } else {
