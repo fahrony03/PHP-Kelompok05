@@ -78,7 +78,7 @@
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="#about" class="get-started-btn scrollto">Login</a>
+      <a href="login.php" class="get-started-btn scrollto">Login</a>
 
     </div>
   </header><!-- End Header -->
