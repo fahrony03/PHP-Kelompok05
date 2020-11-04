@@ -78,7 +78,7 @@
                     <input type="password" class="form-control" id="password" name="password">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
                     <br><br>
-                    <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" name="submit">Submit</button>
                     </form>    
                 <?php } ?>
 
