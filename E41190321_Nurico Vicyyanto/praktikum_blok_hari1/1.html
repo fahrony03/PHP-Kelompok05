@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Belajar JavaScript di Jti.polije</title>
+    <script type="text/javascript">
+        function tambah_semangat() {
+            var a = document.getElementById("div_semangat");
+            a.innerHTML += "<p>Sedang Belajar JavaScript,Semangat...!!! </p>";
+        }
+    </script>
+
+    <style type="text/css">
+        body{
+            background-color: bisque;
+        }
+        button{
+            background-color: rgb(133, 95, 168);
+            border-radius: 3px;
+            color: white;
+            border: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Belajar JavaScript</h1>
+    <p> Saya sedang belajar JavaScript di jti.polije.com </p>
+    Klik tombol ini untuk menambahkan kalimat baru:
+    <button id="tambah" onclick="tambah_semangat()">Semangaat..!!</button>
+    <div id="div_semangat"></div>
+</body>
+
+</html>
