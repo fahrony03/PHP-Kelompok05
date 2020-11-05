@@ -30,18 +30,18 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="dashboard.php">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="discount.php">Discount</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="login.php">logout</a>
           </li>
         </ul>
       </div>
@@ -57,8 +57,8 @@
 
         <h1 class="my-4">Queendha</h1>
         <div class="list-group">
-          <a href="#" class="list-group-item">Category 1</a>
-          <a href="#" class="list-group-item">Category 2</a>
+          <a href="discount.php" class="list-group-item">Discount</a>
+          <a href="#" class="list-group-item">Katalog</a>
           <a href="#" class="list-group-item">Category 3</a>
         </div>
 
@@ -191,8 +191,8 @@
               </div>
             </div>
           </div>
-
         </div>
+
         <!-- /.row -->
 
       </div>

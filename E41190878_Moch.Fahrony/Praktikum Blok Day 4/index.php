@@ -26,9 +26,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Tentang Aplikasi</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Tentang Sekolah</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Pendaftaran</a></li>
                     </ul>
                 </div>
             </div>
@@ -112,13 +112,56 @@
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                         <h2 class="text-white mb-5">Masukkan Data Mahasiswa</h2>
 
-                        <form class="form-inline d-flex" method="post" action="kerja.php">
+                        <form class="form-inline d-flex" method="post" action="">
                             <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="nim" id="nim" type="nama" placeholder="Masukkan NIM" />
                             <br>
                             <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="namamahasiswa" id="namamahasiswa" type="nama" placeholder="Masukkan Nama" />
                             <br>
                             <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="prodi" id="prodi" type="nama" placeholder="Masukkan Prodi" />
+                            <br>
+                            <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="jeniskelamin" id="exampleRadios1" value="Laki - Laki" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Laki - Laki
+                            </label><br>
+                            </div>
+                            <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="jeniskelamin" id="exampleRadios2" value="Perempuan">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Perempuan
+                    </label>
+                    </div><br>
+                    <div class="form-group">
+                        <select class="form-control" name="pilihagama">
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Konghucu">Konghucu</option>
+                        </select>
+                    </div>
+                    <br>
                             <button class="btn btn-primary mx-auto" type="submit">KIRIM</button> 
+
+                            <?php
+                        error_reporting(E_ALL ^ E_NOTICE);
+                        include "koneksi.php";
+                        $nim  = $_REQUEST['nim'];
+                        $nama  = $_REQUEST['namamahasiswa'];
+                        $prodi  = $_REQUEST['prodi'];
+                        $jk = @$_REQUEST['jeniskelamin'];
+                        $agama = @$_REQUEST['pilihagama'];
+                        $mysqli  = "INSERT INTO `mahasiswa` (`nim`, `nama`, `prodi`, `jenis kelamin`, `agam`) VALUES ('$nim', '$nama', '$prodi', '$jk', '$agama')";
+                        $result  = mysqli_query($conn, $mysqli);
+                        if ($result) {
+                            echo '<script type="text/javascript">';
+                            echo ' alert("Input berhasil")';  //not showing an alert box.
+                            echo '</script>';
+                        } else {
+                            echo "Input gagal";
+                        }
+                        mysqli_close($conn);
+                    ?>
                         </form>
                     </div>
                 </div>
