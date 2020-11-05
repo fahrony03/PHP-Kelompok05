@@ -67,7 +67,7 @@
         <center>
   <div id="main-wrapper">
         <div id="main">
-            <h1>Hitung Diskon dengan PHP</h1>
+            <h1>Hitung Discount Kalian</h1>
             <br />
             <form method="POST" action="">                
                 <table>
@@ -88,7 +88,7 @@
                             <input type="reset" name="reset" value="Batal" id="prn">
                         </label>
                         <label>
-                             <a href="dashboard.php">Hitung Ulang</a>
+                             <a href="discount.php">Hitung Ulang</a>
                         </label>
                         </td>
                         <td></td>
