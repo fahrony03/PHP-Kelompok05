@@ -90,6 +90,7 @@
                         $mysqli  = "INSERT INTO `mahasiswa` (`nim`, `nama`, `alamat`, `no`, `jenis_kelamin`) VALUES ('$nim', '$nama', '$alamat', '$no', '$jenis_kelamin')";
                         $result  = mysqli_query($conn, $mysqli);
                         if ($result) {
+                            header("location: data.php");
                             echo '<script type="text/javascript">';
                             echo ' alert("Input berhasil")';  //not showing an alert box.
                             echo '</script>';
