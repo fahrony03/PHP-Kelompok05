@@ -223,7 +223,7 @@
                   echo $diskon;
                   echo '% dari '; 
                   echo number_format($harga,2,",","."); 
-                  echo ' menjadi sebesar <u>';
+                  echo ' sebesar <u>';
                   echo number_format($nilai,2,",",".");
                   echo '</u>';
                 ?>
