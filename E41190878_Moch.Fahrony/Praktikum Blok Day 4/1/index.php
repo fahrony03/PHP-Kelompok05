@@ -113,11 +113,12 @@
                         <h2 class="text-white mb-5">Masukkan Data Mahasiswa</h2>
 
                         <form class="form-inline d-flex" method="post" action="">
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="nim" id="nim" type="nama" placeholder="Masukkan NIM" />
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="nim" id="nim" type="nama" placeholder="Masukkan NIM" required >
                             <br>
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="namamahasiswa" id="namamahasiswa" type="nama" placeholder="Masukkan Nama" />
                             <br>
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="prodi" id="prodi" type="nama" placeholder="Masukkan Prodi" />
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="namamahasiswa" id="namamahasiswa" type="nama" placeholder="Masukkan Nama" required>
+                            <br>
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="prodi" id="prodi" type="nama" placeholder="Masukkan Prodi" required>
                             <br>
                             <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="jeniskelamin" id="exampleRadios1" value="Laki - Laki" checked>
