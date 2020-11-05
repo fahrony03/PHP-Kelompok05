@@ -4,4 +4,8 @@
   $pass =""; //pass login phpMyAdmin
   $db ="mahasiswa"; //nama database
 $conn = mysqli_connect($host, $user, $pass, $db) or die ("Koneksi gagal");
+mysqli_query($koneksi, $query);
+// mengalihkan ke halaman index.php
+header("location:zaa.html");
+
 ?>
