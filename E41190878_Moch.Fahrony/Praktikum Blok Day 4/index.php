@@ -118,6 +118,29 @@
                             <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="namamahasiswa" id="namamahasiswa" type="nama" placeholder="Masukkan Nama" />
                             <br>
                             <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="prodi" id="prodi" type="nama" placeholder="Masukkan Prodi" />
+                            <br>
+                            <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="jeniskelamin" id="exampleRadios1" value="Laki - Laki" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Laki - Laki
+                            </label><br>
+                            </div>
+                            <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="jeniskelamin" id="exampleRadios2" value="Perempuan">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Perempuan
+                    </label>
+                    </div><br>
+                    <div class="form-group">
+                        <select class="form-control" name="pilihagama">
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Konghucu">Konghucu</option>
+                        </select>
+                    </div>
+                    <br>
                             <button class="btn btn-primary mx-auto" type="submit">KIRIM</button> 
 
                             <?php
@@ -126,7 +149,9 @@
                         $nim  = $_REQUEST['nim'];
                         $nama  = $_REQUEST['namamahasiswa'];
                         $prodi  = $_REQUEST['prodi'];
-                        $mysqli  = "INSERT INTO `mahasiswa` (`nim`, `nama`, `prodi`) VALUES ('$nim', '$nama', '$prodi')";
+                        $jk = @$_REQUEST['jeniskelamin'];
+                        $agama = @$_REQUEST['pilihagama'];
+                        $mysqli  = "INSERT INTO `mahasiswa` (`nim`, `nama`, `prodi`, `jenis kelamin`, `agam`) VALUES ('$nim', '$nama', '$prodi', '$jk', '$agama')";
                         $result  = mysqli_query($conn, $mysqli);
                         if ($result) {
                             echo '<script type="text/javascript">';
