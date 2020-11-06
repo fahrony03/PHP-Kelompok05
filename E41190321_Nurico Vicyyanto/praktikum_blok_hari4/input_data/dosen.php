@@ -217,147 +217,118 @@
         <!-- End of Topbar -->
 
         <div class="container-fluid">
-        
+
         <!-- Page Heading -->
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-          <h1 class="h3 mb-0 text-gray-800">Tabel data Mahasiswa</h1>
+          <h1 class="h3 mb-0 text-gray-800">Form Input Data Dosen</h1>
         </div>
 
         <!-- Content Row -->
         <div class="row">
 
-          <!-- Area chart -->
-          <div class="col-xl-12 col-lg-7">
-            <div class="card shadow mb-4">
-              <!-- Card Header Dropdown -->
-              <div class="card-header py-3 d-flex flex-row align-item-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Tabel</h6>
-                <div class="dropdown no-arrow">
-                  <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                  aria-expanded="false">
-                    <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                  </a>
+            <!-- Area chart -->
+            <div class="col-xl-12 col-lg-7">
+                <div class="card shadow mb-4">
+                <!-- Card Header Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-item-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Inputkan Data Anda</h6>
+                    <div class="dropdown no-arrow">
+                    <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    
+                <div class="form">
+                    <form action="" method="post">
+                    <label for="nip">NIP</label>
+                    <br>
+                    <input type="text" class="form-control" id="nip" name="nip">
+                    <br>
+                    <label for="username">Nama</label>
+                    <br>
+                    <input type="text" class="form-control" id="nama" name="namamahasiswa">
+                    <br>
+                    <label for="username">Alamat</label>
+                    <br>
+                    <input type="text" class="form-control" id="alamat" name="alamat">
+                    <br>
+                    <label for="no">No Telepon</label>
+                    <br>
+                    <input type="text" class="form-control" id="no" name="no">
+                    <br>
+                    <label for="jenis_kelamin">Jenis Kelamin</label>
+                    <br>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="jenis_kelamin" id="inlineRadio1" value="Laki-laki">
+                      <label class="form-check-label" for="inlineRadio1">Laki laki</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="jenis_kelamin" id="inlineRadio2" value="Perempuan">
+                      <label class="form-check-label" for="inlineRadio2">Perempuan</label>
+                    </div>
+                    <br><br>
+                      <label for="inputState">Jurusan</label>
+                      <select id="inputState" class="form-control" name="jurusan">
+                        <option selected value="Teknik Informatika">Teknik Informatika</option>
+                        <option selected value="Teknik Komputer">Teknik Komputer</option>
+                        <option selected value="Manajemen Informatika">Manajemen Informatika</option>
+                      </select>
+                      <br>
+                      <div class="form-group">
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tgl" value="tgl" class="form-control" required/>
+        </div>
+
+      <br><br>
+      <button type="submit" href="data.php" class="btn btn-primary btn-lg btn-block" name="submit">Submit</button>
+      <hr>
+      </div>
+                    <?php
+                        error_reporting(E_ALL ^ E_NOTICE);
+                        include "koneksi.php";
+                        $nip  = $_REQUEST['nip'];
+                        $nama  = $_REQUEST['namamahasiswa'];
+                        $alamat  = $_REQUEST['alamat'];
+                        $no  = $_REQUEST['no'];
+                        $jenis_kelamin  = $_REQUEST['jenis_kelamin'];
+                        $jurusan  = $_REQUEST['jurusan'];
+                        $tgl  = $_REQUEST['tgl'];
+                        $mysqli  = "INSERT INTO `dosen` (`nip`, `nama`, `alamat`, `no`, `jenis_kelamin`, `jurusan`,`tgl`) VALUES ('$nip', '$nama', '$alamat', '$no', '$jenis_kelamin', '$jurusan', '$tgl')";
+                        $result  = mysqli_query($conn, $mysqli);
+                        if ($result) {
+                            echo '<script type="text/javascript">';
+                            echo ' alert("Input berhasil")';  //not showing an alert box.
+                            echo '</script>';
+                        } else {
+                            echo "";
+                        }
+                        mysqli_close($conn);
+                    ?>
+                  </form>
+                  <div class="text-center">
+                    <a class="small" href="#">Input Data</a>
+                  </div>
+                  <div class="text-center">
+                    <a class="small" href="#">Untuk Mahasiswa</a>
                 </div>
               </div>
+            </div>
+        </div>
+        </div>
+        
+  
+      </div>
 
-              <div class="card-body">
-                
-              <div class="form">
-              <!DOCTYPE html>
-<html lang="en">
+    </div>
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  </div>
 
-  <title>OnePage Bootstrap Template - Index</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="style.css" rel="stylesheet">
-
-</head>
-
-<body class="bg-gradient-primary">
-
-<?php
-$db_host = 'localhost'; // Nama Server
-$db_user = 'root'; // User Server
-$db_pass = ''; // Password Server
-$db_name = 'mahasiswa'; // Nama Database
-
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-if (!$conn) {
-	die ('Gagal terhubung MySQL: ' . mysqli_connect_error());
-}
-
-$sql = 'SELECT nim, nama, alamat, no, jenis_kelamin, jurusan, tgl
-		FROM mahasiswa';
-
-$query = mysqli_query($conn, $sql);
-
-if (!$query) {
-	die ('SQL Error: ' . mysqli_error($conn));
-}
-include "koneksi.php";
-
-echo '
-<table class="table table-striped">
-        <style>
-        table, th, td {
-            border: 3px solid black;
-            border-collapse: collapse;
-          }</style>
-		<thead>
-            <tr>
-				<th>NIM</th>
-				<th>Nama</th>
-				<th>Alamat</th>
-                <th>No Telepon</th>
-                <th>Jenis Kelamin </th>
-                <th>Jurusan</th>
-                <th>Tanggal Lahir</th>
-			</tr>
-		</thead>
-		<tbody>';
-
-while ($row = mysqli_fetch_array($query))
-{
-  echo '
-      <tr>
-            <td>'.$row['nim'].'</td>
-            <td>'.$row['nama'].'</td>
-            <td>'.$row['alamat'].'</td>
-            <td>'.$row['no'].'</td>
-            <td>'.$row['jenis_kelamin'].'</td>
-            <td>'.$row['jurusan'].'</td>
-            <td>'.$row['tgl'].'</td>
-		</tr>';
-}
-echo '
-	</tbody>
-</table>
-<a href="index.php">Back</a> 
-';
-// Apakah kita perlu menjalankan fungsi mysqli_free_result() ini? baca bagian VII
-mysqli_free_result($query);
-
-// Apakah kita perlu menjalankan fungsi mysqli_close() ini? baca bagian VII
-mysqli_close($conn);
-?>
-
-  <!-- Bootstrap core JavaScript-->
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-	<!-- Core plugin JavaScript-->
-	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-	<!-- Custom scripts for all pages-->
-	<script src="js/sb-admin-2.min.js"></script>
-
-</body>
-
-</html>          </div>
+                </div>
             </div>
         </div>
     </div>
@@ -367,7 +338,13 @@ mysqli_close($conn);
       <!-- End of Main Content -->
 
       <!-- Footer -->
-
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Your Website 2020</span>
+          </div>
+        </div>
+      </footer>
       <!-- End of Footer -->
 
     </div>

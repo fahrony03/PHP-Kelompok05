@@ -220,7 +220,7 @@
         
         <!-- Page Heading -->
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-          <h1 class="h3 mb-0 text-gray-800">Tabel data Mahasiswa</h1>
+          <h1 class="h3 mb-0 text-gray-800">Tabel data Dosen</h1>
         </div>
 
         <!-- Content Row -->
@@ -290,8 +290,8 @@ if (!$conn) {
 	die ('Gagal terhubung MySQL: ' . mysqli_connect_error());
 }
 
-$sql = 'SELECT nim, nama, alamat, no, jenis_kelamin, jurusan, tgl
-		FROM mahasiswa';
+$sql = 'SELECT nip, nama, alamat, no, jenis_kelamin, jurusan, tgl
+		FROM dosen';
 
 $query = mysqli_query($conn, $sql);
 
@@ -309,9 +309,9 @@ echo '
           }</style>
 		<thead>
             <tr>
-				<th>NIM</th>
-				<th>Nama</th>
-				<th>Alamat</th>
+                <th>NIP</th>
+                <th>Nama</th>
+                <th>Alamat</th>
                 <th>No Telepon</th>
                 <th>Jenis Kelamin </th>
                 <th>Jurusan</th>
@@ -324,7 +324,7 @@ while ($row = mysqli_fetch_array($query))
 {
   echo '
       <tr>
-            <td>'.$row['nim'].'</td>
+            <td>'.$row['nip'].'</td>
             <td>'.$row['nama'].'</td>
             <td>'.$row['alamat'].'</td>
             <td>'.$row['no'].'</td>
