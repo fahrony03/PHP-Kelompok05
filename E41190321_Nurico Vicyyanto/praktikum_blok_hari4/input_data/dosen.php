@@ -284,7 +284,7 @@
         </div>
 
       <br><br>
-      <button type="submit" href="data.php" class="btn btn-primary btn-lg btn-block" name="submit">Submit</button>
+      <button type="submit"  class="btn btn-primary btn-lg btn-block" name="submit">Submit</button>
       <hr>
       </div>
                     <?php
