@@ -1,0 +1,12 @@
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+
+
+.text-center{
+    background-color: rgb(195, 203, 207);
+    border-radius: 4px;
+    height: 40px;
+}
