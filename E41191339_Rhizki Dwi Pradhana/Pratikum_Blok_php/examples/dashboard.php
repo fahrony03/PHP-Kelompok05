@@ -58,9 +58,9 @@
             </a>
           </li>
           <li>
-            <a href="./icons.html">
+            <a href="./lihat_data.php">
               <i class="tim-icons icon-atom"></i>
-              <p>Icons</p>
+              <p>Data Mahasiswa</p>
             </a>
           </li>
           <li>
