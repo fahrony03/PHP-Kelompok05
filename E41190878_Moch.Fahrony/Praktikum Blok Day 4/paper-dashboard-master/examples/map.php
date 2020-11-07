@@ -147,11 +147,11 @@ Coded by www.creative-tim.com
                             <table cellpadding="8">      
                             <tr >        
                                 <td>NIM</td>        
-                                <td><input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="nim"></td>      
+                                <td><input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="nim" required></td>      
                             </tr>
                             <tr>        
                                 <td>Nama</td>        
-                                <td><input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="namamahasiswa"></td>      
+                                <td><input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="namamahasiswa" required></td>      
                             </tr>     
                             <tr>
                                 <td>Prodi</td>        
@@ -175,7 +175,7 @@ Coded by www.creative-tim.com
                             </tr>      
                             <tr>
                                 <td>Alamat</td>        
-                                <td><textarea class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="alamat"></textarea></td>       
+                                <td><textarea class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="alamat" required></textarea></td>       
                             </tr>      
                           
                         </table>    
