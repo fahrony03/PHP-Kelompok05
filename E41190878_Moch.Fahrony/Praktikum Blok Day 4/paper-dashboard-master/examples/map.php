@@ -54,51 +54,21 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li>
-            <a href="./dashboard.html">
+            <a href="./index.html">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
-            <a href="./icons.html">
+            <a href="./icon.php">
               <i class="nc-icon nc-diamond"></i>
-              <p>Icons</p>
+              <p>Data Mahasiswa</p>
             </a>
           </li>
           <li class="active ">
-            <a href="./map.html">
+            <a href="./map.php">
               <i class="nc-icon nc-pin-3"></i>
-              <p>Maps</p>
-            </a>
-          </li>
-          <li>
-            <a href="./notifications.html">
-              <i class="nc-icon nc-bell-55"></i>
-              <p>Notifications</p>
-            </a>
-          </li>
-          <li>
-            <a href="./user.html">
-              <i class="nc-icon nc-single-02"></i>
-              <p>User Profile</p>
-            </a>
-          </li>
-          <li>
-            <a href="./tables.html">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>Table List</p>
-            </a>
-          </li>
-          <li>
-            <a href="./typography.html">
-              <i class="nc-icon nc-caps-small"></i>
-              <p>Typography</p>
-            </a>
-          </li>
-          <li class="active-pro">
-            <a href="./upgrade.html">
-              <i class="nc-icon nc-spaceship"></i>
-              <p>Upgrade to PRO</p>
+              <p>Input Mahasiswa</p>
             </a>
           </li>
         </ul>
@@ -173,36 +143,81 @@ Coded by www.creative-tim.com
         <div class="row">
           <div class="col-md-12">
             <div class="card ">
-              <div class="card-header ">
-                Google Maps
-              </div>
-              <div class="card-body ">
-                <div id="map" class="map"></div>
-              </div>
+            <form method="post">    
+                            <table cellpadding="8">      
+                            <tr >        
+                                <td>NIM</td>        
+                                <td><input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="nim"></td>      
+                            </tr>
+                            <tr>        
+                                <td>Nama</td>        
+                                <td><input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="namamahasiswa"></td>      
+                            </tr>     
+                            <tr>
+                                <td>Prodi</td>        
+                                <td>                   
+                                   <div class="form-group">
+                                                <select class="form-control" name="prodi">
+                                                    <option value="D(IV)-Teknik Informatika">D(IV)-Teknik Informatika</option>
+                                                    <option value="D(III)-Manajemen Informatika">D(III)-Manajemen Informatika</option>
+                                                    <option value="D(III)-Teknik Komputer">D(III)-Teknik Komputer</option>
+                                                </select>
+                                            </div></td>      
+                            </tr>  
+                            <tr>        
+                                <td>Jenis Kelamin :</td>        
+                                <td>
+                                <input type="radio" name="jeniskelamin" 
+                                value="Laki-laki"> Laki-laki        
+                                <input type="radio" name="jeniskelamin" 
+                                value="Perempuan"> Perempuan        
+                                </td>      
+                            </tr>      
+                            <tr>
+                                <td>Alamat</td>        
+                                <td><textarea class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="alamat"></textarea></td>       
+                            </tr>      
+                          
+                        </table>    
+                        <hr>    
+                        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+
+                                <a href="icon.php"><input class="btn btn-primary type="button" 
+                                value="Tampil Tabel"></a>  
+                        <?php
+                        // Load file koneksi.php
+                        include "koneksi.php";
+                        // Ambil Data yang Dikirim dari Form
+                        $nim = @$_POST['nim'];
+                        $nama = @$_POST['namamahasiswa'];
+                        $prodi = @$_POST['prodi'];
+                        $jeniskelamin = @$_POST['jeniskelamin'];
+                        $alamat = @$_POST['alamat'];
+                        // Proses simpan ke Database
+                        $sql = $pdo->prepare("INSERT INTO `mahasiswa` (`nim`, `nama`, `prodi`, `jenis kelamin`, `alamat`) VALUES (:nim, :nama, :prodi, :jeniskelamin, :alamat)");
+                        $sql->bindParam(':nim', $nim);
+                        $sql->bindParam(':nama', $nama);
+                        $sql->bindParam(':prodi', $prodi);
+                        $sql->bindParam(':jeniskelamin', $jeniskelamin);
+                        $sql->bindParam(':alamat', $alamat);
+                        $sql->execute(); // Eksekusi query insert
+
+                        if ($sql) {
+                            echo '<script type="text/javascript">';
+                            echo ' alert("Input berhasil")';  //not showing an alert box.
+                            echo '</script>';
+
+                        } else {
+                            echo "Input gagal";
+                        echo "<br><a href='icon.php'>Kembali Ke Form</a>";
+                        }
+                      ?>
+                  </form>
             </div>
           </div>
         </div>
       </div>
-      <footer class="footer footer-black  footer-white ">
-        <div class="container-fluid">
-          <div class="row">
-            <nav class="footer-nav">
-              <ul>
-                <li><a href="https://www.creative-tim.com" target="_blank">Creative Tim</a></li>
-                <li><a href="https://www.creative-tim.com/blog" target="_blank">Blog</a></li>
-                <li><a href="https://www.creative-tim.com/license" target="_blank">Licenses</a></li>
-              </ul>
-            </nav>
-            <div class="credits ml-auto">
-              <span class="copyright">
-                © <script>
-                  document.write(new Date().getFullYear())
-                </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
-              </span>
-            </div>
-          </div>
-        </div>
-      </footer>
+
     </div>
   </div>
   <!--   Core JS Files   -->

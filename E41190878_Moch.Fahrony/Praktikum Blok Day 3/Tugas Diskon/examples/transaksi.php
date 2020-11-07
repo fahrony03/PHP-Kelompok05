@@ -181,7 +181,7 @@
             <h2>Transaksi</h2>
             <br />
             <form method="POST" action="">                
-                <table>
+               <table>
                 <tr>
                         <td>Masukan Nama Barang</td>
                         <td><input type="text" name="barang" required/></td>
@@ -195,7 +195,7 @@
                         <td><input type="text" name="diskon" required/></td>
                     </tr>
                     <tr>
-                        <td>
+                        <td> 
                         <label><br><br>
                             <input type="submit" name="Submit" value="Hitung" id="prn">
                         </label>
