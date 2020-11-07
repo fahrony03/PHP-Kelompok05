@@ -58,9 +58,9 @@
             </a>
           </li>
           <li>
-            <a href="./icons.html">
+            <a href="./lihat_data.php">
               <i class="tim-icons icon-atom"></i>
-              <p>Icons</p>
+              <p>Data Mahasiswa</p>
             </a>
           </li>
           <li class="active ">
@@ -197,7 +197,7 @@
           <div class="col-md-12">
             <div class="card card-plain">
               <div class="card-header">
-                DISKON BOSSS
+               MENGHITUNG DISKON
               </div>
               <html>
 
