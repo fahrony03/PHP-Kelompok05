@@ -14,6 +14,15 @@
         <td>Nama</td>        
         <td><input type="text" name="nama"></td>      
     </tr>     
+    <td>Jurusan</td>        
+        <td>                   
+        <select class="form-control" name="jurusan">
+        <option value="Teknik Informatika">Teknik Informatika</option>
+        <option value="Manajemen Informatika">Manajemen Informatika</option>
+        <option value="Teknik Komputer">Teknik Komputer</option>
+        <option value="Teknik Komputer">Teknik Otomotif</option>
+        </select>
+    </td>      
     <tr>        
         <td>Jenis Kelamin</td>        
         <td>
@@ -29,8 +38,8 @@
     </tr>      
     <tr>
         <td>Telepon</td>        
-        <td><input type="text" name="telp"></td>      
-    </tr>    
+        <td><input type="text" name="telepon"></td>      
+    </tr>
 </table>    
 <hr>    
         <input type="submit" value="Simpan">    
