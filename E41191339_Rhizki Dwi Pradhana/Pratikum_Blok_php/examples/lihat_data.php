@@ -196,6 +196,7 @@
               <tr>
                 <th>NIM</th>
                 <th>Nama</th>
+                <th>Jurusan</th>
                 <th>Jenis Kelamin</th>
                 <th>Alamat</th>
                 <th>Telepon</th>
@@ -210,9 +211,10 @@
                 echo "<tr>";    
                 echo "<td>".$data['nim']."</td>";
                 echo "<td>".$data['nama']."</td>";
+                echo "<td>".$data['jurusan']."</td>";
                 echo "<td>".$data['jenis_kelamin']."</td>";
                 echo "<td>".$data['alamat']."</td>";    
-                echo "<td>".$data['telp']."</td>";       
+                echo "<td>".$data['telepon']."</td>";       
                 echo "</tr>";
               }  
               ?>
