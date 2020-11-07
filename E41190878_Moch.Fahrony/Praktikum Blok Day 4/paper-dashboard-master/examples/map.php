@@ -143,7 +143,7 @@ Coded by www.creative-tim.com
         <div class="row">
           <div class="col-md-12">
             <div class="card ">
-            <form method="post">    
+            <form method="post" action="">    
                             <table cellpadding="8">      
                             <tr >        
                                 <td>NIM</td>        
