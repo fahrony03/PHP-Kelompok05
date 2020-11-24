@@ -71,6 +71,12 @@ Coded by www.creative-tim.com
               <p>Input Mahasiswa</p>
             </a>
           </li>
+          <li class="active ">
+            <a href="./cari.php">
+              <i class="nc-icon nc-bell-55"></i>
+              <p>Cari Mahasiswa</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
