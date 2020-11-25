@@ -231,7 +231,7 @@
         </footer>
         </div>
 
-        <a href="#" class="float"><p class="my-float">Order Via WA</p></a>
+        <a href="#" class="float"><p class="my-float">Contact Via WA</p></a>
 
 </body>
 
