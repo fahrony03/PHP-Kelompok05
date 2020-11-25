@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Hello, world!</title>
 </head>
 
@@ -26,10 +26,10 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
+                <img src="img/logo.png" width="60" height="60" class="rounded-circle">
                 Si PEKA
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -39,19 +39,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link js-scroll-trigger" " href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="menu/home.php">Info</a>
+                        <a class="nav-link js-scroll-trigger"  href="javascript:peringatan();">Info</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Dokumentasi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">Produk</a>
+                        <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Produk</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -65,8 +65,9 @@
                         </div>
                     </li>
                 </ul>
+                </ul>
                 <span class="navbar-text">
-                    <button type="button" class="btn btn-success">Log Out</button>
+                    <button type="button" class="btn btn-success">Login</button>
                 </span>
             </div>
         </div>
