@@ -67,7 +67,7 @@
                 </ul>
                 </ul>
                 <span class="navbar-text">
-                    <a href="auth/login.php" class="btn btn-success" >Login</a>
+                    <a href="menu/login.php" class="btn btn-success" >Login</a>
                 </span>
             </div>
         </div>

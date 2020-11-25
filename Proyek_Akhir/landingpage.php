@@ -66,7 +66,7 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <a href="auth/logout.php" class="btn btn-success" >Logout</a>
+                    <a href="menu/logout.php" class="btn btn-success" >Logout</a>
                 </span>
             </div>
         </div>
