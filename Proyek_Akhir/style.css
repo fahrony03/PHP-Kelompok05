@@ -37,7 +37,27 @@ body{
     padding-bottom: 50px;
 }
 
-.footer-copyright{
+.footer{
     background-color: #ffffff;
-    
+    width: 100%;
 }
+
+.float{
+	position:fixed;
+	width:150px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:	#00af9c;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+}
+a:hover {
+    text-decoration: none !important;
+}
+.my-float{
+	margin-top:18px;
+}
+.my-float:hover{
+    color: white;

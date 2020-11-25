@@ -225,10 +225,13 @@
             <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores id nobis temporibus culpa recusandae dolorum. Culpa minus, voluptatum molestiae ad eaque autem exercitationem perferendis quisquam voluptas repellendus praesentium aperiam.</p>
             <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, mollitia distinctio soluta voluptatem eius quae accusantium dolorum illo impedit laborum eligendi maiores odio vel est reprehenderit tempora ea nam unde!</p>
         </div>
-
+<div class="footer">
         <footer class="foot">
             <div class="footer-copyright text-center py-3">© 2020 Copyright </div>
         </footer>
+        </div>
+
+        <a href="#" class="float"><p class="my-float">Order Via WA</p></a>
 
 </body>
 
