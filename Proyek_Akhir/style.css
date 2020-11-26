@@ -6,6 +6,10 @@ body{
     background-color: #1e824c;
 }
 
+.jumbotron{
+    background-image: url('img/petani.jpg');
+}
+
 
 .carousel {
     padding-left: 20px;

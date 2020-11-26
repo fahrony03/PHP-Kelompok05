@@ -14,7 +14,7 @@ if (isset($_POST["login"])) {
     // cek password
     if (password_verify($password, $row["password"])) {
       $_SESSION["login"] = $username;
-      header("Location:../landingpage.php");
+      header("Location:home.php");
       exit;
     }
   }
