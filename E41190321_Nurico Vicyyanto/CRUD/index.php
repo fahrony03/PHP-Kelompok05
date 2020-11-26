@@ -34,6 +34,7 @@
             <th>Nama</th>
             <th>Alamat</th>
             <th>Opsi</th>
+            <th></th>
         </tr>
         <?php
         include "koneksi.php";
@@ -42,7 +43,7 @@
         while ($data = mysqli_fetch_array($query_mysql)) {
         ?>
             <tr>
-                <td><?php echo $nomer++; ?></td>
+                <td><?php echo $nomor++; ?></td>
                 <td><?php echo $data['nama']; ?></td>
                 <td><?php echo $data['alamat']; ?></td>
                 <td><?php echo $data['pekerjaan']; ?></td>

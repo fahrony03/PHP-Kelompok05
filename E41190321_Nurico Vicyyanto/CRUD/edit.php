@@ -33,12 +33,12 @@
             </tr>
             <tr>
                 <td>Alamat</td>
-                <td><input type="text" name="nama" value="<?php echo $data['alamat']?>">
+                <td><input type="text" name="alamat" value="<?php echo $data['alamat']?>">
                 </td>
             </tr>
             <tr>
                 <td>Pekerjaan</td>
-                <td><input type="text" name="nama" value="<?php echo $data['pekerjaan']?>">
+                <td><input type="text" name="pekerjaan" value="<?php echo $data['pekerjaan']?>">
                 </td>
             </tr>
             <tr>

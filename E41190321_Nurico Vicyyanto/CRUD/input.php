@@ -14,7 +14,7 @@
 
         <br>
         <h3>Input Data Baru</h3>
-        <form action="input-aksi.php" methode="POST">
+        <form action="input-aksi.php" method="POST">
             <table>
                 <tr>
                     <td>Nama</td>
