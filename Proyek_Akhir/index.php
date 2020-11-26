@@ -82,7 +82,8 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Website Pertanian Si-PEKA</h1>
+            <h1 class="display-4">Website Pertanian</h1>
+            <h1 class="display-4">Si-PEKA</h1>
             <hr>
             <p class="lead">Si PEKA adalah sebuah website pertanian yang dikelola oleh SMKPP Negeri 1 Tegalampel
                 Bondowoso,
@@ -231,7 +232,7 @@
         </footer>
         </div>
 
-        <a href="#" class="float"><p class="my-float">Contact Via WA</p></a>
+        <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float"><p class="my-float">Contact Via WA</p></a>
 
 </body>
 

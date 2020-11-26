@@ -6,16 +6,6 @@ body{
     background-color: #1e824c;
 }
 
-.jumbotron {
-    background-image: url(img/petani.jpg);
-    background-size: cover;
-    height: 700px;
-    width: 100%;
-    text-align: center;
-    margin-top: -3px;
-    text-align: justify;
-}
-
 
 .carousel {
     padding-left: 20px;
