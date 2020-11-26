@@ -103,6 +103,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
                     </div>
                 </div>
             </div>
@@ -113,6 +114,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
                     </div>
                 </div>
             </div>
@@ -123,6 +125,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
                     </div>
                 </div>
             </div>
@@ -133,6 +136,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
                     </div>
                 </div>
             </div>
@@ -143,6 +147,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
                     </div>
                 </div>
             </div>
@@ -153,6 +158,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
                     </div>
                 </div>
             </div>
@@ -163,6 +169,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
                     </div>
                 </div>
             </div>
@@ -173,6 +180,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
                     </div>
                 </div>
             </div>
