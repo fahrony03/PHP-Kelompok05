@@ -11,7 +11,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
-    <title>Si PEKA</title>
+    <title>Hello, world!</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" width="60" height="60" class="rounded-circle">
@@ -39,19 +39,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" " href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link js-scroll-trigger" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger"  href="javascript:peringatan();">Info</a>
+                        <a class="nav-link js-scroll-trigger" href="menu/features.html">Info</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="#">Dokumentasi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Produk</a>
+                        <a class="nav-link js-scroll-trigger" href="#">Produk</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="#">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -65,25 +65,17 @@
                         </div>
                     </li>
                 </ul>
-                </ul>
                 <span class="navbar-text">
-                    <a href="menu/login.php" class="btn btn-success" >Login</a>
+                    <a href="menu/logout.php" class="btn btn-success" >Logout</a>
                 </span>
             </div>
         </div>
     </nav>
     <br><br>
 
-    <script>
-    function peringatan() {
-    alert("Login Terlebih Dahulu!");
-    }
-    </script>
-
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Website Pertanian</h1>
-            <h1 class="display-4">Si-PEKA</h1>
+            <h1 class="display-4">Dashboard Website Pertanian Si-PEKA</h1>
             <hr>
             <p class="lead">Si PEKA adalah sebuah website pertanian yang dikelola oleh SMKPP Negeri 1 Tegalampel
                 Bondowoso,
@@ -94,7 +86,6 @@
                     <h1 class="display-4">Informasi</h1>
                     <hr>
         </div>
-        <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col mb-4">
                 <div class="card h-100">
@@ -226,13 +217,10 @@
             <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores id nobis temporibus culpa recusandae dolorum. Culpa minus, voluptatum molestiae ad eaque autem exercitationem perferendis quisquam voluptas repellendus praesentium aperiam.</p>
             <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, mollitia distinctio soluta voluptatem eius quae accusantium dolorum illo impedit laborum eligendi maiores odio vel est reprehenderit tempora ea nam unde!</p>
         </div>
-<div class="footer">
+
         <footer class="foot">
             <div class="footer-copyright text-center py-3">© 2020 Copyright </div>
         </footer>
-        </div>
-
-        <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float"><p class="my-float">Contact Via WA</p></a>
 
 </body>
 
