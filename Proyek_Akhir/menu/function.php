@@ -54,7 +54,6 @@ function registrasi($data)
     echo "
             <script>
                     alert('anda berhasil daftar!');
-                    
             </script>
 
             ";
