@@ -17,7 +17,7 @@ $jumlah_data = mysqli_num_rows($carikode);
 // jika $datakode
 if ($datakode) {
   // membuat variabel baru untuk mengambil kode barang mulai dari 1
-  $nilaikode = substr($jumlah_data[0], 1);
+  $nilaikode = substr($jumlah_data [0], 1);
   // menjadikan $nilaikode ( int )
   $kode = (int) $nilaikode;
   // setiap $kode di tambah 1
@@ -32,67 +32,44 @@ if ($datakode) {
 
 ?>
 <html>
-  <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-<div class="container">
-
-  <div class="text-center">
-    <h1 class="h4 text-gray-900 mb-4">tambahkan akun!</h1>
+  <link rel="stylesheet"  href="../register.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registration Form</h1>
   </div>
-  <div class="row">
-    <div class="col-lg-6 offset-3">
-      <form class="user" method="post" action="">
-        <div class="form-group row">
-          <div class="col mb-3 mb-sm-0">
-            <input type="hidden" class="form-control form-control-static" id="id_admin" name="id_admin" value="<?= $kode_otomatis; ?>" readonly>
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="nama_admin" name="nama_admin" placeholder="masukkan nama admin....">
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="username" name="username" placeholder="masukkan username...">
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            <input type="password" class="form-control form-control-static" id="password" name="password" placeholder="Password">
-          </div>
-          <div class="col-sm-6">
-            <input type="password" class="form-control form-control-static" id="password2" name="password2" placeholder="Repeat Password">
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col mb-3 mb-sm-0">
-            <input type="email" class="form-control form-control-static" id="email" name="email" placeholder="masukkan email...">
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="nohp" name="nohp" placeholder="masukkan no hp...">
-          </div>
-        </div>
-        <div class="text-center">
-          <input class="btn btn-primary" name="register" type="submit" value="tambahkan!">
-          </input>
-        </div>
-      </form>
-    </div>
+  <div class="main">
+    <form method="POST">
+      <div id="name">
+        <h2 class="name">
+          Nama </h2>
+        <input class="firstname" type="text" name="first_name"><br>
+        <label class="firstlabel">Nama Depan</label>
+        <input class="lastname" type="text" name="last_name"><br>
+        <label class="lastlabel">Nama Belakang</label>
+      </div>
+      <h2 class="name">Alamat </h2>
+      <input class="alamat" type="text" name="alamat">
+      <h2 class="name">No Telp</h2>
+      <input class="notelp" type="text" id="notelp" name="notelp">
+      <h2 class="name">Email</h2>
+      <input class="email" type="email" name="email">
+      <h2 class="name">Password</h2>
+          <input class="password" type="password" id="password" name="password">
+                <label class="password-1">Password</label>
+          <input class="password2" type="password" id="password2" name="password2">
+                <label class="password-2">Ulangi Password</label>
+      <button type="submit">Register</button>
+    </form>
   </div>
-</div>
-
 </body>
 </html>
