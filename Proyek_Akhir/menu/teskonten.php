@@ -97,7 +97,7 @@
                         var year = (yy < 1000) ? yy + 1900 : yy;
                         document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
                     </script>
-                    hr
+                    <hr>
                     <h1>Cara Menanam Wortel <b>(INI BELUM SELESAI)</b></h1>
                     <br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
