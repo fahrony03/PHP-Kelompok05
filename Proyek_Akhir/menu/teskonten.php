@@ -122,7 +122,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
                     expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
                     </p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+                    <footer class="blockquote-footer">Nurico Vicyyanto, <cite title="Source Title"> Cara Menanam Wortel</cite>
                     </footer>
                 </blockquote>
             </div>
