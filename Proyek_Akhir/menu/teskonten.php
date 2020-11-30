@@ -115,9 +115,9 @@
                         expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
                         Dolorem, sint?
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
+                    </p>
+                    <img src="../img/pertanian.jpg" alt="">
+                    <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
                         doloribus, facilis
                         expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
@@ -131,17 +131,6 @@
                         expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
                         Dolorem, sint?
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
                     </p>
                     <footer class="blockquote-footer">Nurico Vicyyanto, <cite title="Source Title"> Cara Menanam
                             Wortel</cite>
