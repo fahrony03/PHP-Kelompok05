@@ -43,7 +43,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" " href=" ../index.php">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link js-scroll-trigger" " href=" ../index.php">Home <span
+                            class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#">Info</a>
@@ -80,59 +81,145 @@
 
     <div class="container">
         <div class="card">
-            <div class="card-header bg-light">
-                <script type='text/javascript'>
-                    var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus',
-                        'September', 'Oktober', 'November', 'Desember'];
-                    var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
-                    var date = new Date();
-                    var day = date.getDate();
-                    var month = date.getMonth();
-                    var thisDay = date.getDay(),
-                        thisDay = myDays[thisDay];
-                    var yy = date.getYear();
-                    var year = (yy < 1000) ? yy + 1900 : yy;
-                    document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
-                </script>
-            </div>
             <div class="card-body">
                 <blockquote class="blockquote mb-0">
+                    <script type='text/javascript'>
+                        var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus',
+                            'September', 'Oktober', 'November', 'Desember'
+                        ];
+                        var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+                        var date = new Date();
+                        var day = date.getDate();
+                        var month = date.getMonth();
+                        var thisDay = date.getDay(),
+                            thisDay = myDays[thisDay];
+                        var yy = date.getYear();
+                        var year = (yy < 1000) ? yy + 1900 : yy;
+                        document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+                    </script>
+                    <hr>
                     <h1>Cara Menanam Wortel <b>(INI BELUM SELESAI)</b></h1>
                     <br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque doloribus, facilis
-                    expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos? Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
                     </p>
-                    <footer class="blockquote-footer">Nurico Vicyyanto, <cite title="Source Title"> Cara Menanam Wortel</cite>
+                    <footer class="blockquote-footer">Nurico Vicyyanto, <cite title="Source Title"> Cara Menanam
+                            Wortel</cite>
                     </footer>
                 </blockquote>
             </div>
         </div>
     </div>
     <br>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"><b>Komentar:</b></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-success">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
 
     <div class="footer">
-        <footer class="foot">
-            <div class="footer-copyright text-center py-3">© 2020 Copyright </div>
+        <div class="container">
+            <footer class="page-footer font-small blue pt-4">
+                <div class="container-fluid text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-6 mt-md-0 mt-3">
+                            <!-- Content -->
+                            <h5 class="text-uppercase">Si PEKA</h5>
+                            <p>Website pemasaran hasil pertanian SMKPP Negeri 1 Tegalampel.</p>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none pb-3">
+                        <div class="col-md-3 mb-md-0 mb-3">
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Info</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 mb-md-0 mb-3">
+                            <h5 class="text-uppercase">Contact</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="bawah text-center py-3">© 2020 Copyright
+            </div>
+        </div>
         </footer>
     </div>
 
