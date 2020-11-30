@@ -26,7 +26,7 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" width="60" height="60" class="rounded-circle">
@@ -39,10 +39,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" " href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link js-scroll-trigger" " href=" #">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger"  href="javascript:peringatan();">Info</a>
+                        <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Info</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Dokumentasi</a>
@@ -67,7 +67,7 @@
                 </ul>
                 </ul>
                 <span class="navbar-text">
-                    <a href="menu/login.php" class="btn btn-success" >Login</a>
+                    <a href="menu/login.php" class="btn btn-success">Login</a>
                 </span>
             </div>
         </div>
@@ -75,9 +75,9 @@
     <br><br>
 
     <script>
-    function peringatan() {
-    alert("Login Terlebih Dahulu!");
-    }
+        function peringatan() {
+            alert("Login Terlebih Dahulu!");
+        }
     </script>
 
     <div class="jumbotron jumbotron-fluid">
@@ -95,152 +95,220 @@
                     <hr>
         </div>
         <div class="container">
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="menu/teskonten.php" class="btn btn-outline-success">Baca</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
-                    </div>
-                </div>
+
+            <div class="judul-card">
+                <h1 class="display-4">Dokumentasi</h1>
+                <hr>
             </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/vertikultur.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/vertikultur.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/vertikultur.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </div>
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success" >Login</a>
-                    </div>
-                </div>
+
+            <div class="konten">
+                <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores id
+                    nobis temporibus culpa recusandae dolorum. Culpa minus, voluptatum molestiae ad eaque autem
+                    exercitationem perferendis quisquam voluptas repellendus praesentium aperiam.</p>
+                <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, mollitia
+                    distinctio soluta voluptatem eius quae accusantium dolorum illo impedit laborum eligendi maiores
+                    odio vel est reprehenderit tempora ea nam unde!</p>
             </div>
         </div>
 
-        <div class="judul-card">
-            <h1 class="display-4">Dokumentasi</h1>
+        <div class="footer">
+            <div class="container">
+                <footer class="page-footer font-small blue pt-4">
+                    <div class="container-fluid text-center text-md-left">
+                        <div class="row">
+                            <div class="col-md-6 mt-md-0 mt-3">
+                                <!-- Content -->
+                                <h5 class="text-uppercase">Si PEKA</h5>
+                                <p>Website pemasaran hasil pertanian SMKPP Negeri 1 Tegalampel.</p>
+                            </div>
+                            <hr class="clearfix w-100 d-md-none pb-3">
+                            <div class="col-md-3 mb-md-0 mb-3">
+                                <!-- Links -->
+                                <h5 class="text-uppercase">Info</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!">Link 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Link 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Link 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Link 4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 mb-md-0 mb-3">
+                                <h5 class="text-uppercase">Contact</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!">Link 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Link 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Link 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Link 4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
             <hr>
-        </div>
-
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/vertikultur.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/vertikultur.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/vertikultur.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
+            <div class="container">
+                <div class="bawah text-center py-3">© 2020 Copyright
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            </footer>
         </div>
 
-        <div class="konten">
-            <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores id nobis temporibus culpa recusandae dolorum. Culpa minus, voluptatum molestiae ad eaque autem exercitationem perferendis quisquam voluptas repellendus praesentium aperiam.</p>
-            <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, mollitia distinctio soluta voluptatem eius quae accusantium dolorum illo impedit laborum eligendi maiores odio vel est reprehenderit tempora ea nam unde!</p>
-        </div>
-<div class="footer">
-        <footer class="foot">
-            <div class="footer-copyright text-center py-3">© 2020 Copyright </div>
-        </footer>
-        </div>
 
-        <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float"><p class="my-float">Contact Via WA</p></a>
+        <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
+            <p class="my-float">Contact Via WA</p>
+        </a>
 
 </body>
 

@@ -236,11 +236,63 @@
                     distinctio soluta voluptatem eius quae accusantium dolorum illo impedit laborum eligendi maiores
                     odio vel est reprehenderit tempora ea nam unde!</p>
             </div>
+
             <div class="footer">
-                <footer class="foot">
-                    <div class="footer-copyright text-center py-3">© 2020 Copyright </div>
-                </footer>
+        <div class="container">
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <!-- Content -->
+                        <h5 class="text-uppercase">Si PEKA</h5>
+                        <p>Website pemasaran hasil pertanian SMKPP Negeri 1 Tegalampel.</p>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Info</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">Contact</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </div>
+            <hr>
+        <div class="container">
+            <div class="bawah text-center py-3">© 2020 Copyright
+            </div>
+        </div>
+        </footer>
+    </div>
 
             <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
                 <p class="my-float">Contact Via WA</p>
