@@ -97,7 +97,7 @@
                         var year = (yy < 1000) ? yy + 1900 : yy;
                         document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
                     </script>
-                    <hr>
+                    hr
                     <h1>Cara Menanam Wortel <b>(INI BELUM SELESAI)</b></h1>
                     <br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -115,9 +115,19 @@
                         expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
                         Dolorem, sint?
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
                     </p>
-                    <img src="../img/pertanian.jpg" alt="">
                     <p>
+                        <img src="../img/pertanian.jpg" class="img-fluid" alt="Responsive image">
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                        doloribus, facilis
+                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
+                        Dolorem, sint?
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
                         doloribus, facilis
                         expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
