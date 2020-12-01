@@ -42,7 +42,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" " href="home.php">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -57,13 +57,13 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#;">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="katalogPenanaman.php">Penanaman</a>
+                            <a class="dropdown-item active" href="katalogPenanaman.php">Penanaman</a>
                             <a class="dropdown-item" href="#">Pengelolaan</a>
                             <a class="dropdown-item" href="#">Tutorial Bootstrap</a>
                         </div>
@@ -89,7 +89,7 @@
                 di bidang pertanian, dan tujuan dibuatnya website ini adalah untuk mengakomodasi kebutuhan siswa< serta
                     para guru untuk proses pemasaran bahan-bahan pangan hasil dari produksi siswa SMKPP Negeri 1
                     Tegalampel</p> </div> </div> <div class="judul-card">
-                    <h1 class="display-4">Informasi Produk</h1>
+                    <h1 class="display-4">Katalog Penanaman</h1>
                     <hr>
         </div>
         <div class="container">
@@ -101,7 +101,7 @@
                             <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
                             <p class="card-text">Sahabat 99, apakah kamu ingin menanam wortel di rumah? 
                                 Bila tertarik, yuk simak cara menanam wortel berikut ini!</p>
-                            <a href="../tanaman/wortel.php" class="btn btn-outline-success">Baca</a>
+                            <a href="../Penanaman/wortel.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Baca</a>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Baca</a>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Baca</a>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Baca</a>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Baca</a>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="info/tanaman/jeruk.php" class="btn btn-outline-success">Baca</a>
+                            <a href="info/tanaman/jeruk.php" class="btn btn-outline-success">Login</a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Baca</a>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
                         </div>
                     </div>
                 </div>

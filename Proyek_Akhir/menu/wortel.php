@@ -43,11 +43,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" " href=" ../index.php">Home <span
-                            class="sr-only">(current)</span></a>
+                        <a class="nav-link js-scroll-trigger" " href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">Info</a>
+                        <a class="nav-link js-scroll-trigger"  href="#">Info</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#">Dokumentasi</a>
@@ -61,7 +60,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Informasi
+                            Informasi 
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Penanaman</a>
@@ -72,13 +71,27 @@
                 </ul>
                 </ul>
                 <span class="navbar-text">
-                    <a href="logout.php" class="btn btn-success">Log Out</a>
+                    <a href="logout.php" class="btn btn-success" >Login</a>
                 </span>
             </div>
         </div>
     </nav>
-    <br><br><br><br>
+    <br><br>
 
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Website Pertanian</h1>
+            <h1 class="display-4">Si-PEKA</h1>
+            <hr>
+            <p class="lead">Si PEKA adalah sebuah website pertanian yang dikelola oleh SMKPP Negeri 1 Tegalampel
+                Bondowoso,
+                SMKPP Negeri 1 Tegalampel adalah sebuah sekolah di kabupaten bondowoso yang salah satu jurusanya adalah
+                di bidang pertanian, dan tujuan dibuatnya website ini adalah untuk mengakomodasi kebutuhan siswa< serta
+                    para guru untuk proses pemasaran bahan-bahan pangan hasil dari produksi siswa SMKPP Negeri 1
+                    Tegalampel</p> </div> </div> <div class="judul-card">
+                    <h1 class="display-4">Informasi Penanaman</h1>
+                    <hr>
+        </div>
     <div class="container">
         <div class="card">
             <div class="card-body">
@@ -98,52 +111,36 @@
                         document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
                     </script>
                     <hr>
-                    <h1>Cara Menanam Wortel <b>(INI BELUM SELESAI)</b></h1>
+                    <h1>Cara Menanam Wortel Di Rumah Yang Baik Dan Benar. Sangat Mudah! <b></b></h1>
                     <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                    Wortel merupakan salah satu jenis sayuran yang memiliki kandungan vitamin A. 
+                    Dengan kandungan tersebut, sayuran ini dipercaya sangat bermanfaat untuk kesehatan mata.
+                    Sayuran ini berasal dari wilayah Asia Timur hingga Asia Tengah.
+                    Saat ini, budidaya wortel sudah meluas ke berbagai negara di dunia, termasuk juga di Indonesia.
+                    Di Indonesia sendiri, budidaya wortel banyak dilakukan di kebun hingga di rumah.
+                    Cara menanam wortel sendiri tidak terlalu sulit, kok!
+                    Namun, supaya kamu bisa mendapatkan hasil yang optimal dan wrotel bisa tumbuh lebih cepat, 
+                    maka ada beberapa tahapan yang harus dipahami.
+                    Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam wortel yang baik dan benar.
+                    Yuk, simak penjelasannya di bawah ini!
                     </p>
                     <p>
-                        <img src="../img/pertanian.jpg" class="img-fluid" alt="Responsive image">
+                        <img src="../img/penanaman/wortel 2.jpg" class="img-fluid" alt="Responsive image">
                     </p>
+                    <h3> Syarat Tumbuh Wortel</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
-                        doloribus, facilis
-                        expedita enim, alias porro sapiente quis ea tempore ratione dolore nostrum natus dignissimos?
-                        Dolorem, sint?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta, corrupti hic doloremque
+                    Syarat tumbuh wortel ini sifatnya wajib, Sahabat Si PEKA. 
+                    Pasalnya, syarat inilah yang akan membuat wortel menjadi berkembang optimal dan dapat berbuah lebih cepat.
+                    Dengan begitu, sebelum mempelajari cara menanam wortel, kamu harus persapkan ini terlebih dahulu, ya!
                     </p>
-                    <footer class="blockquote-footer">Nurico Vicyyanto, <cite title="Source Title"> Cara Menanam
-                            Wortel</cite>
+                    <h5>1. Tanah </h5>
+                    <p> Wortel membutuhkan tanah dengan jenis berikut: 
+                    Aluvial, Andosol,Latosol, Regosol
+                    </p>
+
+                    <footer class="blockquote-footer">Queendha <cite title="Source Title"> Cara Menanam Wortel Di Rumah 
+                    Yang Baik Dan Benar. Sangat Mudah!</cite>
                     </footer>
                 </blockquote>
             </div>

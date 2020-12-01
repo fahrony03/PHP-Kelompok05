@@ -59,7 +59,7 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Penanaman</a>
+                            <a class="dropdown-item" href="index.php">Penanaman</a>
                             <a class="dropdown-item" href="#">Pengelolaan</a>
                             <a class="dropdown-item" href="#">Tutorial Bootstrap</a>
                         </div>
@@ -98,33 +98,20 @@
             <div class="row row-cols-1 row-cols-md-3">
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="img/penanaman/wortel.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
-                            <a href="menu/teskonten.php" class="btn btn-outline-success">Baca</a>
+                            <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
+                            <p class="card-text">Sahabat 99, apakah kamu ingin menanam wortel di rumah? 
+                                Bila tertarik, yuk simak cara menanam wortel berikut ini!</p>
+                            <a href="menu/wortel.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="img/penanaman/tomat.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-4">
-                    <div class="card h-100">
-                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Tomat</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -134,9 +121,9 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="img/penanaman/kaktus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Kaktus</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -146,9 +133,9 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="img/penanaman/bayam.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Bayam</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -158,9 +145,9 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="img/penanaman/cabe.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Cabai Rawit</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -170,9 +157,9 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="img/penanaman/pepaya.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Pepaya</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -182,9 +169,21 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="img/penanaman/jeruk.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Jeruk</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/penanaman/mangga.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cara Menanam Mangga</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
