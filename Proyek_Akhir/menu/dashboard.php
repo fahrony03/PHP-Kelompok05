@@ -34,7 +34,7 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
-                Si PEKA
+                Si PEKA <b>jangan diubah-ubah dulu, aku bingung bikinya nanti</b>
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

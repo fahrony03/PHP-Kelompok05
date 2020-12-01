@@ -76,22 +76,8 @@
             </div>
         </div>
     </nav>
-    <br><br>
+    <br><br><br><br>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Website Pertanian</h1>
-            <h1 class="display-4">Si-PEKA</h1>
-            <hr>
-            <p class="lead">Si PEKA adalah sebuah website pertanian yang dikelola oleh SMKPP Negeri 1 Tegalampel
-                Bondowoso,
-                SMKPP Negeri 1 Tegalampel adalah sebuah sekolah di kabupaten bondowoso yang salah satu jurusanya adalah
-                di bidang pertanian, dan tujuan dibuatnya website ini adalah untuk mengakomodasi kebutuhan siswa< serta
-                    para guru untuk proses pemasaran bahan-bahan pangan hasil dari produksi siswa SMKPP Negeri 1
-                    Tegalampel</p> </div> </div> <div class="judul-card">
-                    <h1 class="display-4">Informasi Penanaman</h1>
-                    <hr>
-        </div>
     <div class="container">
         <div class="card">
             <div class="card-body">
@@ -150,13 +136,29 @@
     <div class="container">
         <div class="card">
             <div class="card-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1"><b>Komentar:</b></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="button" class="btn btn-success">Kirim</button>
-                </form>
+            <div class="form">
+                    <form action="" method="post">
+                    <label for="komentar">Komentar</label>
+                    <br>
+                    <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
+            </div>
+
+        <br><br>
+        <button type="submit" class="btn btn-success " name="submit">kirim</button>
+        <hr>
+        </div>
+                    <?
+                    error_reporting(E_ALL ^ E_NOTICE);
+                        include "koneksi.php";
+                        $komentar  = $_REQUEST['komentar'];
+                        $mysqli  = "INSERT INTO `komentar` (`komentar`) VALUES ('$komentar')";
+                        $result  = mysqli_query($koneksi, $mysqli);
+                    ?>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
             </div>
         </div>
     </div>

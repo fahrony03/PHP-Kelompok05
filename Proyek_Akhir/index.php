@@ -84,6 +84,8 @@
         <div class="container">
             <h1 class="display-4">Website Pertanian</h1>
             <h1 class="display-4">Si-PEKA</h1>
+            <h1><b>bagian yan gini jangan ada yang diedit-edit dulu ya, aku sek ngerjakan nanti bingung lagi aku alurnya </b></h1>
+            <h1><b>Nurico V.</b></h1>
             <hr>
             <p class="lead">Si PEKA adalah sebuah website pertanian yang dikelola oleh SMKPP Negeri 1 Tegalampel
                 Bondowoso,
