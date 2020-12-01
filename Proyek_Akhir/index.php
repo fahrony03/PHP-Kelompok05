@@ -67,7 +67,7 @@
                 </ul>
                 </ul>
                 <span class="navbar-text">
-                    <a href="menu/login.php" class="btn btn-success">Login</a>
+                    <a href="menu/login.php" class="btn btn-success">Baca</a>
                 </span>
             </div>
         </div>
@@ -76,7 +76,7 @@
 
     <script>
         function peringatan() {
-            alert("Login Terlebih Dahulu!");
+            alert("Baca Terlebih Dahulu!");
         }
     </script>
 
@@ -101,9 +101,9 @@
                         <img src="img/penanaman/wortel.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
-                            <p class="card-text">Sahabat 99, apakah kamu ingin menanam wortel di rumah? 
+                            <p class="card-text">Sahabat 99, apakah kamu ingin menanam wortel di rumah?
                                 Bila tertarik, yuk simak cara menanam wortel berikut ini!</p>
-                            <a href="menu/wortel.php" class="btn btn-outline-success">Baca</a>
+                            <a href="menu/detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href=menu/detailinfo_empat.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/detailinfo_lima.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/detailinfo_tujuh.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
