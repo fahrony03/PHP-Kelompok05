@@ -76,7 +76,7 @@
 
     <script>
         function peringatan() {
-            alert("Baca Terlebih Dahulu!");
+            alert("Login Terlebih Dahulu");
         }
     </script>
 
@@ -86,6 +86,7 @@
             <h1 class="display-4">Si-PEKA</h1>
             <h1><b>bagian yan gini jangan ada yang diedit-edit dulu ya, aku sek ngerjakan nanti bingung lagi aku alurnya </b></h1>
             <h1><b>Nurico V.</b></h1>
+            <h1><b>"Kalo bisa jangan sampe ngubah nama file php"</b></h1>
             <hr>
             <p class="lead">Si PEKA adalah sebuah website pertanian yang dikelola oleh SMKPP Negeri 1 Tegalampel
                 Bondowoso,
