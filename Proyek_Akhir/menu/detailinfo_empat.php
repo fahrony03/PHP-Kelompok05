@@ -97,6 +97,9 @@
                         document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
                     </script>
                     <hr>
+
+                    //ubah dari bagian ini sesuai isi konten
+
                     <h1>Cara Menanam Wortel Di Rumah Yang Baik Dan Benar. Sangat Mudah! <b></b></h1>
                     <br>
                     <p>
@@ -132,6 +135,9 @@
             </div>
         </div>
     </div>
+
+    //ubah sampe bagian ini
+
     <br>
     <div class="container">
         <div class="card">
@@ -143,9 +149,9 @@
                     <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
             </div>
 
-        <br><br>
+
         <button type="submit" class="btn btn-success " name="submit">kirim</button>
-        <hr>
+
         </div>
                     <?php
                     error_reporting(E_ALL ^ E_NOTICE);
