@@ -67,7 +67,7 @@
                 </ul>
                 </ul>
                 <span class="navbar-text">
-                    <a href="menu/login.php" class="btn btn-success">Baca</a>
+                    <a href="menu/login.php" class="btn btn-success">Login</a>
                 </span>
             </div>
         </div>
@@ -101,8 +101,10 @@
                         <img src="img/penanaman/wortel.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
-                            <p class="card-text">Sahabat 99, apakah kamu ingin menanam wortel di rumah?
-                                Bila tertarik, yuk simak cara menanam wortel berikut ini!</p>
+                            <p class="card-text text-justify">
+                                Penanaman Wortel tidak mudah, namun juga tidak begitu sulit akan tetapi beberapa orang
+                                gagal dalam menanamnya, berikut adalah tips penanaman wortel
+                            </p>
                             <a href="menu/detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
@@ -111,8 +113,8 @@
                     <div class="card h-100">
                         <img src="img/penanaman/tomat.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Tomat</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            <h5 class="card-title">Cara mudah menanam Tomat di Kebun</h5>
+                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
                             <a href="menu/detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
@@ -123,8 +125,8 @@
                     <div class="card h-100">
                         <img src="img/penanaman/kaktus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Kaktus</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            <h5 class="card-title">Budidaya tanaman Kaktus pada lahan Terbatas</h5>
+                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
                             <a href="menu/detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
@@ -135,11 +137,11 @@
                     <div class="card h-100">
                         <img src="img/penanaman/bayam.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Bayam</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            <h5 class="card-title">Cara Menanam Bayam sampai sukses</h5>
+                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href=menu/detailinfo_empat.php" class="btn btn-outline-success">Baca</a>
+                            <a href="menu/detailinfo_empat.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -147,8 +149,8 @@
                     <div class="card h-100">
                         <img src="img/penanaman/cabe.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Cabai Rawit</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            <h5 class="card-title">Cara Menanam Cabai Rawit pada Media pot</h5>
+                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
                             <a href="menu/detailinfo_lima.php" class="btn btn-outline-success">Baca</a>
@@ -159,8 +161,8 @@
                     <div class="card h-100">
                         <img src="img/penanaman/pepaya.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Pepaya</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            <h5 class="card-title">Cara Menanam Pepaya dari biji sampai berbuah</h5>
+                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
                             <a href="menu/detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
@@ -171,8 +173,8 @@
                     <div class="card h-100">
                         <img src="img/penanaman/jeruk.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Jeruk</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            <h5 class="card-title">Cara Menanam Jeruk pada lahan terbatas</h5>
+                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
                             <a href="menu/detailinfo_tujuh.php" class="btn btn-outline-success">Baca</a>
@@ -183,8 +185,8 @@
                     <div class="card h-100">
                         <img src="img/penanaman/mangga.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Mangga</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            <h5 class="card-title">Cara Menanam Mangga Harum Manis tanpa Gagal</h5>
+                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
                             <a href="menu/detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
@@ -238,10 +240,10 @@
             </div>
 
             <div class="konten">
-                <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores id
+                <p class="text-xl-left text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores id
                     nobis temporibus culpa recusandae dolorum. Culpa minus, voluptatum molestiae ad eaque autem
                     exercitationem perferendis quisquam voluptas repellendus praesentium aperiam.</p>
-                <p class="text-xl-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, mollitia
+                <p class="text-xl-left text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, mollitia
                     distinctio soluta voluptatem eius quae accusantium dolorum illo impedit laborum eligendi maiores
                     odio vel est reprehenderit tempora ea nam unde!</p>
             </div>
