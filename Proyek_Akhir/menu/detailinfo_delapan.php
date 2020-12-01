@@ -98,7 +98,7 @@
                     </script>
                     <hr>
 
-                    //ubah dari bagian ini sesuai isi konten
+                    <!--ubah dari bagian ini sesuai isi konten-->
 
                     <h1>Cara Menanam Wortel Di Rumah Yang Baik Dan Benar. Sangat Mudah! <b></b></h1>
                     <br>
