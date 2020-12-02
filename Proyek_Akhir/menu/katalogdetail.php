@@ -101,7 +101,7 @@
                             <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
                             <p class="card-text">Sahabat 99, apakah kamu ingin menanam wortel di rumah? 
                                 Bila tertarik, yuk simak cara menanam wortel berikut ini!</p>
-                            <a href="../Penanaman/wortel.php" class="btn btn-outline-success">Baca</a>
+                            <a href="detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="detailinfo_empat.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="detailinfo_Lima.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="info/tanaman/jeruk.php" class="btn btn-outline-success">Login</a>
+                            <a href="detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
