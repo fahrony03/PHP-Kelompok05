@@ -117,11 +117,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-<<<<<<< HEAD
                             <a href="menu/login.php" class="btn btn-outline-success">Login</a>
-=======
-                            <a href="menu/info/detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
->>>>>>> 1bd565d1bc2f75f8ec95e4704223273152bf3cbe
                         </div>
                     </div>
                 </div>
@@ -133,11 +129,8 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-<<<<<<< HEAD
                             <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
-=======
-                            <a href="menu/info/detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
->>>>>>> 1bd565d1bc2f75f8ec95e4704223273152bf3cbe
+
                         </div>
                     </div>
                 </div>
@@ -149,11 +142,8 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-<<<<<<< HEAD
                             <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
-=======
-                            <a href="menu/info/detailinfo_empat.php" class="btn btn-outline-success">Baca</a>
->>>>>>> 1bd565d1bc2f75f8ec95e4704223273152bf3cbe
+
                         </div>
                     </div>
                 </div>
@@ -165,11 +155,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-<<<<<<< HEAD
                             <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
-=======
-                            <a href="menu/info/detailinfo_lima.php" class="btn btn-outline-success">Baca</a>
->>>>>>> 1bd565d1bc2f75f8ec95e4704223273152bf3cbe
                         </div>
                     </div>
                 </div>
@@ -181,11 +167,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-<<<<<<< HEAD
                             <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
-=======
-                            <a href="menu/info/detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
->>>>>>> 1bd565d1bc2f75f8ec95e4704223273152bf3cbe
                         </div>
                     </div>
                 </div>
@@ -197,11 +179,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-<<<<<<< HEAD
                             <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
-=======
-                            <a href="menu/info/detailinfo_tujuh.php" class="btn btn-outline-success">Baca</a>
->>>>>>> 1bd565d1bc2f75f8ec95e4704223273152bf3cbe
                         </div>
                     </div>
                 </div>
@@ -213,11 +191,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-<<<<<<< HEAD
                             <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
-=======
-                            <a href="menu/info/detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
->>>>>>> 1bd565d1bc2f75f8ec95e4704223273152bf3cbe
                         </div>
                     </div>
                 </div>
