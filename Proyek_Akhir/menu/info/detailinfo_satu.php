@@ -103,32 +103,38 @@
                     <h1>Cara Menanam Wortel Di Rumah Yang Baik Dan Benar. Sangat Mudah! <b></b></h1>
                     <br>
                     <p>
-                    Wortel merupakan salah satu jenis sayuran yang memiliki kandungan vitamin A. 
-                    Dengan kandungan tersebut, sayuran ini dipercaya sangat bermanfaat untuk kesehatan mata.
-                    Sayuran ini berasal dari wilayah Asia Timur hingga Asia Tengah.
-                    Saat ini, budidaya wortel sudah meluas ke berbagai negara di dunia, termasuk juga di Indonesia.
-                    Di Indonesia sendiri, budidaya wortel banyak dilakukan di kebun hingga di rumah.
-                    Cara menanam wortel sendiri tidak terlalu sulit, kok!
-                    Namun, supaya kamu bisa mendapatkan hasil yang optimal dan wrotel bisa tumbuh lebih cepat, 
-                    maka ada beberapa tahapan yang harus dipahami.
+                    Tanaman Wortel (Daucus carota L.) berasal dari Asia Timur dan Tengah yang memiliki iklim sub-tropis. Tanaman Wortel 
+                    berbentuk semak (perdu) yang tumbuh tegak dengan ketinggian antara 30 cm-100 cm.
+                    Tanaman Wortel memiliki umbi berwarna jingga kemerahan berbentuk lonjong yang sering dimakan sebagai sumber gizi terutama 
+                    vitamin A. Warna jingga kemerahan pada umbi Wortel ini menandakan bahwa itu kaya akan senyawa karoten dan flavonoid yang 
+                    dapat berfungsi sebagai antioksidan.Umbi Wortel sering dikonsumsi sebagai tambahan pada masakan seperti sup ataupun bihun. 
+                    Umbi ini disenangi banyak orang di kalangan masyarakat karena rasanya yang enak dan gizinya yang berlimpah.
                     Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam wortel yang baik dan benar.
-                    Yuk, simak penjelasannya di bawah ini!
+                    Yuk, simak penjelasannya di bawah ini!.
                     </p>
                     <p>
                         <img src="../../img/penanaman/wortel 2.jpg" class="img-fluid" alt="Responsive image">
                     </p>
-                    <h3> Syarat Tumbuh Wortel</h3>
-                    <p>
-                    Syarat tumbuh wortel ini sifatnya wajib, Sahabat Si PEKA. 
-                    Pasalnya, syarat inilah yang akan membuat wortel menjadi berkembang optimal dan dapat berbuah lebih cepat.
-                    Dengan begitu, sebelum mempelajari cara menanam wortel, kamu harus persapkan ini terlebih dahulu, ya!
-                    </p>
-                    <h5>1. Tanah </h5>
-                    <p> Wortel membutuhkan tanah dengan jenis berikut: 
-                    Aluvial, Andosol,Latosol, Regosol
-                    </p>
+                    <h3> Jenis Wortel</h3>
+                    <p>Jenis Imperator yaitu jenis wortel yang memiliki bentuk bulat memanjang dengan ujung meruncing seperti kerucut. Wortel ini 
+                    sedikit tipis, serta memiliki umbi berwarna oranye. Wortel jenis ini kurang disukai oleh orang karena rasa yang dimiliki 
+                    wortel jenis ini kurang manis.</p> 
+                    <p>Jenis Chantenay. Jenis wortel ini memiliki bentuk tebal meruncing dengan ujung yang tumpul. Jenis wortel Chantenay memiliki 
+                    panjang sekitar 12 cm serta banyak disukai orang karena memiliki rasa yang manis. Dibandingkan jenis wortel lainnya wortel 
+                    jenis ini memiliki tekstur lebih kasar. Biasanya, wortel jenis ini sering dimasak dengan di potong berbentuk dadu.</p> 
+                    <p>Jenis Mantes. Wortel jenis ini merupakan gabungan dari wortel jenis Imperator dan jenis Chantenay. Wortel jenis ini memiliki 
+                    ukuran sedang, memiliki warna oranye gelap, berbentuk bulat tumpul dan memiliki diameter dari atas hingga bawah sama. Kandungan 
+                    air pada wortel nantes lebih tinggi dari jenis wortel lainnya sehingga jika dimasak rasa manis pada wortel jenis ini akan berkurang</p> 
 
-                    <footer class="blockquote-footer">Queendha <cite title="Source Title"> Cara Menanam Wortel Di Rumah 
+                    <h3> Budidaya Wortel </h3>
+                    Lahan untuk budidaya wortel harus dibajak atau dicangkul sedalam kurang lebih 40 cm. Kedalaman ini sangat penting mengingat tanaman wortel 
+                    akan dipanen umbinya. Tanah yang gembur memberikan keleluasaan pada umbi untuk tumbuh dengan sempurna. Budidaya wortel pada struktur tanah yang 
+                    keras akan menghambat pertumbuhan umbi. Bentuk umbi menjadi pendek-pendek dan tumbuh cabang pada badan umbi. Setelah tanah digemburkan buat 
+                    bedengan dengan lebar satu meter dan panjang disesuaikan dengan bentuk lahan. Ketinggian bedengan sekitar 20-30 cm. Saat membentuk bedengan, 
+                    campurkan pupuk kompos atau pupuk kandang sebagai pupuk dasar. Dosis pemberian pupuk sebanyak 15-20 ton per hektar. Jumlah tepatnya sesuaikan 
+                    dengan tingkat kesuburan tanah. Buat larikan pada permukaan bedengan untuk menaburkan benih. Jarak antar larikan 20 cm dengan kedalaman sekitar 5 cm.
+
+                    <footer class="blockquote-footer">SiPEKA <cite title="Source Title"> Cara Menanam Wortel Di Rumah 
                     Yang Baik Dan Benar. Sangat Mudah!</cite>
                     </footer>
                 </blockquote>
