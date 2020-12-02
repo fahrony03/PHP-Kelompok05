@@ -75,7 +75,7 @@
    color:#E5E5E5;
    text-transform:capitalize;
    font-size:14px;
-   left:557px;
+   left:300px;
    top:-88px;
      } 
 .alamat{
@@ -122,7 +122,7 @@
      font-size: 16px;
      color: #555;  
      }
- .password-1{
+ .password1{
             position:relative;
       color:#E5E5E5;
       text-transform:capitalize;
@@ -130,13 +130,13 @@
       left:54px;
       top:-4px;
      }
- .password-2{
+ .password2{
               position:relative;
       color:#E5E5E5;
       text-transform:capitalize;
       font-size:16px;
-      left:-100px;
-      top:-2px;
+      left:80px;
+      top:-4px;
      }
     button{
         background-color:#3BAF9F;

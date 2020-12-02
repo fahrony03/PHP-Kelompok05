@@ -22,13 +22,14 @@ function query($query)
 function registrasi($data)
 {
     global $conn;
-    $id_admin = ($data["id_admin"]);
-    $nama_admin = htmlspecialchars($data["nama_admin"]);
-    $username = strtolower(stripcslashes($data["username"]));
-    $password = mysqli_real_escape_string($conn, $data["password"]);
-    $password2 = mysqli_real_escape_string($conn, $data["password2"]);
+    $firtsname = ($data["first_name"]);
+    $lastname = ($data["last_name"]);
+    $alamat = ($data["alamat"]);
+    $notelp = htmlspecialchars($data["notelp"]);
     $email = htmlspecialchars($data["email"]);
-    $nohp = htmlspecialchars($data["nohp"]);
+    $password1 = mysqli_real_escape_string($conn, $data["password1"]);
+    $password2 = mysqli_real_escape_string($conn, $data["password2"]);
+   
     // cek username di database
     $result = mysqli_query($conn, "SELECT * FROM admin WHERE username = '$username'");
     if (mysqli_fetch_assoc($result)) {
