@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <title>Hello, world!</title>
 </head>
 
@@ -33,7 +33,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
+                <img src="../../img/logo.png" width="60" height="60" class="rounded-circle">
                 Si PEKA
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -115,7 +115,7 @@
                     Yuk, simak penjelasannya di bawah ini!
                     </p>
                     <p>
-                        <img src="../img/penanaman/wortel 2.jpg" class="img-fluid" alt="Responsive image">
+                        <img src="../../img/penanaman/bayam.jpg" class="img-fluid" alt="Responsive image">
                     </p>
                     <h3> Syarat Tumbuh Wortel</h3>
                     <p>
@@ -149,11 +149,13 @@
                     <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
             </div>
 
+
         <button type="submit" class="btn btn-success " name="submit">kirim</button>
+
         </div>
                     <?php
                     error_reporting(E_ALL ^ E_NOTICE);
-                        include "koneksi.php";
+                        include "../koneksi.php";
                         $komentar  = $_REQUEST['komentar'];
                         $mysqli  = "INSERT INTO `komentar` (`komentar`) VALUES ('$komentar')";
                         $result  = mysqli_query($koneksi, $mysqli);
