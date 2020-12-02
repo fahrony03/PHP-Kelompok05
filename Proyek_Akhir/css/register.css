@@ -4,7 +4,7 @@
   }
  body{
        
-    background-image: url('img/pertanian.jpg');
+    background-image: url('../img/pertanian.jpg');
     margin-top:40px;
     background-position:center;
    background-size:cover;
@@ -54,7 +54,7 @@
        }
 .lastname{
              position: relative;
-       left:417px;
+       left:550px;
        top:-80px;
        line-height: 40px;
        border-radius: 6px;
@@ -116,22 +116,11 @@
   left:200px;
      top:-37px;
      line-height: 40px;
-     width:95px;
+     width:70px;
         border-radius: 6px;
      padding: 0 22px;
      font-size: 16px;
      color: #555;  
-  }
- .password{
-         position:relative;
-  left:200px;
-     top:-37px;
-     line-height: 40px;
-     width:255px;
-        border-radius: 6px;
-     padding: 0 22px;
-     font-size: 16px;
-     color: #555; 
      }
  .password-1{
             position:relative;
