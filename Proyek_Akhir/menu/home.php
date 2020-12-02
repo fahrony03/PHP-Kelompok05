@@ -109,7 +109,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/tomat.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Tomat</h5>
+                            <h5 class="card-title">Cara Menanam Tomat Di kebun</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -121,7 +121,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/kaktus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Kaktus</h5>
+                            <h5 class="card-title">Budidaya tanaman Kaktus pada lahan Terbatas</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -133,7 +133,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/bayam.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Bayam</h5>
+                            <h5 class="card-title">Cara Menanam Bayam sampai sukses</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -145,7 +145,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/cabe.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Cabai Rawit</h5>
+                            <h5 class="card-title">Cara Menanam Cabai Rawit pada Media pot</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -157,7 +157,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/pepaya.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Pepaya</h5>
+                            <h5 class="card-title">Cara Menanam Pepaya dari biji sampai berbuah</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -169,7 +169,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/jeruk.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Jeruk</h5>
+                            <h5 class="card-title">Cara Menanam Jeruk pada lahan terbatas</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -181,7 +181,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/mangga.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Mangga</h5>
+                            <h5 class="card-title">Cara Menanam Mangga Harum Manis tanpa Gaga</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
