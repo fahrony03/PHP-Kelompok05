@@ -117,7 +117,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/info/detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/info/detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
 
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/info/detailinfo_empat.php" class="btn btn-outline-success">baca</a>
 
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/info/detailinfo_lima.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/info/detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/info/detailinfo_tujuh.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
-                            <a href="menu/login.php.php" class="btn btn-outline-success">Login</a>
+                            <a href="menu/info/detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -251,62 +251,9 @@
             </div>
         </div>
 
-        <div class="footer">
-            <div class="container">
-                <footer class="page-footer font-small blue pt-4">
-                    <div class="container-fluid text-center text-md-left">
-                        <div class="row">
-                            <div class="col-md-6 mt-md-0 mt-3">
-                                <!-- Content -->
-                                <h5 class="text-uppercase">Si PEKA</h5>
-                                <p>Website pemasaran hasil pertanian SMKPP Negeri 1 Tegalampel.</p>
-                            </div>
-                            <hr class="clearfix w-100 d-md-none pb-3">
-                            <div class="col-md-3 mb-md-0 mb-3">
-                                <!-- Links -->
-                                <h5 class="text-uppercase">Info</h5>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="#!">Link 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">Link 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">Link 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">Link 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3 mb-md-0 mb-3">
-                                <h5 class="text-uppercase">Contact</h5>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="#!">Link 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">Link 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">Link 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">Link 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <hr>
-            <div class="container">
-                <div class="bawah text-center py-3">© 2020 Copyright
-                </div>
-            </div>
-            </footer>
-        </div>
+        <?php
+        include_once('footer.php');
+        ?>
 
 
         <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
