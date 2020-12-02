@@ -65,9 +65,8 @@ if ($datakode) {
       <input class="email" type="email" name="email">
       <h2 class="name">Password</h2>
           <input class="password" type="password" id="password" name="password">
-                <label class="password-1">Password</label>
-          <input class="password2" type="password" id="password2" name="password2">
-                <label class="password-2">Ulangi Password</label>
+      <h2 class="name">Ulang Password</h2>
+          <input class="password" type="password" id="password2" name="passwor2">
       <button type="submit">Register</button>
     </form>
   </div>

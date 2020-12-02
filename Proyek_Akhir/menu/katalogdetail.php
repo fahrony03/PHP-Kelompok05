@@ -42,7 +42,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" " href="home.php">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -57,13 +57,13 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#;">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="katalogDetail.php">Penanaman</a>
+                            <a class="dropdown-item active" href="katalogPenanaman.php">Penanaman</a>
                             <a class="dropdown-item" href="#">Pengelolaan</a>
                             <a class="dropdown-item" href="#">Tutorial Bootstrap</a>
                         </div>
@@ -89,7 +89,7 @@
                 di bidang pertanian, dan tujuan dibuatnya website ini adalah untuk mengakomodasi kebutuhan siswa< serta
                     para guru untuk proses pemasaran bahan-bahan pangan hasil dari produksi siswa SMKPP Negeri 1
                     Tegalampel</p> </div> </div> <div class="judul-card">
-                    <h1 class="display-4">Informasi Produk</h1>
+                    <h1 class="display-4">Katalog Penanaman</h1>
                     <hr>
         </div>
         <div class="container">
@@ -101,7 +101,7 @@
                             <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
                             <p class="card-text">Sahabat 99, apakah kamu ingin menanam wortel di rumah? 
                                 Bila tertarik, yuk simak cara menanam wortel berikut ini!</p>
-                            <a href="../Penanaman/wortel.php" class="btn btn-outline-success">Baca</a>
+                            <a href="detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/tomat.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Tomat Di kebun</h5>
+                            <h5 class="card-title">Cara Menanam Tomat</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -121,7 +121,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/kaktus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Budidaya tanaman Kaktus pada lahan Terbatas</h5>
+                            <h5 class="card-title">Cara Menanam Kaktus</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -133,7 +133,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/bayam.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Bayam sampai sukses</h5>
+                            <h5 class="card-title">Cara Menanam Bayam</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -145,7 +145,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/cabe.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Cabai Rawit pada Media pot</h5>
+                            <h5 class="card-title">Cara Menanam Cabai Rawit</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -157,7 +157,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/pepaya.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Pepaya dari biji sampai berbuah</h5>
+                            <h5 class="card-title">Cara Menanam Pepaya</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -169,7 +169,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/jeruk.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Jeruk pada lahan terbatas</h5>
+                            <h5 class="card-title">Cara Menanam Jeruk</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -181,7 +181,7 @@
                     <div class="card h-100">
                         <img src="../img/penanaman/mangga.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Mangga Harum Manis tanpa Gaga</h5>
+                            <h5 class="card-title">Cara Menanam Mangga</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
