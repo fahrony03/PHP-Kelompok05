@@ -44,7 +44,6 @@ if ($datakode) {
   </head>
   <body>
 <div class="container">
-
   <div class="text-center">
     <h1 class="h4 text-gray-900 mb-4">FORM REGISTRASI</h1>
   </div>
