@@ -83,7 +83,7 @@ if (isset($_POST["login"])) {
                       <input type="password" class="form-control form-control-user" id="password" name="password" required placeholder="Masukkan password anda">
                     </div>
                     <div class="text-center">
-                      <input type="submit" name="login" class="btn btn-user btn-primary btn-block" value="login"></input>
+                      <input type="submit" name="login" class="btn btn-user btn-success btn-block" value="login"></input>
                     </div>
                     <div class="text-center">
                       <a href="register.php">Sign Up</a>

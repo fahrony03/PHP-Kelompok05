@@ -33,6 +33,7 @@
       <!-- Main Content -->
       <div id="content">
 
+
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
@@ -75,7 +76,7 @@
                 </form>
               </div>
             </li>
-
+           
             <!-- Nav Item - Alerts -->
             <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -83,6 +84,7 @@
                 <!-- Counter - Alerts -->
                 <span class="badge badge-danger badge-counter">3+</span>
               </a>
+              
               <!-- Dropdown - Alerts -->
               <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
                 <h6 class="dropdown-header">
@@ -215,7 +217,19 @@
 
         </nav>
         <!-- End of Topbar -->
-
+        <?php 
+                    if (isset($_GET['pesan'])) {
+                      # code...
+                      $pesan = $_GET['pesan'];
+                      if ($pesan == "berhasil") {
+                  ?>
+                  <div class="alert alert-success">
+                    <strong>Success!</strong> Anda berhasil login.
+                  </div>
+                    <?php
+                      }
+                    }
+                   ?>
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
@@ -553,7 +567,7 @@
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
+          <a class="btn btn-primary" href="select.php">Logout</a>
         </div>
       </div>
     </div>

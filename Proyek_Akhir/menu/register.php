@@ -17,7 +17,7 @@ $jumlah_data = mysqli_num_rows($carikode);
 // jika $datakode
 if ($datakode) {
   // membuat variabel baru untuk mengambil kode barang mulai dari 1
-  $nilaikode = substr($jumlah_data[0], 1);
+  $nilaikode = substr($jumlah_data [0], 1);
   // menjadikan $nilaikode ( int )
   $kode = (int) $nilaikode;
   // setiap $kode di tambah 1
@@ -40,14 +40,12 @@ if ($datakode) {
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"  href="../css/register.css">
   </head>
   <body>
 <div class="container">
-
   <div class="text-center">
-    <h1 class="h4 text-gray-900 mb-4">tambahkan akun!</h1>
+    <h1 class="h4 text-gray-900 mb-4">FORM REGISTRASI</h1>
   </div>
   <div class="row">
     <div class="col-lg-6 offset-3">
@@ -86,7 +84,7 @@ if ($datakode) {
           </div>
         </div>
         <div class="text-center">
-          <input class="btn btn-primary" name="register" type="submit" value="tambahkan!">
+          <input class="btn btn-primary" name="register" type="submit" value="REGISTRASI">
           </input>
         </div>
       </form>

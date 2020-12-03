@@ -43,7 +43,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" " href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link js-scroll-trigger" " href="home.php">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger"  href="#">Info</a>
@@ -63,7 +63,7 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Penanaman</a>
+                            <a class="dropdown-item" href="katalogDetail.php">Penanaman</a>
                             <a class="dropdown-item" href="#">Pengelolaan</a>
                             <a class="dropdown-item" href="#">Tutorial Bootstrap</a>
                         </div>
@@ -89,96 +89,103 @@
                 di bidang pertanian, dan tujuan dibuatnya website ini adalah untuk mengakomodasi kebutuhan siswa< serta
                     para guru untuk proses pemasaran bahan-bahan pangan hasil dari produksi siswa SMKPP Negeri 1
                     Tegalampel</p> </div> </div> <div class="judul-card">
-                    <h1 class="display-4">Informasi</h1>
+                    <h1 class="display-4">Informasi Produk</h1>
                     <hr>
         </div>
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3">
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="../img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="../img/penanaman/wortel.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
+                            <p class="card-text">Sahabat 99, apakah kamu ingin menanam wortel di rumah? 
+                                Bila tertarik, yuk simak cara menanam wortel berikut ini!</p>
+                            <a href="../Penanaman/wortel.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="../img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="../img/penanaman/tomat.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Tomat Di kebun</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
+                            <a href="detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="../img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="../img/penanaman/kaktus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Budidaya tanaman Kaktus pada lahan Terbatas</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
+                            <a href="detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="../img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="../img/penanaman/bayam.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Bayam sampai sukses</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
+                            <a href="detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="../img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="../img/penanaman/cabe.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Cabai Rawit pada Media pot</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
+                            <a href="detailinfo_empat.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="../img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="../img/penanaman/pepaya.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Pepaya dari biji sampai berbuah</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
+                            <a href="detailinfo_Lima.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="../img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="../img/penanaman/jeruk.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Jeruk pada lahan terbatas</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
+                            <a href="detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card h-100">
-                        <img src="../img/vertikultur.jpg" class="card-img-top" alt="...">
+                        <img src="../img/penanaman/mangga.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cara Menanam Mangga Harum Manis tanpa Gaga</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
+                            <a href="detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -236,11 +243,63 @@
                     distinctio soluta voluptatem eius quae accusantium dolorum illo impedit laborum eligendi maiores
                     odio vel est reprehenderit tempora ea nam unde!</p>
             </div>
+
             <div class="footer">
-                <footer class="foot">
-                    <div class="footer-copyright text-center py-3">© 2020 Copyright </div>
-                </footer>
+        <div class="container">
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <!-- Content -->
+                        <h5 class="text-uppercase">Si PEKA</h5>
+                        <p>Website pemasaran hasil pertanian SMKPP Negeri 1 Tegalampel.</p>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Info</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">Contact</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </div>
+            <hr>
+        <div class="container">
+            <div class="bawah text-center py-3">© 2020 Copyright
+            </div>
+        </div>
+        </footer>
+    </div>
 
             <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
                 <p class="my-float">Contact Via WA</p>
