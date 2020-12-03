@@ -224,7 +224,18 @@
             <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
           </div>
-
+          <?php
+          if(isset ($_GET ['pesan'])) {
+            $pesan = $_GET['pesan'];
+            if($pesan == "berhasil") {
+              ?>
+              <div class ="aler alert-succes">
+              <strong>Succes!</strong> Anda Berhasil Login.
+              </div>
+              <?php
+            }
+          }
+          ?>
           <!-- Content Row -->
           <div class="row">
 
@@ -553,7 +564,7 @@
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
+          <a class="btn btn-primary" href="login.php">Logout</a>
         </div>
       </div>
     </div>
