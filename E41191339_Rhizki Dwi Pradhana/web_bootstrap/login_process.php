@@ -1,11 +1,11 @@
 <?php 
 	session_start();
 	include 'koneksi.php';
-	$username = $_POST['username'];
+	$email = $_POST['email'];
 	$password = $_POST['password']; 
-	$querySql = mysqli_query($koneksi,"SELECT * FROM user WHERE username='$username'");
+	$querySql = mysqli_query($koneksi,"SELECT * FROM user WHERE email='$email'");
 	$data = mysqli_fetch_array($querySql);
-	if ($username == $data['username']) {
+	if ($email == $data['email']) {
 		if ($password == $data['password']) {
 			header("location:index.php?pesan=berhasil");
 		} else {

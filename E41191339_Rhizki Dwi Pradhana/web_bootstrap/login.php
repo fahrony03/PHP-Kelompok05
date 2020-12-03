@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,15 +38,34 @@
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Login Melalui Database</h1>
                   </div>
-
-                <form class="user" action="login_process.php" method="post">
+                  <?php 
+                    if (isset($_GET['pesan'])) {
+                      # code...
+                      $pesan = $_GET['pesan'];
+                      if ($pesan == "emailsalah") {
+                  ?>
+                  <div class="alert alert-danger">
+                    <strong>Danger!</strong> Anda gagal login,email tidak ditemukan.
+                  </div>
+                  <?php
+                      }else if ($pesan=="passwordsalah") {
+                        # code...
+                    ?>
+                  <div class="alert alert-danger">
+                    <strong>Danger!</strong> Anda gagal login,password salah.
+                  </div>
+                    <?php
+                      }
+                    }
+                   ?>
+                  <form class="user" method="post" action="login_process.php">
                     <div class="form-group">
-                      <input type="email" class="form-control form-control-user" id="username" name="username" aria-describedby="emailHelp" placeholder="Enter Email Address..." >
+                      <input type="email" class="form-control form-control-user" id="email" name="email" aria-describedby="emailHelp" placeholder="Masukkan Email" >
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control form-control-user" id="password" name="passwaord" placeholder="Password" >
+                      <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Masukkan Password" >
                     </div>
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small">
@@ -90,5 +110,7 @@
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
+
 </body>
+
 </html>
