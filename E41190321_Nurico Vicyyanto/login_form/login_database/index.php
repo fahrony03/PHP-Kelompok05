@@ -216,6 +216,20 @@
         </nav>
         <!-- End of Topbar -->
 
+        <?php
+                    if (isset($_GET['pesan'])) {
+                      # code...
+                      $pesan = $_GET['pesan'];
+                      if ($pesan == "berhasil") {
+                  ?>
+                  <div class="alert alert-success">
+                    <strong>Success</strong> Anda gagal berhasil login
+                  </div>
+                    <?php
+                      }
+                    }
+                  ?>
+
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
