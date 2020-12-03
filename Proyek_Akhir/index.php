@@ -41,16 +41,16 @@
                     <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" " href=" #">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Belanja</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Dokumentasi</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Informasi
@@ -249,11 +249,6 @@
                     odio vel est reprehenderit tempora ea nam unde!</p>
             </div>
         </div>
-
-        <?php
-        include_once('footer.php');
-        ?>
-
 
         <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
             <p class="my-float">Contact Via WA</p>
