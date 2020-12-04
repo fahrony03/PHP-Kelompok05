@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 01 Des 2020 pada 13.01
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.1
+-- Waktu pembuatan: 04 Des 2020 pada 13.54
+-- Versi server: 10.4.10-MariaDB
+-- Versi PHP: 7.3.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,29 +21,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `dbpeka`
 --
-
--- --------------------------------------------------------
-
---
--- Struktur dari tabel `admin`
---
-
-CREATE TABLE `admin` (
-  `id_admin` varchar(7) NOT NULL,
-  `nama_admin` varchar(30) NOT NULL,
-  `username` varchar(15) NOT NULL,
-  `password` varchar(60) NOT NULL,
-  `email` varchar(40) NOT NULL,
-  `nohp_admin` varchar(15) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data untuk tabel `admin`
---
-
-INSERT INTO `admin` (`id_admin`, `nama_admin`, `username`, `password`, `email`, `nohp_admin`) VALUES
-('ADM002', 'Moch. Fahrony', 'fahrony', '$2y$10$Ub5EFpk9.yuBSTj0xPL.mOJL1oS8qDV2eb11POr/vWNNtCyew4zbm', 'mochfahrony5@gmail.com', '082234396145'),
-('ADM008', 'admin', 'admin', '$2y$10$q0YPMqDT3ymj3sJIsj1WFuKbwLLNxQEDpMBP3iM6x5JBBM/gQosnW', 'admin@gmail.com', '087887879907');
 
 -- --------------------------------------------------------
 
@@ -90,15 +67,49 @@ CREATE TABLE `transaksi` (
   `transaksi` blob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `nama` varchar(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `no_hp` varchar(12) NOT NULL,
+  `level` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `user`
+--
+
+INSERT INTO `user` (`id`, `nama`, `username`, `password`, `email`, `no_hp`, `level`) VALUES
+(1, 'Moch. Fahrony', 'fahrony', '12345', 'mochfahrony5@gmail.com', '082244980435', 'admin'),
+(2, 'User', 'user', 'user', 'user@gmail.com', '085608457885', 'user');
+
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `admin`
+-- Indeks untuk tabel `user`
 --
-ALTER TABLE `admin`
-  ADD PRIMARY KEY (`id_admin`);
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT untuk tabel yang dibuang
+--
+
+--
+-- AUTO_INCREMENT untuk tabel `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
