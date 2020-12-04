@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>The King - Login</title>
+  <title>Si Peka - Login</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -44,12 +44,6 @@
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
                   </div>
-
-                  <!-- // if(isset($_GET['pesan'])){
-                  //   if($_GET['pesan']=="gagal"){
-                  //     echo "<div class='alert'>Username dan Password tidak sesuai !</div>";
-                  //   } -->
-
                   <?php 
                     if (isset($_GET['pesan'])) {
                       # code...
@@ -73,10 +67,13 @@
                     <div class="text-center">
                       <input type="submit" name="login" class="btn btn-user btn-success btn-block" value="login"></input>
                     </div>
-                    <a href="index.html" class="btn btn-google btn-user btn-block">
+                    <a href="../index.php" class="btn btn-google btn-danger btn-block">
+                      <i class="fab fa-google fa-fw"></i> Kembali
+                    </a>
+                    <a href="index.php" class="btn btn-google btn-user btn-block">
                       <i class="fab fa-google fa-fw"></i> Login with Google
                     </a>
-                    <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                    <a href="index.php" class="btn btn-facebook btn-user btn-block">
                       <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
                     </a>
                   </form>
