@@ -42,7 +42,7 @@
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Welcome</h1>
                   </div>
                   <?php 
                     if (isset($_GET['pesan'])) {
@@ -51,7 +51,7 @@
                       if ($pesan == "gagal") {
                   ?>
                   <div class="alert alert-danger">
-                    <strong>Danger!</strong> Anda gagal login,email tidak ditemukan.
+                    <strong>Danger!</strong> You failed to login, wrong email/password.
                   </div>
                     <?php
                       }
@@ -59,24 +59,24 @@
                    ?>
                   <form class="user" action="cek_login.php" method="post">
                     <div class="form-group">
-                      <input type="text" class="form-control form-control-user" id="username" name="username" placeholder="Masukkan username anda..." required="" autofocus>
+                      <input type="text" class="form-control form-control-user" id="username" name="username" placeholder="Username" required="" autofocus>
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control form-control-user" id="password" name="password" required placeholder="Masukkan password anda">
+                      <input type="password" class="form-control form-control-user" id="password" name="password" required placeholder="Password">
                     </div>
                     <div class="text-center">
-                      <input type="submit" name="login" class="btn btn-user btn-success btn-block" value="login"></input>
+                      <input type="submit" name="login" class="btn btn-user btn-success btn-block" value="Login"></input>
                     </div>
                     <a href="../index.php" class="btn btn-google btn-user btn-block">
-                      <i class="fab fa-google fa-fw"></i> Kembali
+                      <i class="fab fa-google fa-fw"></i> Back
                     </a>
                   </form>
                   <hr>
                   <div class="text-center">
-                    <a class="small" href="forgot-password.html">Lupa Password??</a>
+                    <a class="small" href="forgot-password.html">Forgot Password??</a>
                   </div>
                   <div class="text-center">
-                    <a class="small" href="register.php">Buat Akun Baru!</a>
+                    <a class="small" href="register.php">Create an Account!</a>
                   </div>
                   </form>
                 </div>
