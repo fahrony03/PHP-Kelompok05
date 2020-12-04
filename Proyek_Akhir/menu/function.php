@@ -1,8 +1,6 @@
 <?php
 //untuk koneksi
-$conn = mysqli_connect('localhost', 'root', '', 'dbpeka');
-
-
+$conn = mysqli_connect("localhost","root","","dbpeka");
 //membuat function agar jadi satu, supaya jadi efektif dan efisien
 function query($query)
 {
@@ -19,6 +17,7 @@ function query($query)
     return $rows;
 }
 
+
 function registrasi($data)
 {
     global $conn;
@@ -30,7 +29,7 @@ function registrasi($data)
     $email = htmlspecialchars($data["email"]);
     $nohp = htmlspecialchars($data["nohp"]);
     // cek username di database
-    $result = mysqli_query($conn, "SELECT * FROM admin WHERE username = '$username'");
+    $result = mysqli_query($conn, "SELECT * FROM user WHERE username = '$username'");
     if (mysqli_fetch_assoc($result)) {
         echo "
             <script>
@@ -47,10 +46,10 @@ function registrasi($data)
             ";
         return false;
     }
-    // enkripsi password
-    $password = password_hash($password, PASSWORD_DEFAULT);
+    // // enkripsi password
+    // $password = password_hash($password, PASSWORD_DEFAULT);
     // tambahkan user baru ke database
-    mysqli_query($conn, "INSERT INTO admin VALUES ('$id_admin', '$nama_admin', '$username', '$password', '$email', '$nohp')");
+    mysqli_query($conn, "INSERT INTO user VALUES ('$id_admin', '$nama_admin', '$username', '$password', '$email', '$nohp')");
     echo "
             <script>
                     alert('anda berhasil daftar!');

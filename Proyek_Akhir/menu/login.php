@@ -1,30 +1,3 @@
-<?php
-session_start();
-
-require_once "function.php";
-
-if (isset($_POST["login"])) {
-  $username = $_POST["username"];
-  $password = $_POST["password"];
-
-  $result = mysqli_query($conn, "SELECT * FROM admin WHERE username = '$username'");
-
-  if (mysqli_num_rows($result) === 1) {
-    $row = mysqli_fetch_assoc($result);
-    // cek password
-    if (password_verify($password, $row["password"])) {
-      $_SESSION["login"] = $username;
-      header("Location:home.php");
-      exit;
-    }
-  }
-  $error  = true;
-?>
-
-<?php
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,30 +25,45 @@ if (isset($_POST["login"])) {
 
 <body class=" bg-gradient-primary">
 
-  <div class="container" style="padding-top: 10%; padding-left: 1%; width: 50%;">
+  <div class="container" style="padding-top: 5%; padding-left: 1%; width: 70%;">
 
     <!-- Outer Row -->
-    <!-- <div class="row justify-content-center">
+    <div class="row justify-content-center">
 
-      <div class="col-lg-5"> -->
+      <div class="col-xl-10 col-lg-12 col-md-9">
 
-    <div class="row">
-      <div class="col-lg-10 offset-1">
-        <div class="card o-hidden border-0 shadow-lg bg-gradient-light">
+        <div class="card o-hidden border-0 shadow-lg my-5">
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
-            <div class="row justify-content-center">
-              <div class="col-lg">
+            <div class="row">
+              <div class="col-lg-6 d-none d-lg-block bg-login-image">
+                <img class="col-lg-12 d-none d-lg-block bg-login-image" style="padding-top: 10%;" src="../img/petanikotak.jpg" alt="">
+              </div>
+              <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang Bro</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
                   </div>
-                  <?php if (isset($error)) : ?>
-                    <p style="color : red; font-style:italic">
-                      username / password salah
-                    </p>
-                  <?php endif; ?>
-                  <form class="user" action="" method="post">
+
+                  <!-- // if(isset($_GET['pesan'])){
+                  //   if($_GET['pesan']=="gagal"){
+                  //     echo "<div class='alert'>Username dan Password tidak sesuai !</div>";
+                  //   } -->
+
+                  <?php 
+                    if (isset($_GET['pesan'])) {
+                      # code...
+                      $pesan = $_GET['pesan'];
+                      if ($pesan == "gagal") {
+                  ?>
+                  <div class="alert alert-danger">
+                    <strong>Danger!</strong> Anda gagal login,email tidak ditemukan.
+                  </div>
+                    <?php
+                      }
+                    }
+                   ?>
+                  <form class="user" action="cek_login.php" method="post">
                     <div class="form-group">
                       <input type="text" class="form-control form-control-user" id="username" name="username" placeholder="Masukkan username anda..." required="" autofocus>
                     </div>
@@ -85,9 +73,20 @@ if (isset($_POST["login"])) {
                     <div class="text-center">
                       <input type="submit" name="login" class="btn btn-user btn-success btn-block" value="login"></input>
                     </div>
-                    <div class="text-center">
-                      <a href="register.php">Sign Up</a>
-                    </div>
+                    <a href="index.html" class="btn btn-google btn-user btn-block">
+                      <i class="fab fa-google fa-fw"></i> Login with Google
+                    </a>
+                    <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                      <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
+                    </a>
+                  </form>
+                  <hr>
+                  <div class="text-center">
+                    <a class="small" href="forgot-password.html">Lupa Password??</a>
+                  </div>
+                  <div class="text-center">
+                    <a class="small" href="register.php">Buat Akun Baru!</a>
+                  </div>
                   </form>
                 </div>
               </div>
