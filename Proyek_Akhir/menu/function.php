@@ -17,7 +17,6 @@ function query($query)
     return $rows;
 }
 
-
 function registrasi($data)
 {
     global $conn;

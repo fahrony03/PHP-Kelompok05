@@ -64,16 +64,16 @@
                     <div class="form-group">
                       <input type="password" class="form-control form-control-user" id="password" name="password" required placeholder="Password">
                     </div>
-                    <div class="text-center">
+                    <div class="form-group btn-container">
                       <input type="submit" name="login" class="btn btn-user btn-success btn-block" value="Login"></input>
                     </div>
-                    <a href="../index.php" class="btn btn-google btn-user btn-block">
+                    <a href="../index.php" class="btn btn-google btn-danger btn-block">
                       <i class="fab fa-google fa-fw"></i> Back
                     </a>
                   </form>
                   <hr>
                   <div class="text-center">
-                    <a class="small" href="forgot-password.html">Forgot Password??</a>
+                    <a class="small" href="forgot-password.php">Forgot Password??</a>
                   </div>
                   <div class="text-center">
                     <a class="small" href="register.php">Create an Account!</a>

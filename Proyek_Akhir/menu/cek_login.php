@@ -42,7 +42,4 @@ if($cek > 0){
 }else{
 	header("location:login.php?pesan=gagal");
 }
-
-
-
 ?>
