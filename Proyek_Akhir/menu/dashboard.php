@@ -71,7 +71,7 @@
                 </ul>
                 </ul>
                 <span class="navbar-text">
-                    <a href="menu/login.php" class="btn btn-success">KELUAR</a>
+                    <a href="login.php" class="btn btn-success">KELUAR</a>
                 </span>
             </div>
         </div>
