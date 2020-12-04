@@ -248,6 +248,10 @@
             </div>
         </div>
 
+        <?php
+        include_once('footer.php');
+        ?>
+
         <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
             <p class="my-float">Contact Via WA</p>
         </a>

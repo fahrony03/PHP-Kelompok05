@@ -1,4 +1,4 @@
-<?php 
+<?php
 // mengaktifkan session pada php
 session_start();
 
@@ -41,5 +41,15 @@ if($cek > 0){
 	
 }else{
 	header("location:login.php?pesan=gagal");
+}
+
+if ($username == $data['username']) {
+	if ($password == $data['password']) {
+		header("location:home.php?pesan=berhasil");
+	} else {
+		header("location:login.php?pesan=passwordsalah");
+	}
+}else{
+	header("location:login.php?pesan=emailsalah");
 }
 ?>

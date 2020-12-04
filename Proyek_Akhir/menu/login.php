@@ -44,7 +44,7 @@
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Welcome</h1>
                   </div>
-                  <?php 
+                  <?php
                     if (isset($_GET['pesan'])) {
                       # code...
                       $pesan = $_GET['pesan'];
@@ -56,7 +56,7 @@
                     <?php
                       }
                     }
-                   ?>
+                  ?>
                   <form class="user" action="cek_login.php" method="post">
                     <div class="form-group">
                       <input type="text" class="form-control form-control-user" id="username" name="username" placeholder="Username" required="" autofocus>
@@ -87,7 +87,7 @@
       </div>
     </div>
   </div>
-  
+
 </body><br><br><br><br><br><br><br><br>
 
 <!-- Bootstrap core JavaScript-->

@@ -26,8 +26,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
+    </script>
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
@@ -70,14 +70,28 @@
             </div>
         </div>
     </nav>
-    <br><br>
+    <br><br><br>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
+            <p>    <?php
+                    if (isset($_GET['pesan'])) {
+                        # code...
+                        $pesan = $_GET['pesan'];
+                        if ($pesan == "berhasil") {
+                    ?>
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Success</strong> Anda gagal berhasil login
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <?php
+                        }
+                        }
+                    ?></p>
             <h1 class="display-4">Website Pertanian</h1>
             <h1 class="display-4">Si-PEKA</h1>
-            <h1><b>TOLONG JANGAN UBAH, TAMBAH, COPY, GANTI NAMA ATAU APAPUN DI FILE YG GAK DIBUAT SENDIRI </b></h1>
-            <h1><b>Terimakasih</b></h1>
             <hr>
             <p class="lead">Si PEKA adalah sebuah website pertanian yang dikelola oleh SMKPP Negeri 1 Tegalampel
                 Bondowoso,
