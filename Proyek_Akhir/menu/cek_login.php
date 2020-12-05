@@ -35,21 +35,11 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level'] = "user";
 		// alihkan ke halaman dashboard pegawai
-		header("location:home.php");
+		header("location:home.php?pesan=berhasil");
 	}
 
 	
 }else{
 	header("location:login.php?pesan=gagal");
-}
-
-if ($username == $data['username']) {
-	if ($password == $data['password']) {
-		header("location:home.php?pesan=berhasil");
-	} else {
-		header("location:login.php?pesan=passwordsalah");
-	}
-}else{
-	header("location:login.php?pesan=emailsalah");
 }
 ?>

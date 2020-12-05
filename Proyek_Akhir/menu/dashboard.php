@@ -107,22 +107,24 @@
                         <th scope="col">Password</th>
                         <th scope="col">Email</th>
                         <th scope="col">No Telepon</th>
+                        <th scope="col">Level</th>
                 </thead>
                 </tr>
                 <?php
                             include "koneksi.php";
-                            $query_mysql = mysqli_query($koneksi,"select * from admin");
+                            $query_mysql = mysqli_query($koneksi,"select * from user");
                             $nomor = 1;
                             while ($data = mysqli_fetch_array($query_mysql)) {
                             ?>
                 <tr>
                     <td><?php echo $nomor++; ?></td>
-                    <td><?php echo $data['id_admin']; ?></td>
-                    <td><?php echo $data['nama_admin']; ?></td>
+                    <td><?php echo $data['id']; ?></td>
+                    <td><?php echo $data['nama']; ?></td>
                     <td><?php echo $data['username']; ?></td>
                     <td><?php echo $data['password']; ?></td>
                     <td><?php echo $data['email']; ?></td>
-                    <td><?php echo $data['nohp_admin']; ?></td>
+                    <td><?php echo $data['no_hp']; ?></td>
+                    <td><?php echo $data['level']; ?></td>
                     <td>
                         <a href="edit.php?id=<?php echo $data['id']; ?>" class="edit">Edit</a>
                         <a href="hapus.php?id=<?php echo $data['id']; ?>" class="hapus">Hapus</a>
