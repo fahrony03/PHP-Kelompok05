@@ -81,7 +81,7 @@
                         if ($pesan == "berhasil") {
                     ?>
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <strong>Success</strong> Anda gagal berhasil login
+                    <strong>Success</strong> Anda berhasil login
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
