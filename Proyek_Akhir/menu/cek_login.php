@@ -38,7 +38,7 @@ if($cek > 0){
 		header("location:home.php?pesan=berhasil");
 	}
 
-	
+
 }else{
 	header("location:login.php?pesan=gagal");
 }
