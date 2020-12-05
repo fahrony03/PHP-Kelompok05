@@ -112,7 +112,7 @@
                             <b>Rp 10.000</b>
                         </p>
 
-                        <a href="info/detailinfo_satu.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
