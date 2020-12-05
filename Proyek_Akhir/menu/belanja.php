@@ -75,13 +75,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../img/vertikultur.jpg" alt="First slide">
+                <img class="d-block w-100" src="../img/petani.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../img/vertikultur.jpg" alt="Second slide">
+                <img class="d-block w-100" src="../img/petani.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../img/vertikultur.jpg" alt="Third slide">
+                <img class="d-block w-100" src="../img/petani.jpg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -95,17 +95,10 @@
     </div>
 
     <br>
-<div class="container">
-    <div class="card ">
-        <div class="card-header">
-          Quote
+    <div class="judul-card">
+                    <h1 class="display-4">Daftar Produk Pertanian</h1>
+                    <hr>
         </div>
-        <div class="card-body">
-            <img src="../img/bayam.png" width="30" height="30" alt="" loading="lazy">
-        </div>
-      </div>
-    </div>
-    <br>
 
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
@@ -113,11 +106,12 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/wortel.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
+                        <h5 class="card-title">Wortel Organik segar 1 kilogram</h5>
+                        <span class="badge badge-success">discount 50%</span>
                         <p class="card-text text-justify">
-                            Penanaman Wortel tidak mudah, namun juga tidak begitu sulit akan tetapi beberapa orang
-                            gagal dalam menanamnya, berikut adalah tips penanaman wortel
+                            <b>Rp 10.000</b>
                         </p>
+
                         <a href="info/detailinfo_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
@@ -126,8 +120,11 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/tomat.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara mudah menanam Tomat di Kebun</h5>
-                        <p class="card-text text-justify">barang ini adalah bagus</p>
+                        <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <span class="badge badge-success">discount 50%</span>
+                        <p class="card-text text-justify">
+                            <b>Rp 10.000</b>
+                        </p>
                         <a href="info/detailinfo_dua.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
@@ -186,7 +183,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="#" class="card-img-top" alt="...">
+                    <img src="../img/penanaman/jeruk.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Cara Menanam Mangga Harum Manis tanpa Gagal</h5>
                         <p class="card-text text-justify">barang ini adalah bagus</p>
@@ -195,13 +192,13 @@
                 </div>
             </div>
         </div>
+</div>
 
         <br>
 
         <?php
         include_once('footer.php');
         ?>
-
 
         <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
             <p class="my-float">Contact Via WA</p>
