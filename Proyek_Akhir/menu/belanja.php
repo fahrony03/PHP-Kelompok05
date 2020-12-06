@@ -125,7 +125,7 @@
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
                         </p>
-                        <a href="info/detailinfo_dua.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Budidaya tanaman Kaktus pada lahan Terbatas</h5>
                         <p class="card-text text-justify">barang ini adalah bagus</p>
-                        <a href="info/detailinfo_tiga.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
 
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Cara Menanam Bayam sampai sukses</h5>
                         <p class="card-text text-justify">barang ini adalah bagus</p>
-                        <a href="info/detailinfo_empat.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
 
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Cara Menanam Cabai Rawit pada Media pot</h5>
                         <p class="card-text text-justify">barang ini adalah bagus</p>
-                        <a href="info/detailinfo_lima.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Cara Menanam Pepaya dari biji sampai berbuah</h5>
                         <p class="card-text text-justify">barang ini adalah bagus</p>
-                        <a href="info/detailinfo_enam.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Cara Menanam Jeruk pada lahan terbatas</h5>
                         <p class="card-text text-justify">barang ini adalah bagus</p>
-                        <a href="info/detailinfo_tujuh.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Cara Menanam Mangga Harum Manis tanpa Gagal</h5>
                         <p class="card-text text-justify">barang ini adalah bagus</p>
-                        <a href="info/detailinfo_delapan.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>

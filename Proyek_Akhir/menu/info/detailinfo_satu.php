@@ -118,7 +118,7 @@
                     <h3> Jenis Wortel</h3>
                     <p>Jenis Imperator yaitu jenis wortel yang memiliki bentuk bulat memanjang dengan ujung meruncing seperti kerucut. Wortel ini 
                     sedikit tipis, serta memiliki umbi berwarna oranye. Wortel jenis ini kurang disukai oleh orang karena rasa yang dimiliki 
-                    wortel jenis ini kurang manis.</p> 
+                    wortel jenis ini kurang manis.</p>
                     <p>Jenis Chantenay. Jenis wortel ini memiliki bentuk tebal meruncing dengan ujung yang tumpul. Jenis wortel Chantenay memiliki 
                     panjang sekitar 12 cm serta banyak disukai orang karena memiliki rasa yang manis. Dibandingkan jenis wortel lainnya wortel 
                     jenis ini memiliki tekstur lebih kasar. Biasanya, wortel jenis ini sering dimasak dengan di potong berbentuk dadu.</p> 
@@ -161,7 +161,7 @@
                     <?php
                     error_reporting(E_ALL ^ E_NOTICE);
                         include "../koneksi.php";
-                        $komentar  = $_REQUEST['komentar'];
+                        $komentar  = $_GET['komentar'];
                         $mysqli  = "INSERT INTO `komentar` (`komentar`) VALUES ('$komentar')";
                         $result  = mysqli_query($koneksi, $mysqli);
                     ?>
