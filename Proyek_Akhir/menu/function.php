@@ -1,6 +1,8 @@
 <?php
 //untuk koneksi
-$conn = mysqli_connect("localhost","root","","dbpeka");
+$conn = mysqli_connect('localhost', 'root', '', 'dbpeka');
+
+
 //membuat function agar jadi satu, supaya jadi efektif dan efisien
 function query($query)
 {
@@ -20,13 +22,14 @@ function query($query)
 function registrasi($data)
 {
     global $conn;
-    $id_admin = ($data["id_admin"]);
-    $nama_admin = htmlspecialchars($data["nama_admin"]);
+    $kode_user = ($data["kode_user"]);
+    $nama_user = htmlspecialchars($data["nama_user"]);
     $username = strtolower(stripcslashes($data["username"]));
     $password = mysqli_real_escape_string($conn, $data["password"]);
     $password2 = mysqli_real_escape_string($conn, $data["password2"]);
     $email = htmlspecialchars($data["email"]);
-    $nohp = htmlspecialchars($data["nohp"]);
+    $no_hp = htmlspecialchars($data["no_hp"]);
+    $level = htmlspecialchars($data["level"]);
     // cek username di database
     $result = mysqli_query($conn, "SELECT * FROM user WHERE username = '$username'");
     if (mysqli_fetch_assoc($result)) {
@@ -45,13 +48,14 @@ function registrasi($data)
             ";
         return false;
     }
-    // // enkripsi password
+    // enkripsi password
     // $password = password_hash($password, PASSWORD_DEFAULT);
     // tambahkan user baru ke database
-    mysqli_query($conn, "INSERT INTO user VALUES ('$id_admin', '$nama_admin', '$username', '$password', '$email', '$nohp')");
+    mysqli_query($conn, "INSERT INTO user VALUES ('$kode_user', '$nama_user', '$username', '$password', '$email', '$no_hp','$level')");
     echo "
             <script>
                     alert('anda berhasil daftar!');
+                    
             </script>
 
             ";

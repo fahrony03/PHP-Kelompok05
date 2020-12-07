@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
 <?php
 require 'function.php';
 
@@ -10,14 +18,14 @@ if (isset($_POST["register"])) {
   }
 }
 
-$carikode = mysqli_query($conn, "SELECT id FROM user ") or die(mysqli_error($id_admin));
+$carikode = mysqli_query($conn, "SELECT kode_user FROM user ") or die(mysqli_error($id_admin));
 // menjadikannya array
 $datakode = mysqli_fetch_array($carikode);
 $jumlah_data = mysqli_num_rows($carikode);
 // jika $datakode
 if ($datakode) {
   // membuat variabel baru untuk mengambil kode barang mulai dari 1
-  $nilaikode = substr($jumlah_data [0], 1);
+  $nilaikode = substr($jumlah_data[0], 1);
   // menjadikan $nilaikode ( int )
   $kode = (int) $nilaikode;
   // setiap $kode di tambah 1
@@ -25,39 +33,30 @@ if ($datakode) {
   // hasil untuk menambahkan kode
   // angka 3 untuk menambahkan tiga angka setelah B dan angka 0 angka yang berada di tengah
   // atau angka sebelum $kode
-  $kode_otomatis = "ADM" . str_pad($kode, 3, "0", STR_PAD_LEFT);
+  $kode_otomatis = "USR" . str_pad($kode, 3, "0", STR_PAD_LEFT);
 } else {
-  $kode_otomatis = "ADM001";
+  $kode_otomatis = "USR001";
 }
 
-?>
-<html>
-  <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet"  href="../css/register.css">
-  </head>
-  <body>
+?>
+
 <div class="container">
+
   <div class="text-center">
-    <h1 class="h4 text-gray-900 mb-4">FORM REGISTRASI</h1>
+    <h1 class="h4 text-gray-900 mb-4">tambahkan akun!</h1>
   </div>
   <div class="row">
     <div class="col-lg-6 offset-3">
       <form class="user" method="post" action="">
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="hidden" class="form-control form-control-static" id="id_admin" name="id_admin" value="<?= $kode_otomatis; ?>" readonly>
+            <input type="hidden" class="form-control form-control-static" id="kode_user" name="kode_user" value="<?= $kode_otomatis; ?>" readonly>
           </div>
         </div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="nama_admin" name="nama_admin" placeholder="masukkan nama admin....">
+            <input type="text" class="form-control form-control-static" id="nama_user" name="nama_user" placeholder="masukkan nama user....">
           </div>
         </div>
         <div class="form-group row">
@@ -80,17 +79,24 @@ if ($datakode) {
         </div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="nohp" name="nohp" placeholder="masukkan no hp...">
+            <input type="text" class="form-control form-control-static" id="no_hp" name="no_hp" placeholder="masukkan no hp...">
           </div>
         </div>
+        <div class="col mb-3 mb-sm-0">
+            <input type="text" class="form-control form-control-static" id="level" name="level" value="user" disabled>
+          </div><br>
         <div class="text-center">
-          <input class="btn btn-primary" name="register" type="submit" value="REGISTRASI">
+          <input class="btn btn-primary" name="register" type="submit" value="tambahkan!">
           </input>
         </div>
       </form>
     </div>
   </div>
 </div>
+<br>
+<?php
+include '../footer.php';
+?>
 
 </body>
 </html>
