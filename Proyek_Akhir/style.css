@@ -7,9 +7,9 @@ body{
 }
 
 .jumbotron{
-    background-image: url('img/petani.jpg');
+    background-image: url('img/depan.jpeg');
+    color: white;
 }
-
 
 .carousel {
     padding-left: 20px;

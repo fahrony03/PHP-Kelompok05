@@ -74,13 +74,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../img/petani.jpg" alt="First slide">
+                <img class="d-block w-100" src="../img/cov1.jpeg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../img/petani.jpg" alt="Second slide">
+                <img class="d-block w-100" src="../img/cov2.jpeg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../img/petani.jpg" alt="Third slide">
+                <img class="d-block w-100" src="../img/cov3.jpeg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
