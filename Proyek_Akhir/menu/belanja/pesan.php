@@ -108,7 +108,7 @@
 
                         <br><br>
                         <button type="submit" class="btn btn-success btn-lg btn-block" name="submit">Konfirmasi</button>
-                        <hr>
+                        <br>
                 </div>
                 <?php
                         error_reporting(E_ALL ^ E_NOTICE);
@@ -124,10 +124,8 @@
                         ?>
                 </form>
                 <div class="text-center">
-                    <a class="small" href="#">Input Data</a>
+                    <a class="small" href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb">Pesan Via Whatsapp</a>
                 </div>
-                <div class="text-center">
-                    <a class="small" href="#">Untuk Mahasiswa</a>
                 </div>
             </div>
         </div>
