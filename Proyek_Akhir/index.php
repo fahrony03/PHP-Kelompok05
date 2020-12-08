@@ -41,16 +41,16 @@
                     <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" " href=" #">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Belanja</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Dokumentasi</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link js-scroll-trigger" href="javascript:peringatan();">Contact</a>
                     </li>
-                    <li class="nav-item active dropdown">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Informasi
@@ -207,21 +207,21 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/vertikultur.jpg" class="d-block w-100" alt="...">
+                        <img src="img/sawi.jpeg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/vertikultur.jpg" class="d-block w-100" alt="...">
+                        <img src="img/sawi.jpeg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/vertikultur.jpg" class="d-block w-100" alt="...">
+                        <img src="img/sawi.jpeg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
