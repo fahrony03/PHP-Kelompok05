@@ -27,7 +27,7 @@
     </script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
-    <div class="container">
+        <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
                 Si PEKA
@@ -39,7 +39,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger"  href="home.php">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link js-scroll-trigger" href="home.php">Home<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" href="belanja.php">Belanja</a>
@@ -95,9 +96,9 @@
 
     <br>
     <div class="judul-card">
-                    <h1 class="display-4">Daftar Produk Pertanian</h1>
-                    <hr>
-        </div>
+        <h1 class="display-4">Daftar Produk Pertanian</h1>
+        <hr>
+    </div>
 
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
@@ -132,7 +133,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/kaktus.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
                         <span class="badge badge-success">discount 50%</span>
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
@@ -146,7 +147,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/bayam.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
                         <span class="badge badge-success">discount 50%</span>
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
@@ -160,7 +161,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/cabe.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
                         <span class="badge badge-success">discount 50%</span>
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
@@ -173,7 +174,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/pepaya.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
                         <span class="badge badge-success">discount 50%</span>
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
@@ -186,7 +187,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/jeruk.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
                         <span class="badge badge-success">discount 50%</span>
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
@@ -199,7 +200,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/jeruk.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
                         <span class="badge badge-success">discount 50%</span>
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
@@ -209,17 +210,17 @@
                 </div>
             </div>
         </div>
-</div>
+    </div>
 
-        <br>
+    <br>
 
-        <?php
+    <?php
         include_once('footer.php');
         ?>
 
-        <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
-            <p class="my-float">Contact Via WA</p>
-        </a>
+    <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
+        <p class="my-float">Contact Via WA</p>
+    </a>
 
 
 
