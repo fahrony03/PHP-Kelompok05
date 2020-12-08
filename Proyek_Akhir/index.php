@@ -97,7 +97,7 @@
                     <div class="card h-100">
                         <img src="img/penanaman/wortel.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
+                            <h5 class="card-title">Manfaat wortel bagi kesehatan mata </h5>
                             <p class="card-text text-justify">
                                 Penanaman Wortel tidak mudah, namun juga tidak begitu sulit akan tetapi beberapa orang
                                 gagal dalam menanamnya, berikut adalah tips penanaman wortel
@@ -110,7 +110,7 @@
                     <div class="card h-100">
                         <img src="img/penanaman/tomat.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cara mudah menanam Tomat di Kebun</h5>
+                            <h5 class="card-title">Manfaat tomat untuk tubuh</h5>
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
