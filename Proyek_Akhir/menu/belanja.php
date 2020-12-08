@@ -124,7 +124,7 @@
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
                         </p>
-                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_dua.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
                         </p>
-                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_tiga.php" class="btn btn-outline-success">Beli</a>
 
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
                         </p>
-                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_empat.php" class="btn btn-outline-success">Beli</a>
 
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
                         </p>
-                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_lima.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
                         </p>
-                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_enam.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
                         </p>
-                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_tujuh.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
@@ -204,7 +204,7 @@
                         <p class="card-text text-justify">
                             <b>Rp 10.000</b>
                         </p>
-                        <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
+                        <a href="belanja/detailbelanja_delapan.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>
