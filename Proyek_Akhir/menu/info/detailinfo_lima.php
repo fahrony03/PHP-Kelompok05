@@ -31,6 +31,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
+    </script>
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="../../img/logo.png" width="60" height="60" class="rounded-circle">
@@ -43,35 +44,32 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" " href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link js-scroll-trigger"  href="../home.php">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger"  href="#">Info</a>
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="../belanja.php">Belanja</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">Dokumentasi</a>
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="../dokumentasi.php">Dokumentasi</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">Produk</a>
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="../contact.php">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#;">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Penanaman</a>
-                            <a class="dropdown-item" href="#">Pengelolaan</a>
-                            <a class="dropdown-item" href="#">Tutorial Bootstrap</a>
+                            <a class="dropdown-item" href="../penanaman.php">Penanaman</a>
+                            <a class="dropdown-item" href="../pengelolaan.php">Pengelolaan</a>
+                            <a class="dropdown-item" href="../pemasaran.php">Pemasaran</a>
                         </div>
                     </li>
                 </ul>
                 </ul>
                 <span class="navbar-text">
-                    <a href="logout.php" class="btn btn-success" >Login</a>
+                    <a href="../../menu/login.php" class="btn btn-success">Logout</a>
                 </span>
             </div>
         </div>

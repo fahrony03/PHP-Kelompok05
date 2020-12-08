@@ -27,7 +27,7 @@
     </script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
-        <div class="container">
+    <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
                 Si PEKA
@@ -39,17 +39,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="home.php">Home<span
-                                class="sr-only">(current)</span></a>
+                        <a class="nav-link js-scroll-trigger"  href="home.php">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" href="belanja.php">Belanja</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="#">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="dokumentasi.php">Dokumentasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -57,9 +56,9 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Penanaman</a>
-                            <a class="dropdown-item" href="#">Pengelolaan</a>
-                            <a class="dropdown-item" href="#">Pemasaran</a>
+                            <a class="dropdown-item" href="penanaman.php">Penanaman</a>
+                            <a class="dropdown-item" href="pengelolaan.php">Pengelolaan</a>
+                            <a class="dropdown-item" href="pemasaran.php">Pemasaran</a>
                         </div>
                     </li>
                 </ul>
@@ -133,8 +132,11 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/kaktus.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Budidaya tanaman Kaktus pada lahan Terbatas</h5>
-                        <p class="card-text text-justify">barang ini adalah bagus</p>
+                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <span class="badge badge-success">discount 50%</span>
+                        <p class="card-text text-justify">
+                            <b>Rp 10.000</b>
+                        </p>
                         <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
 
                     </div>
@@ -144,8 +146,11 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/bayam.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Bayam sampai sukses</h5>
-                        <p class="card-text text-justify">barang ini adalah bagus</p>
+                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <span class="badge badge-success">discount 50%</span>
+                        <p class="card-text text-justify">
+                            <b>Rp 10.000</b>
+                        </p>
                         <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
 
                     </div>
@@ -155,8 +160,11 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/cabe.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Cabai Rawit pada Media pot</h5>
-                        <p class="card-text text-justify">barang ini adalah bagus</p>
+                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <span class="badge badge-success">discount 50%</span>
+                        <p class="card-text text-justify">
+                            <b>Rp 10.000</b>
+                        </p>
                         <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
@@ -165,8 +173,11 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/pepaya.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Pepaya dari biji sampai berbuah</h5>
-                        <p class="card-text text-justify">barang ini adalah bagus</p>
+                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <span class="badge badge-success">discount 50%</span>
+                        <p class="card-text text-justify">
+                            <b>Rp 10.000</b>
+                        </p>
                         <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
@@ -175,8 +186,11 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/jeruk.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Jeruk pada lahan terbatas</h5>
-                        <p class="card-text text-justify">barang ini adalah bagus</p>
+                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <span class="badge badge-success">discount 50%</span>
+                        <p class="card-text text-justify">
+                            <b>Rp 10.000</b>
+                        </p>
                         <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
@@ -185,8 +199,11 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/jeruk.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Mangga Harum Manis tanpa Gagal</h5>
-                        <p class="card-text text-justify">barang ini adalah bagus</p>
+                    <h5 class="card-title">Tomat Merah Organik 1 Kilogram</h5>
+                        <span class="badge badge-success">discount 50%</span>
+                        <p class="card-text text-justify">
+                            <b>Rp 10.000</b>
+                        </p>
                         <a href="belanja/detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>

@@ -46,10 +46,10 @@
                         <a class="nav-link js-scroll-trigger" href="belanja.php">Belanja</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="#">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="dokumentasi.php">Dokumentasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -57,9 +57,9 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Penanaman</a>
-                            <a class="dropdown-item" href="#">Pengelolaan</a>
-                            <a class="dropdown-item" href="#">Pemasaran</a>
+                            <a class="dropdown-item" href="penanaman.php">Penanaman</a>
+                            <a class="dropdown-item" href="pengelolaan.php">Pengelolaan</a>
+                            <a class="dropdown-item" href="pemasaran.php">Pemasaran</a>
                         </div>
                     </li>
                 </ul>
