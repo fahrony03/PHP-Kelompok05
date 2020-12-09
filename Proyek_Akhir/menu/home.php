@@ -69,7 +69,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/wortel.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Wortel Di Rumah Yang Baik Dan Benar</h5>
+                        <h5 class="card-title">Manfaat wortel bagi kesehatan mata</h5>
                         <p class="card-text text-justify">
                             Penanaman Wortel tidak mudah, namun juga tidak begitu sulit akan tetapi beberapa orang
                             gagal dalam menanamnya, berikut adalah tips penanaman wortel
@@ -82,7 +82,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/tomat.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara mudah menanam Tomat di Kebun</h5>
+                        <h5 class="card-title">Manfaat tomat untuk kulit mempercantik wajah</h5>
                         <p class="card-text text-justify">This is a longer card with supporting text below as a natural
                             lead-in
                             to
@@ -95,7 +95,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/kaktus.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Budidaya tanaman Kaktus pada lahan Terbatas</h5>
+                        <h5 class="card-title">Mempercantik halaman rumah dengan tumbuhan kaktus</h5>
                         <p class="card-text text-justify">This is a longer card with supporting text below as a natural
                             lead-in
                             to
@@ -109,7 +109,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/bayam.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Bayam sampai sukses</h5>
+                        <h5 class="card-title">manfaat tumbuhan bayam bagi manusia</h5>
                         <p class="card-text text-justify">This is a longer card with supporting text below as a natural
                             lead-in
                             to
@@ -123,7 +123,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/cabe.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Cabai Rawit pada Media pot</h5>
+                        <h5 class="card-title">Dampak buruk terlalu banyak makan cab</h5>
                         <p class="card-text text-justify">This is a longer card with supporting text below as a natural
                             lead-in
                             to
@@ -136,7 +136,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/pepaya.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Pepaya dari biji sampai berbuah</h5>
+                        <h5 class="card-title">Manfaat buah pepaya untuk ibu hamilh</h5>
                         <p class="card-text text-justify">This is a longer card with supporting text below as a natural
                             lead-in
                             to
@@ -149,7 +149,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/jeruk.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Jeruk pada lahan terbatas</h5>
+                        <h5 class="card-title">Manfaat Vitamin C pada buah jeruk</h5>
                         <p class="card-text text-justify">This is a longer card with supporting text below as a natural
                             lead-in
                             to
@@ -162,7 +162,7 @@
                 <div class="card h-100">
                     <img src="../img/penanaman/mangga.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cara Menanam Mangga Harum Manis tanpa Gagal</h5>
+                        <h5 class="card-title">Jenis-jenis buah mangga di sekitar kita</h5>
                         <p class="card-text text-justify">This is a longer card with supporting text below as a natural
                             lead-in
                             to
@@ -234,8 +234,10 @@
         ?>
 
 
-    <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float">
-        <p class="my-float">Contact Via WA</p>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="#"
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
     </a>
 
 
