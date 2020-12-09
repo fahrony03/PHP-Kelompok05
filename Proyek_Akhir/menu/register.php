@@ -18,7 +18,7 @@ if (isset($_POST["register"])) {
   }
 }
 
-$carikode = mysqli_query($conn, "SELECT kode_user FROM user ") or die(mysqli_error($id_admin));
+$carikode = mysqli_query($conn, "SELECT kode_user FROM user") or die(mysqli_error($id_admin));
 // menjadikannya array
 $datakode = mysqli_fetch_array($carikode);
 $jumlah_data = mysqli_num_rows($carikode);
