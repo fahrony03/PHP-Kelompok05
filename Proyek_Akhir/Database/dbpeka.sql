@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 09 Des 2020 pada 09.00
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.1
+-- Waktu pembuatan: 09 Des 2020 pada 17.27
+-- Versi server: 10.4.10-MariaDB
+-- Versi PHP: 7.3.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -87,7 +87,7 @@ CREATE TABLE `transaksi` (
 --
 
 CREATE TABLE `user` (
-  `id` int(11) NOT NULL,
+  `kode_user` varchar(50) NOT NULL,
   `nama` varchar(255) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
@@ -100,9 +100,9 @@ CREATE TABLE `user` (
 -- Dumping data untuk tabel `user`
 --
 
-INSERT INTO `user` (`id`, `nama`, `username`, `password`, `email`, `no_hp`, `level`) VALUES
-(1, 'admin', 'admin', 'admin', 'admin@gmail.com', '082244980435', 'admin'),
-(2, 'User', 'user', 'user', 'user@gmail.com', '085608457885', 'user');
+INSERT INTO `user` (`kode_user`, `nama`, `username`, `password`, `email`, `no_hp`, `level`) VALUES
+('USR002', 'User', 'user', 'user', 'user@gmail.com', '8888888888', 'user'),
+('USR003', 'Admin', 'admin', 'admin', 'admin@gmail.com', '08555555', 'admin');
 
 --
 -- Indexes for dumped tables
@@ -118,17 +118,7 @@ ALTER TABLE `pesanan`
 -- Indeks untuk tabel `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT untuk tabel yang dibuang
---
-
---
--- AUTO_INCREMENT untuk tabel `user`
---
-ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  ADD PRIMARY KEY (`kode_user`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

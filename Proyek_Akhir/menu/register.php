@@ -83,7 +83,7 @@ if ($datakode) {
           </div>
         </div>
         <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="level" name="level" value="user" disabled>
+            <input type="text" class="form-control form-control-static" id="level" name="level" value="user">
           </div><br>
         <div class="text-center">
           <input class="btn btn-primary" name="register" type="submit" value="tambahkan!">
