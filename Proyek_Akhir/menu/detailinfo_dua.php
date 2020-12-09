@@ -33,7 +33,7 @@
     <?php
     include_once('navbar.php')
 ?>
-
+<br>
     <div class="container">
         <div class="card">
             <div class="card-body">
