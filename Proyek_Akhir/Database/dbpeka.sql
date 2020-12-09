@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 09 Des 2020 pada 08.55
+-- Waktu pembuatan: 09 Des 2020 pada 09.00
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.4.1
 
@@ -42,36 +42,6 @@ CREATE TABLE `komentar` (
   `komentar` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data untuk tabel `komentar`
---
-
-INSERT INTO `komentar` (`komentar`) VALUES
-(''),
-('baguss'),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-(''),
-('tutor\r\n'),
-(''),
-(''),
-(''),
-('');
-
 -- --------------------------------------------------------
 
 --
@@ -99,16 +69,6 @@ CREATE TABLE `pesanan` (
   `bukti_transaksi` blob DEFAULT NULL,
   `tgl` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data untuk tabel `pesanan`
---
-
-INSERT INTO `pesanan` (`nama_barang`, `nama`, `alamat`, `no`, `bukti_transaksi`, `tgl`) VALUES
-('', '', '', 0, '', '0000-00-00'),
-('Teknik Komputer', 'apin', 'jember', 8929798, 0x576861747341707020496d61676520323032302d31322d30382061742030392e30382e33372e6a706567, '2020-12-09'),
-('Manajemen Informatika', 'bagus', 'jhkh', 9201820, 0x576861747341707020496d61676520323032302d31322d30382061742030382e30332e35352e6a706567, '2020-12-08'),
-('Manajemen Informatika', 'Nurico Vicyyanto', 'jhkh', 9201820, 0x646270656b612e73716c, '2020-12-10');
 
 -- --------------------------------------------------------
 
