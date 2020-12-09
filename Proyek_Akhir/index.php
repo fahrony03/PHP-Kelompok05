@@ -60,7 +60,7 @@ include_once('navbar.php');
                             Penanaman Wortel tidak mudah, namun juga tidak begitu sulit akan tetapi beberapa orang
                             gagal dalam menanamnya, berikut adalah tips penanaman wortel
                         </p>
-                        <a href="menu/info/detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
+                        <a href="menu/detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ include_once('navbar.php');
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="menu/info/detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
+                        <a href="menu/detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ include_once('navbar.php');
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="menu/info/detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
+                        <a href="menu/detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
 
                     </div>
                 </div>
@@ -100,7 +100,7 @@ include_once('navbar.php');
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="menu/info/detailinfo_empat.php" class="btn btn-outline-success">baca</a>
+                        <a href="menu/detailinfo_empat.php" class="btn btn-outline-success">baca</a>
 
                     </div>
                 </div>
@@ -114,7 +114,7 @@ include_once('navbar.php');
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="menu/info/detailinfo_lima.php" class="btn btn-outline-success">Baca</a>
+                        <a href="menu/detailinfo_lima.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ include_once('navbar.php');
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="menu/info/detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
+                        <a href="menu/detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@ include_once('navbar.php');
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="menu/info/detailinfo_tujuh.php" class="btn btn-outline-success">Baca</a>
+                        <a href="menu/detailinfo_tujuh.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@ include_once('navbar.php');
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="menu/info/detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
+                        <a href="menu/detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
