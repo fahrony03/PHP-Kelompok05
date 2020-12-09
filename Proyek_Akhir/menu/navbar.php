@@ -55,7 +55,7 @@
                 </ul>
                 </ul>
                 <span class="navbar-text">
-                    <a href="../menu/login.php" class="btn btn-success">Logout</a>
+                    <a href="../index.php" class="btn btn-success">Logout</a>
                 </span>
             </div>
         </div>
