@@ -56,9 +56,9 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Penanaman</a>
-                            <a class="dropdown-item" href="#">Pengelolaan</a>
-                            <a class="dropdown-item" href="#">Pemasaran</a>
+                            <a class="dropdown-item" href="javascript:peringatan();">Penanaman</a>
+                            <a class="dropdown-item" href="javascript:peringatan();">Pengelolaan</a>
+                            <a class="dropdown-item" href="javascript:peringatan();">Pemasaran</a>
                         </div>
                     </li>
                 </ul>
