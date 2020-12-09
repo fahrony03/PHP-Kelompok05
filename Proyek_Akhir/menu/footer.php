@@ -49,16 +49,28 @@
                                 <h5 class="text-uppercase">Contact</h5>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="#!">Link 1</a>
+                                        <a class="navbar-brand text-dark" href="#" >
+                                            <img src="../img/whatsapp.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                                            WhatsApp
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#!">Link 2</a>
+                                        <a class="navbar-brand text-dark" href="#" >
+                                            <img src="../img/instagram.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                                            Instagram
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#!">Link 3</a>
+                                        <a class="navbar-brand text-dark" href="#" >
+                                            <img src="../img/whatsapp.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                                            WhatsApp
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#!">Link 4</a>
+                                        <a class="navbar-brand text-dark" href="#" >
+                                            <img src="../img/whatsapp.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                                            WhatsApp
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
