@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(230, 240, 193);
 }
 
@@ -6,7 +6,26 @@ body{
     background-color: #1e824c;
 }
 
-.jumbotron{
+.navbar .nav-link {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar .nav-link:hover {
+    border-bottom: 3px solid white;
+}
+
+.navbar .nav-link.active {
+    border-bottom: 3px solid white;
+}
+
+.jumbotron {
     background-image: url('img/depan.jpeg');
     color: white;
 }
@@ -16,7 +35,7 @@ body{
     padding-right: 20px;
 }
 
-.judul-card{
+.judul-card {
     text-align: center;
     padding-bottom: 20px;
 }
@@ -31,28 +50,33 @@ body{
     padding-bottom: 50px;
 }
 
-.footer{
+.footer {
     background-color: #ffffff;
     width: 100%;
 }
 
-.float{
-	position:fixed;
-	width:150px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color: #25D366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
+.float {
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
 }
+
 a:hover {
     text-decoration: none !important;
 }
-.my-float{
-	margin-top:18px;
+
+.my-float {
+    margin-top: 18px;
 }
-.my-float:hover{
+
+.my-float:hover {
     color: white;
 }
+
+

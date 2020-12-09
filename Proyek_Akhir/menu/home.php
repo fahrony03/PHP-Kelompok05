@@ -26,52 +26,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
-        </script>
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
-                Si PEKA
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="home.php">Home<span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="belanja.php">Belanja</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="dokumentasi.php">Dokumentasi</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="contact.php">Contact</a>
-                    </li>
-                    <li class="nav-item active dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Informasi
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="penanaman.php">Penanaman</a>
-                            <a class="dropdown-item" href="pengelolaan.php">Pengelolaan</a>
-                            <a class="dropdown-item" href="pemasaran.php">Pemasaran</a>
-                        </div>
-                    </li>
-                </ul>
-                </ul>
-                <span class="navbar-text">
-                    <a href="../menu/login.php" class="btn btn-success">Logout</a>
-                </span>
-            </div>
-        </div>
-    </nav>
-    <br><br><br>
+
+<?php
+    include_once('navbar.php')
+?>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -116,7 +74,7 @@
                             Penanaman Wortel tidak mudah, namun juga tidak begitu sulit akan tetapi beberapa orang
                             gagal dalam menanamnya, berikut adalah tips penanaman wortel
                         </p>
-                        <a href="info/detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
+                        <a href="detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -129,7 +87,7 @@
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="info/detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
+                        <a href="detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -142,7 +100,7 @@
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="info/detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
+                        <a href="detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
 
                     </div>
                 </div>
@@ -156,7 +114,7 @@
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="info/detailinfo_empat.php" class="btn btn-outline-success">baca</a>
+                        <a href="detailinfo_empat.php" class="btn btn-outline-success">baca</a>
 
                     </div>
                 </div>
@@ -170,7 +128,7 @@
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="info/detailinfo_lima.php" class="btn btn-outline-success">Baca</a>
+                        <a href="detailinfo_lima.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -183,7 +141,7 @@
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="info/detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
+                        <a href="detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -196,7 +154,7 @@
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="info/detailinfo_tujuh.php" class="btn btn-outline-success">Baca</a>
+                        <a href="detailinfo_tujuh.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
@@ -209,7 +167,7 @@
                             lead-in
                             to
                             additional content. This content is a little bit longer.</p>
-                        <a href="info/detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
+                        <a href="detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
