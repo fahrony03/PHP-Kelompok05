@@ -66,7 +66,7 @@
                     Yuk, simak penjelasannya di bawah ini!
                     </p>
                     <p>
-                        <img src="../img/penanaman/bayam.jpg" class="img-fluid" alt="Responsive image">
+                        <img src="../img/penanaman/bayam.png" class="img-fluid" alt="Responsive image">
                     </p>
                     <h3> Syarat Tumbuh Bayam</h3>
                     <p>
