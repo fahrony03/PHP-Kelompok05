@@ -45,8 +45,10 @@
                     <h1 class="h4 text-gray-900 mb-4">Welcome</h1>
                   </div>
                   <?php
+                  session_start();
                     if (isset($_GET['pesan'])) {
-                      # code...
+                      $_SESSION['username'] = $data['username'];
+                      $_SESSION['nama'] = $data['nama'];
                       $pesan = $_GET['pesan'];
                       if ($pesan == "gagal") {
                   ?>

@@ -6,6 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link href="../css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -15,7 +18,13 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
+    <?php
+                    session_start();
+                            if( ! isset($_SESSION['username'])){
+                            header("location: login.php");
+                            }
+                            ?>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
         </script>
         <div class="container">
             <a class="navbar-brand" href="home.php">
@@ -52,13 +61,41 @@
                             <a class="dropdown-item" href="pemasaran.php">Pemasaran</a>
                         </div>
                     </li>
+
+                    <li class="nav-item dropdown no-arrow">
+                        <a class="nav-link" href="#" id="userDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span
+                                class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['username']; ?></span>
+                            <img class="#" src="#">
+                        </a>
+                        <!-- Dropdown - User Information -->
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                            aria-labelledby="userDropdown">
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Profile
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Settings
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Activity Log
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
+                                <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Logout
+                            </a>
+                        </div>
+                    </li>
                 </ul>
                 </ul>
-                <span class="navbar-text">
-                    <a href="../index.php" class="btn btn-success">Logout</a>
-                </span>
+                <div class="btn-group">
+                </div>
             </div>
-        </div>
     </nav>
     <br><br><br>
 
