@@ -130,7 +130,7 @@
         </div>
                     <?php
                     error_reporting(E_ALL ^ E_NOTICE);
-                        include "../koneksi.php";
+                        include "koneksi.php";
                         $komentar  = $_REQUEST['komentar'];
                         $mysqli  = "INSERT INTO `komentar` (`komentar`) VALUES ('$komentar')";
                         $result  = mysqli_query($koneksi, $mysqli);
