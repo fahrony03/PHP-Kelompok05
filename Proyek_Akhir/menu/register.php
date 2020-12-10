@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>Document</title>
 </head>
 <body>
@@ -44,7 +45,7 @@ if ($datakode) {
 <div class="container">
 
   <div class="text-center">
-    <h1 class="h4 text-gray-900 mb-4">tambahkan akun!</h1>
+    <h1 class="h4 text-gray-900 mb-4">REGISTRASI</h1>
   </div>
   <div class="row">
     <div class="col-lg-6 offset-3">
@@ -86,7 +87,7 @@ if ($datakode) {
             <input type="text" class="form-control form-control-static" id="level" name="level" value="user">
           </div><br>
         <div class="text-center">
-          <input class="btn btn-primary" name="register" type="submit" value="tambahkan!">
+          <input class="btn btn-primary" name="register" type="submit" value="Tambah">
           </input>
         </div>
       </form>
