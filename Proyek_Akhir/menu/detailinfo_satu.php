@@ -138,9 +138,9 @@
             <?php
                 include "koneksi.php";
                 $komentar=$_POST["komentar"];
-                $sql="insert into komentar values('$komentar')";
-                $hasil=mysqli_query($koneksi,$sql);
-
+                $mysqli="insert into komentar values('$komentar')";
+                $hasil=mysqli_query($koneksi,$mysqli);
+                ?>
 
 
             <?php
