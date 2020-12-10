@@ -56,35 +56,54 @@
 
                     <!--ubah dari bagian ini sesuai isi konten-->
 
-                    <h1>Cara Menanam Wortel Di Rumah Yang Baik Dan Benar. Sangat Mudah! <b></b></h1>
+                    <h1>Cara Menanam Bayam Di Rumah Yang Baik Dan Benar. Sangat Mudah! <b></b></h1>
                     <br>
                     <p>
-                    Wortel merupakan salah satu jenis sayuran yang memiliki kandungan vitamin A. 
-                    Dengan kandungan tersebut, sayuran ini dipercaya sangat bermanfaat untuk kesehatan mata.
-                    Sayuran ini berasal dari wilayah Asia Timur hingga Asia Tengah.
-                    Saat ini, budidaya wortel sudah meluas ke berbagai negara di dunia, termasuk juga di Indonesia.
-                    Di Indonesia sendiri, budidaya wortel banyak dilakukan di kebun hingga di rumah.
-                    Cara menanam wortel sendiri tidak terlalu sulit, kok!
-                    Namun, supaya kamu bisa mendapatkan hasil yang optimal dan wrotel bisa tumbuh lebih cepat, 
-                    maka ada beberapa tahapan yang harus dipahami.
-                    Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam wortel yang baik dan benar.
+                    Bayam merupakan jenis sayuran yang bisa memenuhi nutrisi seluruh anggota keluarga. Sebab, bayam kaya akan vitamin, magnesium, zat besi, asam folat, kalsium, sodium yang tentunya sangat baik untuk tubuh.
+                    Menurut salah satu tim dari Komunitas Warung 1000 Kebun, Deta Ratna Kristiani, bila Anda ingin menanam bayam di rumah, tidak perlu khawatir dengan keterbatasan lahan di rumah. Pasalnya, menanam bayam tidak perlu lahan yang banyak. Anda bisa menanam bayam di pot atau polybag misalnya.
+
+                    Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam bayam yang baik dan benar.
                     Yuk, simak penjelasannya di bawah ini!
                     </p>
                     <p>
-                        <img src="../img/penanaman/bayam.jpg" class="img-fluid" alt="Responsive image">
+                        <img src="../img/penanaman/bayam.png" class="img-fluid" alt="Responsive image">
                     </p>
-                    <h3> Syarat Tumbuh Wortel</h3>
+                    <h3> Syarat Tumbuh Bayam</h3>
                     <p>
-                    Syarat tumbuh wortel ini sifatnya wajib, Sahabat Si PEKA. 
-                    Pasalnya, syarat inilah yang akan membuat wortel menjadi berkembang optimal dan dapat berbuah lebih cepat.
-                    Dengan begitu, sebelum mempelajari cara menanam wortel, kamu harus persapkan ini terlebih dahulu, ya!
+                    Syarat tumbuh Bayam ini sifatnya wajib, Sahabat Si PEKA. 
+                    Cara menanam bayam dalam polybag adalah salah satu jenis dan metode penanaman bayam yang sering digunakan  oleh para petani sayur di Indonesia maupun di luar negeri. Hal ini karena menanam sayur dengan metode ini lebih praktis dan bisa di lakukan di lahan yang tidak terlalu luas. Selain itu teknik menanam dengan cara ini juga sangat mudah.
                     </p>
-                    <h5>1. Tanah </h5>
-                    <p> Wortel membutuhkan tanah dengan jenis berikut: 
-                    Aluvial, Andosol,Latosol, Regosol
+                    <h5>1. Siapkan benih tanaman yang berkualitas </h5>
+                    <p> Setelah anda membeli benih bayam, 
+                    rendamlah benih tersebut dengan tujuan menentukan benih yang berkualitas. Jika benih yang anda rendam mengapung maka benih tersebut kualitasnya jelek, begitu pula sebaliknya jika benihnya tenggelam berarti kualitasnya bagus dan akan tumbuh dengan baik ketika di tanam.
+                    </p>
+                    <h5>2. Siapkan alat dan bahan </h5>
+                    <p> Sebelum mulai berkebun semua peralatan berkebun seperti sekop, tanah yang sudah di campur dengan kompos, media semai rockwool, polybag dan lahan. 
+                    Jika semua sudah siap anda bisa memulai proses penanaman bayam pada media polybag.
+                    </p>
+                    <h5>3. Lakukan semai benih pada media semai. </h5>
+                    <p> Setelah semua siap lakukan penyemaian benih. 
+                    Benih bisa di semai pada media semai atau rockwool atau langsung di dalam polybagnya. Lakukan penyemaian pada media yang anda inginkan. Dengan satu media semai satu benih bayam jika menggunakan media rockwool.
+
+                    Jika menggunakan polybag anda bisa menanam 5 – 10 benih pada satu media semai polybag ukuran sedang. Lakukan penyiraman secara rutin setidaknya 2 kali dalam 1 hari. Penyiraman di lakukan tergantung pada kebutuhan bayam terhadap air. Jika cuaca sudah mendung dan musim hujan jangan terlalu sering di siram.
+                    </p>
+                    <h5>4. Pemindahan bibit bayam ke media tanam yang lebih besar. </h5>
+                    <p> Setelah benih tumbuh dan berusia lebih dari dua minggu anda bisa memindahkannya
+                    pada media tanam utama yaitu polybag besar atau sedang dengan 2 – 3 bibit pada masing – masing polybag. Lakukan penyiraman secara rutin pada pagi dan sore hari jika cuaca panas. Jika musim hujan kurangi frekuensi penyiraman supaya bayam tidak mati.
+                    </p>
+                    <h5>5. Perawatan tanaman bayam </h5>
+                    <p> Jika tanaman bayam anda sudah mulai tumbuh dengan baik jangan lupa untuk melakukan perawatan. 
+                    Perawatan yang biasa di lakukan adalah memberikan pupuk dan pengobatan untuk menjaga pertumbuhan dan kesuburan tanaman.
+                    Pupuk yang digunakan biasanya jenis pupuk kandang untuk menambah unsur hara tanah
+                    </p>
+                    <h5>6. Panen </h5>
+                    <p> Sayuran Bayam bisa di panen ketika usia tanaman sudah mencapai kurang lebih 4 minggu,
+                    cara panen bisa berbagai macam tergantung jenis bayam yang di budidayakan. Anda bisa panen dengan mencabut serta akar tunggangnya atau dengan memetik bagian daun mudanya saja. Semua hal tersebut tidak memengaruhi kualitas rasa bayam ketika di olah.
+
+                    Hati – hati ketika panen dan melakukan distribusi dari kebun ke pedagang, pasar atau ke konsumen supaya ketika di olah bayam masih dalam kondisi segar dan tidak terkontaminasi degan bakteri atau hal lainnya yang nanti dapat menimbulkan efek negatif bagi kesehatan.
                     </p>
 
-                    <footer class="blockquote-footer">Queendha <cite title="Source Title"> Cara Menanam Wortel Di Rumah 
+                    <footer class="blockquote-footer">Queendha <cite title="Source Title"> Cara Menanam Bayam Di Rumah 
                     Yang Baik Dan Benar. Sangat Mudah!</cite>
                     </footer>
                 </blockquote>
@@ -105,13 +124,13 @@
                     <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
             </div>
 
-
+        <br>
         <button type="submit" class="btn btn-success " name="submit">kirim</button>
 
         </div>
                     <?php
                     error_reporting(E_ALL ^ E_NOTICE);
-                        include "../koneksi.php";
+                        include "koneksi.php";
                         $komentar  = $_REQUEST['komentar'];
                         $mysqli  = "INSERT INTO `komentar` (`komentar`) VALUES ('$komentar')";
                         $result  = mysqli_query($koneksi, $mysqli);
