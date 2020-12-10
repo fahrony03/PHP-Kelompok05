@@ -66,7 +66,7 @@
                     Yuk, simak penjelasannya di bawah ini!
                     </p>
                     <p>
-                        <img src="../img/penanaman/bayam.jpg" class="img-fluid" alt="Responsive image">
+                        <img src="../img/penanaman/bayam.png" class="img-fluid" alt="Responsive image">
                     </p>
                     <h3> Syarat Tumbuh Bayam</h3>
                     <p>
@@ -124,13 +124,13 @@
                     <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
             </div>
 
-
+        <br>
         <button type="submit" class="btn btn-success " name="submit">kirim</button>
 
         </div>
                     <?php
                     error_reporting(E_ALL ^ E_NOTICE);
-                        include "../koneksi.php";
+                        include "koneksi.php";
                         $komentar  = $_REQUEST['komentar'];
                         $mysqli  = "INSERT INTO `komentar` (`komentar`) VALUES ('$komentar')";
                         $result  = mysqli_query($koneksi, $mysqli);
