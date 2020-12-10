@@ -136,25 +136,16 @@
             </div>
 
             <?php
-//Include file koneksi ke database
                 include "koneksi.php";
                 $komentar=$_POST["komentar"];
-                $sql="insert into komentar (komentar) values('$komentar')";
-                $hasil=mysqli_query($koneksi,$sql);
-                if ($hasil) {
-                    echo "Berhasil insert data";
-                    exit;
-                }
-                else {
-                    echo "Gagal insert data";
-                    exit;
-                }
+                $mysqli="insert into komentar values('$komentar')";
+                $hasil=mysqli_query($koneksi,$mysqli);
                 ?>
 
 
             <?php
-                include_once('footer.php');
-                ?>
+        include_once('footer.php');
+        ?>
 
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
             <a href="#" class="float" target="_blank">

@@ -60,14 +60,16 @@
                         <button type="submit" class="btn btn-success btn-lg btn-block" name="submit">Kirim</button>
                         <br>
                 </div>
+
+                
                 <?php
                         error_reporting(E_ALL ^ E_NOTICE);
                         include "koneksi.php";
-                        $nama  = $_REQUEST['nama'];
-                        $alamat  = $_REQUEST['alamat'];
-                        $no  = $_REQUEST['no'];
-                        $komentar  = $_REQUEST['komentar'];
-                        $mysqli  = "INSERT INTO `kontak` (`nama`, `alamat`, `no`, `komentar`) VALUES ($nama', '$alamat', '$no', $komentar')";
+                        $nama  = $_POST['nama'];
+                        $alamat  = $_POST['alamat'];
+                        $no  = $_POST['no'];
+                        $komentar  = $_POST['komentar'];
+                        $mysqli  = "insert into kontak (nama,alamat,no,komentar) values('$nama','$alamat','$no','$komentar')";
                         $result  = mysqli_query($koneksi, $mysqli);
                         ?>
                 </form>
