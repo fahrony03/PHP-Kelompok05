@@ -35,7 +35,7 @@
       height:100px;
     
     }  
-  .nama_admin{
+  .nama_user{
       margin-left:25px;
       margin-top:30px;
       width: 125px;
@@ -84,6 +84,14 @@
       color: white;
       font-size: 18px;
       font-weight: 700;
+    }
+    .level{
+       margin-left:25px;
+       margin-top:85px;
+       width: 125px;
+       color: white;
+       font-size: 18px;
+       font-weight: 700;
     }
     button{
         background-color: #25D366;
