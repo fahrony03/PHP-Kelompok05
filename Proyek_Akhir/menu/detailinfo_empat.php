@@ -124,7 +124,7 @@
                     <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
             </div>
 
-
+        <br>
         <button type="submit" class="btn btn-success " name="submit">kirim</button>
 
         </div>
