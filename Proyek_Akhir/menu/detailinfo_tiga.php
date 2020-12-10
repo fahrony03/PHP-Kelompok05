@@ -56,35 +56,46 @@
 
                     <!--ubah dari bagian ini sesuai isi konten-->
 
-                    <h1>Cara Menanam Wortel Di Rumah Yang Baik Dan Benar. Sangat Mudah! <b></b></h1>
+                    <h1>Cara Menanam Kaktus Di Rumah Yang Baik Dan Benar. Sangat Mudah! <b></b></h1>
                     <br>
                     <p>
-                    Wortel merupakan salah satu jenis sayuran yang memiliki kandungan vitamin A. 
-                    Dengan kandungan tersebut, sayuran ini dipercaya sangat bermanfaat untuk kesehatan mata.
-                    Sayuran ini berasal dari wilayah Asia Timur hingga Asia Tengah.
-                    Saat ini, budidaya wortel sudah meluas ke berbagai negara di dunia, termasuk juga di Indonesia.
-                    Di Indonesia sendiri, budidaya wortel banyak dilakukan di kebun hingga di rumah.
-                    Cara menanam wortel sendiri tidak terlalu sulit, kok!
+                    Kaktus biasanya hidup di padang pasir dan tumbuh subur dalam kondisi panas dan kering. Namun, kaktus juga bisa dijadikan tanaman hias dalam ruangan yang indah. Tanaman ini tidak memerlukan perawatan intensif dan hanya membutuhkan sedikit perhatian jika dibandingkan dengan tanaman lain sehingga sangat ideal bagi para pemula, dan merupakan hadiah yang bagus bagi orang yang pindah rumah. 
+                    Cara menanam Kaktus sendiri tidak terlalu sulit, kok!
                     Namun, supaya kamu bisa mendapatkan hasil yang optimal dan wrotel bisa tumbuh lebih cepat, 
                     maka ada beberapa tahapan yang harus dipahami.
-                    Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam wortel yang baik dan benar.
+                    Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam kaktus yang baik dan benar.
                     Yuk, simak penjelasannya di bawah ini!
                     </p>
                     <p>
                         <img src="../img/penanaman/kaktus.jpg" class="img-fluid" alt="Responsive image">
                     </p>
-                    <h3> Syarat Tumbuh Wortel</h3>
+                    <h3> Syarat Tumbuh Kaktus</h3>
                     <p>
-                    Syarat tumbuh wortel ini sifatnya wajib, Sahabat Si PEKA. 
-                    Pasalnya, syarat inilah yang akan membuat wortel menjadi berkembang optimal dan dapat berbuah lebih cepat.
-                    Dengan begitu, sebelum mempelajari cara menanam wortel, kamu harus persapkan ini terlebih dahulu, ya!
+                    Syarat tumbuh kaktus ini sifatnya wajib, Sahabat Si PEKA. 
+                    Rahasia untuk mendapatkan kaktus yang sehat di dalam ruangan di antaranya adalah menyediakan banyak sinar matahari, tidak berlebihan dalam menyiram, dan menggunakan media tanam yang tepat.
                     </p>
-                    <h5>1. Tanah </h5>
-                    <p> Wortel membutuhkan tanah dengan jenis berikut: 
-                    Aluvial, Andosol,Latosol, Regosol
+                    <h5>1. Ambil setek dari kaktus yang sehat </h5>
+                    <p> Anda bisa menanam kaktus dari cabang yang tumbuh dari tanaman induk yang sehat. Pilih cabang yang montok, bersih, dan sehat. Potong atau patahkan cabang tersebut secara lembut dari tanaman induk
+                    </p>
+                    <h5>2. Biarkan luka bekas potongan sembuh </h5>
+                    <p> Tempatkan setek di jendela yang cerah. Baringkan setek dan biarkan di sana selama 2 hari. Tujuannya adalah memberi waktu pada setek untuk membentuk kalus. Jika Anda menanamnya ketika luka belum sembuh, kemungkinan setek tersebut akan membusuk.
+                    </p>
+                    <h5>3. Pilih pot untuk kaktus </h5>
+                    <p> Drainase merupakan hal terpenting yang perlu diperhatikan saat Anda memilih pot. Carilah pot yang memiliki lubang drainase di bagian bawah agar kelebihan air bisa mengalir keluar. Kaktus juga bisa tumbuh dengan baik di dalam pot berukuran kecil.
+                    </p>
+                    <h5>4. Masukkan media tanam khusus kaktus ke dalam pot </h5>
+                    <p> Kaktus memerlukan tanah yang mudah kering sehingga Anda harus menggunakan media tanam khusus untuk kaktus. Agar media tanam bisa mengalirkan air dengan baik, campurlah 2 bagian tanah kaktus dengan 1 bagian kerikil atau perlit (batu silika yang memiliki daya serap tinggi).
+                    </p>
+                    <h5>5. Tanam setek kaktus ke dalam tanah </h5>
+                    <p> Masukkan potongan batang yang terdapat kalus ke dalam media tanam. Tancapkan setek dengan kedalaman yang cukup agar tanaman bisa berdiri tegak tanpa penopang. Gunakan tangan untuk memadatkan tanah di sekitar setek agar kaktus berdiri dengan kokoh.
+
+                    Basahi media tanam untuk memberi tambahan air pada kaktus, tetapi jangan sampai terendam air. Sebelum akar dan tunas baru tumbuh, hanya basahi setek secara ringan jika tanahnya terasa kering. Jika tidak, setek kaktus bisa membusuk
+                    </p>
+                    <h5>6. Letakkan setek kaktus di tempat yang cerah </h5>
+                    <p> Tempatkan setek di ambang jendela atau lokasi lain yang terang, tetapi tidak terkena sinar matahari langsung. Setek baru bisa rusak jika mendapatkan banyak sinar matahari secara langsung. Biarkan setek kaktus tetap berada di tempat ini selama 1 atau 2 bulan, sampai muncul pertumbuhan baru.
                     </p>
 
-                    <footer class="blockquote-footer">Queendha <cite title="Source Title"> Cara Menanam Wortel Di Rumah 
+                    <footer class="blockquote-footer">Queendha <cite title="Source Title"> Cara Menanam Kaktus Di Rumah 
                     Yang Baik Dan Benar. Sangat Mudah!</cite>
                     </footer>
                 </blockquote>
