@@ -61,7 +61,7 @@
                     <p>
                     Kaktus biasanya hidup di padang pasir dan tumbuh subur dalam kondisi panas dan kering. Namun, kaktus juga bisa dijadikan tanaman hias dalam ruangan yang indah. Tanaman ini tidak memerlukan perawatan intensif dan hanya membutuhkan sedikit perhatian jika dibandingkan dengan tanaman lain sehingga sangat ideal bagi para pemula, dan merupakan hadiah yang bagus bagi orang yang pindah rumah. 
                     Cara menanam Kaktus sendiri tidak terlalu sulit, kok!
-                    Namun, supaya kamu bisa mendapatkan hasil yang optimal dan wrotel bisa tumbuh lebih cepat, 
+                    Namun, supaya kamu bisa mendapatkan hasil yang optimal dan kaktus bisa tumbuh lebih cepat, 
                     maka ada beberapa tahapan yang harus dipahami.
                     Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam kaktus yang baik dan benar.
                     Yuk, simak penjelasannya di bawah ini!
