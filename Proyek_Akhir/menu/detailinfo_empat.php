@@ -103,7 +103,7 @@
                     Hati – hati ketika panen dan melakukan distribusi dari kebun ke pedagang, pasar atau ke konsumen supaya ketika di olah bayam masih dalam kondisi segar dan tidak terkontaminasi degan bakteri atau hal lainnya yang nanti dapat menimbulkan efek negatif bagi kesehatan.
                     </p>
 
-                    <footer class="blockquote-footer">Queendha <cite title="Source Title"> Cara Menanam Wortel Di Rumah 
+                    <footer class="blockquote-footer">Queendha <cite title="Source Title"> Cara Menanam Bayam Di Rumah 
                     Yang Baik Dan Benar. Sangat Mudah!</cite>
                     </footer>
                 </blockquote>
