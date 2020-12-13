@@ -1,4 +1,25 @@
 <!doctype html>
+
+<?php 
+    include "koneksi.php";
+
+    $slug = $_GET['slug'];
+
+    $query = mysqli_query($koneksi, "SELECT * FROM informasi WHERE slug = '".$slug."'");
+
+    $cek = mysqli_num_rows($query);
+
+    // if($cek < 1){
+    //     header("location:../index.php");
+    // }
+
+    while($detail = mysqli_fetch_array($query)){
+        $title = $detail['title'];
+        $content = $detail['content'];
+        $nama = $detail['nama']; 
+    }
+?>
+
 <html lang="en">
 
 <head>
@@ -33,7 +54,7 @@
     <?php
     include_once('navbar.php')
 ?>
-<br>
+    <br>
     <div class="container">
         <div class="card">
             <div class="card-body">
@@ -56,36 +77,35 @@
 
                     <!--ubah dari bagian ini sesuai isi konten-->
 
-                    <h1>Cara Menanam Wortel Di Rumah Yang Baik Dan Benar. Sangat Mudah! <b></b></h1>
+                    <h1><?= $title ?><b></b></h1>
                     <br>
+                    <!-- <p>
+                        Tanaman Wortel (Daucus carota L.) berasal dari Asia Timur dan Tengah yang memiliki iklim
+                        sub-tropis. Tanaman Wortel
+                        berbentuk semak (perdu) yang tumbuh tegak dengan ketinggian antara 30 cm-100 cm.
+                        Tanaman Wortel memiliki umbi berwarna jingga kemerahan berbentuk lonjong yang sering dimakan
+                        sebagai sumber gizi terutama
+                        vitamin A. Warna jingga kemerahan pada umbi Wortel ini menandakan bahwa itu kaya akan senyawa
+                        karoten dan flavonoid yang
+                        dapat berfungsi sebagai antioksidan.Umbi Wortel sering dikonsumsi sebagai tambahan pada masakan
+                        seperti sup ataupun bihun.
+                        Umbi ini disenangi banyak orang di kalangan masyarakat karena rasanya yang enak dan gizinya yang
+                        berlimpah.
+                        Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam wortel yang baik dan
+                        benar.
+                        Yuk, simak penjelasannya di bawah ini!.
+                    </p> -->
                     <p>
-                    Wortel merupakan salah satu jenis sayuran yang memiliki kandungan vitamin A. 
-                    Dengan kandungan tersebut, sayuran ini dipercaya sangat bermanfaat untuk kesehatan mata.
-                    Sayuran ini berasal dari wilayah Asia Timur hingga Asia Tengah.
-                    Saat ini, budidaya wortel sudah meluas ke berbagai negara di dunia, termasuk juga di Indonesia.
-                    Di Indonesia sendiri, budidaya wortel banyak dilakukan di kebun hingga di rumah.
-                    Cara menanam wortel sendiri tidak terlalu sulit, kok!
-                    Namun, supaya kamu bisa mendapatkan hasil yang optimal dan wrotel bisa tumbuh lebih cepat, 
-                    maka ada beberapa tahapan yang harus dipahami.
-                    Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam wortel yang baik dan benar.
-                    Yuk, simak penjelasannya di bawah ini!
+                        <img width="350px" height="100px" src="../dashboard/cms/images/<?= $nama ?>" class="img-fluid" alt="Responsive image">
                     </p>
-                    <p>
-                        <img src="../img/penanaman/pepaya.jpg" class="img-fluid" alt="Responsive image">
-                    </p>
-                    <h3> Syarat Tumbuh Wortel</h3>
-                    <p>
-                    Syarat tumbuh wortel ini sifatnya wajib, Sahabat Si PEKA. 
-                    Pasalnya, syarat inilah yang akan membuat wortel menjadi berkembang optimal dan dapat berbuah lebih cepat.
-                    Dengan begitu, sebelum mempelajari cara menanam wortel, kamu harus persapkan ini terlebih dahulu, ya!
-                    </p>
-                    <h5>1. Tanah </h5>
-                    <p> Wortel membutuhkan tanah dengan jenis berikut: 
-                    Aluvial, Andosol,Latosol, Regosol
-                    </p>
-
-                    <footer class="blockquote-footer">Queendha <cite title="Source Title"> Cara Menanam Wortel Di Rumah 
-                    Yang Baik Dan Benar. Sangat Mudah!</cite>
+                    <!-- <h3> Jenis Wortel</h3> -->
+                    <p>Jenis Imperator yaitu jenis wortel yang memiliki bentuk bulat memanjang dengan ujung meruncing
+                        seperti kerucut. Wortel ini
+                        sedikit tipis, serta memiliki umbi berwarna oranye. Wortel jenis ini kurang disukai oleh orang
+                        karena rasa yang dimiliki
+                        wortel jenis ini kurang manis.</p>
+                    <footer class="blockquote-footer">SiPEKA <cite title="Source Title"> Cara Menanam Wortel Di Rumah
+                            Yang Baik Dan Benar. Sangat Mudah!</cite>
                     </footer>
                 </blockquote>
             </div>
@@ -98,41 +118,33 @@
     <div class="container">
         <div class="card">
             <div class="card-body">
-            <div class="form">
+                <div class="form">
                     <form action="" method="post">
-                    <label for="komentar">Komentar</label>
-                    <br>
-                    <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
-            </div>
-        <br>
-        <button type="submit" class="btn btn-success " name="submit">kirim</button>
-        </div>
-                    <?php
-                    error_reporting(E_ALL ^ E_NOTICE);
-                        include "koneksi.php";
-                        $komentar  = $_REQUEST['komentar'];
-                        $mysqli  = "INSERT INTO `komentar` (`komentar`) VALUES ('$komentar')";
-                        $result  = mysqli_query($koneksi, $mysqli);
-                    ?>
-                    </form>
+                        <label for="komentar">Komentar</label>
+                        <br>
+                        <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
                 </div>
+                <br>
+                <br>
+                <button type="submit" class="btn btn-success " name="submit">kirim</button>
             </div>
-        </div>
-        </div>
-            </div>
-        </div>
-    </div>
-    <br>
 
-    <?php
+            <?php
+                include "koneksi.php";
+                $komentar=$_POST["komentar"];
+                $mysqli="insert into komentar values('$komentar')";
+                $hasil=mysqli_query($koneksi,$mysqli);
+                ?>
+
+
+            <?php
         include_once('footer.php');
         ?>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="#"
-        class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
-    </a>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <a href="#" class="float" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>
 
 </body>
 

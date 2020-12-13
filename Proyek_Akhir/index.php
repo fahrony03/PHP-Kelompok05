@@ -1,5 +1,11 @@
 <!doctype html>
 <html lang="en">
+<?php 
+    include "menu/koneksi.php";
+
+    $query = mysqli_query($koneksi, "SELECT * FROM informasi");
+?>
+
 
 <head>
     <!-- Required meta tags -->
@@ -51,112 +57,23 @@ include_once('navbar.php');
     </div>
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
+            <?php 
+                while($data = mysqli_fetch_array($query)){
+            ?>
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="img/penanaman/wortel.png" class="card-img-top" alt="...">
+                    <img src="dashboard/cms/images/<?= $data['nama'] ?>"  class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Manfaat wortel bagi kesehatan mata </h5>
+                        <h5 class="card-title"><?= $data['title'] ?></h5>
                         <p class="card-text text-justify">
-                            Penanaman Wortel tidak mudah, namun juga tidak begitu sulit akan tetapi beberapa orang
-                            gagal dalam menanamnya, berikut adalah tips penanaman wortel
+                            <?= $data['content'] ?>
                         </p>
-                        <a href="menu/detailinfo_satu.php" class="btn btn-outline-success">Baca</a>
+                        <a href="menu/detailinfo.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/penanaman/tomat.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Manfaat tomat untuk kulit mempercantik wajah</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural
-                            lead-in
-                            to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="menu/detailinfo_dua.php" class="btn btn-outline-success">Baca</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/penanaman/kaktus.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Mempercantik halaman rumah dengan tumbuhan kaktus</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural
-                            lead-in
-                            to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="menu/detailinfo_tiga.php" class="btn btn-outline-success">Baca</a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/penanaman/bayam.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">manfaat tumbuhan bayam bagi manusia</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural
-                            lead-in
-                            to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="menu/detailinfo_empat.php" class="btn btn-outline-success">baca</a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/penanaman/cabe.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Dampak buruk terlalu banyak makan cabe</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural
-                            lead-in
-                            to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="menu/detailinfo_lima.php" class="btn btn-outline-success">Baca</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/penanaman/pepaya.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Manfaat buah pepaya untuk ibu hamil</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural
-                            lead-in
-                            to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="menu/detailinfo_enam.php" class="btn btn-outline-success">Baca</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/penanaman/jeruk.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Manfaat Vitamin C pada buah jeruk</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural
-                            lead-in
-                            to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="menu/detailinfo_tujuh.php" class="btn btn-outline-success">Baca</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/penanaman/mangga.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Jenis-jenis buah mangga di sekitar kita</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural
-                            lead-in
-                            to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="menu/detailinfo_delapan.php" class="btn btn-outline-success">Baca</a>
-                    </div>
-                </div>
-            </div>
+                <?php } ?>
+            
         </div>
 
         <div class="judul-card">
