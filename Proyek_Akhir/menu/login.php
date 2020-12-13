@@ -47,10 +47,6 @@
                   <?php
                   session_start();
                     if (isset($_GET['pesan'])) {
-                      $_SESSION['username'] = $data['username'];
-                      $_SESSION['nama'] = $data['nama'];
-                      $_SESSION['email'] = $data['email'];
-                      $_SESSION['no_hp'] = $data['no_hp'];
                       $pesan = $_GET['pesan'];
                       if ($pesan == "gagal") {
                   ?>

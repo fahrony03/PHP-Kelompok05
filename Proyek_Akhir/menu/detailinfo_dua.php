@@ -119,7 +119,7 @@
         <button type="submit" class="btn btn-success " name="submit">kirim</button>
         <?php
                         include "koneksi.php";
-                        $komentar  = $_REQUEST['komentar'];
+                        $komentar  = $_POST['komentar'];
                         $mysqli  = "INSERT INTO `komentar` (`komentar`) VALUES ('$komentar')";
                         $result  = mysqli_query($koneksi, $mysqli);
                     ?>

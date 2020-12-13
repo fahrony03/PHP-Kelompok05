@@ -65,7 +65,7 @@
                     <li class="nav-item dropdown no-arrow">
                         <a class="nav-link" href="#" id="userDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="img-profile rounded-circle img-responsive" src="../img/ser.png">
+                            <img class="img-profile rounded-circle img-responsive" src="">
                             <span class="mr-2 d-none d-lg-inline text-white-600 ">
                             <?php echo $_SESSION['username']; ?>
                             </span>

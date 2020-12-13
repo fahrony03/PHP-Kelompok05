@@ -137,7 +137,7 @@
 
             <?php
                 include "koneksi.php";
-                $komentar=$_POST["komentar"];
+                $komentar=$_REQUEST['komentar'];
                 $mysqli="insert into komentar values('$komentar')";
                 $hasil=mysqli_query($koneksi,$mysqli);
                 ?>
