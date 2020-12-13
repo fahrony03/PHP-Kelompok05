@@ -35,7 +35,7 @@
     <div class="container" style="padding-top:140px; padding-bottom:140px;">
         <div class="card">
             <div class="card-body">
-                <h1><b>Pemasanan</b></h1>
+                <h1><b>Pemesanan</b></h1>
                 <div class="form">
                     <form action="" method="post">
                     <label for="inputState">Nama Barang</label>
@@ -76,7 +76,29 @@
                         $nama  = $_REQUEST['nama'];
                         $alamat  = $_REQUEST['alamat'];
                         $no  = $_REQUEST['no'];
-                        $bukti_transaksi  = $_REQUEST['bukti_transaksi'];
+
+                        $limit = 10 * 1024 * 1024;
+                        $ekstensi =  array('png','jpg','jpeg','gif');
+                        $jumlahFile = count($_FILES['foto']['name']);
+                        for($x=0; $x<$jumlahFile; $x++){
+                            $namafile = $_FILES['foto']['name'][$x];
+                            $tmp = $_FILES['foto']['tmp_name'][$x];
+                            $tipe_file = pathinfo($namafile, PATHINFO_EXTENSION);
+                            $ukuran = $_FILES['foto']['size'][$x];
+                            if($ukuran > $limit){
+                                header("location:index.php?alert=gagal_ukuran");
+                            }else{
+                                if(!in_array($tipe_file, $ekstensi)){
+                                    header("location:index.php?alert=gagal_ektensi");
+                                }else{
+                                    move_uploaded_file($tmp, 'file/'.date('d-m-Y').'-'.$namafile);
+                                    $x = date('d-m-Y').'-'.$namafile;
+                                    mysqli_query($koneksi,"INSERT INTO gambar VALUES(NULL, '$x')");
+                                    header("location:index.php?alert=simpan");
+                                }
+                            }
+                        }
+
                         $tgl  = $_REQUEST['tgl'];
                         $mysqli  = "INSERT INTO `pesanan` (`nama_barang`, `nama`, `alamat`, `no`, `bukti_transaksi`, `tgl`) VALUES ('$nama_barang', '$nama', '$alamat', '$no', '$bukti_transaksi', '$tgl')";
                         $result  = mysqli_query($koneksi, $mysqli);

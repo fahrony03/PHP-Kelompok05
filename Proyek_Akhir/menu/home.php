@@ -31,6 +31,12 @@
     include_once('navbar.php')
 ?>
 
+                    <?php
+                            if( ! isset($_SESSION['username'])){
+                            header("location: login.php");
+                            }
+                    ?>
+
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <p> <?php
@@ -40,7 +46,7 @@
                         if ($pesan == "berhasil") {
                     ?>
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <strong>Success</strong> Anda berhasil login
+                    <strong>Selamat</strong> <?php echo $_SESSION['username']; ?> Anda berhasil login
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -48,7 +54,10 @@
                 <?php
                         }
                         }
-                    ?></p>
+                    ?>
+
+
+            </p>
             <h1 class="display-4">Website Pertanian</h1>
             <h1 class="display-4">Si-PEKA</h1>
             <hr>

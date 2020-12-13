@@ -49,6 +49,8 @@
                     if (isset($_GET['pesan'])) {
                       $_SESSION['username'] = $data['username'];
                       $_SESSION['nama'] = $data['nama'];
+                      $_SESSION['email'] = $data['email'];
+                      $_SESSION['no_hp'] = $data['no_hp'];
                       $pesan = $_GET['pesan'];
                       if ($pesan == "gagal") {
                   ?>
@@ -91,7 +93,7 @@
   </div>
 
 </body><br><br><br><br><br><br><br><br>
-
+echo '<img src="data:image/jpeg;base64,'.base64_encode( $result['gambar'] ).'"/>';
 <!-- Bootstrap core JavaScript-->
 <script src="../assets/vendor/jquery/jquery.min.js"></script>
 <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
