@@ -65,12 +65,12 @@
                     <li class="nav-item active dropdown">
                     <a class="nav-link" style="color:white;padding-top:10px; href="#" data-toggle="dropdown"><?php echo $_SESSION['username']; ?><i class="fa fa-user fa-lg"></i></a>
                         <ul class="dropdown-menu settings-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a>
-                            <li><a class="dropdown-item" href="profil.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
-                            <li><a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+                            <a class="dropdown-item" href="auth/profil.php"><i class="fa fa-cog fa-lg"></i> Settings</a>
+                            <li><a class="dropdown-item" href="auth/profil.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+                            <li><a class="dropdown-item" href="auth/logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
                         </ul>
 
-                    
+
     </nav>
     <br><br><br>
 
