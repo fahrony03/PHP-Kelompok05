@@ -1,7 +1,7 @@
 <!doctype html>
 
 <?php 
-    include "koneksi.php";
+    include "../koneksi.php";
 
     $slug = $_GET['slug'];
 
@@ -52,7 +52,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
     <?php
-    include_once('navbar.php')
+    include_once('../navbarr.php')
 ?>
     <br>
     <div class="container">
@@ -80,7 +80,7 @@
                     <h1><b><?= $title ?></b></h1>
                     <br>
                     <p>
-                        <img width="350px" height="100px" src="../dashboard/cms/images/<?= $nama ?>" class="img-fluid" alt="Responsive image">
+                        <img width="350px" height="100px" src="../../admin/cms/images/<?= $nama ?>" class="img-fluid" alt="Responsive image">
                     </p>
                     <p><?= $title ?></p>
                     <footer class="blockquote-footer">SiPEKA <cite title="Source Title"> Cara Menanam Wortel Di Rumah
@@ -109,15 +109,15 @@
             </div>
 
             <?php
-                include "koneksi.php";
+                include "../koneksi.php";
                 $komentar=$_REQUEST['komentar'];
-                $mysqli="insert into komentar values('$komentar')";
+                $mysqli="INSERT INTO komentar VALUES('$komentar')";
                 $hasil=mysqli_query($koneksi,$mysqli);
                 ?>
 
 
             <?php
-        include_once('footer.php');
+        include_once('../footerr.php');
         ?>
 
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">

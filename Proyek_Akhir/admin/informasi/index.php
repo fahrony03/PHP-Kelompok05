@@ -13,12 +13,12 @@
     <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
     <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
     <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
-    <title>Si-PEKA Admin - Free Bootstrap 4 Admin Template</title>
+    <title>Form Components - Si-PEKA Admin</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -30,9 +30,8 @@
                             }
                     ?>
     <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="index.php">Si Peka - Admin</a>
-      <!-- Sidebar toggle button-->
-      <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+    <header class="app-header"><a class="app-header__logo" href="index.html">Si-PEKA</a>
+      <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
       <!-- Navbar Right Menu-->
       <ul class="app-nav">
         <li class="app-search">
@@ -85,7 +84,7 @@
           <ul class="dropdown-menu settings-menu dropdown-menu-right">
             <li><a class="dropdown-item" href="page-user.php"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
             <li><a class="dropdown-item" href="page-user.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
-            <li><a class="dropdown-item" href="../menu/login.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+            <li><a class="dropdown-item" href="login.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
           </ul>
         </li>
       </ul>
@@ -100,19 +99,19 @@
         </div>
       </div>
       <ul class="app-menu">
-        <li><a class="app-menu__item active" href="index.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
-        <!-- <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">UI Elements</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <li><a class="app-menu__item" href="dashboard.html"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">UI Elements</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
             <li><a class="treeview-item" href="bootstrap-components.html"><i class="icon fa fa-circle-o"></i> Bootstrap Elements</a></li>
             <li><a class="treeview-item" href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener"><i class="icon fa fa-circle-o"></i> Font Icons</a></li>
             <li><a class="treeview-item" href="ui-cards.html"><i class="icon fa fa-circle-o"></i> Cards</a></li>
             <li><a class="treeview-item" href="widgets.html"><i class="icon fa fa-circle-o"></i> Widgets</a></li>
           </ul>
-        </li> -->
-        <li><a class="app-menu__item" href="charts.php"><i class="app-menu__icon fa fa-pie-chart"></i><span class="app-menu__label">Charts</span></a></li>
-        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Forms</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        </li>
+        <li><a class="app-menu__item" href="charts.html"><i class="app-menu__icon fa fa-pie-chart"></i><span class="app-menu__label">Charts</span></a></li>
+        <li class="treeview is-expanded"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Forms</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
-            <li><a class="treeview-item" href="informasi"><i class="icon fa fa-circle-o"></i> informasi</a></li>
+            <li><a class="treeview-item active" href="form-components.html"><i class="icon fa fa-circle-o"></i> Form Components</a></li>
             <li><a class="treeview-item" href="form-custom.html"><i class="icon fa fa-circle-o"></i> Custom Components</a></li>
             <li><a class="treeview-item" href="form-samples.html"><i class="icon fa fa-circle-o"></i> Form Samples</a></li>
             <li><a class="treeview-item" href="form-notifications.html"><i class="icon fa fa-circle-o"></i> Form Notifications</a></li>
@@ -124,7 +123,7 @@
             <li><a class="treeview-item" href="table-data-table.html"><i class="icon fa fa-circle-o"></i> Data Tables</a></li>
           </ul>
         </li>
-        <!-- <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">Pages</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">Pages</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
             <li><a class="treeview-item" href="blank-page.html"><i class="icon fa fa-circle-o"></i> Blank Page</a></li>
             <li><a class="treeview-item" href="page-login.html"><i class="icon fa fa-circle-o"></i> Login Page</a></li>
@@ -135,94 +134,84 @@
             <li><a class="treeview-item" href="page-mailbox.html"><i class="icon fa fa-circle-o"></i> Mailbox</a></li>
             <li><a class="treeview-item" href="page-error.html"><i class="icon fa fa-circle-o"></i> Error Page</a></li>
           </ul>
-        </li> -->
-        <li><a class="app-menu__item" href="docs.html"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Info</span></a></li>
+        </li>
+        <li><a class="app-menu__item" href="docs.html"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Docs</span></a></li>
       </ul>
     </aside>
     <main class="app-content">
       <div class="app-title">
         <div>
-          <h1><i class="fa fa-dashboard"></i> Dashboard</h1>
-          <p>A free and open source Bootstrap 4 admin template</p>
+          <h1><i class="fa fa-edit"></i> Form Components</h1>
+          <p>Bootstrap default form components</p>
         </div>
         <ul class="app-breadcrumb breadcrumb">
           <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-          <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+          <li class="breadcrumb-item">Forms</li>
+          <li class="breadcrumb-item"><a href="#">Form Components</a></li>
         </ul>
       </div>
       <div class="row">
-        <?php
-              // menghubungkan dengan koneksi database
-        include '../menu/koneksi.php';
-        
-        // mengambil data barang
-        $data_user = mysqli_query($koneksi,"SELECT * FROM user");
-        
-        // menghitung data barang
-        $kode_user = mysqli_num_rows($data_user);
-        ?>
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small primary coloured-icon"><i class="icon fa fa-users fa-3x"></i>
-            <div class="info">
-              <h4>Users</h4>
-              <p><b><?php echo $kode_user; ?></b></p>
-            </div>
-          </div>
-        </div>
+        <div class="col-md-12">
+          <div class="tile">
+            <div class="row">
+              <div class="col-lg-6">
+                <form>
+                <?php
+                  if(isset($_GET['pesan'])) {
+                      $pesan = $_GET['pesan'];
+                      if ($pesan == "input") {
+                          echo "Data berhasil di input";
+                      } elseif ($pesan == "update") {
+                          echo "Data berhasil di update";
+                      } elseif ($pesan == "hapus") {
+                          echo "Data berhasil di hapus";
+                      }
+                  }
+                  ?>
+              <h1>Data Gambar</h1><hr>
+              <a href="form.php">Tambah Gambar</a><br><br>
+              <table border="1" cellpadding="8">
+              <tr>
+                <th>Gambar</th>
+                <th>Nama File</th>
+                <th>Ukuran File</th>
+                <th>Tipe File</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Opsi</th>
+              </tr>
+              <?php
+              // Load file koneksi.php
+              include "koneksi.php";
+              $query = "SELECT * FROM informasi"; // Tampilkan semua data gambar
+              $sql = mysqli_query($connect, $query); // Eksekusi/Jalankan query dari variabel $query
+              $row = mysqli_num_rows($sql); // Ambil jumlah data dari hasil eksekusi $sql
+              if($row > 0){ // Jika jumlah data lebih dari 0 (Berarti jika data ada)
+                while($data = mysqli_fetch_array($sql)){ // Ambil semua data dari hasil eksekusi $sql
+                  echo "<tr>";
+                  echo "<td><img src='images/".$data['nama']."' width='100' height='100'></td>";
+                  echo "<td>".$data['nama']."</td>";
+                  echo "<td>".$data['ukuran']."</td>";
+                  echo "<td>".$data['tipe']."</td>";
+                  echo "<td>".$data['title']."</td>";
+                  echo "<td>".$data['content']."</td>";
+                  ?> <td>
+                  <a href="edit.php?id=<?php echo $data['id']; ?>" class="edit">Edit</a><br>
+                  <a href="hapus.php?id=<?php echo $data['id']; ?>" class="hapus">Hapus</a>
+              </td>
+                  <?php echo "</tr>";
+                }
+              }else{ // Jika data tidak ada
+                echo "<tr><td colspan='4'>Data tidak ada</td></tr>";
+              }
+              ?>
+              </table>
 
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small info coloured-icon"><i class="icon fa fa-thumbs-o-up fa-3x"></i>
-            <div class="info">
-              <h4>Jumlah Produk</h4>
-              <p><b>25</b></p>
+                </form>
+              </div>
             </div>
-          </div>
-        </div>
-        <?php
-        // mengambil data barang
-        $data_transaksi = mysqli_query($koneksi,"SELECT * FROM pesanan");
-        
-        // menghitung data barang
-        $nama_barang = mysqli_num_rows($data_transaksi);
-        ?>
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small warning coloured-icon"><i class="icon fa fa-files-o fa-3x"></i>
-            <div class="info">
-              <h4>Transaksi</h4>
-              <p><b><?php echo $nama_barang; ?></b></p>
-            </div>
-          </div>
-        </div>
-        <?php
-        // mengambil data barang
-        $data_komentar = mysqli_query($koneksi,"SELECT * FROM kontak");
-        
-        // menghitung data barang
-        $nama = mysqli_num_rows($data_komentar);
-        ?>
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small danger coloured-icon"><i class="icon fa fa-star fa-3x"></i>
-            <div class="info">
-              <h4>Feedback</h4>
-              <p><b><?php echo $nama; ?></b></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="tile">
-            <h3 class="tile-title">Monthly Sales</h3>
-            <div class="embed-responsive embed-responsive-16by9">
-              <canvas class="embed-responsive-item" id="lineChartDemo"></canvas>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="tile">
-            <h3 class="tile-title">Support Requests</h3>
-            <div class="embed-responsive embed-responsive-16by9">
-              <canvas class="embed-responsive-item" id="pieChartDemo"></canvas>
+            <div class="tile-footer">
+              <a href="index.php" class="btn btn-primary">Cancel</a>
             </div>
           </div>
         </div>
@@ -236,54 +225,6 @@
     <!-- The javascript plugin to display page loading on top-->
     <script src="js/plugins/pace.min.js"></script>
     <!-- Page specific javascripts-->
-    <script type="text/javascript" src="js/plugins/chart.js"></script>
-    <script type="text/javascript">
-      var data = {
-      	labels: ["January", "February", "March", "April", "May"],
-      	datasets: [
-      		{
-      			label: "My First dataset",
-      			fillColor: "rgba(220,220,220,0.2)",
-      			strokeColor: "rgba(220,220,220,1)",
-      			pointColor: "rgba(220,220,220,1)",
-      			pointStrokeColor: "#fff",
-      			pointHighlightFill: "#fff",
-      			pointHighlightStroke: "rgba(220,220,220,1)",
-      			data: [65, 59, 80, 81, 56]
-      		},
-      		{
-      			label: "My Second dataset",
-      			fillColor: "rgba(151,187,205,0.2)",
-      			strokeColor: "rgba(151,187,205,1)",
-      			pointColor: "rgba(151,187,205,1)",
-      			pointStrokeColor: "#fff",
-      			pointHighlightFill: "#fff",
-      			pointHighlightStroke: "rgba(151,187,205,1)",
-      			data: [28, 48, 40, 19, 86]
-      		}
-      	]
-      };
-      var pdata = [
-      	{
-      		value: 300,
-      		color: "#46BFBD",
-      		highlight: "#5AD3D1",
-      		label: "Complete"
-      	},
-      	{
-      		value: 50,
-      		color:"#F7464A",
-      		highlight: "#FF5A5E",
-      		label: "In-Progress"
-      	}
-      ]
-      
-      var ctxl = $("#lineChartDemo").get(0).getContext("2d");
-      var lineChart = new Chart(ctxl).Line(data);
-      
-      var ctxp = $("#pieChartDemo").get(0).getContext("2d");
-      var pieChart = new Chart(ctxp).Pie(pdata);
-    </script>
     <!-- Google analytics script-->
     <script type="text/javascript">
       if(document.location.hostname == 'pratikborsadiya.in') {
