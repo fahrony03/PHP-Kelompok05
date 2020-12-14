@@ -37,7 +37,7 @@
             <!-- Nested Row within Card Body -->
             <div class="row">
               <div class="col-lg-6 d-none d-lg-block bg-login-image">
-                <img class="col-lg-12 d-none d-lg-block bg-login-image" style="padding-top: 6%;" src="../img/loginimage.jpeg" alt="">
+                <img class="col-lg-12 d-none d-lg-block bg-login-image" style="padding-top: 12%;" src="../../img/loginimage.jpeg" alt="">
               </div>
               <div class="col-lg-6">
                 <div class="p-5">

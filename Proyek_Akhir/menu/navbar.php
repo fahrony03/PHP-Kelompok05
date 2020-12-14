@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Si PEKA</title>
 </head>
 
@@ -21,7 +21,7 @@
                     <?php
                     session_start();
                             if( ! isset($_SESSION['username'])){
-                            header("location: login.php");
+                            header("location: auth/login.php");
                             }
                     ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
@@ -42,13 +42,13 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="belanja.php">Belanja</a>
+                        <a class="nav-link js-scroll-trigger" href="belanja/belanja.php">Belanja</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="dokumentasi.php">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="dokumentasi/detail_dokumentasi.php">Dokumentasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="contact.php">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="contact/detailcontact.php">Contact</a>
                     </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -56,11 +56,12 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="penanaman.php">Penanaman</a>
-                            <a class="dropdown-item" href="pengelolaan.php">Pengelolaan</a>
-                            <a class="dropdown-item" href="pemasaran.php">Pemasaran</a>
+                            <a class="dropdown-item" href="more/penanaman.php">Penanaman</a>
+                            <a class="dropdown-item" href="more/pengelolaan.php">Pengelolaan</a>
+                            <a class="dropdown-item" href="more/pemasaran.php">Pemasaran</a>
                         </div>
                     </li>
+
                     <li class="nav-item active dropdown">
                     <a class="nav-link" style="color:white;padding-top:10px; href="#" data-toggle="dropdown"><?php echo $_SESSION['username']; ?><i class="fa fa-user fa-lg"></i></a>
                         <ul class="dropdown-menu settings-menu dropdown-menu-right">
@@ -68,6 +69,29 @@
                             <li><a class="dropdown-item" href="profil.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
                             <li><a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
                         </ul>
+
+                    <div class="topbar-divider d-none d-sm-block"></div>
+                    <li class="nav-item dropdown no-arrow">
+                        <a class="nav-link" href="#" id="userDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="img-profile rounded-circle img-responsive" src="../img/ser.png">
+                            <span class="mr-2 d-none d-lg-inline text-white-600 ">
+                            <?php echo $_SESSION['username']; ?>
+                            </span>
+                        </a>
+                        <!-- Dropdown - User Information -->
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                            aria-labelledby="userDropdown">
+                            <a class="dropdown-item" href="auth/profil.php">
+                                <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Profile
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="auth/logout.php">
+                                <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Log Out
+                            </a>
+                        </div>
                     </li>
                 </ul>
                 </ul>

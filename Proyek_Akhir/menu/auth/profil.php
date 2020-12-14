@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Si PEKA</title>
 </head>
 
@@ -27,7 +27,7 @@
     </script>
 
     <?php
-    include_once('navbar.php')
+    include_once('../navbar.php')
 ?>
     <br><br>
     <?php
@@ -139,7 +139,7 @@
 
                                                             <?php 
                                             error_reporting(0);
-                                            include("config.php");
+                                            include("../config.php");
                                             if(isset($_POST['submit'])) {
                                                 $_SESSION['submit']='';
                                             }
@@ -275,7 +275,7 @@
     </script>
     <br><br>
     <?php
-        include_once('footer.php');
+        include_once('../footer.php');
         ?>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">

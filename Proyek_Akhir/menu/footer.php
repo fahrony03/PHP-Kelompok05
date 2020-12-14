@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Si PEKA</title>
 </head>
-
 <body>
 
         <div class="footer">

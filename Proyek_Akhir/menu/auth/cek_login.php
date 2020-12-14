@@ -3,7 +3,7 @@
 session_start();
 
 // menghubungkan php dengan koneksi database
-include 'koneksi.php';
+include '../koneksi.php';
 
 // menangkap data yang dikirim dari form login
 $username = $_POST['username'];
@@ -27,7 +27,7 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level'] = "admin";
 		// alihkan ke halaman dashboard admin
-		header("location:../dashboard");
+		header("location:../../admin");
 
 	// cek jika user login user
 	}else if($data['level']=="user"){
@@ -35,7 +35,7 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level'] = "user";
 		// alihkan ke halaman dashboard pegawai
-		header("location:home.php?pesan=berhasil");
+		header("location:../home.php?pesan=berhasil");
 	}
 
 

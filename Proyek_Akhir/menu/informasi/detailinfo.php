@@ -77,33 +77,12 @@
 
                     <!--ubah dari bagian ini sesuai isi konten-->
 
-                    <h1><?= $title ?><b></b></h1>
+                    <h1><b><?= $title ?></b></h1>
                     <br>
-                    <!-- <p>
-                        Tanaman Wortel (Daucus carota L.) berasal dari Asia Timur dan Tengah yang memiliki iklim
-                        sub-tropis. Tanaman Wortel
-                        berbentuk semak (perdu) yang tumbuh tegak dengan ketinggian antara 30 cm-100 cm.
-                        Tanaman Wortel memiliki umbi berwarna jingga kemerahan berbentuk lonjong yang sering dimakan
-                        sebagai sumber gizi terutama
-                        vitamin A. Warna jingga kemerahan pada umbi Wortel ini menandakan bahwa itu kaya akan senyawa
-                        karoten dan flavonoid yang
-                        dapat berfungsi sebagai antioksidan.Umbi Wortel sering dikonsumsi sebagai tambahan pada masakan
-                        seperti sup ataupun bihun.
-                        Umbi ini disenangi banyak orang di kalangan masyarakat karena rasanya yang enak dan gizinya yang
-                        berlimpah.
-                        Kali ini Si PEKA akan memberikan uraian lengkap mengenai cara menanam wortel yang baik dan
-                        benar.
-                        Yuk, simak penjelasannya di bawah ini!.
-                    </p> -->
                     <p>
                         <img width="350px" height="100px" src="../dashboard/cms/images/<?= $nama ?>" class="img-fluid" alt="Responsive image">
                     </p>
-                    <!-- <h3> Jenis Wortel</h3> -->
-                    <p>Jenis Imperator yaitu jenis wortel yang memiliki bentuk bulat memanjang dengan ujung meruncing
-                        seperti kerucut. Wortel ini
-                        sedikit tipis, serta memiliki umbi berwarna oranye. Wortel jenis ini kurang disukai oleh orang
-                        karena rasa yang dimiliki
-                        wortel jenis ini kurang manis.</p>
+                    <p><?= $title ?></p>
                     <footer class="blockquote-footer">SiPEKA <cite title="Source Title"> Cara Menanam Wortel Di Rumah
                             Yang Baik Dan Benar. Sangat Mudah!</cite>
                     </footer>

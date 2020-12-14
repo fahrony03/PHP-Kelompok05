@@ -38,7 +38,7 @@
 
                     <?php
                             if( ! isset($_SESSION['username'])){
-                            header("location: login.php");
+                            header("location: auth/login.php");
                             }
                     ?>
 
@@ -90,7 +90,7 @@
                         <p class="card-text text-justify">
                             <?= $data['content'] ?>
                         </p>
-                       <a href="detailinfo.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
+                       <a href="informasi/detailinfo.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
