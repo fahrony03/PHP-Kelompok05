@@ -57,7 +57,7 @@ include_once('navbar.php');
     </div>
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
-            <?php 
+            <?php
                 while($data = mysqli_fetch_array($query)){
             ?>
             <div class="col mb-4">
@@ -68,12 +68,12 @@ include_once('navbar.php');
                         <p class="card-text text-justify">
                             <?= $data['content'] ?>
                         </p>
-                       <a href="menu/detailinfo.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
+                        <a href="menu/detailinfo.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
                 <?php } ?>
-            
+
         </div>
 
         <div class="judul-card">

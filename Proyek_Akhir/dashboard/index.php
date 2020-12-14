@@ -23,6 +23,12 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body class="app sidebar-mini">
+  <?php
+                    session_start();
+                            if( ! isset($_SESSION['username'])){
+                            header("location: login.php");
+                            }
+                    ?>
     <!-- Navbar-->
     <header class="app-header"><a class="app-header__logo" href="index.html">Si Peka - Admin</a>
       <!-- Sidebar toggle button-->
@@ -75,10 +81,10 @@
           </ul>
         </li>
         <!-- User Menu-->
-        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
+        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><?php echo $_SESSION['username']; ?><i class="fa fa-user fa-lg"></i></a>
           <ul class="dropdown-menu settings-menu dropdown-menu-right">
-            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
-            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+            <li><a class="dropdown-item" href="page-user.php"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
+            <li><a class="dropdown-item" href="page-user.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
             <li><a class="dropdown-item" href="../menu/login.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
           </ul>
         </li>
@@ -89,7 +95,7 @@
     <aside class="app-sidebar">
       <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">
         <div>
-          <p class="app-sidebar__user-name">John Doe</p>
+          <p class="app-sidebar__user-name"><?php echo $_SESSION['username']; ?></p>
           <p class="app-sidebar__user-designation">Frontend Developer</p>
         </div>
       </div>

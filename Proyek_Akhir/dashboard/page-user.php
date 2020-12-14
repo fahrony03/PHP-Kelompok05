@@ -23,8 +23,14 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body class="app sidebar-mini">
+    <?php
+  session_start();
+                            if( ! isset($_SESSION['username'])){
+                            header("location: login.php");
+                            }
+                    ?>
     <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="index.html">Vali</a>
+    <header class="app-header"><a class="app-header__logo" href="index.php">Vali</a>
       <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
       <!-- Navbar Right Menu-->
       <ul class="app-nav">
@@ -74,7 +80,7 @@
           </ul>
         </li>
         <!-- User Menu-->
-        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
+        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><?php echo $_SESSION['username']; ?><i class="fa fa-user fa-lg"></i></a>
           <ul class="dropdown-menu settings-menu dropdown-menu-right">
             <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
             <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
@@ -88,7 +94,7 @@
     <aside class="app-sidebar">
       <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">
         <div>
-          <p class="app-sidebar__user-name">John Doe</p>
+          <p class="app-sidebar__user-name"><?php echo $_SESSION['username']; ?></p>
           <p class="app-sidebar__user-designation">Frontend Developer</p>
         </div>
       </div>
@@ -137,7 +143,7 @@
         <div class="col-md-12">
           <div class="profile">
             <div class="info"><img class="user-img" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
-              <h4>John Doe</h4>
+              <h4><?php echo $_SESSION['username']; ?></h4>
               <p>FrontEnd Developer</p>
             </div>
             <div class="cover-image"></div>
@@ -157,7 +163,7 @@
               <div class="timeline-post">
                 <div class="post-media"><a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg"></a>
                   <div class="content">
-                    <h5><a href="#">John Doe</a></h5>
+                    <h5><a href="#"><?php echo $_SESSION['username']; ?></a></h5>
                     <p class="text-muted"><small>2 January at 9:30</small></p>
                   </div>
                 </div>
@@ -173,7 +179,7 @@
               <div class="timeline-post">
                 <div class="post-media"><a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg"></a>
                   <div class="content">
-                    <h5><a href="#">John Doe</a></h5>
+                    <h5><a href="#"><?php echo $_SESSION['username']; ?></a></h5>
                     <p class="text-muted"><small>2 January at 9:30</small></p>
                   </div>
                 </div>

@@ -61,28 +61,13 @@
                             <a class="dropdown-item" href="pemasaran.php">Pemasaran</a>
                         </div>
                     </li>
-                    <div class="topbar-divider d-none d-sm-block"></div>
-                    <li class="nav-item dropdown no-arrow">
-                        <a class="nav-link" href="#" id="userDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="img-profile rounded-circle img-responsive" src="">
-                            <span class="mr-2 d-none d-lg-inline text-white-600 ">
-                            <?php echo $_SESSION['username']; ?>
-                            </span>
-                        </a>
-                        <!-- Dropdown - User Information -->
-                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                            aria-labelledby="userDropdown">
-                            <a class="dropdown-item" href="profil.php">
-                                <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Profile
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="logout.php">
-                                <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Log Out
-                            </a>
-                        </div>
+                    <li class="nav-item active dropdown">
+                    <a class="nav-link" style="color:white;padding-top:10px; href="#" data-toggle="dropdown"><?php echo $_SESSION['username']; ?><i class="fa fa-user fa-lg"></i></a>
+                        <ul class="dropdown-menu settings-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a>
+                            <li><a class="dropdown-item" href="profil.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+                            <li><a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+                        </ul>
                     </li>
                 </ul>
                 </ul>
