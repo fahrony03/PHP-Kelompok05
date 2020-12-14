@@ -82,7 +82,7 @@
                     <p>
                         <img width="350px" height="100px" src="../../admin/menu/informasi/images/<?= $nama ?>" class="img-fluid" alt="Responsive image">
                     </p>
-                    <p><?= $title ?></p>
+                    <p><?= $content ?></p>
                     <footer class="blockquote-footer">SiPEKA <cite title="Source Title"> Cara Menanam Wortel Di Rumah
                             Yang Baik Dan Benar. Sangat Mudah!</cite>
                     </footer>

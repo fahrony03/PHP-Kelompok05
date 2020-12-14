@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="home.php">Home<span
+                        <a class="nav-link js-scroll-trigger" href="../home.php">Home<span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
