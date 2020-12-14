@@ -80,7 +80,7 @@
                     <h1><b><?= $title ?></b></h1>
                     <br>
                     <p>
-                        <img width="350px" height="100px" src="../../admin/informasi/images/<?= $nama ?>" class="img-fluid" alt="Responsive image">
+                        <img width="350px" height="100px" src="../../admin/menu/informasi/images/<?= $nama ?>" class="img-fluid" alt="Responsive image">
                     </p>
                     <p><?= $title ?></p>
                     <footer class="blockquote-footer">SiPEKA <cite title="Source Title"> Cara Menanam Wortel Di Rumah
