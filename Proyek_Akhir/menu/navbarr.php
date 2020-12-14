@@ -28,7 +28,7 @@
         </script>
         <div class="container">
             <a class="navbar-brand" href="home.php">
-                <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
+                <img src="../../img/logo.png" width="60" height="60" class="rounded-circle">
                 Si PEKA
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -42,13 +42,13 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="belanja/belanja.php">Belanja</a>
+                        <a class="nav-link js-scroll-trigger" href="../belanja/belanja.php">Belanja</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="dokumentasi/detail_dokumentasi.php">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="../dokumentasi/detail_dokumentasi.php">Dokumentasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="contact/detailcontact.php">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="../contact/detailcontact.php">Contact</a>
                     </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -56,18 +56,18 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="more/penanaman.php">Penanaman</a>
-                            <a class="dropdown-item" href="more/pengelolaan.php">Pengelolaan</a>
-                            <a class="dropdown-item" href="more/pemasaran.php">Pemasaran</a>
+                            <a class="dropdown-item" href="../more/penanaman.php">Penanaman</a>
+                            <a class="dropdown-item" href="../more/pengelolaan.php">Pengelolaan</a>
+                            <a class="dropdown-item" href="../more/pemasaran.php">Pemasaran</a>
                         </div>
                     </li>
 
                     <li class="nav-item active dropdown">
                     <a class="nav-link" style="color:white;padding-top:10px; href="#" data-toggle="dropdown"><?php echo $_SESSION['username']; ?><i class="fa fa-user fa-lg"></i></a>
                         <ul class="dropdown-menu settings-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a>
-                            <li><a class="dropdown-item" href="profil.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
-                            <li><a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+                            <a class="dropdown-item" href="../auth/page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a>
+                            <li><a class="dropdown-item" href="../auth/profil.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+                            <li><a class="dropdown-item" href="../auth/logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
                         </ul>
 
                     <div class="topbar-divider d-none d-sm-block"></div>

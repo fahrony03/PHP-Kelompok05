@@ -27,7 +27,7 @@
     </script>
 
 <?php
-    include_once('../navbar.php')
+    include_once('../navbarr.php')
 ?>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -80,7 +80,7 @@
     <br>
 
     <?php
-        include_once('../footer.php');
+        include_once('../footerr.php');
         ?>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">

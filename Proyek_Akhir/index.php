@@ -62,7 +62,7 @@ include_once('navbar.php');
             ?>
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="dashboard/cms/images/<?= $data['nama'] ?>"  class="card-img-top" alt="...">
+                    <img src="admin/informasi/images/<?= $data['nama'] ?>"  class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?= $data['title'] ?></h5>
                         <p class="card-text text-justify">
