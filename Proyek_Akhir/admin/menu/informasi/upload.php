@@ -7,6 +7,7 @@ $ukuran_file = $_FILES['gambar']['size'];
 $tipe_file = $_FILES['gambar']['type'];
 $tmp_file = $_FILES['gambar']['tmp_name'];
 $title = $_POST['title'];
+$slug = $_POST['title'];
 $content = $_POST['content'];
 // Set path folder tempat menyimpan gambarnya
 $path = "images/".$nama_file;
@@ -18,7 +19,7 @@ if($tipe_file == "image/jpeg" || $tipe_file == "image/png"){ // Cek apakah tipe 
     if(move_uploaded_file($tmp_file, $path)){ // Cek apakah gambar berhasil diupload atau tidak
       // Jika gambar berhasil diupload, Lakukan :  
       // Proses simpan ke Database
-      $query = "INSERT INTO informasi(nama,ukuran,tipe,title,content) VALUES('".$nama_file."','".$ukuran_file."','".$tipe_file."','".$title."','".$content."')";
+      $query = "INSERT INTO informasi(nama,slug,ukuran,tipe,title,content) VALUES('".$nama_file."','".$slug."','".$ukuran_file."','".$tipe_file."','".$title."','".$content."')";
       $sql = mysqli_query($connect, $query); // Eksekusi/ Jalankan query dari variabel $query
       
       if($sql){ // Cek jika proses simpan ke database sukses atau tidak

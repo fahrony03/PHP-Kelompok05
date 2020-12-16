@@ -68,7 +68,6 @@ include_once('navbar.php');
                         <p class="card-text text-justify">
                             <?= $data['content'] ?>
                         </p>
-                        <a href="menu/detailinfo.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
                        <a href="menu/informasi/detailinfo.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
