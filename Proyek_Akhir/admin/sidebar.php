@@ -1,3 +1,4 @@
+class="app sidebar-mini"
     <?php
                     session_start();
                             if( ! isset($_SESSION['username'])){
