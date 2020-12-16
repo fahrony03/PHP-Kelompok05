@@ -45,7 +45,7 @@
                         <a class="nav-link js-scroll-trigger" href="../belanja/belanja.php">Belanja</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="../dokumentasi/detail_dokumentasi.php">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="../dokumentasi/dokumentasi.php">Dokumentasi</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" href="../contact/detail_contact.php">Contact</a>
@@ -70,15 +70,6 @@
                             <li><a class="dropdown-item" href="../auth/logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
                         </ul>
 
-                    <div class="topbar-divider d-none d-sm-block"></div>
-                    <li class="nav-item dropdown no-arrow">
-                        <a class="nav-link" href="#" id="userDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="img-profile rounded-circle img-responsive" src="../img/ser.png">
-                            <span class="mr-2 d-none d-lg-inline text-white-600 ">
-                            <?php echo $_SESSION['username']; ?>
-                            </span>
-                        </a>
                         <!-- Dropdown - User Information -->
                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                             aria-labelledby="userDropdown">
