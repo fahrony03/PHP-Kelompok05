@@ -23,7 +23,6 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body class="app sidebar-mini">
-<<<<<<< HEAD
   <?php
                     session_start();
                             if( ! isset($_SESSION['username'])){
@@ -91,11 +90,9 @@
         </li>
       </ul>
     </header>
-=======
 <?php
 include_once('topbar.php');
 ?>
->>>>>>> e269c96d200a4b186ccd5e6ea5efba14b1ffaa16
     <!-- Sidebar menu-->
     <?php
 include_once('sidebar.php');
