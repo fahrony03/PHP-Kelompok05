@@ -66,14 +66,14 @@
                     <a class="nav-link" style="color:white;padding-top:10px; href="#" data-toggle="dropdown"><?php echo $_SESSION['username']; ?><i class="fa fa-user fa-lg"></i></a>
                         <ul class="dropdown-menu settings-menu dropdown-menu-right">
                             <a class="dropdown-item" href="../auth/page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a>
-                            <li><a class="dropdown-item" href="../auth/profil.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+                            <li><a class="dropdown-item" href="../auth/profile.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
                             <li><a class="dropdown-item" href="../auth/logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
                         </ul>
 
                         <!-- Dropdown - User Information -->
                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                             aria-labelledby="userDropdown">
-                            <a class="dropdown-item" href="auth/profil.php">
+                            <a class="dropdown-item" href="auth/profile.php">
                                 <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                 Profile
                             </a>
