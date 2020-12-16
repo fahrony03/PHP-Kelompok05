@@ -29,6 +29,7 @@ function registrasi($data)
     $password2 = mysqli_real_escape_string($conn, $data["password2"]);
     $email = htmlspecialchars($data["email"]);
     $no_hp = htmlspecialchars($data["no_hp"]);
+    $file_gbr = htmlspecialchars($data["file_gbr"]); 
     $level = htmlspecialchars($data["level"]);
     // cek username di database
     $result = mysqli_query($conn, "SELECT * FROM user WHERE username = '$username'");
@@ -47,6 +48,10 @@ function registrasi($data)
             </script>
             ";
         return false;
+    }
+    // cek gambar yang diinputkan
+     
+
     }
     // enkripsi password
     // $password = password_hash($password, PASSWORD_DEFAULT);
