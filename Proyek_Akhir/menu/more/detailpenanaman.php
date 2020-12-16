@@ -5,7 +5,7 @@
 
     $slug = $_GET['slug'];
 
-    $query = mysqli_query($koneksi, "SELECT * FROM informasi WHERE slug = '".$slug."'");
+    $query = mysqli_query($koneksi, "SELECT * FROM penanaman WHERE slug = '".$slug."'");
 
     $cek = mysqli_num_rows($query);
 
@@ -80,7 +80,7 @@
                     <h1><b><?= $title ?></b></h1>
                     <br>
                     <p>
-                        <img width="350px" height="100px" src="../../admin/menu/informasi/images/<?= $nama ?>" class="img-fluid" alt="Responsive image">
+                        <img width="350px" height="100px" src="../../admin/menu/penanaman/images/<?= $nama ?>" class="img-fluid" alt="Responsive image">
                     </p>
                     <p><?= $content ?></p>
                     <footer class="blockquote-footer">SiPEKA <cite title="Source Title"> Cara Menanam Wortel Di Rumah
