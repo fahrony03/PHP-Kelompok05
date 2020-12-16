@@ -25,9 +25,6 @@
   <body class="app sidebar-mini">
 <?php
 include_once('topbar.php');
-?>
-    <!-- Sidebar menu-->
-    <?php
 include_once('sidebar.php');
 ?>
   </body>
