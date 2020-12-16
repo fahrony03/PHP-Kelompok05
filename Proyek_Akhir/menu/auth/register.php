@@ -33,9 +33,9 @@ $jumlah_data = mysqli_num_rows($carikode);
 // jika $datakode
 if ($datakode) {
   // membuat variabel baru untuk mengambil kode barang mulai dari 1
-  //$nilaikode = substr($jumlah_data[0], 1);
+  $nilaikode = substr($jumlah_data[0], 1);
   // menjadikan $nilaikode ( int )
-  //$kode = (int) $nilaikode;
+  $kode = (int) $nilaikode;
   // setiap $kode di tambah 1
   $kode = $jumlah_data + 1;
   // hasil untuk menambahkan kode
