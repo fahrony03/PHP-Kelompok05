@@ -27,7 +27,7 @@
     </script>
 
     <?php
-    include_once('../navbar.php')
+    include_once('../navbarr.php')
 ?>
     <br><br>
     <?php

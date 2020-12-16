@@ -1,6 +1,6 @@
 <!doctype html>
 
-<?php 
+<?php
     include "../koneksi.php";
 
     $slug = $_GET['slug'];
@@ -113,7 +113,7 @@
                 $komentar=$_REQUEST['komentar'];
                 $mysqli="INSERT INTO komentar VALUES('$komentar')";
                 $hasil=mysqli_query($koneksi,$mysqli);
-                ?>
+            ?>
 
 
             <?php
