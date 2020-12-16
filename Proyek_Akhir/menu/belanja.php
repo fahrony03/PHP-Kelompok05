@@ -27,7 +27,7 @@
     </script>
 
 <?php
-    include_once('../navbarr.php')
+    include_once('navbar.php')
 ?>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">

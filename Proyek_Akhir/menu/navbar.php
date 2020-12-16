@@ -42,7 +42,7 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="belanja/belanja.php">Belanja</a>
+                        <a class="nav-link js-scroll-trigger" href="belanja.php">Belanja</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" href="dokumentasi/detail_dokumentasi.php">Dokumentasi</a>
@@ -56,7 +56,7 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="more/penanaman.php">Penanaman</a>
+                            <a class="dropdown-item" href="penanaman.php">Penanaman</a>
                             <a class="dropdown-item" href="more/pengelolaan.php">Pengelolaan</a>
                             <a class="dropdown-item" href="more/pemasaran.php">Pemasaran</a>
                         </div>
