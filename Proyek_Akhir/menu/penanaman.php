@@ -35,6 +35,9 @@
 <?php
     include_once('navbar.php')
 ?>
+<?php
+    include_once('topbar.php')
+?>
 
                     <?php
                             if( ! isset($_SESSION['username'])){
