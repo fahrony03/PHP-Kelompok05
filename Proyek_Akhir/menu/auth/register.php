@@ -89,6 +89,9 @@ if ($datakode) {
             <input type="text" class="form-control form-control-static" id="no_hp" name="no_hp" placeholder="masukkan no hp...">
           </div>
         </div>
+        <div class="form-group">
+          <p>Tambahkan Gambar : <br/><input type='file' name='filegbr' id='file_gambar'></p>
+        </div>
         <div class="col mb-3 mb-sm-0">
             <input type="text" class="form-control form-control-static" id="level" name="level" value="user">
           </div><br>

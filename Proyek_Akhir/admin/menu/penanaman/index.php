@@ -24,8 +24,7 @@
   </head>
   <body class="app sidebar-mini">
         <?php
-        include_once('../../topbar.php');
-      include_once('../../sidebar.php');
+
       ?>
     <main class="app-content">
       <div class="app-title">
@@ -63,7 +62,7 @@
               <?php
               // Load file koneksi.php
               include "koneksi.php";
-              $query = "SELECT * FROM informasi"; // Tampilkan semua data gambar
+              $query = "SELECT * FROM penanaman"; // Tampilkan semua data gambar
               $sql = mysqli_query($connect, $query); // Eksekusi/Jalankan query dari variabel $query
               $row = mysqli_num_rows($sql); // Ambil jumlah data dari hasil eksekusi $sql
               if($row > 0){ // Jika jumlah data lebih dari 0 (Berarti jika data ada)
