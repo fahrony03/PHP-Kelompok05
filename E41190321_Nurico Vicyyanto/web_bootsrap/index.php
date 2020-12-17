@@ -25,7 +25,7 @@
   <!-- Page Wrapper -->
   <div id="wrapper">
 
-<?php include "./sidebar.php" ?>
+<?php include "sidebar.php" ?>
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">

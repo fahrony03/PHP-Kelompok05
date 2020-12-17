@@ -24,7 +24,8 @@
   </head>
   <body class="app sidebar-mini">
         <?php
-
+        include_once('../../topbar.php');
+        include_once('../../sidebarr.php');
       ?>
     <main class="app-content">
       <div class="app-title">

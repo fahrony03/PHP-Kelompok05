@@ -1,10 +1,5 @@
 class="app sidebar-mini"
-    <?php
-                    session_start();
-                            if( ! isset($_SESSION['username'])){
-                            header("location: login.php");
-                            }
-    ?>
+
     <!-- Navbar-->
     <header class="app-header"><a class="app-header__logo" href="index.php">Si Peka - Admin</a>
       <!-- Sidebar toggle button-->
