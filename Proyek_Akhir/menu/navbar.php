@@ -18,12 +18,12 @@
 </head>
 
 <body>
-                    <?php
+        <?php
                     session_start();
                             if( ! isset($_SESSION['username'])){
                             header("location: auth/login.php");
                             }
-                    ?>
+        ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
         </script>
         <div class="container">
