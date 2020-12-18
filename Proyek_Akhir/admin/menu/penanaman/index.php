@@ -22,15 +22,10 @@
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body class="app sidebar-mini">
+  <?php
+        include_once('navbar.php');
+      ?>
 
-    <main class="app-content">
-      <div class="app-title">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="tile">
-            <div class="row">
-              <div class="col-lg-6">
                 <form>
                 <?php
                   if(isset($_GET['pesan'])) {
@@ -93,9 +88,6 @@
         </div>
       </div>
     </main>
-<?php
-        include_once('../../topbar.php');
-        include_once('../../sidebar.php');
-      ?>
+
   </body>
 </html>
