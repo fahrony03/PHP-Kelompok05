@@ -45,7 +45,7 @@
                         <a class="nav-link js-scroll-trigger" href="belanja.php">Belanja</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="dokumentasi/detail_dokumentasi.php">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="dokumentasi.php">Dokumentasi</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link js-scroll-trigger" href="contact/detailcontact.php">Contact</a>
