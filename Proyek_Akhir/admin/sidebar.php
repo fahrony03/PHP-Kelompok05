@@ -14,6 +14,7 @@
             <li><a class="treeview-item" href="menu/informasi"><i class="icon fa fa-circle-o"></i> Informasi</a></li>
             <li><a class="treeview-item" href="menu/penanaman"><i class="icon fa fa-circle-o"></i> Penanaman</a></li>
             <li><a class="treeview-item" href="menu/pemasaran"><i class="icon fa fa-circle-o"></i> Pemasaran</a></li>
+            <li><a class="treeview-item" href="menu/pengelolaan"><i class="icon fa fa-circle-o"></i> Pengelolaan</a></li>
             <li><a class="treeview-item" href="form-notifications.html"><i class="icon fa fa-circle-o"></i> Form Notifications</a></li>
           </ul>
         </li>

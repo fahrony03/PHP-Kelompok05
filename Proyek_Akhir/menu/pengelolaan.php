@@ -3,7 +3,7 @@
 <?php 
     include "koneksi.php";
 
-    $query = mysqli_query($koneksi, "SELECT * FROM penanaman");
+    $query = mysqli_query($koneksi, "SELECT * FROM pengelolaan");
 ?>
 
 <head>
@@ -66,7 +66,7 @@
             <h1 class="display-4">Website Pertanian</h1>
             <h1 class="display-4">Si-PEKA</h1>
             <hr>
-            <p class="lead">Si PEKA adalah sebuah website pertanian yang dibuat untuk mempermudah proses pemasaran
+            <p class="lead">Si PEKA adalah sebuah website pertanian yang dibuat untuk mempermudah proses pengelolaan
                 hasil pertanian dan website ini juga menyajikan info-info menarik tentang pertanian serta tata cara
                 bertani.
 
@@ -74,7 +74,7 @@
         </div>
     </div>
     <div class="judul-card">
-        <h1 class="display-4">Informasi Penanaman</h1>
+        <h1 class="display-4">Informasi pengelolaan</h1>
         <hr>
     </div>
     <div class="container">
@@ -84,13 +84,13 @@
             ?>
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="../admin/menu/penanaman/images/<?= $data['nama'] ?>"  class="card-img-top" alt="...">
+                    <img src="../admin/menu/pengelolaan/images/<?= $data['nama'] ?>"  class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?= $data['title'] ?></h5>
                         <p class="card-text text-justify">
                             <?= $data['content'] ?>
                         </p>
-                    <a href="more/detailpenanaman.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
+                    <a href="more/detailpengelolaan.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
         </script>
         <div class="container">
-            <a class="navbar-brand" href="home.php">
+            <a class="navbar-brand" href="../home.php">
                 <img src="../../img/logo.png" width="60" height="60" class="rounded-circle">
                 Si PEKA
             </a>

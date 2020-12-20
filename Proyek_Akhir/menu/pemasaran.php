@@ -3,7 +3,7 @@
 <?php 
     include "koneksi.php";
 
-    $query = mysqli_query($koneksi, "SELECT * FROM penanaman");
+    $query = mysqli_query($koneksi, "SELECT * FROM pemasaran");
 ?>
 
 <head>
@@ -74,7 +74,7 @@
         </div>
     </div>
     <div class="judul-card">
-        <h1 class="display-4">Informasi Penanaman</h1>
+        <h1 class="display-4">Informasi Pemasaran</h1>
         <hr>
     </div>
     <div class="container">
@@ -84,13 +84,13 @@
             ?>
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="../admin/menu/penanaman/images/<?= $data['nama'] ?>"  class="card-img-top" alt="...">
+                    <img src="../admin/menu/pemasaran/images/<?= $data['nama'] ?>"  class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?= $data['title'] ?></h5>
                         <p class="card-text text-justify">
                             <?= $data['content'] ?>
                         </p>
-                    <a href="more/detailpenanaman.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
+                    <a href="more/detailpemasaran.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
