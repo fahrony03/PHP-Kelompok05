@@ -21,14 +21,25 @@
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../../js/ckeditor/ckeditor.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- include summernote css/js -->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
   </head>
 <body>
+<div class="container">
   <h1>Form Upload Gambar</h1>
   <form method="post" enctype="multipart/form-data" action="upload.php">
-    <input type="file" name="gambar">
-    <input type="text" name="title">
-    <input type="text" name="content">
+    <input type="file" name="gambar"><br><br>
+    <input type="text" name="title"><br><br>
+    <textarea id="summernote" name="content"></textarea><br>
+    <script>CKEDITOR.replace('content');</script>
     <input type="submit" value="Upload">
   </form>
+  </div>
 </body>
 </html>
