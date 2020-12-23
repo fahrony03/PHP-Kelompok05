@@ -49,10 +49,6 @@ function registrasi($data)
             ";
         return false;
     }
-    // cek gambar yang diinputkan
-     
-
-    }
     // enkripsi password
     // $password = password_hash($password, PASSWORD_DEFAULT);
     // tambahkan user baru ke database

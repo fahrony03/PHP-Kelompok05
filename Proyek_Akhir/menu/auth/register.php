@@ -17,7 +17,6 @@
 <?php
 require 'function.php';
 
-
 if (isset($_POST["register"])) {
   if (registrasi($_POST) > 0) {
     echo "<script> alert('user baru berhasil ditambahkan!');</script>";
@@ -45,10 +44,7 @@ if ($datakode) {
 } else {
   $kode_otomatis = "USR001";
 }
-
-
 ?>
-
 <div class="container">
   <div class="text-center">
     <h1 class="h4 text-gray-900 mb-4">REGISTRASI</h1>
