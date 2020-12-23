@@ -37,7 +37,7 @@
             <div class="card-body">
                 <h1 ><b>Contact admin</b></h1>
                 <div class="form">
-                    <form action="" method="post">
+                    <form action="aksi.php" method="POST">
                         <label for="nama">Nama </label>
                         <br>
                         <input type="text" class="form-control" id="nama" name="nama">
@@ -61,16 +61,7 @@
                         <br>
                 </div>
 
-                <?php
-                        error_reporting(E_ALL ^ E_NOTICE);
-                        include "koneksi.php";
-                        $nama  = $_POST['nama'];
-                        $alamat  = $_POST['alamat'];
-                        $no  = $_POST['no'];
-                        $komentar  = $_POST['komentar'];
-                        $mysqli  = "insert into kontak (nama,alamat,no,komentar) values('$nama','$alamat','$no','$komentar')";
-                        $result  = mysqli_query($koneksi, $mysqli);
-                        ?>
+
                 </form>
                 <div class="text-center">
                     <a class="small" href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb">Pesan Via Whatsapp</a>
