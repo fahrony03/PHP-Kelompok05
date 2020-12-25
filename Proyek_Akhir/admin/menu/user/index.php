@@ -45,6 +45,7 @@ if(isset($_GET['cari'])){
   <td><?php echo $d['email']; ?></td>
   <td><?php echo $d['no_hp']; ?></td>
   <td><?php echo $d['level']; ?></td>
+  <td></td>
  </tr>
  <?php } ?>
 </table>
