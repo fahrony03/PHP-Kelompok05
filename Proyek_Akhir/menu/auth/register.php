@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body style="background-color: rgb(230, 240, 193); text-align:center; padding:40px;">
+<body style="background-color: #ffffcc; text-align:center; padding:50px;">
 <?php
 require 'function.php';
 
@@ -39,7 +39,7 @@ if ($datakode) {
   $kode_otomatis = "USR001";
 }
 ?>
-<div class="container" style="background-color:	#a6a6a6; text-align:center; border-radius: 20px; width: 700px; height: 450px;"> 
+<div class="container" style="background-color:	#a6a6a6; text-align:center; border-radius: 20px; width: 750px; height: 450px;"> 
   <div class="text-center">
     <h1 class="h4 text-gray-900 mb-4">REGISTRASI</h1>
   </div>
