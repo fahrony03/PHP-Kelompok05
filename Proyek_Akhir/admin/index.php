@@ -81,7 +81,7 @@
         <a href="menu/pemasaran" class="list-group-item list-group-item-action bg-light">Form Pemasaran</a>
         <a href="menu/pengelolaan" class="list-group-item list-group-item-action bg-light">Form Pengelolaan</a>
         <a href="menu/dokumentasi" class="list-group-item list-group-item-action bg-light">Form dokumentasi</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+        <a href="menu/user" class="list-group-item list-group-item-action bg-light">Data User</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
       </div>
