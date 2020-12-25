@@ -40,7 +40,7 @@
         </tr>
         <?php
         include "koneksi.php";
-        $query_mysql = mysqli_query($koneksi,"select * from user");
+        $query_mysql = mysqli_query($connect,"select * from user");
         $nomor = 1;
         while ($data = mysqli_fetch_array($query_mysql)) {
         ?>
@@ -50,8 +50,8 @@
                 <td><?php echo $data['username']; ?></td>
                 <td><?php echo $data['password']; ?></td>
                 <td><?php echo $data['email']; ?></td>
-                <td><?php echo $data['no hp']; ?></td>
-                <td><?php echo $data['opsi']; ?></td>
+                <td><?php echo $data['no_hp']; ?></td>
+                <td><?php echo $data['level']; ?></td>
                 <td>
                     <a href="edit.php?id=<?php echo $data['id']; ?>" class="edit">Edit</a>
                     <a href="hapus.php?id=<?php echo $data['id']; ?>" class="hapus">Hapus</a>
