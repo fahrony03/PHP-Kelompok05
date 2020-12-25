@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-  <link rel="stylesheet"  href="../css/register.css">
+  <!-- <link rel="stylesheet"  href="../../css/register.css"> -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
+<body style="background-color: rgb(230, 240, 193); text-align:center; padding:40px;">
 <?php
 require 'function.php';
 
@@ -31,11 +31,6 @@ $datakode = mysqli_fetch_array($carikode);
 $jumlah_data = mysqli_num_rows($carikode);
 // jika $datakode
 if ($datakode) {
-  // membuat variabel baru untuk mengambil kode barang mulai dari 1
-  $nilaikode = substr($jumlah_data[0], 1);
-  // menjadikan $nilaikode ( int )
-  $kode = (int) $nilaikode;
-  // setiap $kode di tambah 1
   $kode = $jumlah_data + 1;
   // hasil untuk menambahkan kode
   // angka 3 untuk menambahkan tiga angka setelah B dan angka 0 angka yang berada di tengah
@@ -45,7 +40,7 @@ if ($datakode) {
   $kode_otomatis = "USR001";
 }
 ?>
-<div class="container">
+<div class="container" style="background-color:	#a6a6a6; text-align:center; border-radius: 20px; width: 700px; height: 450px;"> 
   <div class="text-center">
     <h1 class="h4 text-gray-900 mb-4">REGISTRASI</h1>
   </div>
@@ -85,14 +80,19 @@ if ($datakode) {
             <input type="text" class="form-control form-control-static" id="no_hp" name="no_hp" placeholder="masukkan no hp...">
           </div>
         </div>
-        <div class="form-group">
-          <p>Tambahkan Gambar : <br/><input type='file' name='filegbr' id='file_gambar'></p>
-        </div>
-        <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="level" name="level" value="user">
-          </div><br>
-        <div class="text-center">
-          <input class="btn btn-primary" name="register" type="submit" value="TAMBAH">
+        <!-- <div class="form-group">
+          <p>Tambahkan Gambar : <br/><input type='file' id='file_gambar' name='file_gbr'></p>
+        </div> -->
+        <div class="form-row align-items-center">
+      <div class="col-auto my-1">
+        <select class="custom-select mr-sm-2" name ="level" id="inlineFormCustomSelect">
+          <option selected>Opsi</option>
+          <option value="user">User</option>
+          <option value="admin">Admin</option>
+        </select>
+      </div></div>
+        <div class="text-right">
+          <input class="btn btn-primary" name="register" type="submit" value="TAMBAH"><br>
           </input>
         </div>
       </form>
