@@ -37,32 +37,34 @@
             <div class="card-body">
                 <h1 ><b>Contact admin</b></h1>
                 <div class="form">
-                    <form action="aksi.php" method="POST">
-                        <label for="nama">Nama </label>
-                        <br>
-                        <input type="text" class="form-control" id="nama" name="nama">
-                        <br>
-                        <label for="alamat">Alamat</label>
-                        <br>
-                        <input type="text" class="form-control" id="alamat" name="alamat">
-                        <br>
-                        <label for="no">No Telepon</label>
-                        <br>
-                        <input type="text" class="form-control" id="no" name="no">
-                        <br>
-                        <label for="komentar">Komentar</label>
-                        <br>
-                        <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
-                        <br>
-
-
-                        <br><br>
-                        <button type="submit" class="btn btn-success btn-lg btn-block" name="submit">Kirim</button>
-                        <br>
-                </div>
-
-
-                </form>
+                <form action="aksi.php" method="POST">		
+		<fieldset>
+		<div>
+			<label for="nama">Nama: </label>
+			<input type="text" class="form-control form-control-user"  name="nama" placeholder="nama lengkap" 
+            required oninvalid="this.setCustomValidity('data tidak boleh kosong')/>
+		</div>
+		<div>
+			<label for="alamat">Alamat: </label>
+			<input type="text" class="form-control form-control-user"  name="alamat" placeholder="Isi Alamat Lengkap" 
+            required oninvalid="this.setCustomValidity('data tidak boleh kosong')/>
+		</div>
+        <div>
+			<label for="no">Nomor Telepon</label>
+			<input type="text" class="form-control form-control-user" name="no" placeholder="Jurusan"/>
+		</div>
+        <div>
+        <label for="komentar">Komentar</label>
+        <textarea class="form-control" name="komentar" rows="3"></textarea>
+        </div>
+        <br>
+        <div>
+        	<input type="submit" class="btn btn-success btn-lg btn-block" value="Daftar" name="daftar" />
+		</div>
+		
+		</fieldset>
+	
+	</form>
                 <div class="text-center">
                     <a class="small" href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb">Pesan Via Whatsapp</a>
                 </div>
