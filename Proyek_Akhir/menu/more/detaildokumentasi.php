@@ -93,27 +93,6 @@
 
     <!--ubah sampe bagian ini-->
 
-    <br>
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-                <div class="form">
-                    <form action="" method="post">
-                        <label for="komentar">Komentar</label>
-                        <br>
-                        <textarea class="form-control" id="komentar" name="komentar" rows="3"></textarea>
-                </div>
-                <br>
-                <br>
-                <button type="submit" class="btn btn-success " name="submit">kirim</button>
-            </div>
-
-            <?php
-                include "../koneksi.php";
-                $komentar=$_REQUEST['komentar'];
-                $mysqli="INSERT INTO komentar VALUES('$komentar')";
-                $hasil=mysqli_query($koneksi,$mysqli);
-            ?>
 
 
             <?php
