@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 20 Des 2020 pada 11.37
+-- Waktu pembuatan: 25 Des 2020 pada 14.52
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.4.1
 
@@ -48,6 +48,13 @@ CREATE TABLE `dokumentasi` (
   `content` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data untuk tabel `dokumentasi`
+--
+
+INSERT INTO `dokumentasi` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
+(0, 'WhatsApp Image 2020-12-08 at 08.03.55.jpeg', 'dokumentasi', 127242, 'image/jpeg', 'dokumentasi', 'ini dokumentasi');
+
 -- --------------------------------------------------------
 
 --
@@ -70,8 +77,7 @@ CREATE TABLE `informasi` (
 
 INSERT INTO `informasi` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
 (25, 'Gmail-Logo.png', 'gmail', 104774, 'image/png', 'asas', 'asasasasasas'),
-(26, 'Bso Hmj MNA.jpg', 'bso', 430418, 'image/jpeg', 'asas', 'asasasasasas'),
-(27, 'instagram-widget.png', 'isntagram', 88695, 'image/png', 'asas', 'sasas');
+(0, 'logo.jpg', 'coba', 45527, 'image/jpeg', 'coba', 'coba');
 
 -- --------------------------------------------------------
 
@@ -88,6 +94,13 @@ CREATE TABLE `komentar` (
 --
 
 INSERT INTO `komentar` (`komentar`) VALUES
+(''),
+(''),
+(''),
+(''),
+(''),
+(''),
+(''),
 (''),
 (''),
 (''),
@@ -199,7 +212,8 @@ CREATE TABLE `penanaman` (
 --
 
 INSERT INTO `penanaman` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
-(0, 'gambar.png', 'ini judul', 67006, 'image/png', 'ini judul', 'ini konten');
+(0, 'logo.jpg', 'jhd', 45527, 'image/jpeg', 'jhd', 'jska'),
+(0, 'gambar (1).PNG', 'judul tes', 63400, 'image/png', 'judul tes', 'bissmillah');
 
 -- --------------------------------------------------------
 
@@ -255,8 +269,21 @@ INSERT INTO `pesanan` (`nama_barang`, `nama`, `alamat`, `no`, `bukti_transaksi`,
 --
 
 CREATE TABLE `transaksi` (
-  `transaksi` blob NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` int(11) NOT NULL,
+  `nama` varchar(100) NOT NULL,
+  `slug` varchar(255) NOT NULL,
+  `ukuran` int(11) NOT NULL,
+  `tipe` varchar(20) NOT NULL,
+  `title` varchar(250) NOT NULL,
+  `content` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `transaksi`
+--
+
+INSERT INTO `transaksi` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
+(0, 'gambar.png', 'transaksi', 67006, 'image/png', 'transaksi', 'transaksi\r\n');
 
 -- --------------------------------------------------------
 
