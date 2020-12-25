@@ -49,6 +49,7 @@ if(isset($_GET['cari'])){
  $no = 1;
  while($dt = mysqli_fetch_array($data)){
  ?>
+<<<<<<< HEAD
 
     <tr>
         <td><?php echo $no++; ?></td>
@@ -65,3 +66,17 @@ if(isset($_GET['cari'])){
     </tr>
     <?php } ?>
 </table>
+=======
+ <tr>
+  <td><?php echo $no++; ?></td>
+  <td><?php echo $d['nama']; ?></td>
+  <td><?php echo $d['username']; ?></td>
+  <td><?php echo $d['password']; ?></td>
+  <td><?php echo $d['email']; ?></td>
+  <td><?php echo $d['no_hp']; ?></td>
+  <td><?php echo $d['level']; ?></td>
+  <td></td>
+ </tr>
+ <?php } ?>
+</table>
+>>>>>>> 8b626cf4987efc2acded864448ee5c7f5e56856a
