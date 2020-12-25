@@ -18,17 +18,16 @@
 </head>
 
 <body>
-                    <?php
+        <?php
                     session_start();
                             if( ! isset($_SESSION['username'])){
                             header("location: auth/login.php");
                             }
-                    ?>
+        ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
-        </script>
         <div class="container">
-            <a class="navbar-brand" href="../home.php">
-                <img src="../../img/logo.png" width="60" height="60" class="rounded-circle">
+            <a class="navbar-brand" href="home.php">
+                <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
                 Si PEKA
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -38,17 +37,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="../home.php">Home<span
+                        <a class="nav-link js-scroll-trigger" href="home.php">Home<span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="../belanja/belanja.php">Belanja</a>
+                        <a class="nav-link js-scroll-trigger" href="belanja.php">Belanja</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="../dokumentasi/dokumentasi.php">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="dokumentasi.php">Dokumentasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="../contact/detail_contact.php">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="contact/detailcontact.php">Contact</a>
                     </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -56,37 +55,21 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../more/penanaman.php">Penanaman</a>
-                            <a class="dropdown-item" href="../more/pengelolaan.php">Pengelolaan</a>
-                            <a class="dropdown-item" href="../more/pemasaran.php">Pemasaran</a>
+                            <a class="dropdown-item" href="penanaman.php">Penanaman</a>
+                            <a class="dropdown-item" href="pengelolaan.php">Pengelolaan</a>
+                            <a class="dropdown-item" href="pemasaran.php">Pemasaran</a>
                         </div>
                     </li>
 
                     <li class="nav-item active dropdown">
-                    <a class="nav-link" style="color:white;padding-top:10px; href="#" data-toggle="dropdown"><?php echo $_SESSION['username']; ?><i class="fa fa-user fa-lg"></i></a>
+                    <a class="nav-link" style="color:white;padding-top:10px;" href="#" data-toggle="dropdown"><?php echo $_SESSION['username']; ?><i class="fa fa-user fa-lg"></i></a>
                         <ul class="dropdown-menu settings-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="../auth/page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a>
-                            <li><a class="dropdown-item" href="../auth/profile.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
-                            <li><a class="dropdown-item" href="../auth/logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+                            <a class="dropdown-item" href="auth/profile.php"><i class="fa fa-cog fa-lg"></i> Settings</a>
+                            <li><a class="dropdown-item" href="auth/profile.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+                            <li><a class="dropdown-item" href="auth/logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
                         </ul>
 
-                        <!-- Dropdown - User Information -->
-                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                            aria-labelledby="userDropdown">
-                            <a class="dropdown-item" href="auth/profile.php">
-                                <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Profile
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="auth/logout.php">
-                                <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Log Out
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            </div>
+                </div>
     </nav>
     <br><br><br>
 
