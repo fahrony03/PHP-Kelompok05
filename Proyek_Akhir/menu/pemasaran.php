@@ -87,9 +87,6 @@
                     <img src="../admin/menu/pemasaran/images/<?= $data['nama'] ?>"  class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?= $data['title'] ?></h5>
-                        <p class="card-text text-justify">
-                            <?= $data['content'] ?>
-                        </p>
                     <a href="more/detailpemasaran.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>

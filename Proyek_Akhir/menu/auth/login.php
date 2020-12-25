@@ -67,7 +67,7 @@
                     <div class="form-group btn-container">
                       <input type="submit" name="login" class="btn btn-user btn-success btn-block" value="Login"></input>
                     </div>
-                    <a href="../index.php" class="btn btn-google btn-danger btn-block">
+                    <a href="../../index.php" class="btn btn-google btn-danger btn-block">
                       <i class="fab fa-google fa-fw"></i> Back
                     </a>
                   </form>

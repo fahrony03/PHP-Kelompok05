@@ -87,15 +87,12 @@
                     <img src="../admin/menu/informasi/images/<?= $data['nama'] ?>"  class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?= $data['title'] ?></h5>
-                        <p class="card-text text-justify">
-                            <?= $data['content'] ?>
-                        </p>
-                       <a href="informasi/detailinfo.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
+                    <a href="informasi/detailinfo.php?slug=<?= $data['slug'] ?>" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
                 <?php } ?>
-            
+
         </div>
         </div>
 

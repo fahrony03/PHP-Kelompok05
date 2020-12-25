@@ -26,8 +26,8 @@
         ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="home.php">
-                <img src="../img/logo.png" width="60" height="60" class="rounded-circle">
+            <a class="navbar-brand" href="../home.php">
+                <img src="../../img/logo.png" width="60" height="60" class="rounded-circle">
                 Si PEKA
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -37,17 +37,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="home.php">Home<span
+                        <a class="nav-link js-scroll-trigger" href="../home.php">Home<span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="belanja.php">Belanja</a>
+                        <a class="nav-link js-scroll-trigger" href="../belanja.php">Belanja</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="dokumentasi.php">Dokumentasi</a>
+                        <a class="nav-link js-scroll-trigger" href="../dokumentasi.php">Dokumentasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="contact/detailcontact.php">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="../contact/detail_contact.php">Contact</a>
                     </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -55,9 +55,9 @@
                             Informasi
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="penanaman.php">Penanaman</a>
-                            <a class="dropdown-item" href="pengelolaan.php">Pengelolaan</a>
-                            <a class="dropdown-item" href="pemasaran.php">Pemasaran</a>
+                            <a class="dropdown-item" href="../penanaman.php">Penanaman</a>
+                            <a class="dropdown-item" href="../pengelolaan.php">Pengelolaan</a>
+                            <a class="dropdown-item" href="../pemasaran.php">Pemasaran</a>
                         </div>
                     </li>
 

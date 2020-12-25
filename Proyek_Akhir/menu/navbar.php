@@ -47,7 +47,7 @@
                         <a class="nav-link js-scroll-trigger" href="dokumentasi.php">Dokumentasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href="contact/detailcontact.php">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="contact/detail_contact.php">Contact</a>
                     </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

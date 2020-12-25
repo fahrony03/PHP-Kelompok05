@@ -14,7 +14,7 @@
     <title>Si PEKA</title>
 </head>
 
-<body>
+<body style="background-color: rgb(230, 240, 193);">
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -66,7 +66,7 @@
 	
 	</form>
                 <div class="text-center">
-                    <a class="small" href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb">Pesan Via Whatsapp</a>
+                    <a class="small" href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb">Contact Via Whatsapp</a>
                 </div>
                 </div>
             </div>

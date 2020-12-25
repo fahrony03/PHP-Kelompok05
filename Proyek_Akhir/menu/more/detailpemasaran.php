@@ -34,7 +34,7 @@
     <title>Si PEKA-Info</title>
 </head>
 
-<body>
+<body style="background-color: rgb(230, 240, 193);">
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -90,7 +90,7 @@
             </div>
         </div>
     </div>
-
+<br>
     <!--ubah sampe bagian ini-->
 
 
