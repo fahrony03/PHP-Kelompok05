@@ -87,7 +87,7 @@
         <a href="../../index.php" class="list-group-item list-group-item-action bg-light">Dashboard</a>
         <a href="menu/informasi" class="list-group-item list-group-item-action bg-light">Form Informasi</a>
         <a href="menu/penanaman" class="list-group-item list-group-item-action bg-light">Form Penanaman</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+        <a href="menu/user" class="list-group-item list-group-item-action bg-light">Data User</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
       </div>
