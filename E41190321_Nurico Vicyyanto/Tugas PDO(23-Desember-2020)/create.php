@@ -19,7 +19,7 @@
 <html>
     <head>
      <meta charset="utf-8">
-  <title>CRUD PDO Javanet Media </title>
+  <title>CRUD PDO</title>
     </head>
 <body bgcolor=" #e6ecff">
 <h2><p align="center">TAMBAH DATA</p></h2>
