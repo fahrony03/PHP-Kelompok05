@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php 
 include 'koneksi.php';
 ?>
@@ -49,5 +48,3 @@ if(isset($_GET['cari'])){
  </tr>
  <?php } ?>
 </table>
-=======
->>>>>>> edb75d91cb545a645cc14dfe3110251de534e64c
