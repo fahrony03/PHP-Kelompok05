@@ -29,8 +29,7 @@
     <main class="app-content">
       <div class="app-title">
 
-      <div class="row">
-        <div class="col-md-12">
+    
           <div class="tile">
             <div class="row">
               <div class="col-lg-6">

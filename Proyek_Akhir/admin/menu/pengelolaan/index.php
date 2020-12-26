@@ -22,6 +22,7 @@
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+  <body style="background-color: rgb(230, 240, 193);">
   <?php
         include_once('navbar.php');
       ?>
@@ -41,7 +42,7 @@
                   ?>
               <h1>Data Gambar</h1><hr>
               <a href="form.php">Tambah Gambar</a><br><br>
-              <table border="1" cellpadding="8">
+              <table class="table table-striped table-light">
               <tr>
                 <th>Gambar</th>
                 <th>Nama File</th>
