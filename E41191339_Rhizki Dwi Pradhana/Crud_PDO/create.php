@@ -5,7 +5,7 @@
         $nama = htmlentities($_POST['nama']);
         $telp = htmlentities($_POST['telp']);
         $alamat = htmlentities($_POST['alamat']);
-        $query = $db->prepare("INSERT INTO `user`(`id`,`nama`, `telp`, `alamat`)
+        $query = $db->prepare("INSERT INTO `user`(`id`,`nama`,`telp`,`alamat`)
         VALUES (:id,:nama,:telp:,alamat:)");
         $query->bindParam(":id", $id);
         $query->bindParam(":nama", $nama);
