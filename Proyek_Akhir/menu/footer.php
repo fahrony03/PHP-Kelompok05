@@ -31,7 +31,7 @@
                                 <h5 class="text-uppercase">Info</h5>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="#!">Link 1</a>
+                                        <a href="www.idntimes.com/hype/fun-fact/rivandi-pranandita-putra/manfaat-menanam-tumbuhan-di-sekitar-rumah-c1c2/8">Link 1</a>
                                     </li>
                                     <li>
                                         <a href="#!">Link 2</a>
