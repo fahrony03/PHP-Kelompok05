@@ -37,7 +37,7 @@
             <div class="card-body">
                 <h1 ><b>Contact admin</b></h1>
                 <div class="form">
-                <form action="aksi.php" method="POST">		
+                <form action="aksi.php" method="POST">
 		<fieldset>
 		<div>
 			<label for="nama">Nama: </label>
