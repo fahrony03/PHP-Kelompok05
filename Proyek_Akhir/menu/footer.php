@@ -31,16 +31,16 @@
                                 <h5 class="text-uppercase">Info</h5>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="www.idntimes.com/hype/fun-fact/rivandi-pranandita-putra/manfaat-menanam-tumbuhan-di-sekitar-rumah-c1c2/8">Link 1</a>
+                                        <a href="www.idntimes.com/hype/fun-fact/rivandi-pranandita-putra/manfaat-menanam-tumbuhan-di-sekitar-rumah-c1c2/8">Manfaat Menanam Tumbuhan Sendiri diRumah</a>
                                     </li>
                                     <li>
-                                        <a href="#!">Link 2</a>
+                                        <a href="www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan#:~:text=Mengonsumsi%20sayuran%20hijau%2C%20seperti%20bayam,dalam%20tubuh%2C%20termasuk%20radang%20sendi.">Khasiat Mengonsumsi Sayuran Hijau Bagi Tubuh</a>
                                     </li>
                                     <li>
-                                        <a href="#!">Link 3</a>
+                                        <a href="www.alodokter.com/manfaat-buah-untuk-kesehatan-yang-perlu-anda-ketahui">Manfaat Mengonsumsi Buah</a>
                                     </li>
                                     <li>
-                                        <a href="#!">Link 4</a>
+                                        <a href="www.sehatq.com/artikel/menelisik-menu-diet-gm">Diet yang Sehat</a>
                                     </li>
                                 </ul>
                             </div>
