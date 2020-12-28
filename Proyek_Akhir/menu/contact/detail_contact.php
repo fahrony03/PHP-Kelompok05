@@ -41,7 +41,7 @@
 		<fieldset>
 		<div>
 			<label for="nama">Nama: </label>
-			<input type="text" class="form-control form-control-user"  name="nama" placeholder="nama lengkap" 
+			<input type="text" class="form-control form-control-user"  name="nama" placeholder="Isi Nama Lengkap" 
             required oninvalid="this.setCustomValidity('data tidak boleh kosong')/>
 		</div>
 		<div>
@@ -51,7 +51,8 @@
 		</div>
         <div>
 			<label for="no">Nomor Telepon</label>
-			<input type="text" class="form-control form-control-user" name="no" placeholder="Jurusan"/>
+			<input type="text" class="form-control form-control-user" name="no" placeholder="Nomor Telepon"
+            required oninvalid="this.setCustomValidity('data tidak boleh kosong'/>
 		</div>
         <div>
         <label for="komentar">Komentar</label>
@@ -65,8 +66,13 @@
 		</fieldset>
 	
 	</form>
+    <br>
                 <div class="text-center">
+<<<<<<< Updated upstream
                     <a class="small" href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb">Contact Via Whatsapp</a>
+=======
+                    <a class="small" href="https://api.whatsapp.com/send?phone=6281314726617">Pesan Via Whatsapp</a>
+>>>>>>> Stashed changes
                 </div>
                 </div>
             </div>
@@ -92,9 +98,7 @@
     <a href="#"
         class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
-    </a>
-
-
+    </a>\
 
 </body>
 
