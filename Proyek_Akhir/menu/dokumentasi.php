@@ -41,32 +41,29 @@
                             header("location: auth/login.php");
                             }
                     ?>
+<br><br>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="../img/cov1.jpeg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../img/cov2.jpeg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../img/cov3.jpeg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <p> <?php
-                    if (isset($_GET['pesan'])) {
-                        # code...
-                        $pesan = $_GET['pesan'];
-                        if ($pesan == "berhasil") {
-                    ?>
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <strong>Selamat</strong> <?php echo $_SESSION['username']; ?> Anda berhasil login
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <?php
-                        }
-                        }
-                    ?>
-
-
-            </p>
-            <h1 class="display-4">Website Pertanian</h1>
-            <h1 class="display-4">Si-PEKA</h1>
-            <hr>
-            <p class="lead">Dokumentasi
 
             </p>
         </div>
