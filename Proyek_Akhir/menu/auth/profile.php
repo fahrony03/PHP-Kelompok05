@@ -27,14 +27,14 @@
     </script>
 
     <?php
+        include '../koneksi.php';
     include_once('../navbarr.php')
 ?>
     <br><br>
     <?php
-                            if( ! isset(
-                                $_SESSION['username'],
-                                )){
-                            }
+                                if( ! isset($_SESSION['username'])){
+                                header("location: ../menu/auth/login.php");
+                                }
                     ?>
     <div class="container" style="background-color:white;">
         <main class="app-content">
@@ -69,26 +69,41 @@
                             <!-- Outer Row -->
                             <div class="row justify-content-center">
 
-                            <div class="col-xl-10 col-lg-12 col-md-9">
+                            <div class="col-xl-10 col-lg-12 col-md-9 mb-5">
 
                                 <div class="card o-hidden border-0 shadow-lg my-2">
-                                <div class="card-body p-0">
+                                <div class="card-body p-3">
 
-                                    <div class="col-lg-6">
+                                    <div>
                                         <div class="p-5">
                                         <div class="text-center">
                                             <h1 class="h4 text-gray-900 mb-2">Welcome</h1>
                                         </div>
                                 <div class="post-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis tion
-                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                        in
-                                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt
-                                        mollit anim id est laborum.</p>
-                                </div>
+
+                                        <b>Nama:</b><?php echo $_SESSION['username']; ?> <br><br>
+
+                                        <?php
+
+                                        $Query = mysqli_query($koneksi,"SELECT * FROM user");
+                                        // if (! isset($_SESSION['username'])) {
+
+                                        //                 while ($Biodata = mysqli_fetch_array($Query))
+                                        //                 {
+                                        //                 echo "<a href='index.php?id=$Biodata[kode_user]'>" . $Biodata['username'] . "<br>";
+                                        //                 }
+
+                                        // } else {
+                                        $Query = mysqli_query($koneksi,"SELECT * FROM user WHERE username=$_GET[kode_user]");
+                                                        $Biodata = mysqli_fetch_array($Query);
+                                                            echo "Jenis Kelamin: " . $Biodata['JK'] . "<br>";
+                                                            echo "Alamat: " . $Biodata['Alamat'] . "<br>";
+                                                            echo "Zodiak: " . $Biodata['Zodiak'] . "<br>";
+                                                            echo "Hobi: " . $Biodata['Hobi'] . "<br>";
+                                                            echo "Makanan Kesukaan: " . $Biodata['MakananKesukaan'] . "<br>";
+                                                            echo "No. HP: " . $Biodata['NoHP'] . "<br><br>";
+                                        // }
+                                        ?>
                                         </div>
                                     </div>
                                     </div>
