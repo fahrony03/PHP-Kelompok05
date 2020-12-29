@@ -1,21 +1,20 @@
 <?php
     include 'koneksi.php';
     if(isset($_POST['submit'])){
-        $id = htmlentities($_POST['id']);
-        $nama = htmlentities($_POST['nama']);
+        $nim = htmlentities($_POST['nim']);
+  $nama = htmlentities($_POST['nama']);
         $telp = htmlentities($_POST['telp']);
         $alamat = htmlentities($_POST['alamat']);
-        $query = $db->prepare("INSERT INTO `user`(`id`,`nama`,`telp`,`alamat`)
-        VALUES (:id,:nama,:telp:,alamat:)");
-        $query->bindParam(":id", $id);
+        $query = $db->prepare("INSERT INTO `tbl_mahasiswa`(`id`,`nama`, `telp`, `alamat`)
+        VALUES (:id,:nama,:telp,:telp)");
+  $query->bindParam(":id", $nim);
         $query->bindParam(":nama", $nama);
         $query->bindParam(":telp", $telp);
         $query->bindParam(":alamat", $alamat);
         $query->execute();
         header("location: index.php");
     }
-?>
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html>
     <head>
      <meta charset="utf-8">
@@ -23,7 +22,7 @@
     </head>
 <body bgcolor=" #e6ecff">
 <h2><p align="center">TAMBAH DATA</p></h2>
-<form action="create-aksi.php" method="POST">
+<form method="POST">
 <table width="546" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#b8b894">
   <tr>
     <td width="189" height="20"> </td>
