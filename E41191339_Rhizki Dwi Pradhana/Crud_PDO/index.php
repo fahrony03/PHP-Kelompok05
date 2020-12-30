@@ -14,10 +14,10 @@
 <h2><strong><p align="center"> Input Data Mahasiswa PDO</p></strong></h2>
 <table width="807" border="1" cellpadding="0" cellspacing="0" align="center">
   <tr>
-    <td width="115" height="30" align="center" valign="middle" bgcolor="#99b3ff">Id</td>
-    <td width="175" align="center" valign="middle" bgcolor="#99b3ff">Nama</td>
-    <td width="100" align="center" valign="middle" bgcolor="#99b3ff">Telp</td>
-    <td width="250" align="center" valign="middle" bgcolor="#99b3ff">Alamat</td>
+    <td width="115" height="30" align="center" valign="middle" bgcolor="#ffd633">Id</td>
+    <td width="175" align="center" valign="middle" bgcolor="#ffd633">Nama</td>
+    <td width="100" align="center" valign="middle" bgcolor="#ffd633">Telp</td>
+    <td width="250" align="center" valign="middle" bgcolor="#ffd633">Alamat</td>
     <td width="135" align="center" valign="middle" bgcolor="#a8a8f0"><a href="create.php">TAMBAH DATA</a></td></tr>
             <?php foreach ($data as $value): ?>
                 <tr>

@@ -1,13 +1,13 @@
 <?php
     include 'koneksi.php';
     if(isset($_POST['submit'])){
-        $nim = htmlentities($_POST['nim']);
-  $nama = htmlentities($_POST['nama']);
+        $id = htmlentities($_POST['id']);
+        $nama = htmlentities($_POST['nama']);
         $telp = htmlentities($_POST['telp']);
         $alamat = htmlentities($_POST['alamat']);
-        $query = $db->prepare("INSERT INTO `tbl_mahasiswa`(`id`,`nama`, `telp`, `alamat`)
+        $query = $db->prepare("INSERT INTO `user`(`id`,`nama`, `telp`, `alamat`)
         VALUES (:id,:nama,:telp,:telp)");
-  $query->bindParam(":id", $nim);
+        $query->bindParam(":id", $id);
         $query->bindParam(":nama", $nama);
         $query->bindParam(":telp", $telp);
         $query->bindParam(":alamat", $alamat);
