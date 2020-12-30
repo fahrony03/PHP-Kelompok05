@@ -85,16 +85,17 @@
 
                                         <?php
 
-                                        $Query = mysqli_query($koneksi,"SELECT * FROM user");
+                                        // $Query = mysqli_query($koneksi,"SELECT * FROM user");
                                         // if (! isset($_SESSION['username'])) {
 
                                         //                 while ($Biodata = mysqli_fetch_array($Query))
                                         //                 {
-                                        //                 echo "<a href='index.php?id=$Biodata[kode_user]'>" . $Biodata['username'] . "<br>";
+                                        //                 echo "<a href='navbarr.php?id=$Biodata[username]'>" . $Biodata['nama'] . "<br>";
                                         //                 }
 
                                         // } else {
-                                        $Query = mysqli_query($koneksi,"SELECT * FROM user WHERE username=$_GET[kode_user]");
+                                            
+                                        $Query = mysqli_query($koneksi,"SELECT * FROM user WHERE username=$_GET[username]");
                                                         $Biodata = mysqli_fetch_array($Query);
                                                             echo "Jenis Kelamin: " . $Biodata['JK'] . "<br>";
                                                             echo "Alamat: " . $Biodata['Alamat'] . "<br>";
