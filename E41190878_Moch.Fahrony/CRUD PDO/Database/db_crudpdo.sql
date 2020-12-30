@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 23 Des 2020 pada 11.32
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.1
+-- Waktu pembuatan: 30 Des 2020 pada 02.40
+-- Versi server: 10.4.10-MariaDB
+-- Versi PHP: 7.3.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_pdo`
+-- Database: `db_crudpdo`
 --
 
 -- --------------------------------------------------------
@@ -40,11 +40,11 @@ CREATE TABLE `tbl_mahasiswa` (
 --
 
 INSERT INTO `tbl_mahasiswa` (`nim`, `nama`, `alamat`, `kelas`) VALUES
-('E41199010', 'Sugeng', 'Jl Durian No 44', 'A'),
-('E41199011', 'Andi Ramdhani', 'Jl Salak No 2', 'C'),
-('E41199012', 'Sutrisna', 'Jl Apel No 30', 'D'),
-('E41199019', 'Supriadi', 'Jl Melon No 30', 'B'),
-('E41199877', 'Agus Mulyono', 'Jl Manggis No 30', 'C');
+('E41190828', 'Rizki', 'Bondowoso', 'E'),
+('E41190858', 'Bintang', 'Jember', 'C'),
+('E41190868', 'Tegar', 'Pasuruan', 'A'),
+('E41190878', 'fahrony', 'Maesan', 'F'),
+('E41190888', 'Rifjan', 'Probolinggo', 'B');
 
 --
 -- Indexes for dumped tables
