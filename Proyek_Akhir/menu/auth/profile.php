@@ -85,7 +85,7 @@
 
                                         <?php
 
-                                        $Query = mysqli_query($koneksi,"SELECT * FROM user");
+                                        // $Query = mysqli_query($koneksi,"SELECT * FROM user");
                                         // if (! isset($_SESSION['username'])) {
 
                                         //                 while ($Biodata = mysqli_fetch_array($Query))
@@ -94,6 +94,7 @@
                                         //                 }
 
                                         // } else {
+                                            
                                         $Query = mysqli_query($koneksi,"SELECT * FROM user WHERE username=$_GET[username]");
                                                         $Biodata = mysqli_fetch_array($Query);
                                                             echo "Jenis Kelamin: " . $Biodata['JK'] . "<br>";
