@@ -32,15 +32,15 @@
                                 <ul class="list-unstyled">
                                     <li>
                                     <a href="https://www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan#:~:text=Mengonsumsi%20sayuran%20hijau%2C%20seperti%20bayam,dalam%20tubuh%2C%20termasuk%20radang%20sendi."
-                                        target="_blank">Manfaat Menanam Tumbuhan Sendiri diRumah</a>
+                                        target="_blank">Menanam Tumbuhan Dirumah</a>
                                     </li>
                                     <li>
                                         <a href="https://www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan"
-                                        target="_blank">Khasiat Mengonsumsi Sayuran Hijau Bagi Tubuh</a>
+                                        target="_blank">Khasiat Sayuran Hijau</a>
                                     </li>
                                     <li>
                                     <a href="www.alodokter.com/manfaat-buah-untuk-kesehatan-yang-perlu-anda-ketahui"
-                                        target="_blank">Manfaat MEngonsumsi Buah</a>
+                                        target="_blank">Manfaat Mengonsumsi Buah</a>
                                         
                                     </li>
                                     <li>
