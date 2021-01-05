@@ -27,7 +27,7 @@
     </script>
 
 <?php
-    include_once('navbar.php')
+    include_once('../navbarr.php')
 ?>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -70,7 +70,7 @@
                             <b>Rp 10.000</b>
                         </p>
 
-                        <a href="detailbelanja_satu.php" class="btn btn-outline-success">Beli</a>
+                        <a href="detailbelanja.php" class="btn btn-outline-success">Beli</a>
                     </div>
                 </div>
             </div>

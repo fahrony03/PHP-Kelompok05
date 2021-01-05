@@ -30,22 +30,22 @@
                                 <!-- Links -->
                                 <h5 class="text-uppercase">Info</h5>
                                 <ul class="list-unstyled">
-                                    <li>
-                                    <p><a href="https://www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan#:~:text=Mengonsumsi%20sayuran%20hijau%2C%20seperti%20bayam,dalam%20tubuh%2C%20termasuk%20radang%20sendi."
-                                        target="_blank">Manfaat Menanam Tumbuhan Sendiri diRumah</a>  </p>
+                                <li>
+                                    <a href="https://www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan#:~:text=Mengonsumsi%20sayuran%20hijau%2C%20seperti%20bayam,dalam%20tubuh%2C%20termasuk%20radang%20sendi."
+                                        target="_blank">1. Menanam Tumbuhan Dirumah</a>
                                     </li>
                                     <li>
-                                        <p><a href="https://www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan"
-                                        target="_blank">Khasiat Mengonsumsi Sayuran Hijau Bagi Tubuh</a>  </p>
+                                        <a href="https://www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan"
+                                        target="_blank">2. Khasiat Sayuran Hijau</a>
                                     </li>
                                     <li>
-                                    <p><a href="www.alodokter.com/manfaat-buah-untuk-kesehatan-yang-perlu-anda-ketahui"
-                                        target="_blank">Manfaat MEngonsumsi Buah</a>  </p>
+                                    <a href="www.alodokter.com/manfaat-buah-untuk-kesehatan-yang-perlu-anda-ketahui"
+                                        target="_blank">3. Manfaat Mengonsumsi Buah</a>
                                         
                                     </li>
                                     <li>
-                                    <p><a href="www.sehatq.com/artikel/menelisik-menu-diet-gm"
-                                        target="_blank">Diet yang Sehat</a>  </p>
+                                    <a href="www.sehatq.com/artikel/menelisik-menu-diet-gm"
+                                        target="_blank">4. Diet yang Sehat</a>
                                     </li>
                                 </ul>
                             </div>
@@ -53,27 +53,27 @@
                                 <h5 class="text-uppercase">Contact</h5>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a class="navbar-brand text-dark" href="#" >
+                                        <a class="navbar-brand text-dark" href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" target="_blank">
                                             <img src="../img/whatsapp.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                            WhatsApp
+                                            Contact Via WhatsApp
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="navbar-brand text-dark" href="#" >
+                                        <a class="navbar-brand text-dark" href="https://www.instagram.com/mchfahrony/" target="_blank" >
                                             <img src="../img/instagram.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                            Instagram
+                                            Contact Via Instagram
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="navbar-brand text-dark" href="#" >
-                                            <img src="../img/whatsapp.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                            WhatsApp
+                                        <a class="navbar-brand text-dark" href="https://twitter.com/mchfahrony" target="_blank">
+                                            <img src="../img/twitter.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                                            Contact Via Twitter
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="navbar-brand text-dark" href="#" >
-                                            <img src="../img/whatsapp.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                            WhatsApp
+                                        <a class="navbar-brand text-dark" href="mailto:sipekabondowoso@gmail.com?subject=kepada%20developer%20Si%20PEKA%20" target="_blank" >
+                                            <img src="../img/gmail.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                                            Contact Via Gmail
                                         </a>
                                     </li>
                                 </ul>

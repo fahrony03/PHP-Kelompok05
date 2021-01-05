@@ -27,15 +27,15 @@
     </script>
 
 <?php
-    include_once('navbar.php')
+    include_once('navbarr.php')
 ?>
 
 
 <div class="container" style="padding-top:140px; padding-bottom:140px;">
 <div class="row" style="background-color:white; padding:20px;">
-<div class="col-md-8">
-    <img class="img-fluid" src="../img/pertanian.jpg" alt="">
-    </div>
+<!-- <div class="col-md-8">
+    <img class="img-fluid" src="../../img/pertanian.jpg" alt="">
+    </div> -->
 
     <div class="col-md-4">
     <h3 class="my-3">Buah Tomat 1kg</h3>
