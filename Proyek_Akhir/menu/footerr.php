@@ -31,17 +31,21 @@
                                 <h5 class="text-uppercase">Info</h5>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href ="www.idntimes.com/hype/fun-fact/rivandi-pranandita-putra/manfaat-menanam-tumbuhan-di-sekitar-rumah-c1c2/8
-">Manfaat Menanam Tumbuhan Sendiri diRumah</a>
+                                    <p><a href="https://www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan#:~:text=Mengonsumsi%20sayuran%20hijau%2C%20seperti%20bayam,dalam%20tubuh%2C%20termasuk%20radang%20sendi."
+                                        target="_blank">Manfaat Menanam Tumbuhan Sendiri diRumah</a>  </p>
                                     </li>
                                     <li>
-                                        <a href="www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan#:~:text=Mengonsumsi%20sayuran%20hijau%2C%20seperti%20bayam,dalam%20tubuh%2C%20termasuk%20radang%20sendi.">Khasiat Mengonsumsi Sayuran Hijau Bagi Tubuh</a>
+                                        <p><a href="https://www.alodokter.com/berbagai-manfaat-sayuran-hijau-untuk-kesehatan"
+                                        target="_blank">Khasiat Mengonsumsi Sayuran Hijau Bagi Tubuh</a>  </p>
                                     </li>
                                     <li>
-                                        <a href="www.alodokter.com/manfaat-buah-untuk-kesehatan-yang-perlu-anda-ketahui">Manfaat MEngonsumsi Buah</a>
+                                    <p><a href="www.alodokter.com/manfaat-buah-untuk-kesehatan-yang-perlu-anda-ketahui"
+                                        target="_blank">Manfaat MEngonsumsi Buah</a>  </p>
+                                        
                                     </li>
                                     <li>
-                                        <a href="www.sehatq.com/artikel/menelisik-menu-diet-gm">Diet yang Sehat</a>
+                                    <p><a href="www.sehatq.com/artikel/menelisik-menu-diet-gm"
+                                        target="_blank">Diet yang Sehat</a>  </p>
                                     </li>
                                 </ul>
                             </div>
