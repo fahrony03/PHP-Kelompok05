@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta name="description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
     <!-- Twitter meta-->
     <meta property="twitter:card" content="summary_large_image">
@@ -21,55 +21,79 @@
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"> 
-	<!-- include summernote css/js-->
-	<link href="dist/summernote.css" rel="stylesheet">
+  </head>
+  <body style="background-color: rgb(230, 240, 193);">
+  <div class="container">
+                <form>
+                <?php
+                  if(isset($_GET['pesan'])) {
+                      $pesan = $_GET['pesan'];
+                      if ($pesan == "input") {
+                          echo "Data berhasil di input";
+                      } elseif ($pesan == "update") {
+                          echo "Data berhasil di update";
+                      } elseif ($pesan == "hapus") {
+                          echo "Data berhasil di hapus";
+                      }
+                  }
+                  ?>
+              <h1>Data Gambar</h1><hr>
+              <a href="form.php">Tambah Gambar</a><br><br>
+              <table class="table table-striped table-light">
+              <tr>
+                <th>Gambar</th>
+                <th>Nama File</th>
+                <th>Ukuran File</th>
+                <th>Tipe File</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Opsi</th>
+              </tr>
+              <?php
+                  require "koneksi.php";
 
-</head>
-<body>
-<body style="background-color: rgb(230, 240, 193);">
-  <?php
-        include_once('navbar.php');
-      ?>
-<div class="summernote container">
-	
-	<div class="row">
-	    <div class="col-lg-7">
-		<form id="postForm" action="save.php" method="POST" enctype="multipart/form-data" onsubmit="return postForm()">
-			
-			<b>Title</b>
-			<input type="text" class="form-control" name="title">
-			<br/>
-			<textarea id="summernote" name="content" rows="10"></textarea>
-			
-			<br/>
-			<button type="submit" class="btn btn-primary">Save</button>
-			<button type="button" id="cancel" class="btn">Cancel</button>
-		    
-		</form>
-		</div>
-		
-		
-	</div>
-</div>
+                  $query = $pdo->prepare("SELECT * FROM penanaman");
+                  
+                  $query->execute();
+                  if($query->rowCount() > 0 ){
+                    while ($r = $query->fetch()) {
+                      
+                      echo "<tr>";
+                        echo "<td><img src='images/".$r['nama']."' width='100' height='100'></td>";
+                        echo "<td>".$r['nama']."</td>";
+                        echo "<td>".$r['ukuran']."</td>";
+                        echo "<td>".$r['tipe']."</td>";
+                        echo "<td>".$r['title']."</td>";
+                        echo "<td>".$r['content']."</td>";
 
-<!-- include libries(jQuery, bootstrap) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="dist/summernote.min.js"></script>
+                      ?> <td>
+                      <a href="edit.php?slug=<?php echo $r['slug']; ?>" class="edit">Edit</a><br>
+                      <a
+                        href="hapus.php?delete=<?= $r['id']; ?>"
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
+                        Hapus
+                    </a>
+                  </td><?php
+                  echo "</tr>";
+                      }//end while
+                      
+                      
+                  }else{
+                      
+                      echo "<tr><td colspan=\"2\">Not Found</td></tr>";
+                  }
+               ?>
+              </table>
+              <a href="index.php" class="btn btn-primary">Cancel</a>
+              <a class="btn btn-success" href="../../index.php" role="button">Kembali</a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    </div>
 
-<script type="text/javascript">
-$(document).ready(function() {
-	$('#summernote').summernote({
-		height: "300px",
-		styleWithSpan: false
-	});
-});
-function postForm() {
-
-	$('textarea[name="content"]').html($('#summernote').code());
-}
-</script>
-</body>
+  </body>
 </html>
