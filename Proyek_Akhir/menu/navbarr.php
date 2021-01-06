@@ -54,7 +54,7 @@
                             Artikel
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../penanaman.php">Penanaman</a>
+                            <a class="dropdown-item" href="../penanaman/">Penanaman</a>
                             <a class="dropdown-item" href="../pengelolaan.php">Pengelolaan</a>
                             <a class="dropdown-item" href="../pemasaran.php">Pemasaran</a>
                         </div>

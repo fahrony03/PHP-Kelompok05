@@ -52,7 +52,7 @@
               <?php
                   require "koneksi.php";
 
-                  $query = $pdo->prepare("SELECT * FROM belanja");
+                  $query = $pdo->prepare("SELECT * FROM penanaman");
                   
                   $query->execute();
                   if($query->rowCount() > 0 ){
@@ -67,9 +67,13 @@
                         echo "<td>".$r['content']."</td>";
 
                       ?> <td>
-                      <a href="edit.php?slug=<?php echo $r['slug']; ?>" class="edit">Edit</a><br>
+                                            <a
+                        href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-outline-success" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
+                        Edit
+                    </a>
                       <a
-                        href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-user btn-danger btn-block" 
+                        href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-outline-danger" 
                         onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
                         Hapus
                     </a>

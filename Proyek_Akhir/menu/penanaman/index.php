@@ -28,26 +28,21 @@
     </script>
 
 <?php
-    include_once('navbar.php')
+    include_once('../navbarr.php')
 ?>
 
-                    <?php
-                            if( ! isset($_SESSION['username'])){
-                            header("location: auth/penanaman.php");
-                            }
-                    ?>
 
 <br><br>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../img/cov1.jpeg" alt="First slide">
+                <img class="d-block w-100" src="../../img/cov1.jpeg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../img/cov2.jpeg" alt="Second slide">
+                <img class="d-block w-100" src="../../img/cov2.jpeg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../img/cov3.jpeg" alt="Third slide">
+                <img class="d-block w-100" src="../../img/cov3.jpeg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -62,7 +57,7 @@
         </div>
     </div>
     <div class="judul-card">
-        <h1 class="display-4">Informasi Pemasaran</h1>
+        <h1 class="display-4">Informasi Penanaman</h1>
         <hr>
     </div>
     <?php
@@ -79,10 +74,13 @@
             ?>
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="../admin/menu/pemasaran/images/<?= $r['nama'] ?>"  class="card-img-top" alt="...">
+                    <img src="../../admin/menu/penanaman/images/<?= $r['nama'] ?>"  class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?= $r['title'] ?></h5>
-                    <a href="more/detailpemasaran.php?slug=<?= $r['slug'] ?>" class="btn btn-outline-success">Baca</a>
+                        <a
+                        href="detailpenanaman.php?detail=<?= $r['id']; ?>" class="btn btn-outline-success">
+                        baca
+                    </a>
                     </div>
                 </div>
             </div>
@@ -94,7 +92,7 @@
 
 
     <?php
-        include_once('footer.php');
+        include_once('../footerr.php');
         ?>
 
 
