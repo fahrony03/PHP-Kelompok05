@@ -76,13 +76,12 @@ if(isset($_GET['cari'])){
  }else{
   $data = mysqli_query($connect,"select * from user");  
  }
- $no = 1;
  while($dt = mysqli_fetch_array($data)){
  ?>
 
 
     <tr>
-        <td><?php echo $no++; ?></td>
+        <td><?php echo $dt['kode_user']; ?></td>
         <td><?php echo $dt['nama']; ?></td>
         <td><?php echo $dt['username']; ?></td>
         <td><?php echo $dt['password']; ?></td>
@@ -90,8 +89,8 @@ if(isset($_GET['cari'])){
         <td><?php echo $dt['no_hp']; ?></td>
         <td><?php echo $dt['level']; ?></td>
         <td>
-            <a href="edit.php?id=<?php echo $dt['id']; ?>" class="edit">Edit</a>
-            <a href="hapus.php?id=<?php echo $dt['id']; ?>">Hapus</a>
+            <a href="edit.php?id=<?php echo $dt['kode_user']; ?>" class="edit">Edit</a>
+            <a href="hapus.php?id=<?php echo $dt['kode_user']; ?>" class="hapus">Hapus</a>
         </td>
     </tr>
     <?php } ?>
