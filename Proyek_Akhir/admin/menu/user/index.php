@@ -46,7 +46,8 @@ include 'koneksi.php';
     <input type="text" class="form-control" name="cari">
     </div>
     <div class="col-auto">
-    <input type="submit" class="btn btn-primary mb-2" value="Cari">
+    <br>
+    <input type="submit" class="btn btn-success mb-2" value="Cari">
     </div>
 </form>
 
@@ -95,6 +96,8 @@ if(isset($_GET['cari'])){
     </tr>
     <?php } ?>
 </table>
+<a class="btn btn-success" href="../../index.php" role="button">Kembali</a>
+
 </div>
   </body>
 </html>

@@ -24,6 +24,7 @@
   </head>
 
   <body style="background-color: rgb(230, 240, 193);">
+  <div class="container">
                 <form>
                 <?php
                   if(isset($_GET['pesan'])) {
@@ -75,17 +76,19 @@
               }
               ?>
               </table>
-
+              <a href="index.php" class="btn btn-primary">Cancel</a>
+              <a class="btn btn-success" href="../../index.php" role="button">Kembali</a>
                 </form>
               </div>
             </div>
             <div class="tile-footer">
-              <a href="index.php" class="btn btn-primary">Cancel</a>
+              
             </div>
           </div>
         </div>
       </div>
     </main>
+    </div>
 
   </body>
 </html>
