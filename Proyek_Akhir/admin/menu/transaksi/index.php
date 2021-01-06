@@ -39,7 +39,6 @@
                   }
                   ?>
               <h1>Data Gambar</h1><hr>
-              <a href="form.php">Tambah Gambar</a><br><br>
               <table class="table table-striped table-light">
               <tr>
                 <th>Gambar</th>

@@ -1,6 +1,13 @@
 <?php
-include 'koneksi.php';
-$id = $_GET['id'];
-mysqli_query($connect,"delete from pengelolaan where id='$id'");
-
-header("location:index.php?pesan=hapus"); 
+        require "koneksi.php";
+                 if (isset($_GET['delete'])) {
+                $query = $pdo->prepare ("DELETE FROM pengelolaan WHERE id = {$_GET['delete']}");
+                 
+                    if ($query->execute()){
+                    header('Location:index.php');
+                    echo "data berhasil di hapus";
+                    }else{
+                        echo "data tidak berhasil di hapus";
+                    }
+                }
+?>
