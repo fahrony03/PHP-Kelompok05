@@ -18,7 +18,7 @@
     <h3>Edit Data</h3>
     <?php
 include ('koneksi.php');
-$edit=mysqli_query($connect, "select *from pemasaran where id='$_GET[id]'");
+$edit=mysqli_query($connect, "select *from informasi where id='$_GET[id]'");
 $data=mysqli_fetch_array($edit);
 echo "<table border=1>
 <form method=post action=update.php enctype=multipart/form-data>

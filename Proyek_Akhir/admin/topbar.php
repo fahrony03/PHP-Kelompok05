@@ -104,6 +104,7 @@
          
         <li class="treeview is-expanded"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">Pages</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
+          <li><a class="treeview-item" href="menu/belanja"><i class="icon fa fa-circle-o"></i>Belanja</a></li>
             <li><a class="treeview-item" href="menu/informasi"><i class="icon fa fa-circle-o"></i>Informasi</a></li>
             <li><a class="treeview-item" href="menu/dokumentasi"><i class="icon fa fa-circle-o"></i>Dokumentsi</a></li>
             <li><a class="treeview-item" href="menu/penanaman"><i class="icon fa fa-circle-o"></i> penanaman</a></li>

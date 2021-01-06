@@ -23,10 +23,7 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body style="background-color: rgb(230, 240, 193);">
-  <?php
-        include_once('navbar.php');
-      ?>
-
+  <div class="container">
                 <form>
                 <?php
                   if(isset($_GET['pesan'])) {
@@ -53,42 +50,50 @@
                 <th>Opsi</th>
               </tr>
               <?php
-              // Load file koneksi.php
-              include "koneksi.php";
-              $query = "SELECT * FROM pemasaran"; // Tampilkan semua data gambar
-              $sql = mysqli_query($connect, $query); // Eksekusi/Jalankan query dari variabel $query
-              $row = mysqli_num_rows($sql); // Ambil jumlah data dari hasil eksekusi $sql
-              if($row > 0){ // Jika jumlah data lebih dari 0 (Berarti jika data ada)
-                while($data = mysqli_fetch_array($sql)){ // Ambil semua data dari hasil eksekusi $sql
-                  echo "<tr>";
-                  echo "<td><img src='images/".$data['nama']."' width='100' height='100'></td>";
-                  echo "<td>".$data['nama']."</td>";
-                  echo "<td>".$data['ukuran']."</td>";
-                  echo "<td>".$data['tipe']."</td>";
-                  echo "<td>".$data['title']."</td>";
-                  echo "<td>".$data['content']."</td>";
-                  ?> <td>
-                  <a href="edit.php?id=<?php echo $data['id']; ?>" class="edit">Edit</a><br>
-                  <a href="hapus.php?id=<?php echo $data['id']; ?>" class="hapus">Hapus</a>
-              </td>
-                  <?php echo "</tr>";
-                }
-              }else{ // Jika data tidak ada
-                echo "<tr><td colspan='4'>Data tidak ada</td></tr>";
-              }
-              ?>
-              </table>
+                  require "koneksi.php";
 
+                  $query = $pdo->prepare("SELECT * FROM belanja");
+                  
+                  $query->execute();
+                  if($query->rowCount() > 0 ){
+                    while ($r = $query->fetch()) {
+                      
+                      echo "<tr>";
+                        echo "<td><img src='images/".$r['nama']."' width='100' height='100'></td>";
+                        echo "<td>".$r['nama']."</td>";
+                        echo "<td>".$r['ukuran']."</td>";
+                        echo "<td>".$r['tipe']."</td>";
+                        echo "<td>".$r['title']."</td>";
+                        echo "<td>".$r['content']."</td>";
+
+                      ?> <td>
+                      <a href="edit.php?slug=<?php echo $r['slug']; ?>" class="edit">Edit</a><br>
+                      <a
+                        href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-user btn-danger btn-block" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
+                        Hapus
+                    </a>
+                  </td><?php
+                  echo "</tr>";
+                      }//end while
+                      
+                      
+                  }else{
+                      
+                      echo "<tr><td colspan=\"2\">Not Found</td></tr>";
+                  }
+               ?>
+              </table>
+              <a href="index.php" class="btn btn-primary">Cancel</a>
+              <a class="btn btn-success" href="../../index.php" role="button">Kembali</a>
                 </form>
               </div>
-            </div>
-            <div class="tile-footer">
-              <a href="index.php" class="btn btn-primary">Cancel</a>
             </div>
           </div>
         </div>
       </div>
     </main>
+    </div>
 
   </body>
 </html>

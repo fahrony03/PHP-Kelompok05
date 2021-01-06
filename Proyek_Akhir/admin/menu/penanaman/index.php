@@ -52,7 +52,7 @@
               <?php
                   require "koneksi.php";
 
-                  $query = $pdo->prepare("SELECT * FROM penanaman");
+                  $query = $pdo->prepare("SELECT * FROM belanja");
                   
                   $query->execute();
                   if($query->rowCount() > 0 ){
