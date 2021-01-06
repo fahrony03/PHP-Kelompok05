@@ -57,23 +57,35 @@
         <h1 class="display-4">Daftar Produk Pertanian</h1>
         <hr>
     </div>
+    <?php
+                  require "koneksi.php";
 
+                  $query = $pdo->prepare("SELECT * FROM belanja");
+                  
+                  $query->execute();
+                  ?>
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
+        <?php 
+                while ($r = $query->fetch()) {
+            ?>
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="../../img/penanaman/wortel.png" class="card-img-top" alt="...">
+                <img src="../../admin/menu/belanja/images/<?= $r['nama'] ?>"  class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Wortel Organik segar 1 kilogram</h5>
-                        <span class="badge badge-success">discount 50%</span>
+                        <h3 class="card-title"><?= $r['title'] ?></h3>
                         <p class="card-text text-justify">
-                            <b>Rp 10.000</b>
+                            <b>Harga : <?= $r['harga'] ?></b>
                         </p>
 
-                        <a href="detailbelanja.php" class="btn btn-outline-success">Beli</a>
+                        <a
+                        href="detailbelanja.php?detail=<?= $r['id']; ?>" class="btn btn-outline-success">
+                        beli
+                    </a>
                     </div>
                 </div>
             </div>
+            <?php } ?>
         </div>
     </div>
 

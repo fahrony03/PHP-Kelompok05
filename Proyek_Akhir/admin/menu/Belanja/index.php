@@ -42,11 +42,11 @@
               <table class="table table-striped table-light">
               <tr>
                 <th>Gambar</th>
-                <th>Nama File</th>
-                <th>Ukuran File</th>
-                <th>Tipe File</th>
                 <th>Title</th>
-                <th>Content</th>
+                <th>Deskripsi</th>
+                <th>Berat</th>
+                <th>Stok</th>
+                <th>Harga</th>
                 <th>Opsi</th>
               </tr>
               <?php
@@ -60,14 +60,15 @@
                       
                       echo "<tr>";
                         echo "<td><img src='images/".$r['nama']."' width='100' height='100'></td>";
-                        echo "<td>".$r['nama']."</td>";
-                        echo "<td>".$r['ukuran']."</td>";
-                        echo "<td>".$r['tipe']."</td>";
                         echo "<td>".$r['title']."</td>";
                         echo "<td>".$r['content']."</td>";
+                        echo "<td>".$r['berat']."</td>";
+                        echo "<td>".$r['stok']."</td>";
+                        echo "<td>".$r['harga']."</td>";
+                        
 
                       ?> <td>
-                      <a href="edit.php?slug=<?php echo $r['slug']; ?>" class="edit">Edit</a><br>
+                      <a href="edit.php?id=<?php echo $r['id']; ?>" class="edit">Edit</a><br>
                       <a
                         href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-user btn-danger btn-block" 
                         onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">

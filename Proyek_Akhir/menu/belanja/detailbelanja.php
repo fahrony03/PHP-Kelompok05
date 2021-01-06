@@ -28,31 +28,50 @@
 
 <?php
     include_once('../navbarr.php')
+    
 ?>
+<?php
+                  require "koneksi.php";
+
+
+    if (isset($_GET['detail'])) {
+        $query = $pdo->prepare ("SELECT * FROM belanja WHERE id = {$_GET['detail']}");
+         
+            if ($query->execute()){
+            // header('Location:detailbelanja.php');
+            echo "Barang Berhasil Dipilih";
+            }else{
+                echo "data tidak berhasil di hapus";
+            }
+        }
+
+
+?>
+                    
 
 
 <div class="container" style="padding-top:140px; padding-bottom:140px;">
 <div class="row" style="background-color:white; padding:20px;">
-<!-- <div class="col-md-8">
-    <img class="img-fluid" src="../../img/pertanian.jpg" alt="">
-    </div> -->
+<div class="col-md-8">
+<?php
+while ($r = $query->fetch()) {
+?>
+<img src="../../admin/menu/belanja/images/<?= $r['nama'] ?>"  class="card-img-top" alt="...">
+    </div>
 
     <div class="col-md-4">
-    <h3 class="my-3">Buah Tomat 1kg</h3>
-    <p>Buah tomat organik ini seberat 1Kg ditanam dan dipanen dengan cara khusus sehingga mutunya terjamin </p>
+    <h3 class="my-3"><?= $r['title'] ?></h3>
+    <p><?= $r['content'] ?> </p>
     <h3 class="my-3">Detail Produk</h3>
     <ul>
-        <li>Berat 1Kg</li>
-        <li>Produk Organik</li>
-        <li>Segar</li>
-        <li>Tanpa bahan kimia</li>
+        <li>Berat : <?= $r['berat'] ?>Kg</li>
+        <li>Stok  : <?= $r['stok'] ?></li>
     </ul>
-    <span class="badge badge-warning float-right">discount 50%</span>
         <h5 class="card-text text-justify">
-            <b>Harga : Rp 10.000</b>
+            <b>Harga : Rp <?= $r['harga'] ?></b>
         </h5>
         <a href="../transaksi" class="btn btn-success float-right">Pesan</a>
-
+<?php } ?>
 </div>
 </div>
 </div>

@@ -44,12 +44,23 @@
       <b>Thumbnail</b>
       <input type="file" name="gambar">
       <br>
-      <b>Kontek</b>
+      <b>Deskripsi</b>
       <textarea id="summernote" name="content" rows="10"></textarea>
+      <br>
+      <b>Berat</b>
+      <input type="text" class="form-control" name="berat">
+      <br>
+      <b>Stok</b>
+      <input type="text" class="form-control" name="stok">
+      <br>
+      <b>Harga</b>
+      <input type="text" class="form-control" name="harga">
       <br>
 			<button type="submit" class="btn btn-primary">Save</button>
 			<button type="button" id="cancel" class="btn">Cancel</button>
-		    
+        <br>
+        <br>
+        <br>
 		</form>
 		</div>
 		

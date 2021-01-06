@@ -9,11 +9,14 @@ $tmp_file = $_FILES['gambar']['tmp_name'];
 $title = $_POST['title'];
 $slug = $_POST['title'];
 $content = $_POST['content'];
+$harga = $_POST['harga'];
+$berat = $_POST['berat'];
+$stok = $_POST['stok'];
 
 
     // Set path folder tempat menyimpan gambarnya
 $path = "images/".$nama_file;
-if($tipe_file == "image/jpeg" || $tipe_file == "image/png"){ // Cek apakah tipe file yang diupload adalah JPG / JPEG / PNG
+if($tipe_file == "image/jpeg" || $tipe_file == "image/png" || $tipe_file == "image/jpg"){ // Cek apakah tipe file yang diupload adalah JPG / JPEG / PNG
   // Jika tipe file yang diupload JPG / JPEG / PNG, lakukan :
   if($ukuran_file <= 1000000){ // Cek apakah ukuran file yang diupload kurang dari sama dengan 1MB
     // Jika ukuran file kurang dari sama dengan 1MB, lakukan :
@@ -21,13 +24,16 @@ if($tipe_file == "image/jpeg" || $tipe_file == "image/png"){ // Cek apakah tipe 
     if(move_uploaded_file($tmp_file, $path)){ // Cek apakah gambar berhasil diupload atau tidak
       // Jika gambar berhasil diupload, Lakukan :  
       // Proses simpan ke Database
-      $stmt = $pdo->prepare("INSERT INTO penanaman (nama,slug,ukuran,tipe,title,content) VALUES (:nama,:slug,:ukuran,:tipe,:title,:content)");
+      $stmt = $pdo->prepare("INSERT INTO belanja (nama,slug,ukuran,tipe,title,content,harga,berat,stok) VALUES (:nama,:slug,:ukuran,:tipe,:title,:content,:harga,:berat,:stok)");
       $stmt->bindParam(':nama',$nama_file);
       $stmt->bindParam(':slug',$slug);
       $stmt->bindParam(':ukuran',$ukuran_file);
       $stmt->bindParam(':tipe',$tipe_file);
       $stmt->bindParam(':title', $title);
       $stmt->bindParam(':content', $content);
+      $stmt->bindParam(':harga', $harga);
+      $stmt->bindParam(':berat', $berat);
+      $stmt->bindParam(':stok', $stok);
       if($stmt->execute())
     header("Location:index.php");
       
