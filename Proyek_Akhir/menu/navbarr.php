@@ -26,7 +26,7 @@
         ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="../home.php">
                 <img src="../../img/newlogo.png" width="130" height="50" class="">
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"

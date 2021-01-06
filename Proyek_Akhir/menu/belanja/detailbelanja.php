@@ -27,7 +27,7 @@
     </script>
 
 <?php
-    include_once('navbarr.php')
+    include_once('../navbarr.php')
 ?>
 
 
@@ -51,14 +51,14 @@
         <h5 class="card-text text-justify">
             <b>Harga : Rp 10.000</b>
         </h5>
-        <a href="pesan.php" class="btn btn-success float-right">Pesan</a>
+        <a href="../transaksi" class="btn btn-success float-right">Pesan</a>
 
 </div>
 </div>
 </div>
 
         <?php
-        include_once('footer.php');
+        include_once('../footer.php');
         ?>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">

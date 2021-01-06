@@ -11,7 +11,7 @@
     </div>
     <br>
 
-    <a href="index.php">Lihat Semua Data</a>
+    <a href="../dokumentasi.php">Lihat Semua Data</a>
 
     <br>
 

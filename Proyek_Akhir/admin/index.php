@@ -80,7 +80,7 @@
         <a href="menu/penanaman" class="list-group-item list-group-item-action bg-light">Form Penanaman</a>
         <a href="menu/pemasaran" class="list-group-item list-group-item-action bg-light">Form Pemasaran</a>
         <a href="menu/pengelolaan" class="list-group-item list-group-item-action bg-light">Form Pengelolaan</a>
-        <a href="menu/dokumentasi" class="list-group-item list-group-item-action bg-light">Form dokumentasi</a>
+        <a href="menu/dokumentasi.php" class="list-group-item list-group-item-action bg-light">Form dokumentasi</a>
         <a href="menu/transaksi" class="list-group-item list-group-item-action bg-light">Form Transaksi</a>
         <a href="menu/user" class="list-group-item list-group-item-action bg-light">Data User</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>

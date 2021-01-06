@@ -41,7 +41,7 @@
               <h1>Form Transaksi</h1>
               <br><br>
               <a href="form.php" class="btn btn-success">Lakukan Pembayaran</a>
-              <a href="../belanja.php" class="btn btn-danger">Kembali</a>
+              <a href="../belanja/detailbelanja.php" class="btn btn-danger">Kembali</a>
           </form>
     </main>
     </div>
