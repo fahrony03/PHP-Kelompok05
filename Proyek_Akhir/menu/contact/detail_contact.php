@@ -68,11 +68,7 @@
 	</form>
     <br>
                 <div class="text-center">
-<<<<<<< Updated upstream
                     <a class="small" href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb">Contact Via Whatsapp</a>
-=======
-                    <a class="small" href="https://api.whatsapp.com/send?phone=6281314726617">Pesan Via Whatsapp</a>
->>>>>>> Stashed changes
                 </div>
                 </div>
             </div>
