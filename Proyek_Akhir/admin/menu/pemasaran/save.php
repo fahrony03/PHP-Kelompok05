@@ -1,7 +1,7 @@
 <?php
-// Load file koneksi.php
-include "koneksi.php";
-// Ambil Data yang Dikirim dari Form
+require "koneksi.php";
+
+// insert one row
 $nama_file = $_FILES['gambar']['name'];
 $ukuran_file = $_FILES['gambar']['size'];
 $tipe_file = $_FILES['gambar']['type'];
@@ -9,7 +9,9 @@ $tmp_file = $_FILES['gambar']['tmp_name'];
 $title = $_POST['title'];
 $slug = $_POST['title'];
 $content = $_POST['content'];
-// Set path folder tempat menyimpan gambarnya
+
+
+    // Set path folder tempat menyimpan gambarnya
 $path = "images/".$nama_file;
 if($tipe_file == "image/jpeg" || $tipe_file == "image/png"){ // Cek apakah tipe file yang diupload adalah JPG / JPEG / PNG
   // Jika tipe file yang diupload JPG / JPEG / PNG, lakukan :
@@ -19,8 +21,15 @@ if($tipe_file == "image/jpeg" || $tipe_file == "image/png"){ // Cek apakah tipe 
     if(move_uploaded_file($tmp_file, $path)){ // Cek apakah gambar berhasil diupload atau tidak
       // Jika gambar berhasil diupload, Lakukan :  
       // Proses simpan ke Database
-      $query = "INSERT INTO pemasaran (nama,slug,ukuran,tipe,title,content) VALUES('".$nama_file."','".$slug."','".$ukuran_file."','".$tipe_file."','".$title."','".$content."')";
-      $sql = mysqli_query($connect, $query); // Eksekusi/ Jalankan query dari variabel $query
+      $stmt = $pdo->prepare("INSERT INTO pemasaran (nama,slug,ukuran,tipe,title,content) VALUES (:nama,:slug,:ukuran,:tipe,:title,:content)");
+      $stmt->bindParam(':nama',$nama_file);
+      $stmt->bindParam(':slug',$slug);
+      $stmt->bindParam(':ukuran',$ukuran_file);
+      $stmt->bindParam(':tipe',$tipe_file);
+      $stmt->bindParam(':title', $title);
+      $stmt->bindParam(':content', $content);
+      if($stmt->execute())
+    header("Location:index.php");
       
       if($sql){ // Cek jika proses simpan ke database sukses atau tidak
         // Jika Sukses, Lakukan :

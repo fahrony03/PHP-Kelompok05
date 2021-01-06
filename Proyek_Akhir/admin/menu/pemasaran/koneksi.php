@@ -1,6 +1,9 @@
 <?php
-$host = "localhost"; // Nama hostnya
-$user = "root"; // Username
-$pass = ""; // Password (Isi jika menggunakan password)
-$connect = mysqli_connect($host, $user, $pass, "dbpeka"); // Koneksi ke MySQL
-?>
+
+$host = "localhost";
+$user = "root";
+$password = "";
+$dbname = "dbpeka";
+$pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $password, array(
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+));
