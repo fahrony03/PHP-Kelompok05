@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+
     <title>Si PEKA</title>
 </head>
 
@@ -27,19 +28,26 @@
     </script>
 
 <?php
-    include_once('../navbarr.php')
+    include_once('navbar.php')
 ?>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <?php
+                            if( ! isset($_SESSION['username'])){
+                            header("location: auth/penanaman.php");
+                            }
+                    ?>
+
+<br><br>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../../img/cov1.jpeg" alt="First slide">
+                <img class="d-block w-100" src="../img/cov1.jpeg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../../img/cov2.jpeg" alt="Second slide">
+                <img class="d-block w-100" src="../img/cov2.jpeg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../../img/cov3.jpeg" alt="Third slide">
+                <img class="d-block w-100" src="../img/cov3.jpeg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -51,49 +59,44 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
-    <br>
+        </div>
+    </div>
     <div class="judul-card">
-        <h1 class="display-4">Daftar Produk Pertanian</h1>
+        <h1 class="display-4">Informasi Pemasaran</h1>
         <hr>
     </div>
     <?php
                   require "koneksi.php";
 
-                  $query = $pdo->prepare("SELECT * FROM belanja");
+                  $query = $pdo->prepare("SELECT * FROM penanaman");
                   
                   $query->execute();
                   ?>
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
-        <?php 
-                while ($r = $query->fetch()) {
+            <?php
+                                while ($r = $query->fetch()) {
             ?>
             <div class="col mb-4">
                 <div class="card h-100">
-                <img src="../../admin/menu/belanja/images/<?= $r['nama'] ?>"  class="card-img-top" alt="...">
+                    <img src="../admin/menu/pemasaran/images/<?= $r['nama'] ?>"  class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h3 class="card-title"><?= $r['title'] ?></h3>
-                        <p class="card-text text-justify">
-                            <b>Harga : <?= $r['harga'] ?></b>
-                        </p>
-
-                        <a
-                        href="detailbelanja.php?detail=<?= $r['id']; ?>" class="btn btn-outline-success">
-                        beli
-                    </a>
+                        <h5 class="card-title"><?= $r['title'] ?></h5>
+                    <a href="more/detailpemasaran.php?slug=<?= $r['slug'] ?>" class="btn btn-outline-success">Baca</a>
                     </div>
                 </div>
             </div>
-            <?php } ?>
-        </div>
-    </div>
+                <?php } ?>
 
-    <br>
+        </div>
+        </div>
+
+
 
     <?php
-        include_once('../footerr.php');
+        include_once('footer.php');
         ?>
+
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="#"
