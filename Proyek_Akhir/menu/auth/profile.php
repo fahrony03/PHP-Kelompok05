@@ -28,13 +28,19 @@
 
     <?php
         include '../koneksi.php';
-    include_once('../navbarr.php')
+    include_once('../navbarr.php');
+
+
 ?>
     <br><br>
     <?php
                                 if( ! isset($_SESSION['username'])){
                                 header("location: ../menu/auth/login.php");
                                 }
+                    ?>
+
+                    <?php $query = mysqli_query($koneksi, "SELECT * FROM user WHERE username = $_SESSION[username]");
+                           $r = mysqli_fetch_array($query)
                     ?>
     <div class="container" style="background-color:white;">
         <main class="app-content">
@@ -45,6 +51,7 @@
                             <h4><?php echo $_SESSION['username']; ?></h4>
                             <p>User (Pengguna)</p>
                         </div>
+                        <p><?php $r['nama']; ?> </p>
                         <div class="cover-image"></div>
                     </div>
                 </div>
