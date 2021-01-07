@@ -10,7 +10,7 @@
 
     <title>Hello, world!</title>
   </head>
-  <body style="background-color: rgb(230, 240, 193);">
+  <body style="background-color: rgb(230, 240, 193); text-align: center;">
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -23,24 +23,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
 <div class="container">
-<br><br><br>
-  <div class="card">
-  <div class="card-body">
-  <h1>Form Pembayaran</h1>
-  <form method="post" enctype="multipart/form-data" action="upload.php">
-  <label for="gambar">Upload Bukti Transaksi</label>
-    <input type="file" name="gambar"><br><br>
-    <label for="title">Nama Produk</label><br>
-    <input type="text" name="title"><br><br>
-    <label for="content">Data lengkap Pembeli </label><br>
-    <textarea id="summernote" name="content"></textarea><br><br>
-    <p   style="color: red;" >*sertakan nama, alamat lengkap dan nomor telepon yang dapat dihubungi</p>
-    <script>CKEDITOR.replace('content');</script>
-    <input type="submit" class="btn btn-success" value="Upload">
-    <a href="berhasil.php" class="btn btn-danger">Kembali</a>
-  </form>
-  </div>
-</div>
-</div>
+<main>
+    <form>
+                <?php
+                  if(isset($_GET['pesan'])) {
+                      $pesan = $_GET['pesan'];
+                      if ($pesan == "input") {
+                          echo "Data berhasil di input";
+                      } elseif ($pesan == "update") {
+                          echo "Data berhasil di update";
+                      } elseif ($pesan == "hapus") {
+                          echo "Data berhasil di hapus";
+                      }
+                  }
+                  ?>
+                  <br><br><br><br>
+              <h1>Transaksi Berhasil</h1>
+              <br><br>
+              <a href="../belanja/belanja.php" class="btn btn-danger">Kembali</a>
+          </form>
+    </main>
+    </div>
   </body>
 </html>

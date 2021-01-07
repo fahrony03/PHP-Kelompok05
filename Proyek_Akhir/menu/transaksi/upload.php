@@ -24,7 +24,7 @@ if($tipe_file == "image/jpeg" || $tipe_file == "image/png"){ // Cek apakah tipe 
       
       if($sql){ // Cek jika proses simpan ke database sukses atau tidak
         // Jika Sukses, Lakukan :
-        header("location: index.php"); // Redirectke halaman index.php
+        header("location: berhasil.php"); // Redirectke halaman index.php
       }else{
         // Jika Gagal, Lakukan :
         echo "Maaf, Terjadi kesalahan saat mencoba untuk menyimpan data ke database.";
