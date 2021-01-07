@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body style="background-color: #ffffcc; text-align:center; padding:50px;">
+<body style="background-color: rgb(230, 240, 193); text-align:center; padding:50px;">
 <?php
 require 'function.php';
 
@@ -39,8 +39,9 @@ if ($datakode) {
   $kode_otomatis = "USR001";
 }
 ?>
-<div class="container" style="background-color:	#a6a6a6; text-align:center; border-radius: 20px; width: 750px; height: 450px;"> 
+<div class="container" style="background-color:	white; text-align:center; border-radius: 20px; width: 750px; height: 550px;"> 
   <div class="text-center">
+  <br>
     <h1 class="h4 text-gray-900 mb-4">REGISTRASI</h1>
   </div>
   <div class="row">
@@ -91,9 +92,13 @@ if ($datakode) {
         </select>
       </div></div>
         <div class="text-right">
-          <input class="btn btn-primary" name="register" type="submit" value="TAMBAH"><br>
-          </input>
+          <input class="btn btn-success" name="register" type="submit" value="TAMBAH"><br></input>
         </div>
+        <br>
+        <div class="text-right">
+          <a class="btn btn-danger" href="login.php" role="button">Kembali</a>
+        </div>
+        
       </form>
     </div>
   </div>
