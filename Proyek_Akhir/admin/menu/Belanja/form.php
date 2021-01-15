@@ -27,15 +27,9 @@
 	<link href="dist/summernote.css" rel="stylesheet">
 
 </head>
-<body>
-<body style="background-color: rgb(230, 240, 193);">
-  <?php
-        include_once('navbar.php');
-      ?>
+<body style="background-color: rgb(230, 240, 193); padding: 25px 50px 100px 100px;">
 <div class="summernote container">
-	
 	<div class="row">
-	    <div class="col-lg-7">
 		<form id="postForm" action="save.php" method="POST" enctype="multipart/form-data" onsubmit="return postForm()">
 			
 			<b>judul</b>
@@ -56,8 +50,9 @@
       <b>Harga</b>
       <input type="text" class="form-control" name="harga">
       <br>
-			<button type="submit" class="btn btn-primary">Save</button>
-			<button type="button" id="cancel" class="btn">Cancel</button>
+			<button type="submit" class="btn btn-success">Save</button>
+			<button type="button" id="cancel" class="btn btn-warning">Cancel</button>
+      <a class="btn btn-danger" href="index.php" role="button">Kembali</a>
         <br>
         <br>
         <br>
