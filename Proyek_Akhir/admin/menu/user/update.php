@@ -2,10 +2,11 @@
 include "koneksi.php";
 $id = $_POST['id'];
 $nama = $_POST['nama'];
-$alamat = $_POST['alamat'];
-$pekerjaan = $_POST['pekerjaan'];
+$username = $_POST['username'];
+$no_hp = $_POST['no'];
+$level = $_POST['level'];
 
-mysqli_query($connect, "update user set nama='$nama', alamat='$alamat', pekerjaan='$pekerjaan' where id='$id'");
+mysqli_query($connect, "update user set nama='$nama', username='$username', no_hp='$no', level='$level' where id='$id'");
 
 header("location:index.php?pesan=update");
 ?>

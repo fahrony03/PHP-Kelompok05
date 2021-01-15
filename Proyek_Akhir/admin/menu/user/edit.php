@@ -6,8 +6,7 @@
 </head>
 <body>
     <div class="judul">
-        <h1>Membuat CRUD dengan PHP dan MYSQL</h1>
-        <h2>Menampilkan data dari Database</h2>
+        <h2>DATA USER SIPEKA</h2>
     </div>
     <br>
 
@@ -19,7 +18,7 @@
     <?php
     include "koneksi.php";
     $id = $_GET['id'];
-    $query_mysql = mysqli_query($koneksi,"SELECT * FROM user WHERE id = '$id'");
+    $query_mysql = mysqli_query($connect,"SELECT * FROM user WHERE id = '$id'");
     $nomor = 1;
     while ($data = mysqli_fetch_array($query_mysql)){
     ?>
@@ -32,13 +31,20 @@
                 </td>
             </tr>
             <tr>
-                <td>Alamat</td>
-                <td><input type="text" name="alamat" value="<?php echo $data['alamat']?>">
+                <td>Username</td>
+                <td><input type="text" name="alamat" value="<?php echo $data['username']?>">
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td>No HP</td>
+                <td><input type="text" name="no_hp" value="<?php echo $data['no']?>">
                 </td>
             </tr>
             <tr>
-                <td>Pekerjaan</td>
-                <td><input type="text" name="pekerjaan" value="<?php echo $data['pekerjaan']?>">
+            <tr>
+                <td>Level</td>
+                <td><input type="text" name="level" value="<?php echo $data['level']?>">
                 </td>
             </tr>
             <tr>
