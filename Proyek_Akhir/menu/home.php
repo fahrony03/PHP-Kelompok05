@@ -141,14 +141,12 @@
         </div>
 
         <div class="konten">
-            <p class="text-xl-left text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-                maiores id
-                nobis temporibus culpa recusandae dolorum. Culpa minus, voluptatum molestiae ad eaque autem
-                exercitationem perferendis quisquam voluptas repellendus praesentium aperiam.</p>
-            <p class="text-xl-left text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-                mollitia
-                distinctio soluta voluptatem eius quae accusantium dolorum illo impedit laborum eligendi maiores
-                odio vel est reprehenderit tempora ea nam unde!</p>
+        <h4><b>VISI</b></h4>
+            <p class="text-xl-left text-justify">Menjadi aplikasi pertanian yang dapat menjual produk hasil pertanian SMK PP N 1 Tegalampel Bondowoso,
+            dan diharapkan dapat membantu perekonomian para petani lokal disekitar dalam memasarkan produk ke jangkauan pasar yang sangat luas</p>
+        <h4><b>MISI</b></h4>
+            <p class="text-xl-left text-justify">Dalam rangka mewujudkan visi yang kami terapkan, semoga dapat memasarkan produk ke jangkauan yang lebih luas,
+            mendorong perekonomian dan membangun kerjasama terhadap pertanian lokal </p>
         </div>
     </div>
 
