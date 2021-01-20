@@ -34,13 +34,16 @@
 ?>
     <br><br>
     <?php
-                                if( ! isset($_SESSION['username'])){
+                                if(!isset($_SESSION['username'])){
                                 header("location: ../menu/auth/login.php");
                                 }
                     ?>
 
-                    <?php $query = mysqli_query($koneksi, "SELECT * FROM user WHERE username = $_SESSION[username]");
-                           $r = mysqli_fetch_array($query)
+                    <?php
+                        $id = $_SESSION['id']; 
+                        
+                        $query = mysqli_query($koneksi, "SELECT * FROM user WHERE kode_user = '$id'");
+                         
                     ?>
     <div class="container" style="background-color:white;">
         <main class="app-content">
@@ -48,8 +51,16 @@
                 <div class="col-md-12">
                     <div class="profile">
                         <div class="info"><img class="user-img" src="">
-                            <h4><?php echo $_SESSION['username']; ?></h4>
-                            <p>User (Pengguna)</p>
+                        <?php 
+                            while ($data = mysqli_fetch_array($query)) {
+                            ?>
+                                <h4><?=$data['nama']?></h4>
+                                <p>User (Pengguna)</p>
+                                <h4><?=$data['password']?></h4>
+                             <?php       
+                            }                  
+                        ?>
+
                         </div>
                         <p><?php $r['nama']; ?> </p>
                         <div class="cover-image"></div>
@@ -180,8 +191,8 @@
 
                                                                     <p style="padding-left:20%; color:green">
                                                                         <?php if($msg){
-                          echo htmlentities($msg);
-                        }?></p>
+                                                                    echo htmlentities($msg);
+                                                                    }?></p>
 
                                                                     <form class="login-form" name="forgot"
                                                                         method="post">
