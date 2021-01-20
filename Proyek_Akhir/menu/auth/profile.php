@@ -54,15 +54,19 @@
                         <?php 
                             while ($data = mysqli_fetch_array($query)) {
                             ?>
-                                <h4><?=$data['nama']?></h4>
+                                <h4><?=$data['username']?></h4>
                                 <p>User (Pengguna)</p>
-                                <h4><?=$data['password']?></h4>
+                                <?php 
+                                $nama = $data['nama'];
+                                $email = $data['email'];
+                                $hp = $data['no_hp'];
+                                $lv = $data['level'];
+                                ?>
                              <?php       
                             }                  
                         ?>
 
                         </div>
-                        <p><?php $r['nama']; ?> </p>
                         <div class="cover-image"></div>
                     </div>
                 </div>
@@ -98,31 +102,10 @@
                                             <h1 class="h4 text-gray-900 mb-2">Welcome</h1>
                                         </div>
                                 <div class="post-content">
+                                        <b>Nama: </b><?=$nama ?><br><br>
+                                        <b>Email: </b><?=$email ?><br><br>
+                                        <b>No Hp: </b><?=$hp ?><br><br>
 
-                                        <b>Nama:</b><?php echo $_SESSION['username']; ?> <br><br>
-
-                                        <?php
-
-                                        // $Query = mysqli_query($koneksi,"SELECT * FROM user");
-                                        // if (! isset($_SESSION['username'])) {
-
-                                        //                 while ($Biodata = mysqli_fetch_array($Query))
-                                        //                 {
-                                        //                 echo "<a href='navbarr.php?id=$Biodata[username]'>" . $Biodata['nama'] . "<br>";
-                                        //                 }
-
-                                        // } else {
-                                            
-                                        $Query = mysqli_query($koneksi,"SELECT * FROM user WHERE username=$_GET[username]");
-                                                        $Biodata = mysqli_fetch_array($Query);
-                                                            echo "Jenis Kelamin: " . $Biodata['JK'] . "<br>";
-                                                            echo "Alamat: " . $Biodata['Alamat'] . "<br>";
-                                                            echo "Zodiak: " . $Biodata['Zodiak'] . "<br>";
-                                                            echo "Hobi: " . $Biodata['Hobi'] . "<br>";
-                                                            echo "Makanan Kesukaan: " . $Biodata['MakananKesukaan'] . "<br>";
-                                                            echo "No. HP: " . $Biodata['NoHP'] . "<br><br>";
-                                        // }
-                                        ?>
                                         </div>
                                     </div>
                                     </div>
