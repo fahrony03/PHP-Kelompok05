@@ -113,7 +113,7 @@
                                         <b>Agama : </b><?=$agama ?><br>
                                         <b>No Hp: </b><?=$hp ?><br>
                                         <b>Alamat: </b><?=$alamat ?><br>
-                                        <a href="edit.php?id=<?php echo $value['id']?>">Edit</a>
+                                        <button class="btn-success" data-toggle="modal" data-target="#myModal">Edit</button>
                                         </div>
                                     </div>
                                     </div>
@@ -122,6 +122,45 @@
                                 </div>
                                 
                             </div>
+                            <div id="myModal" class="modal fade" role="dialog">
+                            
+                                <div class="modal-dialog">
+                                    <!-- konten modal-->
+                                    <div class="modal-content">
+                                        <!-- heading modal -->
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Edit Profile</h4>
+                                        </div>
+                                        <!-- body modal -->
+                                        <div class="modal-body">
+                                        <form id="postForm" action="edit.php" method="POST" enctype="multipart/form-data" onsubmit="return postForm()">
+                                                <input type="hidden" name="id" value="<?= $id ?>">
+                                                <b>Nama</b>
+                                                <input type="text" class="form-control" name="nama" value="<?= $nama ?>">
+                                                <b>Username</b>
+                                                <input type="text" class="form-control" name="username" value="<?= $_SESSION['username'] ?>">
+                                                <b>Email</b>
+                                                <input type="email" class="form-control" name="email" value="<?= $email ?>">
+                                                <b>Jenis Kelamin</b>
+                                                <input type="text" class="form-control" name="jk" value="<?= $jk ?>">
+                                                <b>Agama</b>
+                                                <input type="text" class="form-control" name="agama" value="<?= $agama ?>">
+                                                <b>No Hp</b>
+                                                <input type="text" class="form-control" name="hp" value="<?= $hp ?>">
+                                                <b>Alamat</b>
+                                                <input type="text" class="form-control" name="alamat" value="<?= $alamat ?>"><br>
+                                                <button type="submit" class="btn btn-success">Simpan</button>
+                                        </form>
+                                        </div>
+                                        <!-- footer modal -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Tutup Modal</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         <div class="tab-pane fade" id="user-settings">
                             <div class="container">
 
