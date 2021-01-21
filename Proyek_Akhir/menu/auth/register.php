@@ -24,20 +24,20 @@ if (isset($_POST["register"])) {
   }
 }
 
-$carikode = mysqli_query($conn, "SELECT kode_user FROM user") or die(mysqli_error($id_admin));
-// menjadikannya array
-$datakode = mysqli_fetch_array($carikode);
-$jumlah_data = mysqli_num_rows($carikode);
-// jika $datakode
-if ($datakode) {
-  $kode = $jumlah_data + 1;
-  // hasil untuk menambahkan kode
-  // angka 3 untuk menambahkan tiga angka setelah B dan angka 0 angka yang berada di tengah
-  // atau angka sebelum $kode
-  $kode_otomatis = "USR" . str_pad($kode, 3, "0", STR_PAD_LEFT);
-} else {
-  $kode_otomatis = "USR001";
-}
+// $carikode = mysqli_query($conn, "SELECT kode_user FROM user") or die(mysqli_error($id_admin));
+// // menjadikannya array
+// $datakode = mysqli_fetch_array($carikode);
+// $jumlah_data = mysqli_num_rows($carikode);
+// // jika $datakode
+// if ($datakode) {
+//   $kode = $jumlah_data + 1;
+//   // hasil untuk menambahkan kode
+//   // angka 3 untuk menambahkan tiga angka setelah B dan angka 0 angka yang berada di tengah
+//   // atau angka sebelum $kode
+//   $kode_otomatis = "USR" . str_pad($kode, 3, "0", STR_PAD_LEFT);
+// } else {
+//   $kode_otomatis = "USR001";
+// }
 ?>
 <div class="container" style="background-color:	white; text-align:center; border-radius: 20px; width: 750px; height: 550px;"> 
   <div class="text-center">
@@ -70,6 +70,30 @@ if ($datakode) {
             <input type="password" class="form-control form-control-static" id="password2" name="password2" placeholder="Repeat Password">
           </div>
         </div>
+        <div class="form-row align-items-center">
+      <div class="col-auto my-1">
+        <select class="custom-select mr-sm-2" name ="jenis_kelamin" id="inlineFormCustomSelect">
+          <option selected>Jenis Kelamin</option>
+          <option value="Laki - Laki">Laki - Laki</option>
+          <option value="Perempuan">Perempuan</option>
+        </select>
+      </div></div>
+      <div class="form-row align-items-center">
+      <div class="col-auto my-1">
+        <select class="custom-select mr-sm-2" name ="agama" id="inlineFormCustomSelect">
+          <option selected>Agama</option>
+          <option value="Islam">Islam</option>
+          <option value="Kristen">Kristen</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Budha">Budha</option>
+          <option value="Konghucu">Konghucu</option>
+        </select>
+      </div></div>
+        <div class="form-group row">
+          <div class="col mb-3 mb-sm-0">
+            <input type="text" class="form-control form-control-static" id="alamat" name="alamat" placeholder="masukkan alamat lengkap...">
+          </div>
+        </div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
             <input type="email" class="form-control form-control-static" id="email" name="email" placeholder="masukkan email...">
@@ -83,14 +107,11 @@ if ($datakode) {
         <!-- <div class="form-group">
           <p>Tambahkan Gambar : <br/><input type='file' id='file_gambar' name='file_gbr'></p>
         </div> -->
-        <div class="form-row align-items-center">
-      <div class="col-auto my-1">
-        <select class="custom-select mr-sm-2" name ="level" id="inlineFormCustomSelect">
-          <option selected>Opsi</option>
-          <option value="user">User</option>
-          <option value="admin">Admin</option>
-        </select>
-      </div></div>
+        <div class="form-group row">
+          <div class="col mb-3 mb-sm-0">
+            <input type="text" class="form-control form-control-static" id="level" name="level"  value="user" hidden>
+          </div>
+        </div>
         <div class="text-right">
           <input class="btn btn-success" name="register" type="submit" value="TAMBAH"><br></input>
         </div>
