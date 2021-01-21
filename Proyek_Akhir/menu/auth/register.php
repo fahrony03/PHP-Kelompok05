@@ -40,7 +40,7 @@ if (isset($_POST["register"])) {
 //   $kode_otomatis = "USR001";
 // }
 ?>
-<div class="container" style="background-color:	white; text-align:center; border-radius: 20px; width: 750px; height: 550px;"> 
+<div class="container" style="background-color:	white; text-align:center; border-radius: 20px; width: 750px; height: 600px;"> 
   <div class="text-center">
   <br>
     <h1 class="h4 text-gray-900 mb-4">REGISTRASI</h1>
@@ -113,14 +113,18 @@ if (isset($_POST["register"])) {
             <input type="text" class="form-control form-control-static" id="level" name="level"  value="user" hidden>
           </div>
         </div>
-        <div class="text-right">
-          <input class="btn btn-success" name="register" type="submit" value="TAMBAH"><br></input>
+        <div class="row">
+          <div class="col-3">
+            <div class="input-group-addon input-group-button">
+              <input class="btn btn-success" name="register" type="submit" value="TAMBAH"></input>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group-addon input-group-button">
+              <a class="btn btn-danger" href="login.php" role="button">Kembali</a>
+            </div>
+            </div>
         </div>
-        <br>
-        <div class="text-right">
-          <a class="btn btn-danger" href="login.php" role="button">Kembali</a>
-        </div>
-        
       </form>
     </div>
   </div>
