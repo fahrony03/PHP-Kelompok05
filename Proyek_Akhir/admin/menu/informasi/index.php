@@ -67,7 +67,7 @@
                         echo "<td>".$r['content']."</td>";
 
                       ?> <td>
-                      <a href="edit.php?slug=<?php echo $r['slug']; ?>" class="edit">Edit</a><br>
+                      <a href="formedit.php?id=<?php echo $r['id']; ?>" class="edit">Edit</a><br>
                       <a
                         href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-user btn-danger btn-block" 
                         onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
