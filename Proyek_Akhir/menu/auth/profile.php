@@ -42,7 +42,7 @@
                     <?php
                         $id = $_SESSION['id']; 
                         
-                        $query = mysqli_query($koneksi, "SELECT * FROM user WHERE kode_user = '$id'");
+                        $query = mysqli_query($koneksi, "SELECT * FROM user WHERE id = '$id'");
                          
                     ?>
     <div class="container" style="background-color:white;">
@@ -58,6 +58,9 @@
                                 <p>User (Pengguna)</p>
                                 <?php 
                                 $nama = $data['nama'];
+                                $jk = $data['jenis_kelamin'];
+                                $agama = $data['agama'];                           
+                                $alamat = $data['alamat'];                           
                                 $email = $data['email'];
                                 $hp = $data['no_hp'];
                                 $lv = $data['level'];
@@ -102,9 +105,13 @@
                                             <h1 class="h4 text-gray-900 mb-2">Welcome</h1>
                                         </div>
                                 <div class="post-content">
-                                        <b>Nama: </b><?=$nama ?><br><br>
-                                        <b>Email: </b><?=$email ?><br><br>
-                                        <b>No Hp: </b><?=$hp ?><br><br>
+                                        <b>Nama: </b><?=$nama ?><br>
+                                        <b>Email: </b><?=$email ?><br>
+                                        <b>Jenis Kelamin: </b><?=$jk ?><br>
+                                        <b>Agama : </b><?=$jk ?><br>
+                                        <b>No Hp: </b><?=$hp ?><br>
+                                        <b>Alamat: </b><?=$alamat ?><br>
+
 
                                         </div>
                                     </div>
