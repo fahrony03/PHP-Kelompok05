@@ -119,7 +119,7 @@ if (isset($_POST["register"])) {
               <input class="btn btn-success" name="register" type="submit" value="TAMBAH"></input>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-3">
             <div class="input-group-addon input-group-button">
               <a class="btn btn-danger" href="login.php" role="button">Kembali</a>
             </div>
