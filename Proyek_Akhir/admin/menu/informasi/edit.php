@@ -62,10 +62,7 @@ if ($nama_file != "") {
       }
 }else{
     $stmt = $pdo->prepare("UPDATE informasi SET slug=:slug ,title=:title,content=:content WHERE id =:id");
-    // $stmt->bindParam(':nama',$galam);
     $stmt->bindParam(':slug',$slug);
-    // $stmt->bindParam(':ukuran',$ukuran);
-    // $stmt->bindParam(':tipe',$tipe);
     $stmt->bindParam(':title', $title);
     $stmt->bindParam(':content', $content);
     $stmt->bindParam(':id', $id);
