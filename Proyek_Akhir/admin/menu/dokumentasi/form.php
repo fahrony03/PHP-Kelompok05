@@ -15,8 +15,8 @@
     <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
     <title>Form Components - Si-PEKA Admin</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">f
+    <meta name="viewport" content="width=device-width, sitial-scale=1">
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
     <!-- Font-icon css-->

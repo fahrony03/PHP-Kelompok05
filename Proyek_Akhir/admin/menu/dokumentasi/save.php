@@ -21,7 +21,7 @@ if($tipe_file == "image/jpeg" || $tipe_file == "image/png"){ // Cek apakah tipe 
     if(move_uploaded_file($tmp_file, $path)){ // Cek apakah gambar berhasil diupload atau tidak
       // Jika gambar berhasil diupload, Lakukan :  
       // Proses simpan ke Database
-      $stmt = $pdo->prepare("INSERT INTO informasi (nama,slug,ukuran,tipe,title,content) VALUES (:nama,:slug,:ukuran,:tipe,:title,:content)");
+      $stmt = $pdo->prepare("INSERT INTO dokumentasi (nama,slug,ukuran,tipe,title,content) VALUES (:nama,:slug,:ukuran,:tipe,:title,:content)");
       $stmt->bindParam(':nama',$nama_file);
       $stmt->bindParam(':slug',$slug);
       $stmt->bindParam(':ukuran',$ukuran_file);
