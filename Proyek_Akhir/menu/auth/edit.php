@@ -20,14 +20,4 @@ $alamat = $_POST['alamat'];
             }else{
               die('Could not update data: ' . mysqli_error($koneksi));
             }
-            
-            // if($stmt->execute()){
-            //     $link = unlink("images/".$galam);
-            //     header("Location:index.php");
-            
-            // }else{
-            //   // Jika Gagal, Lakukan :
-            //   echo "Maaf, Terjadi kesalahan saat mencoba untuk menyimpan data ke database.";
-            //   echo "<br><a href='form.php'>Kembali Ke Form</a>";
-            // }
 ?>
