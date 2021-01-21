@@ -69,7 +69,7 @@
 
                       ?> <td>
                                             <a
-                        href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-outline-success" 
+                        href="formedit.php?id=<?= $r['id']; ?>" class="btn btn-outline-success" 
                         onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
                         Edit
                     </a>
