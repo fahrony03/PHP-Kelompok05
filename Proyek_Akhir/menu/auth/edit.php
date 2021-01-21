@@ -15,7 +15,8 @@ $alamat = $_POST['alamat'];
             $sql = mysqli_query($koneksi,"UPDATE user ". "SET nama='$nama', username='$username', email='$email', jenis_kelamin='$jk', agama='$agama', no_hp='$hp', alamat='$alamat' WHERE id ='$id'" );
             
             if($sql){
-              echo "Update berhasil";
+              // echo "Update berhasil";
+              header("location:profile.php");
             }else{
               die('Could not update data: ' . mysqli_error($koneksi));
             }
