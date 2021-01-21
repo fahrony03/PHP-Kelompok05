@@ -52,7 +52,7 @@
               <?php
                   require "koneksi.php";
 
-                  $query = $pdo->prepare("SELECT * FROM informasi");
+                  $query = $pdo->prepare("SELECT * FROM dokumentasi");
                   
                   $query->execute();
                   if($query->rowCount() > 0 ){
