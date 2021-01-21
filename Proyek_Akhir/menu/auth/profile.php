@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
+        <link rel="icon" href="../../img/newlogo.png">
     <link rel="stylesheet" href="../style.css">
     <title>Si PEKA</title>
 </head>
@@ -285,7 +285,7 @@
     </script>
     <br><br>
     <?php
-        include_once('../footer.php');
+        include_once('../footerr.php');
         ?>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
