@@ -44,8 +44,8 @@
           <div class="card bg-danger">
             <div class="card-body">
               <h5 class="card-title">Management Belanja</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="menu/belanja" class="btn btn-primary">Go somewhere</a>
+              
+              <a href="menu/belanja" class="btn btn-primary">Lihat</a>
             </div>
           </div>
         </div>
@@ -53,8 +53,8 @@
           <div class="card bg-warning">
             <div class="card-body">
               <h5 class="card-title">Management artikel informasi</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="menu/informasi" class="btn btn-primary">Go somewhere</a>
+              
+              <a href="menu/informasi" class="btn btn-primary">Lihat</a>
             </div>
           </div>
         </div>
@@ -64,8 +64,8 @@
           <div class="card">
             <div class="card-body bg-secondary">
               <h5 class="card-title">management informasi dokumentasi</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="menu/dokumentasi" class="btn btn-primary">Go somewhere</a>
+              
+              <a href="menu/dokumentasi" class="btn btn-primary">Lihat</a>
             </div>
           </div>
         </div>
@@ -73,8 +73,8 @@
           <div class="card">
             <div class="card-body bg-info">
               <h5 class="card-title">Management artikel penanaman</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="menu/penanaman" class="btn btn-primary">Go somewhere</a>
+              
+              <a href="menu/penanaman" class="btn btn-primary">Lihat</a>
             </div>
           </div>
         </div>
@@ -84,8 +84,8 @@
           <div class="card">
             <div class="card-body bg-light">
               <h5 class="card-title">Management artikel pengelolaan</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="menu/pengelolaan" class="btn btn-primary">Go somewhere</a>
+              
+              <a href="menu/pengelolaan" class="btn btn-primary">Lihat</a>
             </div>
           </div>
         </div>
@@ -93,8 +93,8 @@
           <div class="card">
             <div class="card-body bg-danger">
               <h5 class="card-title">Management artikel pemasaran</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="menu/pemasaran" class="btn btn-primary">Go somewhere</a>
+              
+              <a href="menu/pemasaran" class="btn btn-primary">Lihat</a>
             </div>
           </div>
         </div>
@@ -104,8 +104,8 @@
           <div class="card bg-warning">
             <div class="card-body">
               <h5 class="card-title">Management transaksi</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="menu/transaksi" class="btn btn-primary">Go somewhere</a>
+              
+              <a href="menu/transaksi" class="btn btn-primary">Lihat</a>
             </div>
           </div>
         </div>
@@ -113,8 +113,8 @@
           <div class="card bg-secondary">
             <div class="card-body">
               <h5 class="card-title">Management user</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="menu/user" class="btn btn-primary">Go somewhere</a>
+              
+              <a href="menu/user" class="btn btn-primary">Lihat</a>
             </div>
           </div>
         </div>
@@ -124,8 +124,8 @@
           <div class="card bg-info">
             <div class="card-body">
               <h5 class="card-title">Management contact</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="menu/contact" class="btn btn-primary">Go somewhere</a>
+              
+              <a href="menu/contact" class="btn btn-primary">Lihat</a>
             </div>
           </div>
         </div>
