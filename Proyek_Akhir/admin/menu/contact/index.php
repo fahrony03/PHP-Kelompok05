@@ -31,11 +31,11 @@
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
   </head>
-<body>
+<body style="background-color: rgb(230, 240, 193);">
 <div class="container">
 	<br>
-	
-	<table border="1">
+	<h1>Management Contact</h1>
+	<table class="table table-striped table-light">
 	<thead>
 		<tr>
 			<th>nama</th>
@@ -45,6 +45,7 @@
 		</tr>
 	</thead>
 	<tbody>
+	
 		
 		<?php
 		$sql = "SELECT * FROM kontak";
@@ -69,7 +70,7 @@
 	</table>
 	
 	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
-	
+	<a class="btn btn-danger" href="../../index.php" role="button">Kembali</a>
 	</body>
 </html>
 
