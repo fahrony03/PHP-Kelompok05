@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 25 Des 2020 pada 14.52
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.1
+-- Waktu pembuatan: 21 Jan 2021 pada 08.41
+-- Versi server: 10.4.10-MariaDB
+-- Versi PHP: 7.3.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,6 +21,35 @@ SET time_zone = "+00:00";
 --
 -- Database: `dbpeka`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `belanja`
+--
+
+CREATE TABLE `belanja` (
+  `id` int(11) NOT NULL,
+  `nama` varchar(100) NOT NULL,
+  `slug` varchar(100) NOT NULL,
+  `ukuran` int(20) NOT NULL,
+  `tipe` varchar(100) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `content` longtext NOT NULL,
+  `harga` int(50) NOT NULL,
+  `berat` varchar(100) NOT NULL,
+  `stok` int(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data untuk tabel `belanja`
+--
+
+INSERT INTO `belanja` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`, `harga`, `berat`, `stok`) VALUES
+(1, 'OIP (2).jpg', 'sawi', 24686, 'image/jpeg', 'sawi', '<p><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">Sawi</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">&nbsp;hijau&nbsp;</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">adalah</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">&nbsp;salah satu sayuran daun populer di Indonesia. Nama lainnya&nbsp;</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">adalah</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">&nbsp;</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">sawi</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">&nbsp;bakso (karena menjadi sayuran daun pendamping dalam penyajian bakso) atau caisim /caisin (dari nama bahasa Kanton 菜心, choy sum, yang harafiah berarti \"hatinya sayur\").</span><br></p>', 10000, '50 ', 10),
+(2, 'OIP (3).jpg', 'wortel', 40658, 'image/jpeg', 'wortel', '<p><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">Wortel&nbsp;</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">mengandung vitamin A</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">&nbsp;yang baik untuk kesehatan mata. Mengkonsumsi wortel baik untuk penglihatan pada mata, terutama bisa meningkatkan pandangan jarak jauh. Selain vitamin A, wortel juga mengandung vitamin B1, B2, B3, B6, B9, dan C, kalsium, zat besi, magnesium, fosfor, kalium, dan sodium.</span><br></p>', 15000, '20', 10),
+(3, 'OIP (4).jpg', 'Kacang Tanah', 43322, 'image/jpeg', 'Kacang Tanah', '<p><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">Kacang</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">&nbsp;</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">adalah</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">&nbsp;istilah non- botani yang biasa dipakai untuk menyebut biji sejumlah tumbuhan polong-polongan (namun tidak semua). Dalam percakapan sehari-hari,&nbsp;</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">kacang</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">&nbsp;dipakai juga untuk menyebut buah (polong) atau bahkan tumbuhan yang menghasilkannya. Di Jakarta, kata \"</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">kacang</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">\" biasanya dimaksudkan untuk polong&nbsp;</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">kacang</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">&nbsp;</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">tanah</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">.</span><br></p>', 20000, '2 ', 20),
+(5, 'OIP (8).jpg', 'bayam', 58791, 'image/jpeg', 'bayam', '<p><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px; white-space: pre-wrap; background-color: rgb(255, 255, 255);\">Pengertian Bayam. Bayam merupakan tumbuhan yang berasal dari Amerika tropik yang biasa dikonsumsi daunnya sebagai sayuran hijau. Namun tumbuhan ini sekarang sudah tersebar di berbagai daerah diseluruh dunia. Tanaman yang satu ini dikenal sebagai sumber zat besi yang penting bagi tubuh. Artikel Sejenis : Manfaat Bayam Dan Bahayanya.</span><br></p>', 10000, '1', 100);
 
 -- --------------------------------------------------------
 
@@ -53,7 +82,7 @@ CREATE TABLE `dokumentasi` (
 --
 
 INSERT INTO `dokumentasi` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
-(0, 'WhatsApp Image 2020-12-08 at 08.03.55.jpeg', 'dokumentasi', 127242, 'image/jpeg', 'dokumentasi', 'ini dokumentasi');
+(1, 'OIP (9).jpg', 'Bersawah', 35395, 'image/jpeg', 'Bersawah', '<p><strong>ertanian</strong>&nbsp;adalah kegiatan pemanfaatan sumber daya hayati yang dilakukan manusia untuk menghasilkan bahan pangan, bahan baku industri, atau sumber energi, serta untuk mengelola lingkungan hidupnya. Kegiatan pemanfaatan sumber daya hayati yang termasuk dalam&nbsp;<strong>pertanian</strong>&nbsp;biasa dipahami</p>\r\n');
 
 -- --------------------------------------------------------
 
@@ -76,8 +105,7 @@ CREATE TABLE `informasi` (
 --
 
 INSERT INTO `informasi` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
-(25, 'Gmail-Logo.png', 'gmail', 104774, 'image/png', 'asas', 'asasasasasas'),
-(0, 'logo.jpg', 'coba', 45527, 'image/jpeg', 'coba', 'coba');
+(2, 'OIP (7).jpg', 'Terong', 22602, 'image/jpeg', 'Terong', '<p>Teronggg gjaas</p>');
 
 -- --------------------------------------------------------
 
@@ -148,7 +176,7 @@ INSERT INTO `komentar` (`komentar`) VALUES
 CREATE TABLE `kontak` (
   `nama` varchar(30) NOT NULL,
   `alamat` varchar(50) NOT NULL,
-  `no` int(12) NOT NULL,
+  `no` varchar(12) NOT NULL,
   `komentar` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -157,16 +185,8 @@ CREATE TABLE `kontak` (
 --
 
 INSERT INTO `kontak` (`nama`, `alamat`, `no`, `komentar`) VALUES
-('oreo', 'jember', 9201820, 'komslskalks'),
-('', '', 0, ''),
-('Nurico Vicyyanto', 'palembang', 2147483647, 'kjslkahdisahoidaoid'),
-('', '', 0, ''),
-('', '', 0, ''),
-('', '', 0, ''),
-('', '', 0, ''),
-('', '', 0, ''),
-('', '', 0, ''),
-('', '', 0, '');
+('a', 'a', 'a', 'a'),
+('Nidha Kusumaningrum', 'Ponorogo', '081314726617', 'Saya suka lalalalallalala');
 
 -- --------------------------------------------------------
 
@@ -177,11 +197,11 @@ INSERT INTO `kontak` (`nama`, `alamat`, `no`, `komentar`) VALUES
 CREATE TABLE `pemasaran` (
   `id` int(11) NOT NULL,
   `nama` varchar(100) NOT NULL,
-  `slug` varchar(255) NOT NULL,
-  `ukuran` int(11) NOT NULL,
-  `tipe` varchar(20) NOT NULL,
-  `title` varchar(250) NOT NULL,
-  `content` text NOT NULL
+  `slug` varchar(100) NOT NULL,
+  `ukuran` varchar(20) NOT NULL,
+  `tipe` varchar(50) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `content` longtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -189,7 +209,7 @@ CREATE TABLE `pemasaran` (
 --
 
 INSERT INTO `pemasaran` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
-(0, 'WhatsApp Image 2020-12-08 at 08.03.58.jpeg', 'ini judul pemasaran', 118735, 'image/jpeg', 'ini judul pemasaran', 'ini isi pemasaran');
+(18, 'OIP (10).jpg', 'Strategi Pemasaran', '20964', 'image/jpeg', 'Strategi Pemasaran', '<p><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">Apa itu strategi pemasaran? Pengertian strategi pemasaran adalah&nbsp;</span><span style=\"font-weight: 700; color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">upaya memasarkan suatu produk</span><span style=\"color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 18px;\">, baik itu barang atau jasa, dengan menggunakan pola rencana dan taktik tertentu sehingga jumlah penjualan menjadi lebih tinggi.</span><br></p>');
 
 -- --------------------------------------------------------
 
@@ -200,11 +220,11 @@ INSERT INTO `pemasaran` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `conte
 CREATE TABLE `penanaman` (
   `id` int(11) NOT NULL,
   `nama` varchar(100) NOT NULL,
-  `slug` varchar(255) NOT NULL,
-  `ukuran` int(11) NOT NULL,
-  `tipe` varchar(20) NOT NULL,
-  `title` varchar(250) NOT NULL,
-  `content` text NOT NULL
+  `slug` varchar(100) NOT NULL,
+  `ukuran` varchar(20) NOT NULL,
+  `tipe` varchar(50) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `content` longtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -212,8 +232,7 @@ CREATE TABLE `penanaman` (
 --
 
 INSERT INTO `penanaman` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
-(0, 'logo.jpg', 'jhd', 45527, 'image/jpeg', 'jhd', 'jska'),
-(0, 'gambar (1).PNG', 'judul tes', 63400, 'image/png', 'judul tes', 'bissmillah');
+(20, 'OIP (5).jpg', 'sawi', '25129', 'image/jpeg', 'sawi', '<p>ttttttttttttt t</p>');
 
 -- --------------------------------------------------------
 
@@ -236,7 +255,7 @@ CREATE TABLE `pengelolaan` (
 --
 
 INSERT INTO `pengelolaan` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
-(0, 'logo.png', 'judul pengelolaan', 713152, 'image/png', 'judul pengelolaan', 'isi pengelolaan');
+(1, 'budidaya-wortel.jpg', 'Panduan teknis budidaya wortel', 39792, 'image/jpeg', 'Panduan teknis budidaya wortel', '<p style=\"margin-bottom: 0px; padding: 5px 0px 15px; border: 0px; outline: 0px; font-size: 16px; vertical-align: baseline; background: rgb(255, 255, 255); color: rgb(102, 102, 102); font-family: Poppins, sans-serif;\">ortel (<em style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;\">Daucus carota L.</em>) merupakan tanaman sayuran yang diambil umbinya. Umbi wortel berwarna oranye terang, rasanya gurih, renyah dan sedikit manis. Sayuran ini dikenal sebagai sumber vitamin A, selain itu wortel juga mengandung banyak vitamin B dan vitamin C.</p><p style=\"margin-bottom: 0px; padding: 5px 0px 15px; border: 0px; outline: 0px; font-size: 16px; vertical-align: baseline; background: rgb(255, 255, 255); color: rgb(102, 102, 102); font-family: Poppins, sans-serif;\">Dilihat dari bentuknya terdapat tiga jenis wortel.&nbsp;<em style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;\">Pertama,</em>&nbsp;jenis imperator. Umbinya bulat dan panjang, ujungnya lancip, terdapat akar serabut pada umbinya.&nbsp;<em style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;\">Kedua,</em>&nbsp;jenis chantenay. Umbinya bulat dan panjang bersih dari akar serabut, ujungnya tumpul cenderung membulat.&nbsp;<em style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;\">Ketiga,</em>&nbsp;jenis nantes. Sifat dan bentuknya campuran dari kedua jenis di atas.</p>');
 
 -- --------------------------------------------------------
 
@@ -283,7 +302,7 @@ CREATE TABLE `transaksi` (
 --
 
 INSERT INTO `transaksi` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `content`) VALUES
-(0, 'gambar.png', 'transaksi', 67006, 'image/png', 'transaksi', 'transaksi\r\n');
+(1, 'gambar.png', 'transaksi', 67006, 'image/png', 'transaksi', 'transaksi\r\n');
 
 -- --------------------------------------------------------
 
@@ -292,10 +311,13 @@ INSERT INTO `transaksi` (`id`, `nama`, `slug`, `ukuran`, `tipe`, `title`, `conte
 --
 
 CREATE TABLE `user` (
-  `kode_user` varchar(50) NOT NULL,
+  `id` int(50) NOT NULL,
   `nama` varchar(255) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
+  `jenis_kelamin` varchar(100) NOT NULL,
+  `agama` varchar(100) NOT NULL,
+  `alamat` varchar(200) NOT NULL,
   `email` varchar(50) NOT NULL,
   `no_hp` varchar(12) NOT NULL,
   `level` varchar(20) NOT NULL
@@ -305,21 +327,122 @@ CREATE TABLE `user` (
 -- Dumping data untuk tabel `user`
 --
 
-INSERT INTO `user` (`kode_user`, `nama`, `username`, `password`, `email`, `no_hp`, `level`) VALUES
-('USR002', 'User', 'user', 'user', 'user@gmail.com', '8888888888', 'user'),
-('USR003', 'Admin', 'admin', 'admin', 'admin@gmail.com', '08555555', 'admin'),
-('', 'vicky', 'vicky', 'vicky', 'vicky.@gmail.con', '08838271982', 'user'),
-('', 'vicky', 'vicky', 'vicky', 'vicky.@gmail.con', '08838271982', 'user');
+INSERT INTO `user` (`id`, `nama`, `username`, `password`, `jenis_kelamin`, `agama`, `alamat`, `email`, `no_hp`, `level`) VALUES
+(1, 'nuriko', 'riko', '123', 'Laki - Laki', 'Islam', 'Maesan', 'asas@gmail.com', '0909090192', 'user'),
+(2, 'Admin', 'admin', 'admin', 'Laki - Laki', 'islam', 'Probolinggo', 'admin@gmail.com', '099273927932', 'admin'),
+(3, 'mochfahrony', 'fahrony', 'fahrony', 'Laki - Laki', 'Islam', 'Maesan', 'fahrony@gmail.com', '098746646464', 'user'),
+(4, 'zami', 'zami', 'zami', 'Perempuan', 'Hindu', 'bangil', 'zami@gmail.com', '0987651212', 'user'),
+(5, 'User', 'user', 'user', 'Laki - Laki', 'Islam', 'Maesan', 'user@gmail.com', '083434343434', 'user');
 
 --
 -- Indexes for dumped tables
 --
 
 --
+-- Indeks untuk tabel `belanja`
+--
+ALTER TABLE `belanja`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indeks untuk tabel `dokumentasi`
+--
+ALTER TABLE `dokumentasi`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indeks untuk tabel `informasi`
+--
+ALTER TABLE `informasi`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indeks untuk tabel `pemasaran`
+--
+ALTER TABLE `pemasaran`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indeks untuk tabel `penanaman`
+--
+ALTER TABLE `penanaman`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indeks untuk tabel `pengelolaan`
+--
+ALTER TABLE `pengelolaan`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indeks untuk tabel `pesanan`
 --
 ALTER TABLE `pesanan`
   ADD PRIMARY KEY (`nama`);
+
+--
+-- Indeks untuk tabel `transaksi`
+--
+ALTER TABLE `transaksi`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indeks untuk tabel `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT untuk tabel yang dibuang
+--
+
+--
+-- AUTO_INCREMENT untuk tabel `belanja`
+--
+ALTER TABLE `belanja`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT untuk tabel `dokumentasi`
+--
+ALTER TABLE `dokumentasi`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT untuk tabel `informasi`
+--
+ALTER TABLE `informasi`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT untuk tabel `pemasaran`
+--
+ALTER TABLE `pemasaran`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+
+--
+-- AUTO_INCREMENT untuk tabel `penanaman`
+--
+ALTER TABLE `penanaman`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+
+--
+-- AUTO_INCREMENT untuk tabel `pengelolaan`
+--
+ALTER TABLE `pengelolaan`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT untuk tabel `transaksi`
+--
+ALTER TABLE `transaksi`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT untuk tabel `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

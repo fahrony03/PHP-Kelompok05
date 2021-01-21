@@ -56,7 +56,8 @@
                             ?>
                                 <h4><?=$data['username']?></h4>
                                 <p>User (Pengguna)</p>
-                                <?php 
+                                <?php
+                                $id = $data['id'];
                                 $nama = $data['nama'];
                                 $jk = $data['jenis_kelamin'];
                                 $agama = $data['agama'];                           
@@ -72,6 +73,7 @@
                         </div>
                         <div class="cover-image"></div>
                     </div>
+                    
                 </div>
                 <div class="col-md-3">
                     <div class="tile p-0">
@@ -108,16 +110,17 @@
                                         <b>Nama: </b><?=$nama ?><br>
                                         <b>Email: </b><?=$email ?><br>
                                         <b>Jenis Kelamin: </b><?=$jk ?><br>
-                                        <b>Agama : </b><?=$jk ?><br>
+                                        <b>Agama : </b><?=$agama ?><br>
                                         <b>No Hp: </b><?=$hp ?><br>
                                         <b>Alamat: </b><?=$alamat ?><br>
-
-
+                                        <a href="edit.php?id=<?php echo $value['id']?>">Edit</a>
                                         </div>
                                     </div>
                                     </div>
                                 </div>
+                                
                                 </div>
+                                
                             </div>
                         <div class="tab-pane fade" id="user-settings">
                             <div class="container">
@@ -234,6 +237,7 @@
                                                             <div class="text-center">
                                                                 <a class="small" href="login.php">Already have an
                                                                     account? Login!</a>
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
