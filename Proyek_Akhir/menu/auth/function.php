@@ -22,11 +22,14 @@ function query($query)
 function registrasi($data)
 {
     global $conn;
-    $kode_user = ($data["kode_user"]);
+    // $kode_user = ($data[""]);
     $nama_user = htmlspecialchars($data["nama_user"]);
     $username = strtolower(stripcslashes($data["username"]));
     $password = mysqli_real_escape_string($conn, $data["password"]);
     $password2 = mysqli_real_escape_string($conn, $data["password2"]);
+    $jk = htmlspecialchars($data["jenis_kelamin"]);
+    $agama = htmlspecialchars($data["agama"]);
+    $alamat = htmlspecialchars($data["alamat"]);
     $email = htmlspecialchars($data["email"]);
     $no_hp = htmlspecialchars($data["no_hp"]);
     $level = htmlspecialchars($data["level"]);
@@ -51,7 +54,7 @@ function registrasi($data)
     // enkripsi password
     // $password = password_hash($password, PASSWORD_DEFAULT);
     // tambahkan user baru ke database
-    mysqli_query($conn, "INSERT INTO user VALUES ('$kode_user', '$nama_user', '$username', '$password', '$email', '$no_hp','$level')");
+    mysqli_query($conn, "INSERT INTO user VALUES ('', '$nama_user', '$username', '$password', '$jk' , '$agama' , '$alamat' , '$email', '$no_hp','$level')");
     echo "
             <script>
                     alert('anda berhasil daftar!');
