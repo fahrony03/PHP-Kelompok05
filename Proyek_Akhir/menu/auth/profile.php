@@ -113,6 +113,10 @@
                                     <td>: <?=$nama ?></td>
                                 </tr>
                                 <tr>
+                                    <td>Username</td>
+                                    <td>: <?= $_SESSION['username'] ?></td>
+                                </tr>
+                                <tr>
                                     <td>Email</td>
                                     <td>: <?=$email ?></td>
                                 </tr>
