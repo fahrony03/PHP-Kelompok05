@@ -37,9 +37,10 @@
                       }
                   }
                   ?>
-              <h1>Data Gambar</h1><hr>
-              <a href="form.php">Tambah Gambar</a><br><br>
+              <h1>Manajemen Pengololaan</h1><hr>
+              < <a type="button" class="btn btn-primary" href="form.php">Tambah Artikel</a><br><br>
               <table class="table table-striped table-light">
+              <tr>
               <tr>
                 <th>Gambar</th>
                 <th>Nama File</th>
@@ -71,13 +72,18 @@
                         echo "<td>".$r['content']."</td>";
 
                       ?> <td>
-                      <a href="formedit.php?id=<?php echo $r['id']; ?>" class="edit">Edit</a><br>
+                    <a
+                        href="formedit.php?id=<?= $r['id']; ?>" class="btn btn-outline-warning  " 
+                        onclick="return confirm('Apakah Anda yakin ingin mengedit item ini?')">
+                        Edit
+                    </a>
                       <a
-                        href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-user btn-danger btn-block" 
+                        href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-outline-danger" 
                         onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
                         Hapus
                     </a>
-                  </td><?php
+                  </td>
+                  <?php
                   echo "</tr>";
                       }//end while
                       
