@@ -30,10 +30,7 @@
 <?php
     include_once('../navbarr.php')
 ?>
-
-
-
-    <div class="container" style="padding-top:140px; padding-bottom:140px;">
+    <div class="container" style="padding-top:40px; padding-bottom:40px;">
         <div class="card">
             <div class="card-body">
                 <h1 ><b>Contact admin</b></h1>
