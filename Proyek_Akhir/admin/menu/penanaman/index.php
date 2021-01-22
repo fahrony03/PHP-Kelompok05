@@ -37,8 +37,8 @@
                       }
                   }
                   ?>
-              <h1>Data Gambar</h1><hr>
-              <a href="form.php">Tambah Gambar</a><br><br>
+              <h1>Manajemen Penanaman</h1><hr>
+              <a type="button" class="btn btn-primary" href="form.php">Tambah Artikel</a><br><br>
               <table class="table table-striped table-light">
               <tr>
                 <th>Gambar</th>
@@ -47,11 +47,19 @@
                 <th>Tipe File</th>
                 <th>Title</th>
                 <th>Content</th>
+<<<<<<< HEAD
                 <th>
                 <a href="hapussemua.php?delete" class="btn btn-danger" 
                 onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
                 Hapus Semua
                 </th>
+=======
+                <th>                <a
+                        href="hapussemua.php?delete" class="btn btn-danger" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
+                        Hapus Semua
+                    </a></th>
+>>>>>>> 91b09d9bfcec679ed6ac9d7530992795a9b3d462
               </tr>
               <?php
                   require "koneksi.php";
@@ -72,14 +80,13 @@
 
                       ?> <td>
 
-                                            <a
-                        href="formedit.php?id=<?= $r['id']; ?>" class="btn btn-outline-success" 
+                    <a
+                        href="formedit.php?id=<?= $r['id']; ?>" class="btn btn-outline-warning  " 
                         onclick="return confirm('Apakah Anda yakin ingin mengedit item ini?')">
                         Edit
                     </a>
-                      <br>
                       <a
-                        href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-user btn-danger btn-block" 
+                        href="hapus.php?delete=<?= $r['id']; ?>" class="btn btn-outline-danger" 
                         onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
                         Hapus
                     </a>
@@ -94,7 +101,6 @@
                   }
                ?>
               </table>
-              <a href="index.php" class="btn btn-primary">Cancel</a>
               <a class="btn btn-success" href="../../index.php" role="button">Kembali</a>
                 </form>
               </div>

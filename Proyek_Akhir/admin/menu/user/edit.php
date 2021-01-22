@@ -44,41 +44,42 @@ include 'koneksi.php';
             <tr>
                 <td>Nama</td>
                 <td><input type="hidden" name="id" value="<?php echo $data['id']?>">
-                    <input type="text" name="nama" value="<?php echo $data['nama']?>">
+                    <input type="text" name="nama" class="form-control" value="<?php echo $data['nama']?>">
                 </td>
             </tr>
             <tr>
                 <td>Username</td>
-                <td><input type="text" name="username" value="<?php echo $data['username']?>">
+                <td><input type="text" name="username" class="form-control" value="<?php echo $data['username']?>">
                 </td>
             </tr>
             </tr>
             <tr>
                 <td>Password</td>
-                <td><input type="text" name="password" value="<?php echo $data['password']?>">
+                <td><input type="text" name="password" class="form-control" value="<?php echo $data['password']?>">
                 </td>
             </tr>
             </tr>
             <tr>
                 <td>Email</td>
-                <td><input type="text" name="email" value="<?php echo $data['email']?>">
+                <td><input type="text" name="email" class="form-control" value="<?php echo $data['email']?>">
                 </td>
             </tr>
             </tr>
             <tr>
                 <td>No HP</td>
-                <td><input type="text" name="no_hp" value="<?php echo $data['no_hp']?>"> 
+                <td><input type="text" name="no_hp" class="form-control" value="<?php echo $data['no_hp']?>"> 
                 </td>
             </tr>
             <tr>
             <tr>
                 <td>Level</td>
-                <td><input type="text" name="level" value="<?php echo $data['level']?>">
+                <td><input type="text" name="level" class="form-control" value="<?php echo $data['level']?>">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="submit" value="Simpan">
+                <button type="submit" class="btn btn-success">Save</button>
+                <a class="btn btn-danger" href="index.php" role="button">Kembali</a>
                  </td>
             </tr>
         </table>

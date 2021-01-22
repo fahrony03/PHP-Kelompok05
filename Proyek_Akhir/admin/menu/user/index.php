@@ -67,10 +67,18 @@ if(isset($_GET['cari'])){
         <th>email</th>
         <th>No Hp</th>
         <th>Level</th>
+<<<<<<< HEAD
         <th>
         <a href="hapussemua.php?delete" class="btn btn-danger" 
                 onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
                 Hapus Semua</th>
+=======
+        <th>                <a
+                        href="hapussemua.php?delete" class="btn btn-danger" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
+                        Hapus Semua
+                    </a></th>
+>>>>>>> 91b09d9bfcec679ed6ac9d7530992795a9b3d462
     </tr>
     <?php 
  if(isset($_GET['cari'])){
@@ -93,8 +101,16 @@ if(isset($_GET['cari'])){
         <td><?php echo $dt['no_hp']; ?></td>
         <td><?php echo $dt['level']; ?></td>
         <td>
-            <a href="edit.php?id=<?php echo $dt['id']; ?>" class="edit">Edit</a>
-            <a href="hapus.php?id=<?php echo $dt['id']; ?>">Hapus</a>
+        <a
+                        href="edit.php?id=<?= $dt['id']; ?>" class="btn btn-outline-warning  " 
+                        onclick="return confirm('Apakah Anda yakin ingin mengedit item ini?')">
+                        Edit
+                    </a>
+                      <a
+                        href="hapus.php?delete=<?= $dt['id']; ?>" class="btn btn-outline-danger" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
+                        Hapus
+                    </a>
         </td>
     </tr>
     <?php } ?>
