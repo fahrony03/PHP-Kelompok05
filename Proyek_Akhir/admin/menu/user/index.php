@@ -67,7 +67,10 @@ if(isset($_GET['cari'])){
         <th>email</th>
         <th>No Hp</th>
         <th>Level</th>
-        <th></th>
+        <th>
+        <a href="hapussemua.php?delete" class="btn btn-danger" 
+                onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
+                Hapus Semua</th>
     </tr>
     <?php 
  if(isset($_GET['cari'])){
