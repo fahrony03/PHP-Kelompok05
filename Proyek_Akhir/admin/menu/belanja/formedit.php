@@ -64,7 +64,6 @@
       <input type="text" class="form-control" name="stok" value="<?=$x['stok']; ?>">
       <br>
 			<button type="submit" class="btn btn-success" >Save</button>
-			<button type="button" id="cancel" class="btn btn-warning">Cancel</button>
       <a class="btn btn-danger" href="index.php" role="button">Kembali</a>
 		    
 		</form>

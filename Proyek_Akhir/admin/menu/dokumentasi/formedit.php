@@ -27,18 +27,13 @@
 	<link href="dist/summernote.css" rel="stylesheet">
 
 </head>
-<body>
+<body style="background-color: rgb(230, 240, 193);">
 <div class="container">
 <div class="judul">
         <h1>Form Edit Data</h1>
     </div>
     <br>
 
-    <a href="index.php">Lihat Semua Data</a>
-
-    <br>
-
-    <h3>Edit Data</h3>
     <?php
     include ('koneksi.php');
     $id = $_GET['id'];
@@ -60,7 +55,6 @@
       <textarea id="summernote" name="content" rows="10"><?=$x['content'];?></textarea>
       <br>
 			<button type="submit" class="btn btn-success">Save</button>
-			<button type="button" id="cancel" class="btn btn-warning">Cancel</button>
       <a class="btn btn-danger" href="index.php" role="button">Kembali</a>
 		    
 		</form>
