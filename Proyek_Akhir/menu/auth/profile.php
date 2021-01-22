@@ -104,16 +104,39 @@
                                     <div>
                                         <div class="p-5">
                                         <div class="text-center">
-                                            <h1 class="h4 text-gray-900 mb-2">Welcome</h1>
+                                            <h1 class="h4 text-gray-900 mb-2">Selamat Datang <?= $_SESSION['username'] ?></h1>
                                         </div>
                                 <div class="post-content">
-                                        <b>Nama: </b><?=$nama ?><br>
-                                        <b>Email: </b><?=$email ?><br>
-                                        <b>Jenis Kelamin: </b><?=$jk ?><br>
-                                        <b>Agama : </b><?=$agama ?><br>
-                                        <b>No Hp: </b><?=$hp ?><br>
-                                        <b>Alamat: </b><?=$alamat ?><br>
-                                        <button class="btn-success" data-toggle="modal" data-target="#myModal">Edit</button>
+                                <table>
+                                <tr>
+                                    <td>Nama</td>
+                                    <td>: <?=$nama ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>: <?=$email ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Jenis Kelamin</td>
+                                    <td>: <?=$jk ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Agama</td>
+                                    <td>: <?=$agama ?></td>
+                                </tr>
+                                <tr>
+                                    <td>No Hp</td>
+                                    <td>: <?=$hp ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Alamat</td>
+                                    <td>: <?=$alamat ?></td>
+                                </tr>
+                                                                <tr>
+                                    <td><button class="btn-success" data-toggle="modal" data-target="#myModal">Edit</button></td>
+                                </tr>
+                                        
+                                        </table>
                                         </div>
                                     </div>
                                     </div>
