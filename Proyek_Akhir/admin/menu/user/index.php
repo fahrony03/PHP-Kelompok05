@@ -93,8 +93,16 @@ if(isset($_GET['cari'])){
         <td><?php echo $dt['no_hp']; ?></td>
         <td><?php echo $dt['level']; ?></td>
         <td>
-            <a href="edit.php?id=<?php echo $dt['id']; ?>" class="edit">Edit</a>
-            <a href="hapus.php?id=<?php echo $dt['id']; ?>">Hapus</a>
+            <a
+                        href="edit.php?id=<?= $dt['id']; ?>" class="btn btn-outline-warning  " 
+                        onclick="return confirm('Apakah Anda yakin ingin mengedit item ini?')">
+                        Edit
+                    </a>
+                      <a
+                        href="hapus.php?id=<?= $dt['id']; ?>" class="btn btn-outline-danger" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
+                        Hapus
+                    </a>
         </td>
     </tr>
     <?php } ?>

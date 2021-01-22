@@ -55,12 +55,12 @@ if (isset($_POST["register"])) {
         </div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="nama_user" name="nama_user" placeholder="Masukkan Username">
+            <input type="text" class="form-control form-control-static" id="nama_user" name="nama_user" placeholder="Masukkan Nama Lengkap">
           </div>
         </div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="username" name="username" placeholder="Ulangi Username">
+            <input type="text" class="form-control form-control-static" id="username" name="username" placeholder="Masukkan Username">
           </div>
         </div>
         <div class="form-group row">
