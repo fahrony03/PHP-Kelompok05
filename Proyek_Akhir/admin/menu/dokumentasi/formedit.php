@@ -43,15 +43,16 @@
     ?>
 		<form id="postForm" action="edit.php" method="POST" enctype="multipart/form-data" onsubmit="return postForm()">
 			
-		<b>judul</b>
+		<b>Judul</b>
       <input type="text" class="form-control" name="title" value="<?=$x['title']; ?>">
       <br>
       <b>Thumbnail</b>
       <input type="hidden" name="gl" class="form-control" value="<?=$x['nama']?>" >
       <input type="hidden" name="id" class="form-control" value="<?=$x['id']?>" >
       <br>
-      <input type="file" name="gb" class="form-control">
+      <input type="file" name="gb" class="">
       <br>
+      <b>Content</b>  
       <textarea id="summernote" name="content" rows="10"><?=$x['content'];?></textarea>
       <br>
 			<button type="submit" class="btn btn-success">Save</button>

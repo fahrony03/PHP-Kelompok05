@@ -43,7 +43,7 @@
     ?>
 		<form id="postForm" action="edit.php" method="POST" enctype="multipart/form-data" onsubmit="return postForm()">
 			
-		<b>judul</b>
+		<b>Judul</b>
       <input type="text" class="form-control" name="title" value="<?=$x['title']; ?>">
       <br>
       <b>Thumbnail</b>
@@ -54,13 +54,13 @@
       <br>
       <textarea id="summernote" name="content" rows="10"><?=$x['content'];?></textarea>
       <br>
-      <b>harga</b>
+      <b>Harga</b>
       <input type="text" class="form-control" name="harga" value="<?=$x['harga']; ?>">
       <br>
-      <b>berat</b>
+      <b>Berat</b>
       <input type="text" class="form-control" name="berat" value="<?=$x['berat']; ?>">
       <br>
-      <b>stok</b>
+      <b>Stok</b>
       <input type="text" class="form-control" name="stok" value="<?=$x['stok']; ?>">
       <br>
 			<button type="submit" class="btn btn-success" >Save</button>
