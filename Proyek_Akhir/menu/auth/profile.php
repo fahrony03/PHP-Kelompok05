@@ -81,7 +81,7 @@
                             <li class="nav-item"><a class="nav-link active" href="#user-timeline"
                                     data-toggle="tab">Timeline</a></li>
                             <li class="nav-item"><a class="nav-link" href="#user-settings"
-                                    data-toggle="tab">Settings</a>
+                                    data-toggle="tab">Ganti Password</a>
                             </li>
                         </ul>
                     </div>
@@ -162,30 +162,28 @@
                             </div>
 
                         <div class="tab-pane fade" id="user-settings">
-                            <div class="container">
+                        <div class="container">
 
-                                <!-- Outer Row -->
-                                <div class="row justify-content-center">
+                            <!-- Outer Row -->
+                            <div class="row justify-content-center">
 
-                                    <div class="col-xl-10 col-lg-12 col-md-9">
+                            <div class="col-xl-10 col-lg-12 col-md-9">
 
-                                        <div class="card o-hidden border-0 shadow-lg my-5">
-                                            <div class="card-body p-0">
-                                                <!-- Nested Row within Card Body -->
-                                                <div class="row">
-                                                    <div class="col-lg-6 d-none d-lg-block bg-login-image">
-                                                        <img class="col-lg-12 d-none d-lg-block bg-login-image"
-                                                            style="padding-top: 6%;" src="../img/petanikotak.jpg"
-                                                            alt="">
-                                                    </div>
-                                                    <div class="col-lg-6">
-                                                        <div class="p-5">
-                                                            <div class="text-center">
-                                                                <h1 class="h4 text-gray-900 mb-2">Change Password
-                                                                </h1>
-                                                            </div>
+                                <div class="card o-hidden border-0 shadow-lg my-5">
+                                <div class="card-body p-0">
+                                    <!-- Nested Row within Card Body -->
+                                    <div class="row">
+                                    <!-- <div class="col-lg-6 d-none d-lg-block bg-login-image">
+                                        <img class="col-lg-12 d-none d-lg-block bg-login-image" style="padding-top: 6%;" src="../img/petanikotak.jpg" alt="">
+                                    </div> -->
+                                    <div class="col-lg-30">
+                                        <div class="p-5">
+                                        <div class="text-center">
+                                            <h1 class="h4 text-gray-900 mb-2">Ganti Password</h1>
+                                            <p class="mb-4">We get it, things happen. Just enter the correct email address, then update the password!</p>
+                                        </div>
 
-                                                            <?php 
+                                        <?php
                                             error_reporting(0);
                                             include("../config.php");
                                             if(isset($_POST['submit'])) {
@@ -210,56 +208,39 @@
                                             }
                                             ?>
 
-                                                            <section class="material-half-bg">
-                                                                <div class="cover">
-                                                                </div>
-
-                                                            </section>
-                                                            <section class="login-content">
-                                                                <div class="login-box">
-                                                                    <p style="padding-left:20%; color:red;">
-                                                                        <?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?>
-                                                                    </p>
-
-                                                                    <p style="padding-left:20%; color:green">
-                                                                        <?php if($msg){
-                                                                    echo htmlentities($msg);
-                                                                    }?></p>
-
-                                                                    <form class="login-form" name="forgot"
-                                                                        method="post">
-                                                                        <div class="form-group">
-                                                                            <input class="form-control" type="email"
-                                                                                aria-describedby="emailHelp"
-                                                                                name="email" placeholder="email"
-                                                                                required="" autofocus>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <input class="form-control" type="password"
-                                                                                placeholder="New Password" id="password"
-                                                                                name="password">
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <input class="form-control" type="password"
-                                                                                placeholder="Confirm Password"
-                                                                                id="confirmpassword"
-                                                                                name="confirmpassword">
-                                                                        </div>
-                                                                        <div class="form-group btn-container">
-                                                                            <button type="submit" name="change"
-                                                                                onclick="return valid();"
-                                                                                class="btn btn-user btn-success btn-block"><i
-                                                                                    class="fa fa-unlock fa-lg fa-fw"></i>Reset
-                                                                                Password</button>
-                                                                        </div>
-                                                                        <a href="login.php"
-                                                                            class="btn btn-google btn-danger btn-block">
-                                                                            <i class="fab fa-google fa-fw"></i> Back
-                                                                        </a>
-                                                                    </form>
-                                                                </div>
-                                                            </section>
-
+                                                <section class="material-half-bg">
+                                                <div class="cover">
+                                                </div>
+                                                
+                                                </section>
+                                                <section class="login-content">
+                                                <div class="login-box">
+                                                <p style="padding-left:20%; color:red;"><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?></p>
+                                                
+                                                <p style="padding-left:20%; color:green">
+                                                    <?php if($msg){
+                                                    echo htmlentities($msg);
+                                                    }?></p>
+                                                    
+                                                    <form class="login-form" name="forgot" method="post">
+                                                <div class="form-group">
+                                                <input class="form-control" type="email" aria-describedby="emailHelp" name="email" placeholder="email" required="" autofocus>
+                                                </div>
+                                                <div class="form-group">
+                                                <input class="form-control" type="password" placeholder="New Password" id="password" name="password">
+                                                </div>
+                                                <div class="form-group">
+                                                <input class="form-control" type="password" placeholder="Confirm Password" id="confirmpassword" name="confirmpassword">
+                                                </div>
+                                                <div class="form-group btn-container">
+                                                <button type="submit" name="change" onclick="return valid();" class="btn btn-user btn-success btn-block"><i class="fa fa-unlock fa-lg fa-fw"></i>Reset Password</button>
+                                                </div>
+                                                <a href="login.php" class="btn btn-google btn-danger btn-block">
+                                            <i class="fab fa-google fa-fw"></i> Back
+                                            </a>
+                                            </form>
+                                            </div>
+                                        </section>
 
                                                             <!-- Essential javascripts for application to work-->
                                                             <script src="login/js/jquery-3.2.1.min.js"></script>
