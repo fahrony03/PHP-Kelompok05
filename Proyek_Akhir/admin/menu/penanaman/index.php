@@ -47,11 +47,19 @@
                 <th>Tipe File</th>
                 <th>Title</th>
                 <th>Content</th>
+<<<<<<< HEAD
+                <th>
+                <a href="hapussemua.php?delete" class="btn btn-danger" 
+                onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
+                Hapus Semua
+                </th>
+=======
                 <th>                <a
                         href="hapussemua.php?delete" class="btn btn-danger" 
                         onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
                         Hapus Semua
                     </a></th>
+>>>>>>> 91b09d9bfcec679ed6ac9d7530992795a9b3d462
               </tr>
               <?php
                   require "koneksi.php";
