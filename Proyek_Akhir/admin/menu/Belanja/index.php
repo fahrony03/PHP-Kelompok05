@@ -37,7 +37,7 @@
                       }
                   }
                   ?>
-              <h1>Data Gambar</h1><hr>
+              <h1>Manajemen Produk</h1><hr>
               <a type="button" class="btn btn-primary" href="form.php">Tambah Produk</a><br><br>
               
               <table class="table table-striped table-light">

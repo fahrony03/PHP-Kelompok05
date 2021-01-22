@@ -1,7 +1,7 @@
 <?php
         require "koneksi.php";
                  if (isset($_GET['delete'])) {
-                $query = $pdo->prepare ("DELETE FROM belanja");
+                $query = $pdo->prepare ("DELETE FROM informasi");
                  
                     if ($query->execute()){
                     header('Location:index.php');
