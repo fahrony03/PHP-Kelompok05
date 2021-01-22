@@ -116,7 +116,7 @@ if (isset($_POST["register"])) {
         <div class="row">
           <div class="col-3">
             <div class="input-group-addon input-group-button">
-              <input class="btn btn-success" name="register" type="submit" value="TAMBAH"></input>
+              <input class="btn btn-success" name="register" type="submit" value="Tambah"></input>
             </div>
           </div>
           <div class="col-3">

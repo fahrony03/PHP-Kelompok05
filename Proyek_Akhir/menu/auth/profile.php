@@ -207,7 +207,7 @@
                                         <div class="p-5">
                                         <div class="text-center">
                                             <h1 class="h4 text-gray-900 mb-2">Ganti Password</h1>
-                                            <p class="mb-4">We get it, things happen. Just enter the correct email address, then update the password!</p>
+                                            <p class="mb-4">Konfirmasi Email Anda Untuk Melakukan Perubahan Password!</p>
                                         </div>
 
                                         <?php
