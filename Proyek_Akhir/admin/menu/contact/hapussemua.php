@@ -1,13 +1,13 @@
 <?php
         require "koneksi.php";
                  if (isset($_GET['delete'])) {
-                $query = $pdo->prepare ("DELETE FROM belanja");
-                 
-                    if ($query->execute()){
-                    header('Location:index.php');
-                    echo "Semua data berhasil di hapus";
+                    $query = mysqli_query($db, "DELETE FROM kontak"); // query hapus data
+ 
+                    if($query){
+                        header("Location: index.php"); // redirect ke index.php
                     }else{
-                        echo "data tidak berhasil di hapus";
+                        echo "Hapus data gagal";
                     }
                 }
+               
 ?>

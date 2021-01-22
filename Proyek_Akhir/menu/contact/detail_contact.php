@@ -43,17 +43,17 @@
 		<div>
 			<label for="nama">Nama: </label>
 			<input type="text" class="form-control form-control-user"  name="nama" placeholder="Isi Nama Lengkap" 
-            required oninvalid="this.setCustomValidity('data tidak boleh kosong')/>
+            required oninvalid="this.setCustomValidity('data tidak boleh kosong')"/> 
 		</div>
 		<div>
 			<label for="alamat">Alamat: </label>
 			<input type="text" class="form-control form-control-user"  name="alamat" placeholder="Isi Alamat Lengkap" 
-            required oninvalid="this.setCustomValidity('data tidak boleh kosong')/>
+            required oninvalid="this.setCustomValidity('data tidak boleh kosong')"/>
 		</div>
         <div>
 			<label for="no">Nomor Telepon</label>
 			<input type="text" class="form-control form-control-user" name="no" placeholder="Nomor Telepon"
-            required oninvalid="this.setCustomValidity('data tidak boleh kosong'/>
+            required oninvalid="this.setCustomValidity('data tidak boleh kosong')"/>
 		</div>
         <div>
         <label for="komentar">Komentar</label>
