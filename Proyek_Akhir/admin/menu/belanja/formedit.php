@@ -27,18 +27,13 @@
 	<link href="dist/summernote.css" rel="stylesheet">
 
 </head>
-<body>
+<body style="background-color: rgb(230, 240, 193); padding: 25px 50px 100px 100px;">
 <div class="container">
 <div class="judul">
         <h1>Form Edit Data</h1>
     </div>
     <br>
 
-    <a href="index.php">Lihat Semua Data</a>
-
-    <br>
-
-    <h3>Edit Data</h3>
     <?php
     include ('koneksi.php');
     $id = $_GET['id'];
@@ -55,7 +50,7 @@
       <input type="hidden" name="gl" class="form-control" value="<?=$x['nama']?>" >
       <input type="hidden" name="id" class="form-control" value="<?=$x['id']?>" >
       <br>
-      <input type="file" name="gb" class="form-control">
+      <input type="file" name="gb" class="">
       <br>
       <textarea id="summernote" name="content" rows="10"><?=$x['content'];?></textarea>
       <br>
@@ -68,7 +63,7 @@
       <b>stok</b>
       <input type="text" class="form-control" name="stok" value="<?=$x['stok']; ?>">
       <br>
-			<button type="submit" class="btn btn-success">Save</button>
+			<button type="submit" class="btn btn-success" >Save</button>
 			<button type="button" id="cancel" class="btn btn-warning">Cancel</button>
       <a class="btn btn-danger" href="index.php" role="button">Kembali</a>
 		    

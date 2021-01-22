@@ -74,8 +74,8 @@
 
                       ?> <td>
                                             <a
-                        href="formedit.php?id=<?= $r['id']; ?>" class="btn btn-outline-success" 
-                        onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
+                        href="formedit.php?id=<?= $r['id']; ?>" class="btn btn-outline-warning" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengedit item ini?')">
                         Edit
                     </a>
                       <a

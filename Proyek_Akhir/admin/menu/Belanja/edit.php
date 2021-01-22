@@ -45,7 +45,6 @@ if ($nama_file != "") {
             if($stmt->execute()){
                 $link = unlink("images/".$galam);
                 header("Location:index.php");
-            
             }else{
               // Jika Gagal, Lakukan :
               echo "Maaf, Terjadi kesalahan saat mencoba untuk menyimpan data ke database.";
@@ -76,6 +75,7 @@ if ($nama_file != "") {
     $stmt->bindParam(':stok', $stok);
     $stmt->bindParam(':id', $id);
     if($stmt->execute())
+    
   header("Location:index.php"); 
 }
 ?>
