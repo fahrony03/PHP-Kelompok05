@@ -55,20 +55,20 @@ if (isset($_POST["register"])) {
         </div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="nama_user" name="nama_user" placeholder="masukkan nama user....">
+            <input type="text" class="form-control form-control-static" id="nama_user" name="nama_user" placeholder="Masukkan Username">
           </div>
         </div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="username" name="username" placeholder="masukkan username...">
+            <input type="text" class="form-control form-control-static" id="username" name="username" placeholder="Ulangi Username">
           </div>
         </div>
         <div class="form-group row">
           <div class="col-sm-6 mb-3 mb-sm-0">
-            <input type="password" class="form-control form-control-static" id="password" name="password" placeholder="Password">
+            <input type="password" class="form-control form-control-static" id="password" name="password" placeholder="Kata Sandi Baru">
           </div>
           <div class="col-sm-6">
-            <input type="password" class="form-control form-control-static" id="password2" name="password2" placeholder="Repeat Password">
+            <input type="password" class="form-control form-control-static" id="password2" name="password2" placeholder="Ulangi Kata Sandi">
           </div>
         </div>
         <div class="form-row align-items-center">
@@ -92,17 +92,17 @@ if (isset($_POST["register"])) {
       </div></div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="alamat" name="alamat" placeholder="masukkan alamat lengkap...">
+            <input type="text" class="form-control form-control-static" id="alamat" name="alamat" placeholder="Masukkan Alamat Lengkap">
           </div>
         </div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="email" class="form-control form-control-static" id="email" name="email" placeholder="masukkan email...">
+            <input type="email" class="form-control form-control-static" id="email" name="email" placeholder="Masukkan Email">
           </div>
         </div>
         <div class="form-group row">
           <div class="col mb-3 mb-sm-0">
-            <input type="text" class="form-control form-control-static" id="no_hp" name="no_hp" placeholder="masukkan no hp...">
+            <input type="text" class="form-control form-control-static" id="no_hp" name="no_hp" placeholder="Masukkan No Hp">
           </div>
         </div>
         <!-- <div class="form-group">
