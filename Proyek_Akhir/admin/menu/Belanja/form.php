@@ -31,37 +31,37 @@
 <div class="summernote container">
 	<div class="row">
 		<form id="postForm" action="save.php" method="POST" enctype="multipart/form-data" onsubmit="return postForm()">
-			
-			<b>judul</b>
-      <input type="text" class="form-control" name="title">
+			<p><b> Nama Produk </b><a style="color: red;"> *Wajib Diisi</a></p>
+      <input type="text" class="form-control" name="title" placeholder="Isi Nama Produk..." required/>
       <br>
-      <b>Thumbnail</b>
-      <input type="file" name="gambar">
+      <p><b> Thumbnail </b><a style="color: red;"> *Wajib Diisi</a></p>
+      <input type="file" name="gambar" required>
+      <a style="color: red;"> *Max 2 MB *jpg/png</a>
+      <br>
       <br>
       <b>Deskripsi</b>
-      <textarea id="summernote" name="content" rows="10"></textarea>
+      <textarea id="summernote" name="content" rows="8" ></textarea>
       <br>
-      <b>Berat</b>
-      <input type="text" class="form-control" name="berat">
+      <p><b> Berat </b><a style="color: red;"> *Wajib Diisi</a></p>
+      <input type="text" class="form-control" name="berat" placeholder="Isi Berat Produk..." required> 
       <br>
-      <b>Stok</b>
-      <input type="text" class="form-control" name="stok">
+      <p><b> Stok </b><a style="color: red;"> *Wajib Diisi</a></p>
+      <input type="text" class="form-control" name="stok" placeholder="Isi Stok Produk..." required>
       <br>
-      <b>Harga</b>
-      <input type="text" class="form-control" name="harga">
+      <p><b> Harga </b><a style="color: red;"> *Wajib Diisi</a></p>
+      <input type="text" class="form-control" name="harga" placeholder="Isi harga Produk..." required>
       <br>
-			<button type="submit" class="btn btn-success">Save</button>
-			<button type="button" id="cancel" class="btn btn-warning">Cancel</button>
+			<button type="submit" class="btn btn-success">Simpan</button>
+			<input type="reset" id="cancel" class="btn btn-warning" value="Reset">
       <a class="btn btn-danger" href="index.php" role="button">Kembali</a>
         <br>
         <br>
         <br>
 		</form>
 		</div>
-		
-		
 	</div>
 </div>
+
 
 <!-- include libries(jQuery, bootstrap) -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

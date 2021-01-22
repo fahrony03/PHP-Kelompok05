@@ -38,7 +38,8 @@
                   }
                   ?>
               <h1>Data Gambar</h1><hr>
-              <a href="form.php">Tambah Gambar</a><br><br>
+              <a type="button" class="btn btn-primary" href="form.php">Tambah Produk</a><br><br>
+              
               <table class="table table-striped table-light">
               <tr>
                 <th>Gambar</th>
@@ -47,7 +48,11 @@
                 <th>Berat</th>
                 <th>Stok</th>
                 <th>Harga</th>
-                <th>Opsi</th>
+                <th>                <a
+                        href="hapussemua.php?delete" class="btn btn-danger" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
+                        Hapus Semua
+                    </a></th>
               </tr>
               <?php
                   require "koneksi.php";
@@ -89,7 +94,6 @@
                   }
                ?>
               </table>
-              <a href="index.php" class="btn btn-primary">Cancel</a>
               <a class="btn btn-success" href="../../index.php" role="button">Kembali</a>
                 </form>
               </div>
