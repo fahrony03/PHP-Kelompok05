@@ -66,7 +66,7 @@
                       echo "<tr>";
                         echo "<td><img src='images/".$r['nama']."' width='100' height='100'></td>";
                         echo "<td>".$r['title']."</td>";
-                        echo "<td>".$r['content']."</td>";
+                        echo "<td>".substr(strip_tags($r['content']),0,20) . "..."."</td>";
                         echo "<td>".$r['berat']."</td>";
                         echo "<td>".$r['stok']."</td>";
                         echo "<td>".$r['harga']."</td>";

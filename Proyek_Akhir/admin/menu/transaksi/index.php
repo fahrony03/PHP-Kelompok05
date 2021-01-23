@@ -67,7 +67,7 @@
                   echo "<td>".$data['ukuran']."</td>";
                   echo "<td>".$data['tipe']."</td>";
                   echo "<td>".$data['title']."</td>";
-                  echo "<td>".$data['content']."</td>";
+                  echo "<td>".substr(strip_tags($data['content']),0,20) . "..."."</td>";
                   
                   ?> <td>
                       <a

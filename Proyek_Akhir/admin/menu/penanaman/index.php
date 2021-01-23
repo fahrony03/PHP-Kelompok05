@@ -68,7 +68,7 @@
                         echo "<td>".$r['ukuran']."</td>";
                         echo "<td>".$r['tipe']."</td>";
                         echo "<td>".$r['title']."</td>";
-                        echo "<td>".$r['content']."</td>";
+                        echo "<td>".substr(strip_tags($r['content']),0,20) . "..."."</td>";
 
                       ?> <td>
 

@@ -63,7 +63,7 @@
 			echo "<td>".$kontak['nama']."</td>";
 			echo "<td>".$kontak['alamat']."</td>";
 			echo "<td>".$kontak['no']."</td>";
-			echo "<td>".$kontak['komentar']."</td>";
+			echo "<td>".substr(strip_tags($kontak['komentar']),0,20) . "..."."</td>";
 
 			echo "<td>";
 			echo "<a  href='hapus.php?id=".$kontak['id']."' >Hapus</a>";
