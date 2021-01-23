@@ -38,7 +38,7 @@
                   }
                   ?>
               <h1>Manajemen Pengololaan</h1><hr>
-              < <a type="button" class="btn btn-primary" href="form.php">Tambah Artikel</a><br><br>
+              <a type="button" class="btn btn-primary" href="form.php">Tambah Artikel</a><br><br>
               <table class="table table-striped table-light">
               <tr>
               <tr>
