@@ -12,7 +12,7 @@ if(isset($_POST['daftar'])){
 	$komentar = $_POST['komentar'];
 	
 	// buat query
-	$sql = "INSERT INTO kontak (nama, alamat, no, komentar) VALUE ('$nama', '$alamat', '$no', '$komentar')";
+	$sql = "INSERT INTO kontak (id, nama, alamat, no, komentar) VALUE ('','$nama', '$alamat', '$no', '$komentar')";
 	$query = mysqli_query($db, $sql);
 	
 	// apakah query simpan berhasil?

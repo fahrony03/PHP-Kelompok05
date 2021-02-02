@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <title>Membuat Crud dengan PHP dan MySQL - Menampilkan dari data Database</title>
@@ -35,4 +35,4 @@
             </table>
         </form>
     </body>
-</html>
+</html> -->

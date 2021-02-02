@@ -38,10 +38,16 @@
 	<table class="table table-striped table-light">
 	<thead>
 		<tr>
+			
 			<th>nama</th>
 			<th>alamat</th>
 			<th>no</th>
 			<th>komentar</th>
+			<th>                <a
+                        href="hapussemua.php?delete" class="btn btn-danger" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
+                        Hapus Semua
+                    </a></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -53,13 +59,14 @@
 		
 		while($kontak = mysqli_fetch_array($query)){
 			echo "<tr>";
+			 "<td>".$kontak['id']."</td>";
 			echo "<td>".$kontak['nama']."</td>";
 			echo "<td>".$kontak['alamat']."</td>";
 			echo "<td>".$kontak['no']."</td>";
-			echo "<td>".$kontak['komentar']."</td>";
+			echo "<td>".substr(strip_tags($kontak['komentar']),0,20) . "..."."</td>";
 
 			echo "<td>";
-			echo "<a href='hapus.php?no=".$kontak['no']."'>Hapus</a>";
+			echo "<a  href='hapus.php?id=".$kontak['id']."' >Hapus</a>";
 			echo "</td>";
 			
 			echo "</tr>";

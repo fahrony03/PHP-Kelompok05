@@ -15,7 +15,7 @@
     <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
     <title>Form Components - Si-PEKA Admin</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">f
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, sitial-scale=1">
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
@@ -35,17 +35,19 @@
 
 		<form id="postForm" action="save.php" method="POST" enctype="multipart/form-data" onsubmit="return postForm()">
 			
-			<b>judul</b>
-      <input type="text" class="form-control" name="title">
+    <p><b> Judul </b><a style="color: red;"> *Wajib Diisi</a></p>
+      <input type="text" class="form-control" name="title" placeholder="Isi Judul Artikel..." required>
       <br>
-      <b>Thumbnail</b>
+      <p><b> Thumbnail </b><a style="color: red;"> *Wajib Diisi</a></p>
       <input type="file" name="gambar">
+      <a style="color: red;"> *Max 2 MB *jpg/png</a>
+      <br>
       <br>
       <b>Content</b>
       <textarea id="summernote" name="content" rows="10"></textarea>
       <br>
-			<button type="submit" class="btn btn-success">Save</button>
-			<button type="button" id="cancel" class="btn btn-warning">Cancel</button>
+			<button type="submit" class="btn btn-success">Simpan</button>
+			<input type="reset" id="cancel" class="btn btn-warning" value="Reset">
       <a class="btn btn-danger" href="index.php" role="button">Kembali</a>
 		    
 		</form>

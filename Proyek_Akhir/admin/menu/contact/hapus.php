@@ -2,13 +2,13 @@
 
 include("koneksi.php");
 
-if( isset($_GET['no']) ){
+if( isset($_GET['id']) ){
 	
 	// ambil id dari query string
-	$no = $_GET['no'];
+	$id = $_GET['id'];
 	
 	// buat query hapus
-	$sql = "DELETE FROM kontak WHERE no=$no";
+	$sql = "DELETE FROM kontak WHERE id=$id";
 	$query = mysqli_query($db, $sql);
 	
 	// apakah query hapus berhasil?

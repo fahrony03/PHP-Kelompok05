@@ -36,16 +36,19 @@
 
 		<form id="postForm" action="save.php" method="POST" enctype="multipart/form-data" onsubmit="return postForm()">
 			
-			<b>judul</b>
-      <input type="text" class="form-control" name="title">
+    <p><b> Judul </b><a style="color: red;"> *Wajib Diisi</a></p>
+      <input type="text" class="form-control" name="title" placeholder="Isi Judul Artikel..." required>
       <br>
-      <b>Thumbnail</b>
+      <p><b> Thumbnail </b><a style="color: red;"> *Wajib Diisi</a></p>
       <input type="file" name="gambar">
+      <a style="color: red;"> *Max 2 MB *jpg/png</a>
       <br>
+      <br>
+      <b>Content</b>  
       <textarea id="summernote" name="content" rows="10"></textarea>
       <br>
 			<button type="submit" class="btn btn-success">Save</button>
-			<button type="button" id="cancel" class="btn btn-warning">Cancel</button>
+			<input type="reset" id="cancel" class="btn btn-warning" value="Reset">
       <a class="btn btn-danger" href="index.php" role="button">Kembali</a>
 		    
 		</form>

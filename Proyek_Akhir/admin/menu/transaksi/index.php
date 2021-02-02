@@ -47,7 +47,10 @@
                 <th>Tipe File</th>
                 <th>Title</th>
                 <th>Content</th>
-                <th>Opsi</th>
+                <th>
+                <a href="hapussemua.php?delete" class="btn btn-danger" 
+                onclick="return confirm('Apakah Anda yakin ingin mengapus semua data Produk?')">
+                Hapus Semua</th>
               </tr>
               <?php
               // Load file koneksi.php
@@ -59,14 +62,19 @@
                 while($data = mysqli_fetch_array($sql)){ // Ambil semua data dari hasil eksekusi $sql
                   echo "<tr>";
                   echo "<td><img src='images/".$data['nama']."' width='100' height='100'></td>";
+                  "<td>".$data['id']."</td>";
                   echo "<td>".$data['nama']."</td>";
                   echo "<td>".$data['ukuran']."</td>";
                   echo "<td>".$data['tipe']."</td>";
                   echo "<td>".$data['title']."</td>";
-                  echo "<td>".$data['content']."</td>";
+                  echo "<td>".substr(strip_tags($data['content']),0,20) . "..."."</td>";
+                  
                   ?> <td>
-                  <a href="edit.php?id=<?php echo $data['id']; ?>" class="edit">Edit</a><br>
-                  <a href="hapus.php?id=<?php echo $data['id']; ?>" class="hapus">Hapus</a>
+                      <a
+                        href="hapus.php?id=<?= $data['id']; ?>" class="btn btn-outline-danger" 
+                        onclick="return confirm('Apakah Anda yakin ingin mengapus item ini?')">
+                        Hapus
+                    </a>
               </td>
                   <?php echo "</tr>";
                 }
